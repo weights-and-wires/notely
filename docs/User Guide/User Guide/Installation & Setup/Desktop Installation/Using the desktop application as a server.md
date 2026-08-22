@@ -24,7 +24,7 @@ If you use Windows Defender Firewall:
 4.  Type in `37840` in the “Specific local ports” section and then press “Next”.
 5.  Leave “Allow the connection” checked and press “Next”.
 6.  Configure the networks to apply to (check all if unsure) and then press “Next”.
-7.  Add an appropriate name to the rule (e.g. “Trilium Notes”) and press “Finish”.
+7.  Add an appropriate name to the rule (e.g. “Notely”) and press “Finish”.
 
 > [!WARNING]
-> Since v0.104.0, the port used by Trilium is accessible only on `localhost`. To enable across the local network, see <a class="reference-link" href="Network%20Access.md">Network Access</a>.
+> Since v0.104.0, the port used by Notely is accessible only on `localhost`. To enable across the local network, see <a class="reference-link" href="Network%20Access.md">Network Access</a>.

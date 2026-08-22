@@ -1,5 +1,5 @@
 # Images
-Trilium supports storing and displaying images. Supported formats are PNG, JPEG, GIF, BMP, WebP, AVIF and SVG.
+Notely supports storing and displaying images. Supported formats are PNG, JPEG, GIF, BMP, WebP, AVIF and SVG.
 
 An image can be uploaded in the form of note's [attachment](../../Basic%20Concepts%20and%20Features/Notes/Attachments.md) or as a standalone [note](../../Basic%20Concepts%20and%20Features/Navigation/Tree%20Concepts.md) placed into the [note tree](../../Basic%20Concepts%20and%20Features/Navigation/Tree%20Concepts.md). Its reference can be copied into a text note, in order to display it in the text itself.
 
@@ -7,13 +7,13 @@ An image can be uploaded in the form of note's [attachment](../../Basic%20Concep
 
 To add an image to the note:
 
-*   Simply drag it from file explorer onto the note editor inside Trilium and the image will be uploaded.
+*   Simply drag it from file explorer onto the note editor inside Notely and the image will be uploaded.
 *   Alternatively, from the <a class="reference-link" href="Formatting%20toolbar.md">Formatting toolbar</a> look for the _Insert image_ icon.
 *   You can also copy and paste an image from web (see section below).
 
 ## Clipboard & automatic download of images
 
-Trilium has a special handling for images copied to and pasted from the clipboard.
+Notely has a special handling for images copied to and pasted from the clipboard.
 
 *   For a mix of text and images, the images are downloaded automatically by the server (or desktop app, depending on what is being used).
     

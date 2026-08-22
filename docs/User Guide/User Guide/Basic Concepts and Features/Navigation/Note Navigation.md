@@ -1,5 +1,5 @@
 # Note Navigation
-One of the Trilium's goals is to provide fast and comfortable navigation between notes.
+One of the Notely's goals is to provide fast and comfortable navigation between notes.
 
 ## Backwards and forward
 

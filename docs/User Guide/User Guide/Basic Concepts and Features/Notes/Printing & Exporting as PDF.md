@@ -1,7 +1,7 @@
 # Printing & Exporting as PDF
 <figure class="image"><img style="aspect-ratio:2023/1488;" src="1_Printing &amp; Exporting as PDF_image.png" width="2023" height="1488"><figcaption>Screenshot of the Print preview functionality introduced in v0.103.0.</figcaption></figure>
 
-Trilium allows printing notes to a real printer, or generating a structured PDF for a single note or for multiple notes through <a class="reference-link" href="../../Collections.md">Collections</a>.
+Notely allows printing notes to a real printer, or generating a structured PDF for a single note or for multiple notes through <a class="reference-link" href="../../Collections.md">Collections</a>.
 
 Note that not all note types are printable as of now. We do plan to increase the coverage of supported note types in the future.
 
@@ -12,7 +12,7 @@ Printing and exporting as PDF are not perfect. Due to technical limitations, and
 > [!NOTE]
 > Versions prior to v0.103.0 had two different options, one for printing and another one for exporting to PDF. With the introduction of the print preview, these functions have been unified.
 
-On the desktop application of Trilium it is possible to export a note as PDF. To print a note:
+On the desktop application of Notely it is possible to export a note as PDF. To print a note:
 
 *   Press the menu button in the <a class="reference-link" href="../UI%20Elements/Note%20buttons.md">Note buttons</a> area and select _Print note_.
 *   Alternatively, printing can be triggered from a [keyboard shortcut](../Keyboard%20Shortcuts.md) (unassigned by default) or through the [command palette](../Navigation/Jump%20to%20%26%20command%20palette.md).

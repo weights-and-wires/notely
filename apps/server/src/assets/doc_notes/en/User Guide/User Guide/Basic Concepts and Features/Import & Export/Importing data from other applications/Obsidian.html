@@ -13,10 +13,10 @@
 </ol>
 <aside class="admonition tip">
   <p>When zipping, you can either ZIP the outer folder of the vault, or the
-    contents of the vault as Trilium will automatically determine the position
+    contents of the vault as Notely will automatically determine the position
     of the vault in the archive via the <code spellcheck="false">.obsidian</code> directory.</p>
 </aside>
-<p>Then, in Trilium Notes:</p>
+<p>Then, in Notely:</p>
 <ol>
   <li>In the&nbsp;<a class="reference-link" href="#root/_help_oPVyFC7WL2Lp">Note Tree</a>,
     right click and select <em>Import into note</em>.</li>
@@ -24,7 +24,7 @@
   <li>Upload the ZIP obtained in the previous step.</li>
 </ol>
 <h2>Supported features</h2>
-<p>The following features are preserved by Trilium during the import process:</p>
+<p>The following features are preserved by Notely during the import process:</p>
 <ul>
   <li>Folder hierarchy is preserved.</li>
   <li>Basic Markdown formatting (bold, italic, underline, strikethrough, headings).</li>
@@ -49,15 +49,15 @@
   <li><a class="reference-link" href="#root/_help_QxEyIjRBizuC">Code blocks</a>, with
     a best-effort attempt to restore the language.</li>
   <li>Links between pages are converted to&nbsp;<a class="reference-link" href="#root/_help_hrZ1D00cLbal">Internal (reference) links</a>.</li>
-  <li>Callouts are converted to Trilium's <a href="#root/_help_NwBbFdNZ9h7O">Admonitions</a>.
+  <li>Callouts are converted to Notely's <a href="#root/_help_NwBbFdNZ9h7O">Admonitions</a>.
     <ul>
       <li>Obsidian has many more types of callouts (<code spellcheck="false">tldr</code>,
         <code
         spellcheck="false">question</code>, <code spellcheck="false">attention</code>), these are
-          all mapped to one of Trilium's existing admonition types (e.g. Note, Tip,
+          all mapped to one of Notely's existing admonition types (e.g. Note, Tip,
           Important).</li>
       <li>Custom titles are kept and shown as a bold line at the top of the admonition,
-        since there is no concept of admonition title in Trilium.</li>
+        since there is no concept of admonition title in Notely.</li>
       <li>Foldable callouts are imported expanded and without a fold marker.</li>
     </ul>
   </li>
@@ -77,11 +77,11 @@
   href="#root/_help_OFXdgB2nNk1F">Promoted Attributes</a>. One of the core differences
   between the two is where the property information is stored (i.e. name
   and type): in Obsidian everything is stored at vault level and shared across
-  all notes, whereas in Trilium each page can have individual promoted attributes,
+  all notes, whereas in Notely each page can have individual promoted attributes,
   shared through&nbsp;<a class="reference-link" href="#root/_help_KC1HB96bqqHX">Templates</a>&nbsp;or&nbsp;
   <a
   class="reference-link" href="#root/_help_bwZpz2ajCEwO">Attribute Inheritance</a>.</p>
-<p>Another important difference is that promoted attributes in Trilium are
+<p>Another important difference is that promoted attributes in Notely are
   always displayed, even if empty. In Obsidian, these are simply suggested
   when creating a new property.</p>
 <p>To reconcile all these differences, properties are converted to&nbsp;
@@ -93,7 +93,7 @@
     <thead>
       <tr>
         <th>Obsidian type</th>
-        <th>Trilium</th>
+        <th>Notely</th>
       </tr>
     </thead>
     <tbody>
@@ -130,7 +130,7 @@
 </figure>
 <h3>Special properties</h3>
 <p>Obsidian has a few reserved property names, which are treated differently
-  in Trilium as well:</p>
+  in Notely as well:</p>
 <ul>
   <li><code spellcheck="false">tags</code>, where every tag is turned into its
     own <a href="#root/_help_HI6GBBIduIgv">label</a> (e.g. <code spellcheck="false">#one</code>,
@@ -148,12 +148,12 @@
   <li>Comments (<code spellcheck="false">%%</code> syntax) are simply stripped.</li>
   <li>Obsidian <em>bases</em> functionality is not preserved.
     <ul>
-      <li>The closest equivalent in Trilium would be&nbsp;<a class="reference-link"
+      <li>The closest equivalent in Notely would be&nbsp;<a class="reference-link"
         href="#root/_help_GTwFsgaA0lCt">Collections</a>&nbsp;but they work fundamentally
         different because bases don't store particular notes, they act more like
         a&nbsp;<a class="reference-link" href="#root/_help_m523cpzocqaD">Saved Search</a>&nbsp;with
         a collection view.</li>
-      <li>Since the base query format is quite different to Trilium's&nbsp;<a class="reference-link"
+      <li>Since the base query format is quite different to Notely's&nbsp;<a class="reference-link"
         href="#root/_help_eIg8jdvaoNNd">Search</a>&nbsp;syntax, it's unlikely they'll
         ever be supported.</li>
       <li>When a base is encountered, it is simply ignored from the import.</li>

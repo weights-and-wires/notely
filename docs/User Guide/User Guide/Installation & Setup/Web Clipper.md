@@ -1,11 +1,11 @@
 # Web Clipper
 ![](Web%20Clipper_image.png)
 
-Trilium Web Clipper is a web browser extension which allows user to clip text, screenshots, whole pages and short notes and save them directly to Trilium Notes.
+Notely Web Clipper is a web browser extension which allows user to clip text, screenshots, whole pages and short notes and save them directly to Notely.
 
 ## Supported browsers
 
-Trilium Web Clipper officially supports the following web browsers:
+Notely Web Clipper officially supports the following web browsers:
 
 *   Mozilla Firefox, using Manifest v2.
 *   Google Chrome, using Manifest v3. Theoretically the extension should work on other Chromium-based browsers as well, but they are not officially supported.
@@ -14,8 +14,8 @@ Trilium Web Clipper officially supports the following web browsers:
 
 The extension is available from the official browser web stores:
 
-*   **Firefox**: [Trilium Web Clipper on Firefox Add-ons](https://addons.mozilla.org/firefox/addon/trilium-notes-web-clipper/)
-*   **Chrome**: [Trilium Web Clipper on Chrome Web Store](https://chromewebstore.google.com/detail/trilium-web-clipper/ofoiklieachadcaeffficgjaajojpkpi)
+*   **Firefox**: [Notely Web Clipper on Firefox Add-ons](https://addons.mozilla.org/firefox/addon/trilium-notes-web-clipper/)
+*   **Chrome**: [Notely Web Clipper on Chrome Web Store](https://chromewebstore.google.com/detail/trilium-web-clipper/ofoiklieachadcaeffficgjaajojpkpi)
 
 ## Functionality
 
@@ -27,7 +27,7 @@ The extension is available from the official browser web stores:
 
 ## Location of clippings
 
-Trilium will save these clippings as a new child note under a "clipper inbox" note.
+Notely will save these clippings as a new child note under a "clipper inbox" note.
 
 By default, that's the <a class="reference-link" href="../Advanced%20Usage/Advanced%20Showcases/Day%20Notes.md">Day Notes</a> but you can override that by setting the [label](../Advanced%20Usage/Attributes.md) `clipperInbox`, on any other note.
 
@@ -51,7 +51,7 @@ To set custom shortcuts, follow the directions for your browser.
 
 ## Configuration
 
-The extension needs to connect to a running Trilium instance. By default, it scans a port range on the local computer to find a desktop Trilium instance.
+The extension needs to connect to a running Notely instance. By default, it scans a port range on the local computer to find a desktop Notely instance.
 
 It's also possible to configure the [server](Server%20Installation.md) address if you don't run the desktop application, or want it to work without the desktop application running.
 

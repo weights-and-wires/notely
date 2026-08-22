@@ -11,8 +11,8 @@
         "github": "GitHub",
         "get_started": "Kom i gang",
         "dockerhub": "Docker Hub",
-        "screenshot_alt": "Screenshot fra Trilium Notes skrivebordsprogram",
-        "subtitle": "Trilium er en open-source-løsning for å ta notater og organisere en personlig kunnskapsbase. Kan brukes lokalt på arbeidsstasjonen din eller synkroniseres med en selv-hostet løsning for å ha dine notater med deg overalt."
+        "screenshot_alt": "Screenshot fra Notely skrivebordsprogram",
+        "subtitle": "Notely er en open-source-løsning for å ta notater og organisere en personlig kunnskapsbase. Kan brukes lokalt på arbeidsstasjonen din eller synkroniseres med en selv-hostet løsning for å ha dine notater med deg overalt."
     },
     "organization_benefits": {
         "title": "Organisering",
@@ -34,7 +34,7 @@
         "revisions_content": "Notater lagres periodisk i bakgrunnen og revisjonshistorikk kan brukes for tilbakeblikk eller å omgjøre uønskede endringer. Revisjoner kan også lages manuelt.",
         "protected_notes_content": "Beskytt sensitiv personlig informasjon ved å kryptere notater og låse de med en passordkryptert sesjon.",
         "search_content": "Eller søk etter tekst i notatene og finjuster søket ved å filtrere på foreldrenotat eller dybde.",
-        "web_clipper_content": "Hent nettsider (eller screenshots) og legg de direkte i Trilium ved hjelp av web clipper nettleserutvidelse."
+        "web_clipper_content": "Hent nettsider (eller screenshots) og legg de direkte i Notely ved hjelp av web clipper nettleserutvidelse."
     },
     "note_types": {
         "canvas_title": "Kanvas",
@@ -80,7 +80,7 @@
         "title": "Støtt oss",
         "financial_donations_title": "Finansiell donasjon",
         "github_sponsors": "GitHub Sponsors",
-        "financial_donations_description": "Trilium er bygget og vedlikeholdt med <Link>flere hundre timers arbeid</Link>. Ditt bidrag hjelper å holde det åpen kildekode, forbedre funksjonalitet og dekker driftskostnader.",
+        "financial_donations_description": "Notely er bygget og vedlikeholdt med <Link>flere hundre timers arbeid</Link>. Ditt bidrag hjelper å holde det åpen kildekode, forbedre funksjonalitet og dekker driftskostnader.",
         "financial_donations_cta": "Vurder gjerne å støtte hovedutvikleren (<Link>eliandoran</Link>) av programmet via:",
         "buy_me_a_coffee": "Buy Me A Coffee"
     },
@@ -125,7 +125,7 @@
     },
     "final_cta": {
         "get_started": "Kom i gang",
-        "title": "Klar for å begynne med Trilium Notes?",
+        "title": "Klar for å begynne med Notely?",
         "description": "Skap din personlige kunnskapsbase med kraftig funksjonalitet og fullt personvern."
     },
     "components": {
@@ -148,11 +148,11 @@
         "download_tar_arm64": "ARM (.tar.xz)",
         "download_nixos": "NixOS modul",
         "title": "Selv-hostet på Linux",
-        "description": "Installer Trilium Notes på din egen server eller VPS, kompatibel med de fleste distribusjoner."
+        "description": "Installer Notely på din egen server eller VPS, kompatibel med de fleste distribusjoner."
     },
     "download_helper_server_hosted": {
         "title": "Betalt hosting",
-        "description": "Trilium Notes driftet på PikaPods, en betalt tjeneste for enkel tilgang og administrasjon. Ikke direkte tilknyttet Trilium-teamet.",
+        "description": "Notely driftet på PikaPods, en betalt tjeneste for enkel tilgang og administrasjon. Ikke direkte tilknyttet Notely-teamet.",
         "download_pikapod": "Installer på PikaPods"
     },
     "faq": {
@@ -160,11 +160,11 @@
         "mobile_question": "Finnes det en mobil applikasjon?",
         "mobile_answer": "Foreløpig er det ikke noe offisiell mobil applikasjon. Men hvis du har en serverinstans kan du koble til denne med en nettleser, og også installere den som en progressiv web-app. For Android finnes det en uoffisiell applikasjon med navn TriliumDroid som også fungerer offline (samme som en skrivebordsklient).",
         "database_question": "Hvor lagres dataene?",
-        "database_answer": "Alle notater lagres i en SQLite-database i en programmappe. Årsaken til at Trilium bruker database i stedet for rene tekstfiler er både ytelse og at visse funksjoner ellers ville vært vanskelig å implementere, slik som klonede notater (samme notat flere steder). For å finne programmappen, åpne \"om\"-vinduet i programmet.",
-        "server_question": "Trenger jeg en server for å bruke Trilium?",
+        "database_answer": "Alle notater lagres i en SQLite-database i en programmappe. Årsaken til at Notely bruker database i stedet for rene tekstfiler er både ytelse og at visse funksjoner ellers ville vært vanskelig å implementere, slik som klonede notater (samme notat flere steder). For å finne programmappen, åpne \"om\"-vinduet i programmet.",
+        "server_question": "Trenger jeg en server for å bruke Notely?",
         "server_answer": "Nei, serveren tillater tilgang via nettleser og håndterer synkronisering hvis du har flere enheter. For å komme i gang er det nok å laste ned skrivebordsprogrammet og begynne med det.",
         "scaling_question": "Hvor godt skalerer programmet med store mengder notater?",
-        "scaling_answer": "Avhengig av bruk burde programmet kunne håndtere minst 100.000 notater uten problemer. Merk at synkroniseringen noen ganger kan feile ved opplasting av mange store filer (1GB per fil) siden Trilium er ment for å være en kunnskapsbase mer enn et fillager (som for eksempel NextCloud).",
+        "scaling_answer": "Avhengig av bruk burde programmet kunne håndtere minst 100.000 notater uten problemer. Merk at synkroniseringen noen ganger kan feile ved opplasting av mange store filer (1GB per fil) siden Notely er ment for å være en kunnskapsbase mer enn et fillager (som for eksempel NextCloud).",
         "network_share_question": "Kan jeg dele databasen min over nettverksdeling?",
         "network_share_answer": "Nei, det er stort sett ikke en god ide å dele en SQLite-database over nettverksdeling. Selv om det kan fungere, er det sjanser for at databasen kan bli ødelagt grunnet problemer med fillåsing over nettverk.",
         "security_question": "Hvordan er mine data beskyttet?",
@@ -180,6 +180,6 @@
         "way_community": "Ta del i felleskapet på <Discussions>GitHub Discussions</Discussions> eller på <Matrix>Matrix</Matrix>.",
         "way_reports": "Meld feil via <Link>GitHub issues</Link>.",
         "way_document": "Hjelp oss å forbedre dokumentasjonen ved å fortelle om mangler, eller bidra med veiledninger, Ofte Stilte Spørsmål eller tutorials.",
-        "way_market": "Spre ordet: Del Trilium Notes med venner, på blogger eller i sosiale media."
+        "way_market": "Spre ordet: Del Notely med venner, på blogger eller i sosiale media."
     }
 }

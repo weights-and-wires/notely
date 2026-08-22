@@ -1,5 +1,5 @@
 # Backup
-Trilium supports simple backup scheme where it saves copy of the <a class="reference-link" href="../Advanced%20Usage/Database.md">Database</a> on these events:
+Notely supports simple backup scheme where it saves copy of the <a class="reference-link" href="../Advanced%20Usage/Database.md">Database</a> on these events:
 
 *   once a day
 *   once a week
@@ -35,20 +35,20 @@ Note that <a class="reference-link" href="Synchronization.md">Synchronization</
 
 ## Restoring a backup
 
-*   **For a new Trilium instance**: When setting up a new Trilium instance, use the "Restore from backup" option in the setup menu to guide you through restoring your existing backup.
-*   **For an existing Trilium instance**: To restore a backup and replace your current database, go to **Settings → Backup** and click **Restore a backup**. You will be prompted to restart the app for the restoration process to begin. After restarting, you can choose to back up the existing database before overwriting it. Note: For the web client, use the Start Over feature (**Settings → Database → Start over**) to switch to the setup screen and restore a backup.
+*   **For a new Notely instance**: When setting up a new Notely instance, use the "Restore from backup" option in the setup menu to guide you through restoring your existing backup.
+*   **For an existing Notely instance**: To restore a backup and replace your current database, go to **Settings → Backup** and click **Restore a backup**. You will be prompted to restart the app for the restoration process to begin. After restarting, you can choose to back up the existing database before overwriting it. Note: For the web client, use the Start Over feature (**Settings → Database → Start over**) to switch to the setup screen and restore a backup.
 
 Next, select the backup file (.db or .tnbackup) from your device. The web client is optimized for handling large backups and is resilient to unstable network conditions, similar to the desktop application.
 
 If your database is encrypted, you will be prompted to enter the password used for encrypting the backup file. Without the correct password, decryption and restoration cannot proceed.
 
-Restoring a backup may take some time, depending on its size. Once it completes, Trilium will open the freshly restored database.
+Restoring a backup may take some time, depending on its size. Once it completes, Notely will open the freshly restored database.
 
 ### The alternative way for restoring a backup
 
 Let's assume you want to restore the weekly backup (only in .db format, .tnbackup files are not supported by this method), here's how to do it:
 
-*   find [data directory](Data%20directory.md) Trilium uses - easy way is to open "About Trilium Notes" from "Menu" in upper left corner and looking at "data directory"
+*   find [data directory](Data%20directory.md) Notely uses - easy way is to open "About Notely" from "Menu" in upper left corner and looking at "data directory"
     *   I'll refer to `~/trilium-data` as data directory from now on
 *   find `~/trilium-data/backup/backup-weekly.db` - this is the <a class="reference-link" href="../Advanced%20Usage/Database.md">Database</a> backup.
 *   at this point stop/kill Trilium

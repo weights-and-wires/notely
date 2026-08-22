@@ -167,7 +167,7 @@
     "password": "Hasło",
     "remember-me": "Zapamiętaj mnie",
     "title": "Logowanie",
-    "heading": "Logowanie Trilium",
+    "heading": "Logowanie Notely",
     "incorrect-totp": "Kod TOTP jest nieprawidłowy. Spróbuj ponownie.",
     "incorrect-password": "Hasło jest nieprawidłowe. Spróbuj ponownie.",
     "button": "Zaloguj",
@@ -267,7 +267,7 @@
   "set_password": {
     "title": "Ustaw hasło",
     "heading": "Ustaw hasło",
-    "description": "Zanim zaczniesz korzystać z wersji webowej Trilium, musisz ustawić hasło. Będziesz go używać do logowania.",
+    "description": "Zanim zaczniesz korzystać z wersji webowej Notely, musisz ustawić hasło. Będziesz go używać do logowania.",
     "password": "Hasło",
     "password-confirmation": "Potwierdź hasło",
     "button": "Ustaw hasło"
@@ -321,7 +321,7 @@
   },
   "sql_init": {
     "db_not_initialized_desktop": "Baza danych nie jest zainicjowana, postępuj zgodnie z instrukcjami na ekranie.",
-    "db_not_initialized_server": "Baza danych nie jest zainicjowana, odwiedź stronę konfiguracji - http://[adres-serwera]:{{port}}, aby dowiedzieć się, jak zainicjować Trilium."
+    "db_not_initialized_server": "Baza danych nie jest zainicjowana, odwiedź stronę konfiguracji - http://[adres-serwera]:{{port}}, aby dowiedzieć się, jak zainicjować Notely."
   },
   "backend_log": {
     "log-does-not-exist": "Plik logów backendu '{{ fileName }}' (jeszcze) nie istnieje.",
@@ -338,8 +338,8 @@
     "unable-to-print": "Nie można wydrukować notatki"
   },
   "tray": {
-    "tooltip": "Trilium Notes",
-    "close": "Zamknij Trilium",
+    "tooltip": "Notely",
+    "close": "Zamknij Notely",
     "recents": "Ostatnie notatki",
     "bookmarks": "Zakładki",
     "today": "Otwórz dzisiejszą notatkę dziennika",
@@ -350,7 +350,7 @@
   "migration": {
     "old_version": "Bezpośrednia migracja z obecnej wersji nie jest obsługiwana. Najpierw zaktualizuj do v0.60.4, a dopiero potem do tej wersji.",
     "error_message": "Błąd podczas migracji do wersji {{version}}: {{stack}}",
-    "wrong_db_version": "Wersja bazy danych ({{version}}) jest nowsza niż obsługiwana przez aplikację ({{targetVersion}}). Oznacza to, że została utworzona przez nowszą i niekompatybilną wersję Trilium. Zaktualizuj Trilium do najnowszej wersji."
+    "wrong_db_version": "Wersja bazy danych ({{version}}) jest nowsza niż obsługiwana przez aplikację ({{targetVersion}}). Oznacza to, że została utworzona przez nowszą i niekompatybilną wersję Notely. Zaktualizuj Notely do najnowszej wersji."
   },
   "modals": {
     "error_title": "Błąd"

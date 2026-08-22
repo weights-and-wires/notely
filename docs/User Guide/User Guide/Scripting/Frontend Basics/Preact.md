@@ -1,5 +1,5 @@
 # Preact
-Since v0.101.0, Trilium integrates Preact for front-end scripting, including support for JSX.
+Since v0.101.0, Notely integrates Preact for front-end scripting, including support for JSX.
 
 Preact can be used for:
 
@@ -32,7 +32,7 @@ showMessage("hello");
 
 ### Preact API imports (hooks, components)
 
-There's a new <a class="reference-link" href="../Script%20API.md">Script API</a> dedicated to Preact, which provides shared components that are also used by Trilium internally as well as hooks, for example.
+There's a new <a class="reference-link" href="../Script%20API.md">Script API</a> dedicated to Preact, which provides shared components that are also used by Notely internally as well as hooks, for example.
 
 ```jsx
 import { useState } from "trilium:preact";
@@ -62,4 +62,4 @@ These imports are syntactic sugar meant to replace the usage for the `api` globa
 
 ## Under the hood
 
-Unlike JavaScript, JSX requires pre-processing to turn it into JavaScript (just like TypeScript). To do so, Trilium uses [Sucrase](https://github.com/alangpierce/sucrase), a JavaScript library which processes the JSX to pure JavaScript. The processing is done each time a script is run (for widgets this happens at every program startup). If you notice any performance degradation due to long compilation, consider [reporting the issue](../../Troubleshooting/Reporting%20issues.md) to us.
+Unlike JavaScript, JSX requires pre-processing to turn it into JavaScript (just like TypeScript). To do so, Notely uses [Sucrase](https://github.com/alangpierce/sucrase), a JavaScript library which processes the JSX to pure JavaScript. The processing is done each time a script is run (for widgets this happens at every program startup). If you notice any performance degradation due to long compilation, consider [reporting the issue](../../Troubleshooting/Reporting%20issues.md) to us.

@@ -1,5 +1,5 @@
 # Packaged version for Linux
-This is essentially Trilium sources + node modules + node.js runtime packaged into one 7z file.
+This is essentially Notely sources + node modules + node.js runtime packaged into one 7z file.
 
 ## Steps
 
@@ -8,16 +8,16 @@ This is essentially Trilium sources + node modules + node.js runtime packaged in
 *   unpack the archive, e.g. using `tar -xf -d TriliumNotes-Server-[VERSION]-linux-x64.tar.xz`
 *   `cd trilium-linux-x64-server`
 *   `./trilium.sh`
-*   you can open the browser and open http://\[your-server-hostname\]:8080 and you should see Trilium initialization page
+*   you can open the browser and open http://\[your-server-hostname\]:8080 and you should see Notely initialization page
 
-The problem with above steps is that once you close the SSH connection, the Trilium process is terminated. To avoid that, you have two options:
+The problem with above steps is that once you close the SSH connection, the Notely process is terminated. To avoid that, you have two options:
 
 *   Kill it (with e.g. <kbd>Ctrl</kbd> + <kbd>C</kbd>) and run again like this: `nohup ./trilium.sh &`. (nohup keeps the process running in the background, `&` runs it in the background)
-*   Configure systemd to automatically run Trilium in the background on every boot
+*   Configure systemd to automatically run Notely in the background on every boot
 
-## Configure Trilium to auto-run on boot with systemd
+## Configure Notely to auto-run on boot with systemd
 
-*   After downloading, extract and move Trilium:
+*   After downloading, extract and move Notely:
 
 ```
 tar -xvf TriliumNotes-Server-[VERSION]-linux-x64.tar.xz
@@ -59,17 +59,17 @@ WantedBy=multi-user.target
 sudo systemctl enable --now -q trilium
 ```
 
-*   You can now open a browser to http://\[your-server-hostname\]:8080 and you should see the Trilium initialization page.
+*   You can now open a browser to http://\[your-server-hostname\]:8080 and you should see the Notely initialization page.
 
 ## Simple Autoupdate for Server
 
-Run as the same User Trilium runs
+Run as the same User Notely runs
 
 if you run as root please remove 'sudo' from the commands
 
 requires "jq" `apt install jq`
 
-It will stop the service above, overwrite everything (i expect no config.ini), and start service It also creates a version file in the Trilium directory so it updates only with a newer Version
+It will stop the service above, overwrite everything (i expect no config.ini), and start service It also creates a version file in the Notely directory so it updates only with a newer Version
 
 ```
 #!/bin/bash

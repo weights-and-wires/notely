@@ -1,8 +1,8 @@
 # Patterns of personal knowledge
 > [!NOTE]
-> This article is a description of the original author of Trilium (zadam) in regards with his own knowledge base.
+> This article is a description of the original author of Notely (zadam) in regards with his own knowledge base.
 
-This page contains description of some of the patterns I use to organize information in my knowledge base. This is meant to give some inspiration of how one might create and structure their knowledge base in general and also specifically in Trilium Notes. It also gives some background and justification for some of the design decisions.
+This page contains description of some of the patterns I use to organize information in my knowledge base. This is meant to give some inspiration of how one might create and structure their knowledge base in general and also specifically in Notely. It also gives some background and justification for some of the design decisions.
 
 ## Meta patterns
 
@@ -16,7 +16,7 @@ Basic meta pattern is that I sort notes (units of information) into a hierarchy 
 
 It's important to frame the following (meta) patterns with some idea of how large amount of data are we talking about.
 
-My rule of thumb for estimation of size of personal knowledge base is that you can reasonably produce around 10 notes a day, which is 3650 in a year. I plan to use my knowledge base long term (with or without Trilium Notes), probably decades so you can easily get to number 100 000 or even more. Right now, my personal knowledge base has around 10 000 notes.
+My rule of thumb for estimation of size of personal knowledge base is that you can reasonably produce around 10 notes a day, which is 3650 in a year. I plan to use my knowledge base long term (with or without Notely), probably decades so you can easily get to number 100 000 or even more. Right now, my personal knowledge base has around 10 000 notes.
 
 100 000 is a number to which most note taking software doesn't scale well (in both performance and UI). Yet I don't think it's really very much considering a lifetime of knowledge.
 

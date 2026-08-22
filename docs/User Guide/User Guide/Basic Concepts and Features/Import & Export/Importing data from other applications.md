@@ -1,5 +1,5 @@
 # Importing data from other applications
-Starting with version v0.104.0, Trilium's importer was expanded to application-specific imports. Unlike the standard HTML or <a class="reference-link" href="Markdown.md">Markdown</a> import/export, these importers are tailored to support the features and note structure of a particular application.
+Starting with version v0.104.0, Notely's importer was expanded to application-specific imports. Unlike the standard HTML or <a class="reference-link" href="Markdown.md">Markdown</a> import/export, these importers are tailored to support the features and note structure of a particular application.
 
 ## Supported applications
 
@@ -21,4 +21,4 @@ A list of supported applications will appear at the top, each with their own con
 
 ## Acknowledgement
 
-*   Trilium's importer is inspired by Obsidian's [Importer plugin](https://github.com/obsidianmd/obsidian-importer) (licensed under the MIT license), for example regarding the OneNote connection process or the Notion ID management.
+*   Notely's importer is inspired by Obsidian's [Importer plugin](https://github.com/obsidianmd/obsidian-importer) (licensed under the MIT license), for example regarding the OneNote connection process or the Notion ID management.

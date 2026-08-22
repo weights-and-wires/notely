@@ -91,7 +91,7 @@
     "createInternalLink": "luo sisäinen linkki",
     "insertDateTime": "lisää nykyinen päivämäärä ja aika hiiren kohdalle",
     "troubleshooting": "Vianmääritys",
-    "reloadFrontend": "lataa Trilium:in käyttöliittymä",
+    "reloadFrontend": "lataa Notely:in käyttöliittymä",
     "showDevTools": "näytä kehittäjätyökalut",
     "showSQLConsole": "näytä SQL konsoli",
     "other": "Muut"

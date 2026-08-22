@@ -1,11 +1,11 @@
 # Vertical and horizontal layout
 ## Layouts
 
-Trilium supports two different layouts, based on your preference.
+Notely supports two different layouts, based on your preference.
 
 ### Vertical layout
 
-The vertical layout is Trilium's original layout:
+The vertical layout is Notely's original layout:
 
 *   The <a class="reference-link" href="Launch%20Bar.md">Launch Bar</a> is positioned on the left side of the screen, with buttons being laid out vertically.
 *   The tab bar is at the top, but to the right of the <a class="reference-link" href="Note%20Tree.md">Note Tree</a>.

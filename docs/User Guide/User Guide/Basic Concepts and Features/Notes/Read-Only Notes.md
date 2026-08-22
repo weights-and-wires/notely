@@ -1,9 +1,9 @@
 # Read-Only Notes
-Some note types such as <a class="reference-link" href="../../Note%20Types/Text.md">Text</a> and <a class="reference-link" href="../../Note%20Types/Code.md">Code</a> notes in Trilium can be set to read-only. When a note is in read-only mode, it is presented to the user in a non-editable view, with the option to switch to editing mode if needed.
+Some note types such as <a class="reference-link" href="../../Note%20Types/Text.md">Text</a> and <a class="reference-link" href="../../Note%20Types/Code.md">Code</a> notes in Notely can be set to read-only. When a note is in read-only mode, it is presented to the user in a non-editable view, with the option to switch to editing mode if needed.
 
 ## Automatic read-only mode
 
-For optimization purposes, Trilium will automatically set very large notes to read-only. Displaying such lengthy notes in editing mode can slow down performance, especially when editing is unnecessary.
+For optimization purposes, Notely will automatically set very large notes to read-only. Displaying such lengthy notes in editing mode can slow down performance, especially when editing is unnecessary.
 
 This behavior can be disabled on a per-note basis, by following the instructions of the next section.
 

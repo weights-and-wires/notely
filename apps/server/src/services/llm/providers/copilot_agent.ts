@@ -657,7 +657,7 @@ function handleAgentRequest(method: string, params: unknown): unknown {
     if (method === "session/request_permission") {
         return decidePermission(params as AcpPermissionRequest);
     }
-    throw new Error(`Trilium does not support "${method}".`);
+    throw new Error(`Notely does not support "${method}".`);
 }
 
 /**
@@ -865,7 +865,7 @@ function describeError(error: unknown): string {
 function describeCopilotError(error: unknown): string {
     const text = describeError(error);
     if (error instanceof AcpError && (error.code === -32000 || /auth|login|subscription/i.test(text))) {
-        return "GitHub Copilot CLI is not authenticated. Run `copilot login` on the machine running the Trilium server to sign in with your GitHub Copilot subscription.";
+        return "GitHub Copilot CLI is not authenticated. Run `copilot login` on the machine running the Notely server to sign in with your GitHub Copilot subscription.";
     }
     if (/ENOENT|spawn/i.test(text)) {
         return `Failed to start the GitHub Copilot CLI: ${text}`;

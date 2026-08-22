@@ -1,10 +1,10 @@
 # Code
-Trilium supports creating "code" notes, i.e. notes which contain some sort of formal code - be it programming language (C++, JavaScript), structured data (JSON, XML) or other types of codes (CSS etc.).
+Notely supports creating "code" notes, i.e. notes which contain some sort of formal code - be it programming language (C++, JavaScript), structured data (JSON, XML) or other types of codes (CSS etc.).
 
 This can be useful for a few things:
 
 *   computer programmers can store code snippets as notes with syntax highlighting
-*   JavaScript code notes can be executed inside Trilium for some extra functionality
+*   JavaScript code notes can be executed inside Notely for some extra functionality
     *   we call such JavaScript code notes "scripts" - see <a class="reference-link" href="../Scripting.md">Scripting</a>
 *   JSON, XML etc. can be used as storage for structured data (typically used in conjunction with scripting)
 

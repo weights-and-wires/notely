@@ -1,5 +1,5 @@
 # Configuration (config.ini or environment variables)
-Trilium supports configuration via a file named `config.ini` and environment variables. This document provides a comprehensive reference for all configuration options.
+Notely supports configuration via a file named `config.ini` and environment variables. This document provides a comprehensive reference for all configuration options.
 
 ## Location of the configuration file
 
@@ -15,7 +15,7 @@ Configuration values are loaded in the following order of precedence (highest to
 
 ## Environment Variable Patterns
 
-Trilium supports multiple environment variable patterns for flexibility. The primary pattern is: `TRILIUM_[SECTION]_[KEY]`
+Notely supports multiple environment variable patterns for flexibility. The primary pattern is: `TRILIUM_[SECTION]_[KEY]`
 
 Where:
 
@@ -167,4 +167,4 @@ npm start
 
 ## config.ini Reference
 
-For the complete list of configuration options and their INI file format, please review the [config-sample.ini](https://github.com/TriliumNext/Trilium/blob/main/apps/server/src/assets/config-sample.ini) file in the Trilium repository
+For the complete list of configuration options and their INI file format, please review the [config-sample.ini](https://github.com/TriliumNext/Trilium/blob/main/apps/server/src/assets/config-sample.ini) file in the Notely repository

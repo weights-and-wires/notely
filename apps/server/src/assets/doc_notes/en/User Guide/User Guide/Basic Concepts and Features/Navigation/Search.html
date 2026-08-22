@@ -147,16 +147,16 @@
     related to an author whose title contains "Tolkien".</li>
   <li><code spellcheck="false">#publicationYear %= '19[0-9]{2}'</code>: Use
     the '%=' operator to match a regular expression (regex). This feature has
-    been available since Trilium 0.52.</li>
+    been available since Notely 0.52.</li>
   <li><code spellcheck="false">note.content %= '\\d{2}:\\d{2} (PM|AM)'</code>:
     Find notes that mention a time. Backslashes in a regex must be escaped.</li>
 </ul>
 <h3>Fuzzy Search</h3>
-<p>Trilium supports fuzzy search operators that find results with typos or
+<p>Notely supports fuzzy search operators that find results with typos or
   spelling variations:</p>
 <ul>
   <li><code spellcheck="false">#title ~= trilim</code>: Fuzzy exact match -
-    finds notes with titles like "Trilium" even if you typed "trilim" (with
+    finds notes with titles like "Notely" even if you typed "trilim" (with
     typo)</li>
   <li><code spellcheck="false">#content ~* progra</code>: Fuzzy contains match
     - finds notes containing words like "program", "programmer", "programming"
@@ -253,16 +253,16 @@
 <p>Some queries can only be expressed with negation:</p><pre><code class="language-text-x-trilium-auto">#book AND not(note.ancestor.title = 'Tolkien')</code></pre>
 <p>This query finds all book notes not in the "Tolkien" subtree.</p>
 <h2>Progressive Search Strategy</h2>
-<p>Trilium uses a progressive search strategy that performs exact matching
+<p>Notely uses a progressive search strategy that performs exact matching
   first, then adds fuzzy matching when needed.</p>
 <h3>How Progressive Search Works</h3>
 <ol>
-  <li><strong>Phase 1 - Exact Matching</strong>: When you search, Trilium first
+  <li><strong>Phase 1 - Exact Matching</strong>: When you search, Notely first
     looks for exact matches of your search terms. This handles the vast majority
     of searches (90%+) and returns results almost instantly.</li>
   <li><strong>Phase 2 - Fuzzy Fallback</strong>: If Phase 1 doesn't find enough
     high-quality results (fewer than 5 results with good relevance scores),
-    Trilium automatically adds fuzzy matching to find results with typos or
+    Notely automatically adds fuzzy matching to find results with typos or
     spelling variations.</li>
   <li><strong>Result Ordering</strong>: Exact matches always appear before fuzzy
     matches, regardless of individual scores. This ensures that when you search
@@ -300,7 +300,7 @@
   <li>Attribute expressions - <code spellcheck="false">#book</code>
   </li>
 </ol>
-<p>Trilium detects the separation between full text search and attribute/property
+<p>Notely detects the separation between full text search and attribute/property
   search by looking for certain special characters or words that denote attributes
   and properties (e.g., #, ~, note.). If you need to include these in full-text
   search, escape them with a backslash so they are processed as regular text:</p><pre><code class="language-text-x-trilium-auto">"note.txt" 
@@ -317,7 +317,7 @@
 <p>This finds notes created in May 2019. Numeric operators like <code spellcheck="false">#publicationYear &gt;= 1960</code> convert
   string values to numbers for comparison.</p>
 <h2>Auto-Trigger Search from URL</h2>
-<p>You can open Trilium and automatically trigger a search by including the
+<p>You can open Notely and automatically trigger a search by including the
   search <a href="https://meyerweb.com/eric/tools/dencoder/">url encoded</a> string
   in the URL:</p>
 <p><code spellcheck="false">http://localhost:8080/#?searchString=abc</code>

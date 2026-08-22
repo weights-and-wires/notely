@@ -1,9 +1,9 @@
-<p>Trilium can connect to a large language model and use it as an assistant
+<p>Notely can connect to a large language model and use it as an assistant
   that works directly on your notes: ask questions about the note you're
   reading, have it draft or restructure content, or get it to write scripts
   and widgets for you.</p>
 <p>The integration is off by default and does nothing until you enable it
-  and configure a provider; Trilium ships no model of its own. Which provider
+  and configure a provider; Notely ships no model of its own. Which provider
   you pick also decides where your notes travel: a cloud API billed per use,
   a subscription you already pay for, or a model running on your own hardware,
   in which case nothing leaves the machine. See&nbsp;<a class="reference-link"
@@ -29,7 +29,7 @@
   <li>Statistics regarding context window use and pricing per message.</li>
   <li>Attachments for multi-modal chat (images, text files, PDFs).</li>
   <li>Optional MCP to allow external chat tools (e.g. Claude Code) to operate
-    on notes within Trilium.</li>
+    on notes within Notely.</li>
 </ul>
 <h2>Sample use-cases</h2>
 <ul>
@@ -45,7 +45,7 @@
     with little guidance, as the AI has been instructed in how to produce them.</p>
 </aside>
 <h2>LLM Providers</h2>
-<p>Trilium supports four different types of providers:</p>
+<p>Notely supports four different types of providers:</p>
 <ul>
   <li><strong>Cloud providers</strong>
     <br>Pay-per use with an API key which is billed separately from any subscription
@@ -70,7 +70,7 @@
     </ul>
   </li>
   <li><strong>Custom OpenAI compatible endpoints</strong>
-    <br>For other providers that are not directly supported by Trilium, either
+    <br>For other providers that are not directly supported by Notely, either
     local or hosted (e.g. OpenRouter, Groq, Mistral).</li>
 </ul>
 <p>For more information about each provider, see&nbsp;<a class="reference-link"
@@ -106,7 +106,7 @@
   the Edit button in the model selection box.</p>
 <p>Pricing information is displayed for known models. The pricing information
   (price per million tokens) is embedded in the application (using a subset
-  of LiteLLM's data) and is updated with new versions of Trilium. Local providers
+  of LiteLLM's data) and is updated with new versions of Notely. Local providers
   are considered free, whereas custom endpoint providers don't offer any
   pricing information.</p>
 <h2>Features</h2>
@@ -122,10 +122,10 @@ class="admonition note">
   </aside>
   <h3>Note access (tools)</h3>
   <p>Tools allow the agentic AI to understand and operate on notes directly
-    within your Trilium instance.</p>
+    within your Notely instance.</p>
   <p>This feature is on by default but it can easily be disabled by clicking
     on the model selector at the bottom of the chat and unchecking <em>Note access</em>.</p>
-  <p>Here are a few tools that Trilium provides for the LLM:</p>
+  <p>Here are a few tools that Notely provides for the LLM:</p>
   <ul>
     <li>At note level:
       <ul>
@@ -178,7 +178,7 @@ class="admonition note">
       be both enabled at the same time.</p>
   </aside>
   <h3>Attachments</h3>
-  <p>Since Trilium v0.140.0,&nbsp;<a class="reference-link" href="#root/_help_0vhv7lsOLy82">Attachments</a>&nbsp;allow
+  <p>Since Notely v0.140.0,&nbsp;<a class="reference-link" href="#root/_help_0vhv7lsOLy82">Attachments</a>&nbsp;allow
     for multi-modal chat:</p>
   <ul>
     <li>Raster image (sent as vision input, except for SVGs) with the following
@@ -203,7 +203,7 @@ class="admonition note">
   <p>When an attachment is present, the LLM is instructed to consider the attachment
     with priority, even if it has access to the current note.</p>
   <aside class="admonition note">
-    <p>Currently Trilium doesn't pre-process the attachments (e.g. via&nbsp;
+    <p>Currently Notely doesn't pre-process the attachments (e.g. via&nbsp;
       <a
       class="reference-link" href="#root/_help_TiQbQDgP8L5t">Text Extraction (OCR)</a>) before sending them to the LLM provider.</p>
   </aside>
@@ -215,8 +215,8 @@ class="admonition note">
   <p>This feature is mostly helpful when note tools are enabled, otherwise
     the LLM will have no way to access the given note.</p>
   <h3>Skills</h3>
-  <p>Skills in Trilium are specialized instruction sets that help the AI be
-    more productive by understanding how Trilium.</p>
+  <p>Skills in Notely are specialized instruction sets that help the AI be
+    more productive by understanding how Notely.</p>
   <p>These skills are not loaded by default to avoid an increased consumption
     of tokens, but the AI can load them on-demand if <em>Note tools</em> are
     enabled.</p>
@@ -235,14 +235,14 @@ class="admonition note">
     <p>Custom skills are currently not supported but they are planned.</p>
   </aside>
   <h3>MCP</h3>
-  <p>Trilium comes with a built-in MCP server which allows you to use an external
+  <p>Notely comes with a built-in MCP server which allows you to use an external
     agent such as Claude Code have access to your database. See the dedicated&nbsp;
     <a
     class="reference-link" href="#root/_help_KOWBFgsZXJAD">MCP</a>&nbsp;page for more details.</p>
   <h2>History</h2>
   <h3>Removal in v0.102.0</h3>
   <p>Starting with version v0.102.0, AI/LLM integration has been removed from
-    the Trilium Notes core.</p>
+    the Notely core.</p>
   <p>While a significant amount of effort went into developing this feature,
     maintaining and supporting it long-term proved to be unsustainable.</p>
   <p>When upgrading to v0.102.0, your Chat notes will be preserved, but instead

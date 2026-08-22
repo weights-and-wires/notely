@@ -1,5 +1,5 @@
 <p><a href="https://github.github.com/gfm/">GitHub-Flavored Markdown</a> is
-  the main syntax that Trilium is following.</p>
+  the main syntax that Notely is following.</p>
 <h2>Images</h2>
 <p>When exporting, images are usually kept in the basic Markdown syntax but
   will use the HTML syntax if the image has a custom width. Figures are always
@@ -10,14 +10,14 @@
   also rendered as HTML.</p>
 <h2>Links</h2>
 <p>Standard Markdown links are supported.</p>
-<p>Trilium internal links (that mirror a note's title and display its icon)
+<p>Notely internal links (that mirror a note's title and display its icon)
   are embedded as HTML in order to preserve the information on import.</p>
 <h2>Math equations</h2>
 <p>Both inline and display equations are supported, using the <code spellcheck="false">$</code> and
   <code
   spellcheck="false">$$</code>syntaxes.</p>
 <h2>Admonitions</h2>
-<p>The Markdown syntax for admonitions as supported by Trilium is the one
+<p>The Markdown syntax for admonitions as supported by Notely is the one
   that GitHub uses, which is as follows:</p><pre><code class="language-text-x-trilium-auto">&gt; [!NOTE]
 &gt; This is a note.
 
@@ -43,7 +43,7 @@
       and turn it into an image.</li>
 </ul>
 <p>This feature is import-only, which means that it will turn wikilinks into
-  Trilium-compatible syntax, but it will not export Trilium Notes into Markdown
+  Notely-compatible syntax, but it will not export Notely into Markdown
   files with this syntax.</p>
 <aside class="admonition important">
   <p>The path to pages in wikilinks is resolved relatively to the <em>import root</em> and
@@ -65,7 +65,7 @@
       by other Markdown-based applications such as Obsidian:</p><pre><code class="language-text-x-trilium-auto">==highlighted==</code></pre>
   </li>
   <li>
-    <p>The canonical HTML representation of highlights, as supported by Trilium:</p><pre><code class="language-text-html">&lt;span style="background-color:hsl(0,0%,100%);"&gt;Highlighted&lt;/span&gt;</code></pre>
+    <p>The canonical HTML representation of highlights, as supported by Notely:</p><pre><code class="language-text-html">&lt;span style="background-color:hsl(0,0%,100%);"&gt;Highlighted&lt;/span&gt;</code></pre>
   </li>
 </ul>
 <p>When the yellow highlight is used, import/export prefers the <code spellcheck="false">==</code> syntax

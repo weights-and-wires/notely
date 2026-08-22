@@ -14,5 +14,5 @@ export function defaultBackupName(now: Date): string {
     const time = [ stamp(now.getHours()), stamp(now.getMinutes()), stamp(now.getSeconds()) ].join("-");
 
     // Padded throughout, so a directory sorted by name is also sorted by date.
-    return `Trilium data (${date} ${time})`;
+    return `Notely data (${date} ${time})`;
 }

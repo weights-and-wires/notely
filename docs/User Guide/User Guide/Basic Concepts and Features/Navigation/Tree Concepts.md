@@ -1,9 +1,9 @@
 # Tree Concepts
-This page explains the basic concepts related to the tree structure of notes in TriliumNext.
+This page explains the basic concepts related to the tree structure of notes in Notely.
 
 ## Note
 
-A note is the central entity in TriliumNext. For more details, see <a class="reference-link" href="../Notes.md">Notes</a>.
+A note is the central entity in Notely. For more details, see <a class="reference-link" href="../Notes.md">Notes</a>.
 
 ## Branch
 

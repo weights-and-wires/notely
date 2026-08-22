@@ -7,8 +7,8 @@ import { backupFileName } from "./backup_download";
 describe("naming a backup file", () => {
     it("adds the container extension, and tidies what only fails at save time", () => {
         // Parentheses are legal everywhere, so the suggested name survives its own round trip.
-        expect(backupFileName("Trilium data (2026-08-08 16-30-32)"))
-            .toBe("Trilium data (2026-08-08 16-30-32).tnbackup");
+        expect(backupFileName("Notely data (2026-08-08 16-30-32)"))
+            .toBe("Notely data (2026-08-08 16-30-32).tnbackup");
         // What a name may contain at all is the field's business and has its own tests; this is
         // the last pass, for a name that never went through that field.
         expect(backupFileName('a<b>c:d"e/f\\g|h?i*j')).toBe("abcdefghij.tnbackup");
@@ -19,7 +19,7 @@ describe("naming a backup file", () => {
     });
 
     it("falls back to the default name where nothing usable is left", () => {
-        const dated = /^Trilium data \(\d{4}-\d{2}-\d{2} \d{2}-\d{2}-\d{2}\)\.tnbackup$/;
+        const dated = /^Notely data \(\d{4}-\d{2}-\d{2} \d{2}-\d{2}-\d{2}\)\.tnbackup$/;
 
         expect(backupFileName("")).toMatch(dated);
         expect(backupFileName("///")).toMatch(dated);

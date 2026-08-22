@@ -3,9 +3,9 @@ import { useEffect, useState } from "preact/hooks";
 export function usePageTitle(title: string) {
     useEffect(() => {
         if (title.length) {
-            document.title = `${title} - Trilium Notes`;
+            document.title = `${title} - Notely`;
         } else {
-            document.title = "Trilium Notes";
+            document.title = "Notely";
         }
     }, [ title ]);
 }

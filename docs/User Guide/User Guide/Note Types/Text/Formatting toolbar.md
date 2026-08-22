@@ -1,5 +1,5 @@
 # Formatting toolbar
-Trilium allows two different editing experiences for text notes, based on your preference.
+Notely allows two different editing experiences for text notes, based on your preference.
 
 The type of formatting toolbar can be changed by going to <a class="reference-link" href="../../Basic%20Concepts%20and%20Features/UI%20Elements/Options.md">Options</a> and then looking for the <a class="reference-link" href="#root/_options/_optionsTextNotes">Text Notes</a> section. In it, look for the _Formatting toolbar_ category.
 

@@ -1,7 +1,7 @@
 # Cloning Notes
 ## Motivation
 
-Trilium's core feature is the ability to structure your notes into hierarchical tree-like structure.
+Notely's core feature is the ability to structure your notes into hierarchical tree-like structure.
 
 It is expected then that you'll have an elaborate and deep note hierarchy - each subtree will represent a more refined and specialized view of your knowledge base.
 

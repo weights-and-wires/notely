@@ -165,7 +165,7 @@
   },
   "login": {
     "title": "Přihlášení",
-    "heading": "Přihlášení do Trilium",
+    "heading": "Přihlášení do Notely",
     "incorrect-totp": "TOTP je nesprávné. Zkuste to prosím znovu.",
     "incorrect-password": "Heslo je nesprávné. Zkuste to prosím znovu.",
     "password": "Heslo",
@@ -176,7 +176,7 @@
   "set_password": {
     "title": "Nastavit heslo",
     "heading": "Nastavit heslo",
-    "description": "Než budete moci začít Trilium používat z webu, musíte nejprve nastavit heslo. Toto heslo pak budete používat k přihlášení.",
+    "description": "Než budete moci začít Notely používat z webu, musíte nejprve nastavit heslo. Toto heslo pak budete používat k přihlášení.",
     "password": "Heslo",
     "password-confirmation": "Potvrzení hesla",
     "button": "Nastavit heslo"
@@ -301,8 +301,8 @@
     "unable-to-print": "Nelze vytisknout poznámku"
   },
   "tray": {
-    "tooltip": "Trilium Notes",
-    "close": "Ukončit Trilium",
+    "tooltip": "Notely",
+    "close": "Ukončit Notely",
     "recents": "Nedávné poznámky",
     "bookmarks": "Záložky (oblíbené)",
     "today": "Otevřít dnešní deníkovou poznámku",
@@ -313,7 +313,7 @@
   "migration": {
     "old_version": "Přímá migrace z vaší aktuální verze není podporována. Nejprve prosím upgradujte na nejnovější v0.60.4 a až poté na tuto verzi.",
     "error_message": "Chyba během migrace na verzi {{version}}: {{stack}}",
-    "wrong_db_version": "Verze databáze ({{version}}) je novější, než jakou aplikace očekává ({{targetVersion}}), což znamená, že byla vytvořena novější a nekompatibilní verzí Trilium. Pro vyřešení tohoto problému upgradujte na nejnovější verzi Trilium."
+    "wrong_db_version": "Verze databáze ({{version}}) je novější, než jakou aplikace očekává ({{targetVersion}}), což znamená, že byla vytvořena novější a nekompatibilní verzí Notely. Pro vyřešení tohoto problému upgradujte na nejnovější verzi Notely."
   },
   "modals": {
     "error_title": "Chyba"
@@ -357,6 +357,6 @@
   },
   "sql_init": {
     "db_not_initialized_desktop": "DB není inicializována, postupujte podle pokynů na obrazovce.",
-    "db_not_initialized_server": "DB není inicializována, navštivte prosím stránku pro nastavení - http://[your-server-host]:{{port}}, kde najdete pokyny, jak inicializovat Trilium."
+    "db_not_initialized_server": "DB není inicializována, navštivte prosím stránku pro nastavení - http://[your-server-host]:{{port}}, kde najdete pokyny, jak inicializovat Notely."
   }
 }

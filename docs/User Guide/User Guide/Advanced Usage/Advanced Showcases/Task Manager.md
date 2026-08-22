@@ -58,6 +58,6 @@ span.fancytree-node.done .fancytree-title {
 }
 ```
 
-This [code note](../../Note%20Types/Code.md) has `#appCss` [label](../Attributes.md)which is recognized by Trilium on startup and loaded as CSS into the application.
+This [code note](../../Note%20Types/Code.md) has `#appCss` [label](../Attributes.md)which is recognized by Notely on startup and loaded as CSS into the application.
 
 Second part of this functionality is based in event handler described above which assigns `#cssClass` label to the task to either "done" or "todo" based on the task status.

@@ -1,6 +1,6 @@
-<p>Trilium supports spell checking for your notes. How it works depends on
+<p>Notely supports spell checking for your notes. How it works depends on
   whether you're using the <strong>desktop application</strong> (Electron)
-  or accessing Trilium through a <strong>web browser</strong>.</p>
+  or accessing Notely through a <strong>web browser</strong>.</p>
 <h2>Desktop</h2>
 <p>The desktop app uses Chromium's built-in spellchecker. You can configure
   it from <em>Options</em> → <em>Spell Check</em>.</p>
@@ -21,11 +21,11 @@ class="admonition note">
   </aside>
   <h3>Custom dictionary</h3>
   <aside class="admonition tip">
-    <p>This function is available starting with Trilium v0.103.0.</p>
+    <p>This function is available starting with Notely v0.103.0.</p>
   </aside>
   <p>Words you add to the dictionary (e.g. via the right-click context menu
     → "Add to dictionary") are stored in a <strong>synced note</strong> inside
-    Trilium. This means your custom dictionary automatically syncs across all
+    Notely. This means your custom dictionary automatically syncs across all
     your devices.</p>
   <p>You can view and edit the dictionary directly from <em>Settings</em> → <em>Spell Check</em> → <em>Custom Dictionary</em> → <em>Edit dictionary</em>.
     This opens the underlying note, which contains one word per line. You can
@@ -39,9 +39,9 @@ class="admonition note">
     <li>When you right-click a misspelled word and choose "Add to dictionary",
       the word is saved both to Electron's local spellchecker and to the synced
       dictionary note.</li>
-    <li>On startup, Trilium loads all words from the dictionary note into the
+    <li>On startup, Notely loads all words from the dictionary note into the
       spellchecker session.</li>
-    <li>If Trilium detects words in Electron's local dictionary but the dictionary
+    <li>If Notely detects words in Electron's local dictionary but the dictionary
       note is empty (e.g. on first use), it performs a <strong>one-time import</strong> of
       those words into the note.</li>
     <li>Words that are in Electron's local dictionary but <em>not</em> in the note
@@ -55,17 +55,17 @@ class="admonition note">
     <li>Words added via the context menu are also written to the OS-level dictionary
       (e.g. <code spellcheck="false">%APPDATA%\Microsoft\Spelling\&lt;language&gt;\default.dic</code> on
       Windows).</li>
-    <li><strong>Removing a word</strong> from the Trilium dictionary note prevents
+    <li><strong>Removing a word</strong> from the Notely dictionary note prevents
       it from being loaded into the spellchecker on next startup, but does <em>not</em> remove
       it from the OS dictionary. The word may still be accepted by the OS spellchecker
       until you remove it from the OS dictionary manually.</li>
   </ul>
   <h2>Web browser</h2>
-  <p>When accessing Trilium through a web browser, spell checking is handled
-    entirely by the browser itself. Trilium does not control the browser's
+  <p>When accessing Notely through a web browser, spell checking is handled
+    entirely by the browser itself. Notely does not control the browser's
     spellchecker — language selection, dictionaries, and all other settings
     are managed through your browser's preferences.</p>
-  <p>The Spell Check settings page in Trilium will indicate that these options
+  <p>The Spell Check settings page in Notely will indicate that these options
     apply only to desktop builds.</p>
   <h2>Frequently asked questions</h2>
   <h3>Do I need to restart after every change?</h3>
@@ -75,7 +75,7 @@ class="admonition note">
   <p>Yes. Select as many languages as you need from the checklist. The spellchecker
     will accept words from any of the selected languages.</p>
   <h3>My custom words disappeared after syncing to a new device — what happened?</h3>
-  <p>On the first launch of a new device, Trilium may import existing local
+  <p>On the first launch of a new device, Notely may import existing local
     dictionary words into the note. If the note already has words from another
     device (via sync), those are preserved. Make sure sync completes before
     restarting the application on a new device.</p>

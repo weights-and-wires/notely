@@ -1,5 +1,5 @@
 # Apache using Docker
-This tutorial assumes that you have created a DNS A record for `trilium.yourdomain.com` that you want to use for your Trilium server.
+This tutorial assumes that you have created a DNS A record for `trilium.yourdomain.com` that you want to use for your Notely server.
 
 ## Docker setup
 

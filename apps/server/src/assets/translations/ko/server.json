@@ -266,20 +266,20 @@
   },
   "login": {
     "title": "로그인",
-    "heading": "Trilium 로그인",
+    "heading": "Notely 로그인",
     "incorrect-password": "비밀번호가 올바르지 않습니다. 다시 시도해 주세요.",
     "password": "비밀번호",
     "button": "로그인",
     "sign_in_with_sso": "{{ ssoIssuerName }} 로 로그인",
     "incorrect-totp": "TOTP가 올바르지 않습니다. 다시 시도해 주세요.",
     "remember-me": "로그인 상태 유지",
-    "sso-wrong-account": "이 Trilium 인스턴스에 연결된 계정이 아닙니다. 연결된 계정으로 로그인하세요.",
+    "sso-wrong-account": "이 Notely 인스턴스에 연결된 계정이 아닙니다. 연결된 계정으로 로그인하세요.",
     "sso-not-enrolled": "통합 로그인이 아직 설정되지 않았습니다. 먼저 비밀번호로 로그인한 다음 설정에서 계정을 연결하세요."
   },
   "set_password": {
     "title": "비밀번호 설정",
     "heading": "비밀번호 설정",
-    "description": "웹에서 Trilium을 사용하려면 먼저 비밀번호를 설정해야 합니다. 이후 이 비밀번호로 로그인합니다.",
+    "description": "웹에서 Notely을 사용하려면 먼저 비밀번호를 설정해야 합니다. 이후 이 비밀번호로 로그인합니다.",
     "password": "비밀번호",
     "password-confirmation": "비밀번호 확인",
     "button": "비밀번호 설정"
@@ -378,7 +378,7 @@
   },
   "notion_import": {
     "root-title": "Notion 가져오기",
-    "markdown-export-unsupported": "Trilium에서 가져올 수 없는 Notion의 ‘Markdown & CSV’ 내보내기 파일입니다. Notion 작업 공간을 ‘HTML’ 형식으로 다시 내보낸 다음 가져오세요.",
+    "markdown-export-unsupported": "Notely에서 가져올 수 없는 Notion의 ‘Markdown & CSV’ 내보내기 파일입니다. Notion 작업 공간을 ‘HTML’ 형식으로 다시 내보낸 다음 가져오세요.",
     "subpage-folders-disabled": "이 Notion 내보내기 파일은 ‘하위 페이지용 폴더 만들기’ 옵션 없이 생성되어 페이지 계층을 복원할 수 없습니다. Notion에서 이 옵션을 활성화하여 다시 내보낸 다음 가져오세요."
   },
   "keep_import": {
@@ -386,8 +386,8 @@
   },
   "anytype_import": {
     "root-title": "Anytype 가져오기",
-    "protobuf-export-unsupported": "Trilium에서 가져올 수 없는 Anytype ‘Protobuf’ 내보내기 파일입니다. Anytype 공간을 ‘JSON’이 선택된 ‘Any-Block’ 형식으로 다시 내보낸 다음 가져오세요.",
-    "markdown-export-unsupported": "Trilium에서 가져올 수 없는 Anytype ‘Markdown’ 내보내기 파일입니다. Anytype 공간을 ‘JSON’이 선택된 ‘Any-Block’ 형식으로 다시 내보낸 다음 가져오세요."
+    "protobuf-export-unsupported": "Notely에서 가져올 수 없는 Anytype ‘Protobuf’ 내보내기 파일입니다. Anytype 공간을 ‘JSON’이 선택된 ‘Any-Block’ 형식으로 다시 내보낸 다음 가져오세요.",
+    "markdown-export-unsupported": "Notely에서 가져올 수 없는 Anytype ‘Markdown’ 내보내기 파일입니다. Anytype 공간을 ‘JSON’이 선택된 ‘Any-Block’ 형식으로 다시 내보낸 다음 가져오세요."
   },
   "obsidian_import": {
     "root-title": "Obsidian 가져오기"
@@ -406,8 +406,8 @@
     "unable-to-print": "노트를 인쇄할 수 없음"
   },
   "tray": {
-    "tooltip": "Trilium Notes",
-    "close": "Trilium 종료",
+    "tooltip": "Notely",
+    "close": "Notely 종료",
     "recents": "최근 노트",
     "bookmarks": "북마크",
     "today": "오늘의 일지 노트 열기",
@@ -419,7 +419,7 @@
     "old_version": "현재 버전에서는 직접 마이그레이션할 수 없습니다. 먼저 최신 v0.60.4로 업그레이드한 다음 이 버전으로 업그레이드하세요.",
     "error_message": "버전 {{version}}으로의 마이그레이션 중 발생한 오류: {{stack}}",
     "automatic_migrations_disabled": "환경 변수 TRILIUM_MANUAL_DB_MIGRATION = {{envVarValue}} 설정으로 인해 자동 DB 마이그레이션이 비활성화되어 있습니다",
-    "wrong_db_version": "데이터베이스 버전({{version}})이 애플리케이션에서 예상한 버전({{targetVersion}})보다 높습니다. 이 데이터베이스는 호환되지 않는 최신 Trilium 버전에서 생성되었습니다. 이 문제를 해결하려면 Trilium을 최신 버전으로 업그레이드하세요.",
+    "wrong_db_version": "데이터베이스 버전({{version}})이 애플리케이션에서 예상한 버전({{targetVersion}})보다 높습니다. 이 데이터베이스는 호환되지 않는 최신 Notely 버전에서 생성되었습니다. 이 문제를 해결하려면 Notely을 최신 버전으로 업그레이드하세요.",
     "invalid_db_version": "데이터베이스 버전이 올바른 숫자가 아닙니다. 일반적으로 데이터베이스의 'dbVersion' 옵션이 손상되었음을 의미합니다. 백업에서 복원하세요."
   },
   "modals": {
@@ -472,7 +472,7 @@
   },
   "sql_init": {
     "db_not_initialized_desktop": "DB가 초기화되지 않았습니다. 화면의 안내를 따르세요.",
-    "db_not_initialized_server": "DB가 초기화되지 않았습니다. Trilium 초기화 방법을 확인하려면 설정 페이지(http://[your-server-host]:{{port}})를 방문하세요."
+    "db_not_initialized_server": "DB가 초기화되지 않았습니다. Notely 초기화 방법을 확인하려면 설정 페이지(http://[your-server-host]:{{port}})를 방문하세요."
   },
   "script": {
     "wrong-environment": "노트 ‘{{- noteTitle}}’({{- noteId}})을(를) 실행할 수 없습니다. 이 노트는 {{- actualEnv}} 스크립트이지만 {{- expectedEnv}} 환경에서 실행을 시도했습니다."
@@ -516,7 +516,7 @@
     "cancel": "취소",
     "set-title": "백업 비밀번호를 설정하시겠습니까?",
     "set-message": "이후 백업은 이 비밀번호로 암호화됩니다.",
-    "set-detail": "Trilium에서는 이 비밀번호를 다시 표시할 수 없으므로 안전한 곳에 사본을 보관하세요. 비밀번호가 없으면 백업을 복원할 수 없습니다.\n\n이 메시지가 표시될 것으로 예상하지 못했다면 취소하세요. 노트나 스크립트에서 이 작업을 요청했을 수 있습니다.",
+    "set-detail": "Notely에서는 이 비밀번호를 다시 표시할 수 없으므로 안전한 곳에 사본을 보관하세요. 비밀번호가 없으면 백업을 복원할 수 없습니다.\n\n이 메시지가 표시될 것으로 예상하지 못했다면 취소하세요. 노트나 스크립트에서 이 작업을 요청했을 수 있습니다.",
     "set-confirm": "비밀번호 설정",
     "clear-title": "백업 비밀번호를 삭제하시겠습니까?",
     "clear-message": "이제부터 백업은 암호화되지 않습니다.",
@@ -525,16 +525,16 @@
   },
   "restore": {
     "pick_backup_title": "복원할 백업 선택",
-    "backup_filter": "Trilium 백업 (*.db, *.tnbackup)",
+    "backup_filter": "Notely 백업 (*.db, *.tnbackup)",
     "any_file_filter": "모든 파일"
   },
   "setup-window": {
-    "getting-started": "시작하기 - Trilium Notes",
-    "start-over": "처음부터 다시 시작 - Trilium Notes"
+    "getting-started": "시작하기 - Notely",
+    "start-over": "처음부터 다시 시작 - Notely"
   },
   "start-over-dialog": {
     "title": "처음부터 다시 시작",
-    "message": "Trilium을 다시 시작하고 설정 화면으로 돌아가시겠습니까?",
+    "message": "Notely을 다시 시작하고 설정 화면으로 돌아가시겠습니까?",
     "detail": "먼저 현재 지식 베이스의 백업이 제공됩니다. 새 지식 베이스를 만들거나, 백업을 복원하거나, 다른 기기에서 동기화하도록 선택하기 전까지는 아무것도 삭제되지 않습니다.\n\n스크립트나 익숙하지 않은 노트에서 이 작업을 하도록 안내했다면 계속하지 마세요.",
     "cancel": "취소",
     "confirm": "재시작 후 처음부터 시작"

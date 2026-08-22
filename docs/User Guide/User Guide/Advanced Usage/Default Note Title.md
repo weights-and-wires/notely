@@ -1,7 +1,7 @@
 # Default Note Title
 When a new note is created, its name is by default "new note". In some cases, it can be desirable to have a different or even a dynamic default note title.
 
-For this use case, Trilium (since v0.52) supports `#titleTemplate` [label](Attributes.md). You can create such a label for a given note, assign it a value, and this value will be used as a default title when creating child notes. As with other labels, you can make it inheritable to apply recursively, and you can even place it on the root note to have it applied globally everywhere.
+For this use case, Notely (since v0.52) supports `#titleTemplate` [label](Attributes.md). You can create such a label for a given note, assign it a value, and this value will be used as a default title when creating child notes. As with other labels, you can make it inheritable to apply recursively, and you can even place it on the root note to have it applied globally everywhere.
 
 As an example use case, imagine you collect books you've read in a given year like this:
 

@@ -1,5 +1,5 @@
 # Supported syntax
-[GitHub-Flavored Markdown](https://github.github.com/gfm/) is the main syntax that Trilium is following.
+[GitHub-Flavored Markdown](https://github.github.com/gfm/) is the main syntax that Notely is following.
 
 ## Images
 
@@ -13,7 +13,7 @@ Simple tables are supported with the Markdown syntax. If the table is too comple
 
 Standard Markdown links are supported.
 
-Trilium internal links (that mirror a note's title and display its icon) are embedded as HTML in order to preserve the information on import.
+Notely internal links (that mirror a note's title and display its icon) are embedded as HTML in order to preserve the information on import.
 
 ## Math equations
 
@@ -21,7 +21,7 @@ Both inline and display equations are supported, using the `$` and `$$` syntaxes
 
 ## Admonitions
 
-The Markdown syntax for admonitions as supported by Trilium is the one that GitHub uses, which is as follows:
+The Markdown syntax for admonitions as supported by Notely is the one that GitHub uses, which is as follows:
 
 ```
 > [!NOTE]
@@ -46,7 +46,7 @@ Basic support for wikilinks has been added in v0.96.0:
 *   `[[foo/bar]]` will look for the `bar.md` file in the `foo` directory and turn it into an internal link.
 *   `![[foo/baz.png]]` will look for the `baz.png` file in the `foo` directory and turn it into an image.
 
-This feature is import-only, which means that it will turn wikilinks into Trilium-compatible syntax, but it will not export Trilium Notes into Markdown files with this syntax.
+This feature is import-only, which means that it will turn wikilinks into Notely-compatible syntax, but it will not export Notely into Markdown files with this syntax.
 
 > [!IMPORTANT]
 > The path to pages in wikilinks is resolved relatively to the _import root_ and not the current directory of the note. This is to be inline with other platforms that use wikilinks such as SilverBullet.

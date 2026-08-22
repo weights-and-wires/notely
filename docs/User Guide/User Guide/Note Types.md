@@ -1,9 +1,9 @@
 # Note Types
-One of the core features of Trilium is that it supports multiple types of notes, depending on the need.
+One of the core features of Notely is that it supports multiple types of notes, depending on the need.
 
 ## Creating a new note with a different type via the note tree
 
-The default note type in Trilium (e.g. when creating a new note) is <a class="reference-link" href="Note%20Types/Text.md">Text</a>, since it's for general use.
+The default note type in Notely (e.g. when creating a new note) is <a class="reference-link" href="Note%20Types/Text.md">Text</a>, since it's for general use.
 
 To create a new note of a different type, head to the <a class="reference-link" href="Basic%20Concepts%20and%20Features/UI%20Elements/Note%20Tree.md">Note Tree</a> and right click an existing note where to place the new one and select:
 
@@ -23,7 +23,7 @@ It is possible to change the type of a note after it has been created via the _B
 
 ## Supported note types
 
-The following note types are supported by Trilium:
+The following note types are supported by Notely:
 
 | Note Type | Description |
 | --- | --- |

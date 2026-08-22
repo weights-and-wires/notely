@@ -94,7 +94,7 @@ export function desktopNetworkAccessGate(req: Request, res: Response, next: Next
 
     if (blocked) {
         res.status(403).type("text/plain").send(
-            'Web access to this Trilium desktop instance is disabled. Enable "Network access" in Settings → Security to reach it from a browser.'
+            'Web access to this Notely desktop instance is disabled. Enable "Network access" in Settings → Security to reach it from a browser.'
         );
         return;
     }

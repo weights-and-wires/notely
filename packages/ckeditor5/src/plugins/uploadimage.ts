@@ -171,7 +171,7 @@ function describeUploadFailure(t: LocaleTranslate, status: number, response: { e
 	}
 
 	if (status === 413) {
-		return t('The file is too large to be uploaded (HTTP 413). If Trilium is behind a reverse proxy, raise its request body size limit.');
+		return t('The file is too large to be uploaded (HTTP 413). If Notely is behind a reverse proxy, raise its request body size limit.');
 	}
 
 	if (status) {

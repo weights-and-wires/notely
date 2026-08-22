@@ -1,4 +1,4 @@
-# Trilium Jegyzetek
+# Notely Jegyzetek
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-A Trilium Notes egy ingyenes és nyílt forráskódú, platformfüggetlen hierarchikus
+A Notely egy ingyenes és nyílt forráskódú, platformfüggetlen hierarchikus
 jegyzetelő alkalmazás, amely nagy személyes tudásbázisok építésére összpontosít.
 
 <img src="./app.png" alt="Trilium Screenshot" width="1000">
@@ -51,7 +51,7 @@ Dokumentációink többféle formátumban is elérhetők:
 - [Telepítési utasítások](https://docs.triliumnotes.org/user-guide/setup)
 - [Docker
   beállítás](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
-- [TriliumNext
+- [Notely
   Frissítése](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [Alapfogalmak és
   jellemzők](https://docs.triliumnotes.org/user-guide/concepts/notes)

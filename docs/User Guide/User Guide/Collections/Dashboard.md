@@ -4,7 +4,7 @@
 > [!NOTE]
 > The dashboard is currently considered beta. This means that it might face some changes in behavior until it is stabilized.
 
-The dashboard is a collection introduced in Trilium v0.104.0. It is similar to the <a class="reference-link" href="Grid%20View.md">Grid View</a> collection, but with some key differences:
+The dashboard is a collection introduced in Notely v0.104.0. It is similar to the <a class="reference-link" href="Grid%20View.md">Grid View</a> collection, but with some key differences:
 
 *   The grid layout is not fixed, allowing for tiles of varying widths and heights. The grid has 12 columns and an unlimited number of rows.
 *   Each widget represents a child note of the collection and can be reordered or resized.

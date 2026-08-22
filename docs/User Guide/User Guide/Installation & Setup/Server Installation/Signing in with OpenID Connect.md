@@ -1,14 +1,14 @@
 # Signing in with OpenID Connect
 OpenID is a standardized way to let you log into websites using an account from another service, like Google or Authelia, to verify your identity.
 
-When OpenID is activated, the password-based authentication in Trilium is replaced with a button that connects using your provider. This means that the configuration of <a class="reference-link" href="Multi-factor%20authentication%20with%20TOTP.md">Multi-factor authentication with TOTP</a> no longer takes effect, since your provider has to handle any multi-factor authentication.
+When OpenID is activated, the password-based authentication in Notely is replaced with a button that connects using your provider. This means that the configuration of <a class="reference-link" href="Multi-factor%20authentication%20with%20TOTP.md">Multi-factor authentication with TOTP</a> no longer takes effect, since your provider has to handle any multi-factor authentication.
 
 ## Setup
 
 Setting up authentication with OpenID connect is a two-step process:
 
-1.  First the Trilium server must be configured with information about your authentication provider such as the URL, client ID and secret.
-2.  Second, the user must connect from options to create a link between the account on the provider and the one Trilium has.
+1.  First the Notely server must be configured with information about your authentication provider such as the URL, client ID and secret.
+2.  Second, the user must connect from options to create a link between the account on the provider and the one Notely has.
 
 ### Configuring the authentication provider
 

@@ -1,5 +1,5 @@
 # System Requirements
-The desktop version of Trilium supports all three main operating systems:
+The desktop version of Notely supports all three main operating systems:
 
 *   Windows
     *   Windows 11 is officially supported.

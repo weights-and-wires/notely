@@ -1,5 +1,5 @@
 # Text
-The default note type in Trilium, text notes allow for rich formatting, tables, images, admonitions and a handful of other features.
+The default note type in Notely, text notes allow for rich formatting, tables, images, admonitions and a handful of other features.
 
 ## Formatting bars
 

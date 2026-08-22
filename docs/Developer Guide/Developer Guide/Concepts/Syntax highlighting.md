@@ -11,7 +11,7 @@ Where `mdLanguageCode` is a Markdown-friendly name of the language.
 
 ## Syntax highlighting for Highlight.js
 
-The Highlight.js instance in Trilium identifies the code to highlight by the mime type mappings defined in `syntax_highlighting.ts` in `packages/highlightjs`.
+The Highlight.js instance in Notely identifies the code to highlight by the mime type mappings defined in `syntax_highlighting.ts` in `packages/highlightjs`.
 
 There are three possible cases, all involving modifying the `byMimeType` record:
 

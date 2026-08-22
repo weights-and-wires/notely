@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -42,7 +42,7 @@ personal.
 La nostra documentació està disponible en diversos formats:
 - **Documentació en línia**: Consulteu la documentació completa a
   [docs.triliumnotes.org](https://docs.triliumnotes.org/)
-- **Ajuda a l'aplicació**: Premeu `F1` dins de Trilium per accedir directament a
+- **Ajuda a l'aplicació**: Premeu `F1` dins de Notely per accedir directament a
   la documentació a l'aplicació.
 - **GitHub**: Navega per la [Guia d'usuari](./User%20Guide/User%20Guide/)
   d'aquest repositori
@@ -53,7 +53,7 @@ La nostra documentació està disponible en diversos formats:
 - [Docker
   Setup](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
 - [Upgrading
-  TriliumNext](https://docs.triliumnotes.org/user-guide/setup/upgrading)
+  Notely](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [Basic Concepts and
   Features](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [Patterns of Personal Knowledge

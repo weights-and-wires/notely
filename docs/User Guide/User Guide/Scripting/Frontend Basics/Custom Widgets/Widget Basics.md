@@ -1,5 +1,5 @@
 # Widget Basics
-This guide will walk you through creating a basic widget inside Trilium. By following these steps, you'll learn how to build a simple UI element that interacts with the user.
+This guide will walk you through creating a basic widget inside Notely. By following these steps, you'll learn how to build a simple UI element that interacts with the user.
 
 ### Step 1: The Basic Widget Structure
 
@@ -21,9 +21,9 @@ module.exports = new MyWidget();
 
 To implement this widget:
 
-1.  Create a new `JS Frontend` note in Trilium and paste in the code above.
+1.  Create a new `JS Frontend` note in Notely and paste in the code above.
 2.  Assign the `#widget` [attribute](../../../Advanced%20Usage/Attributes.md) to the [note](../../../Basic%20Concepts%20and%20Features/Notes.md).
-3.  Restart Trilium or reload the window.
+3.  Restart Notely or reload the window.
 
 To verify that the widget is working, open the developer tools (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd>) and run `document.querySelector("#my-widget")`. If the element is found, the widget is functioning correctly. If `undefined` is returned, double-check that the [note](../../../Basic%20Concepts%20and%20Features/Notes.md) has the `#widget` [attribute](../../../Advanced%20Usage/Attributes.md).
 
@@ -47,11 +47,11 @@ class MyWidget extends api.BasicWidget {
 module.exports = new MyWidget();
 ```
 
-After making this change, reload Trilium. You should now see a button in the top-left corner of the left pane.
+After making this change, reload Notely. You should now see a button in the top-left corner of the left pane.
 
 ### Step 3: Styling the Widget
 
-To make the button more visually appealing and position it correctly, we'll apply some custom styling. Trilium includes [Box Icons](https://boxicons.com), which we'll use to replace the button text with an icon. For example the `bx bxs-magic-wand` icon.
+To make the button more visually appealing and position it correctly, we'll apply some custom styling. Notely includes [Box Icons](https://boxicons.com), which we'll use to replace the button text with an icon. For example the `bx bxs-magic-wand` icon.
 
 Here's the updated template:
 
@@ -81,7 +81,7 @@ class MyWidget extends api.BasicWidget {
 module.exports = new MyWidget();
 ```
 
-After reloading Trilium, the button should now appear at the bottom left of the left pane, alongside other action buttons.
+After reloading Notely, the button should now appear at the bottom left of the left pane, alongside other action buttons.
 
 ### Step 4: Adding User Interaction
 

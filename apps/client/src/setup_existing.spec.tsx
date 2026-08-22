@@ -283,7 +283,7 @@ describe("backing it up first", () => {
 
         // What the instance is already set up for, offered back and accepted unchanged.
         expect(serverMock.post).toHaveBeenCalledWith("setup/existing/backup", {
-            name: expect.stringMatching(/^Trilium data \(/),
+            name: expect.stringMatching(/^Notely data \(/),
             passphrase: "",
             useStoredPassphrase: true,
             compress: true
@@ -444,7 +444,7 @@ describe("backing up straight to a download on standalone", () => {
         await settle();
         // The suggested name, and no password, which is what the parameters screen was left at.
         expect(downloadDatabase).toHaveBeenCalledWith(
-            expect.stringMatching(/^Trilium data \(\d{4}-\d{2}-\d{2} \d{2}-\d{2}-\d{2}\)\.tnbackup$/),
+            expect.stringMatching(/^Notely data \(\d{4}-\d{2}-\d{2} \d{2}-\d{2}-\d{2}\)\.tnbackup$/),
             undefined,
             expect.any(Function));
         expect(container.textContent).toContain("setup.backup-downloading");

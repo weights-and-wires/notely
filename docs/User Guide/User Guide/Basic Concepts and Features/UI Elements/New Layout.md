@@ -13,7 +13,7 @@ For more information, consult the [dedicated page](New%20Layout/Status%20bar.md)
 
 ### Inline title
 
-In previous versions of Trilium, the title bar was fixed at all times. In the new layout, there is both a fixed title bar and one that scrolls with the text. The newly introduced title is called the _Inline title_ and it displays the title in a larger font, while also displaying additional information such as the creation and the modification date.
+In previous versions of Notely, the title bar was fixed at all times. In the new layout, there is both a fixed title bar and one that scrolls with the text. The newly introduced title is called the _Inline title_ and it displays the title in a larger font, while also displaying additional information such as the creation and the modification date.
 
 Whenever the title is scrolled past, the fixed title is shown instead.
 

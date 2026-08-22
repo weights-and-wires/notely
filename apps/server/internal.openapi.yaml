@@ -1,12 +1,12 @@
 openapi: 3.1.0
 info:
-  title: Internal Trilium API
+  title: Internal Notely API
   version: 0.99.3
   description: |
-    This is the internal API used by the Trilium Notes client application.
+    This is the internal API used by the Notely client application.
     
-    **Important:** This API is primarily intended for internal use by the Trilium client.
-    For external integrations, please use the [ETAPI (External Trilium API)](https://github.com/TriliumNext/Trilium/blob/main/docs/User%20Guide/User%20Guide/Advanced%20Usage/ETAPI%20(REST%20API).md#etapi-rest-api) instead.
+    **Important:** This API is primarily intended for internal use by the Notely client.
+    For external integrations, please use the [ETAPI (External Notely API)](https://github.com/TriliumNext/Trilium/blob/main/docs/User%20Guide/User%20Guide/Advanced%20Usage/ETAPI%20(REST%20API).md#etapi-rest-api) instead.
     
     ## Authentication
     
@@ -24,7 +24,7 @@ info:
     State-changing operations require CSRF tokens when using session authentication.
     
   contact:
-        name: Trilium Notes Team
+        name: Notely Team
         email: contact@eliandoran.me
         url: https://triliumnotes.org
   license:
@@ -35,7 +35,7 @@ servers:
   - url: http://localhost:8080
     description: Default local server
   - url: https://your-trilium-server.com
-    description: Your Trilium server
+    description: Your Notely server
 
 tags:
   - name: Authentication
@@ -108,7 +108,7 @@ paths:
             Set-Cookie:
               schema:
                 type: string
-                example: trilium.sid=s%3A...
+                example: Notely.sid=s%3A...
         '401':
           description: Invalid credentials or TOTP token
           
@@ -4527,7 +4527,7 @@ components:
     sessionAuth:
       type: apiKey
       in: cookie
-      name: trilium.sid
+      name: Notely.sid
       description: Session cookie obtained from login
       
     tokenAuth:

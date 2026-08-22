@@ -1,5 +1,5 @@
 # Nix flake
-Since TriliumNext 0.94.1, the desktop and server applications can be built using [Nix](https://nixos.org/).
+Since Notely 0.94.1, the desktop and server applications can be built using [Nix](https://nixos.org/).
 
 ## System requirements
 

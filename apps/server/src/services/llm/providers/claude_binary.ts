@@ -64,7 +64,7 @@ async function probeBinary(): Promise<string> {
         })).stdout.trim();
     } catch (err) {
         const detail = err instanceof Error ? err.message : String(err);
-        throw new Error(`Found Claude Code at "${binary}" but it failed to run (${detail}). Ensure it is installed correctly and that you've run \`claude /login\` on the machine running the Trilium server.`);
+        throw new Error(`Found Claude Code at "${binary}" but it failed to run (${detail}). Ensure it is installed correctly and that you've run \`claude /login\` on the machine running the Notely server.`);
     }
 
     getLog().info(`Claude Agent provider: using Claude Code at ${binary} (${version})`);
@@ -85,7 +85,7 @@ function locateBinary(): string {
         return onPath;
     }
 
-    throw new Error("Claude Code CLI not found. Install it (`npm install -g @anthropic-ai/claude-code`) and run `claude /login` on the machine running the Trilium server, or set the TRILIUM_CLAUDE_CODE_PATH environment variable to its location.");
+    throw new Error("Claude Code CLI not found. Install it (`npm install -g @anthropic-ai/claude-code`) and run `claude /login` on the machine running the Notely server, or set the TRILIUM_CLAUDE_CODE_PATH environment variable to its location.");
 }
 
 function findOnPath(binary: string): string | undefined {

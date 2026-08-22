@@ -1,4 +1,4 @@
-# Trilium Notlar
+# Notely Notlar
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes, büyük kişisel bilgi tabanları oluşturmaya odaklanmış, ücretsiz ve
+Notely, büyük kişisel bilgi tabanları oluşturmaya odaklanmış, ücretsiz ve
 açık kaynaklı, çapraz platform hiyerarşik bir not alma uygulamasıdır.
 
 <img src="./app.png" alt="Trilium Screenshot" width="1000">
@@ -41,7 +41,7 @@ edin(https://docs.triliumnotes.org/)**
 Dokümantasyonumuz birden fazla formatta mevcuttur:
 - **Çevrimiçi Dökümantasyon**: Tüm dökümantasyonu görebilmek için
   [docs.triliumnotes.org](https://docs.triliumnotes.org/)'a uğrayın
-- Uygulama İçi Yardım: Trilium içinde F1 tuşuna basarak aynı belgelere doğrudan
+- Uygulama İçi Yardım: Notely içinde F1 tuşuna basarak aynı belgelere doğrudan
   uygulama içerisinden erişebilirsiniz.
 - **Github**: Bu repodaki [Kullanıcı Rehberi] sayfasına yönelin
 

@@ -12,7 +12,7 @@ const [ myState, setMyState ] = useState("Hi");
 
 ## Custom hooks
 
-Trilium comes with a large set of custom hooks for Preact, all of which are also available to custom widgets and <a class="reference-link" href="../../../Note%20Types/Render%20Note.md">Render Note</a>.
+Notely comes with a large set of custom hooks for Preact, all of which are also available to custom widgets and <a class="reference-link" href="../../../Note%20Types/Render%20Note.md">Render Note</a>.
 
 ### `useNoteContext`
 

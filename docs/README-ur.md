@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes ایک مفت اور اوپن سورس، کراس پلیٹ فارم، درجہ بندی پر مبنی نوٹ لینے
+Notely ایک مفت اور اوپن سورس، کراس پلیٹ فارم، درجہ بندی پر مبنی نوٹ لینے
 کی ایپلیکیشن ہے جو بڑے ذاتی علم کے ذخائر بنانے پر توجہ مرکوز کرتی ہے۔
 
 <img src="./app.png" alt="Trilium Screenshot" width="1000">
@@ -41,7 +41,7 @@ Trilium Notes ایک مفت اور اوپن سورس، کراس پلیٹ فار�
 ہماری دستاویزات متعدد فارمیٹس میں دستیاب ہیں:
 - **آن لائن دستاویزات**: [docs.triliumnotes.org](https://docs.triliumnotes.org/)
   پر مکمل دستاویزات براؤز کریں
-- **ایپ کے اندر مدد**: ایپلیکیشن میں براہ راست دستاویزات تک رسائی کے لیے Trilium
+- **ایپ کے اندر مدد**: ایپلیکیشن میں براہ راست دستاویزات تک رسائی کے لیے Notely
   میں `F1` دبائیں
 - **GitHub**: اس ریپوزیٹری میں [یوزر گائیڈ](./User%20Guide/User%20Guide/) کو
   دیکھیں
@@ -51,7 +51,7 @@ Trilium Notes ایک مفت اور اوپن سورس، کراس پلیٹ فار�
 - [انسٹالیشن ہدایات](https://docs.triliumnotes.org/user-guide/setup)
 - [ڈاکر سیٹ
   اپ](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
-- [TriliumNext اپ
+- [Notely اپ
   گریڈ](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [بنیادی تصورات اور
   فیچرز](https://docs.triliumnotes.org/user-guide/concepts/notes)

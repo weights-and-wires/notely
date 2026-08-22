@@ -1,5 +1,5 @@
 # Reverse proxy configuration
-It might be desirable to only expose the share functionality of Trilium to the Internet, and keep the application accessible only within a local network or via VPN.
+It might be desirable to only expose the share functionality of Notely to the Internet, and keep the application accessible only within a local network or via VPN.
 
 To do so, a reverse proxy is required.
 

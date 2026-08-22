@@ -1,7 +1,7 @@
 # Note Revisions
 <figure class="image"><img style="aspect-ratio:2089/1515;" src="2_Note Revisions_image.png" width="2089" height="1515"></figure>
 
-Trilium supports seamless versioning of notes by storing snapshots ("revisions") of notes at regular intervals.
+Notely supports seamless versioning of notes by storing snapshots ("revisions") of notes at regular intervals.
 
 ## Displaying the revisions
 

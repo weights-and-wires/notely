@@ -1,4 +1,4 @@
-<p>This guide will walk you through creating a basic widget inside Trilium.
+<p>This guide will walk you through creating a basic widget inside Notely.
   By following these steps, you'll learn how to build a simple UI element
   that interacts with the user.</p>
 <h3>Step 1: The Basic Widget Structure</h3>
@@ -16,11 +16,11 @@
 module.exports = new MyWidget();</code></pre>
 <p>To implement this widget:</p>
 <ol>
-  <li>Create a new <code spellcheck="false">JS Frontend</code> note in Trilium
+  <li>Create a new <code spellcheck="false">JS Frontend</code> note in Notely
     and paste in the code above.</li>
   <li>Assign the <code spellcheck="false">#widget</code>  <a href="#root/_help_zEY4DaJG4YT5">attribute</a> to
     the <a href="#root/_help_BFs8mudNFgCS">note</a>.</li>
-  <li>Restart Trilium or reload the window.</li>
+  <li>Restart Notely or reload the window.</li>
 </ol>
 <p>To verify that the widget is working, open the developer tools (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd>)
   and run <code spellcheck="false">document.querySelector("#my-widget")</code>.
@@ -41,11 +41,11 @@ class MyWidget extends api.BasicWidget {
 }
 
 module.exports = new MyWidget();</code></pre>
-<p>After making this change, reload Trilium. You should now see a button
+<p>After making this change, reload Notely. You should now see a button
   in the top-left corner of the left pane.</p>
 <h3>Step 3: Styling the Widget</h3>
 <p>To make the button more visually appealing and position it correctly,
-  we'll apply some custom styling. Trilium includes <a href="https://boxicons.com">Box Icons</a>,
+  we'll apply some custom styling. Notely includes <a href="https://boxicons.com">Box Icons</a>,
   which we'll use to replace the button text with an icon. For example the
   <code
   spellcheck="false">bx bxs-magic-wand</code>icon.</p>
@@ -67,7 +67,7 @@ module.exports = new MyWidget();</code></pre>
 }
 
 module.exports = new MyWidget();</code></pre>
-<p>After reloading Trilium, the button should now appear at the bottom left
+<p>After reloading Notely, the button should now appear at the bottom left
   of the left pane, alongside other action buttons.</p>
 <h3>Step 4: Adding User Interaction</h3>
 <p>Let’s make the button interactive by showing a message when it’s clicked.

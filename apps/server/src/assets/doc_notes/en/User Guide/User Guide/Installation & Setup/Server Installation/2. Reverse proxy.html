@@ -1,6 +1,6 @@
-<p>Trilium is typically exposed to the internet behind a <strong>reverse proxy</strong>,
+<p>Notely is typically exposed to the internet behind a <strong>reverse proxy</strong>,
   which handles TLS termination, presents a single public entry point, and
-  (optionally) lets you host multiple instances under one domain. Trilium
+  (optionally) lets you host multiple instances under one domain. Notely
   itself keeps running on plain HTTP on its local port; the proxy sits in
   front of it.</p>
 <p>This section collects provider-specific guides and the configuration that
@@ -17,18 +17,18 @@
 <h2>Applies to every proxy</h2>
 <p>Regardless of the proxy you choose, make sure of the following:</p>
 <ul>
-  <li><strong>Forward the WebSocket upgrade.</strong> Trilium uses a WebSocket
+  <li><strong>Forward the WebSocket upgrade.</strong> Notely uses a WebSocket
     for synchronization and live UI updates. Your proxy must pass the
     <code
     spellcheck="false">Upgrade</code>and <code spellcheck="false">Connection</code> headers through,
       otherwise the client will appear to load but never receive updates.</li>
-  <li><strong>Configure the trusted proxy.</strong> So that Trilium sees the
+  <li><strong>Configure the trusted proxy.</strong> So that Notely sees the
     real client IP (for rate limiting, logging, and secure cookies) rather
     than the proxy's address. See&nbsp;<a class="reference-link" href="#root/_help_LLzSMXACKhUs">Trusted proxy</a>.</li>
   <li><strong>Terminate TLS at the proxy.</strong> See&nbsp;<a class="reference-link"
     href="#root/_help_l2VkvOwUNfZj">HTTPS (TLS)</a>.</li>
 </ul>
-<h2>Putting an authentication proxy in front of Trilium</h2>
+<h2>Putting an authentication proxy in front of Notely</h2>
 <p>Some setups place a <strong>forward-auth / SSO layer</strong> (Authelia,
   Authentik, oauth2-proxy, or an OIDC plugin) at the proxy so that <em>every</em> request
   must pass an interactive login first.</p>
@@ -41,8 +41,8 @@ error: Unexpected token '&lt;', "&lt;!doctype "... is not valid JSON
 </code></pre>
 <p>There are two ways to resolve this:</p>
 <ul>
-  <li><strong>Preferred, use Trilium's built-in authentication.</strong> Don't
-    gate Trilium at the proxy at all. Trilium can authenticate the web interface
+  <li><strong>Preferred, use Notely's built-in authentication.</strong> Don't
+    gate Notely at the proxy at all. Notely can authenticate the web interface
     itself, including via <a href="#root/_help_x1lQNKQBqLcA">OpenID Connect</a>. This
     leaves the sync endpoints free to authenticate the way they're designed
     to.</li>
@@ -60,7 +60,7 @@ error: Unexpected token '&lt;', "&lt;!doctype "... is not valid JSON
   </li>
 </ul>
 <aside class="admonition note">
-  <p>This is safe: Trilium authenticates these endpoints itself. Sync uses
+  <p>This is safe: Notely authenticates these endpoints itself. Sync uses
     a challenge-free HMAC handshake based on a shared secret, and the one-time
     setup seed request is password-protected — so exempting them at the proxy
     does not expose unauthenticated access to your data.</p>

@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes adalah aplikasi pencatatan hierarkis lintas platform yang gratis
+Notely adalah aplikasi pencatatan hierarkis lintas platform yang gratis
 dan open-source dengan fokus pada pembangunan basis pengetahuan pribadi berskala
 besar.
 
@@ -42,7 +42,7 @@ besar.
 Dokumentasi kami tersedia dalam beberapa format:
 - **Dokumentasi Online**: Jelajahi dokumentasi lengkap di
   [docs.triliumnotes.org](https://docs.triliumnotes.org/)
-- **Bantuan Dalam Aplikasi**: Tekan `F1` di dalam Trilium untuk mengakses
+- **Bantuan Dalam Aplikasi**: Tekan `F1` di dalam Notely untuk mengakses
   dokumentasi yang sama langsung di aplikasi
 - **GitHub**: Telusuri [Panduan Pengguna](./User%20Guide/User%20Guide/) di
   repositori ini
@@ -53,7 +53,7 @@ Dokumentasi kami tersedia dalam beberapa format:
 - [Pengaturan
   Docker](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
 - [Upgrade
-  TriliumNext](https://docs.triliumnotes.org/user-guide/setup/upgrading)
+  Notely](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [Konsep dan Fitur
   Dasar](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [Pola Basis Pengetahuan

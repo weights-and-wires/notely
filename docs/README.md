@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran) ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)  
 ![Docker Pulls](https://img.shields.io/docker/pulls/triliumnext/trilium)
@@ -10,7 +10,7 @@
 [Arabic](./README-ar.md) | [Chinese (Simplified Han script)](./README-ZH_CN.md) | [Chinese (Traditional Han script)](./README-ZH_TW.md) | [Czech](./README-cs.md) | [English (United Kingdom)](./README-en_GB.md) | [English](../README.md) | [French](./README-fr.md) | [German](./README-de.md) | [Greek](./README-el.md) | [Indonesian](./README-id.md) | [Irish](./README-ga.md) | [Italian](./README-it.md) | [Japanese](./README-ja.md) | [Korean](./README-ko.md) | [Polish](./README-pl.md) | [Romanian](./README-ro.md) | [Russian](./README-ru.md) | [Spanish](./README-es.md) | [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes is a free and open-source, cross-platform hierarchical note taking application with focus on building large personal knowledge bases.
+Notely is a free and open-source, cross-platform hierarchical note taking application with focus on building large personal knowledge bases.
 
 <img src="./app.png" alt="Trilium Screenshot" width="1000">
 
@@ -24,14 +24,14 @@ Trilium Notes is a free and open-source, cross-platform hierarchical note taking
 
 Our documentation is available in multiple formats:
 - **Online Documentation**: Browse the full documentation at [docs.triliumnotes.org](https://docs.triliumnotes.org/)
-- **In-App Help**: Press `F1` within Trilium to access the same documentation directly in the application
+- **In-App Help**: Press `F1` within Notely to access the same documentation directly in the application
 - **GitHub**: Navigate through the [User Guide](./User%20Guide/User%20Guide/) in this repository
 
 ### Quick Links
 - [Getting Started Guide](https://docs.triliumnotes.org/)
 - [Installation Instructions](https://docs.triliumnotes.org/user-guide/setup)
 - [Docker Setup](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
-- [Upgrading TriliumNext](https://docs.triliumnotes.org/user-guide/setup/upgrading)
+- [Upgrading Notely](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [Basic Concepts and Features](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [Patterns of Personal Knowledge Base](https://docs.triliumnotes.org/user-guide/misc/patterns-of-personal-knowledge)
 
@@ -63,20 +63,20 @@ Our documentation is available in multiple formats:
 * Customizable UI (sidebar buttons, user-defined widgets, ...)
 * [Metrics](https://docs.triliumnotes.org/user-guide/advanced-usage/metrics), along with a Grafana Dashboard.
 
-✨ Check out the following third-party resources/communities for more TriliumNext related goodies:
+✨ Check out the following third-party resources/communities for more Notely related goodies:
 
 - [awesome-trilium](https://github.com/Nriver/awesome-trilium) for 3rd party themes, scripts, plugins and more.
 - [TriliumRocks!](https://trilium.rocks/) for tutorials, guides, and much more.
 
-## ❓Why TriliumNext?
+## ❓Why Notely?
 
-The original Trilium developer ([Zadam](https://github.com/zadam)) has graciously given the Trilium repository to the community project which resides at https://github.com/TriliumNext
+The original Notely developer ([Zadam](https://github.com/zadam)) has graciously given the Notely repository to the community project which resides at https://github.com/TriliumNext
 
-### ⬆️Migrating from Zadam/Trilium?
+### ⬆️Migrating from Zadam/Notely?
 
-There are no special migration steps to migrate from a zadam/Trilium instance to a TriliumNext/Trilium instance. Simply [install TriliumNext/Trilium](#-installation) as usual and it will use your existing database.
+There are no special migration steps to migrate from a zadam/Notely instance to a Notely/Notely instance. Simply [install Notely/Notely](#-installation) as usual and it will use your existing database.
 
-Versions up to and including [v0.90.4](https://github.com/TriliumNext/Trilium/releases/tag/v0.90.4) are compatible with the latest zadam/trilium version of [v0.63.7](https://github.com/zadam/trilium/releases/tag/v0.63.7). Any later versions of TriliumNext/Trilium have their sync versions incremented which prevents direct migration.
+Versions up to and including [v0.90.4](https://github.com/TriliumNext/Trilium/releases/tag/v0.90.4) are compatible with the latest zadam/Notely version of [v0.63.7](https://github.com/zadam/trilium/releases/tag/v0.63.7). Any later versions of Notely/Notely have their sync versions incremented which prevents direct migration.
 
 ## 💬 Discuss with us
 
@@ -101,7 +101,7 @@ If your distribution is listed in the table below, use your distribution's packa
 
 You may also download the binary release for your platform from the [latest release page](https://github.com/TriliumNext/Trilium/releases/latest), unzip the package and run the `trilium` executable.
 
-TriliumNext is also provided as a Flatpak, but not yet published on FlatHub.
+Notely is also provided as a Flatpak, but not yet published on FlatHub.
 
 ### Browser (any OS)
 
@@ -111,7 +111,7 @@ Currently only the latest versions of Chrome & Firefox are supported (and tested
 
 ### Mobile
 
-To use TriliumNext on a mobile device, you can use a mobile web browser to access the mobile interface of a server installation (see below).
+To use Notely on a mobile device, you can use a mobile web browser to access the mobile interface of a server installation (see below).
 
 See issue https://github.com/TriliumNext/Trilium/issues/4962 for more information on mobile app support.
 
@@ -119,29 +119,29 @@ See issue https://github.com/TriliumNext/Trilium/issues/4962 for more informatio
 
 If you prefer a native Android app, you can use [TriliumDroid](https://apt.izzysoft.de/fdroid/index/apk/eu.fliegendewurst.triliumdroid).
 Report bugs and missing features at [their repository](https://github.com/FliegendeWurst/TriliumDroid).
-Note: It is best to disable automatic updates on your server installation (see below) when using TriliumDroid since the sync version must match between Trilium and TriliumDroid.
+Note: It is best to disable automatic updates on your server installation (see below) when using TriliumDroid since the sync version must match between Notely and TriliumDroid.
 
-#### Pocket Trilium
+#### Pocket Notely
 
-If you want a full-featured native Android app, check out [Pocket Trilium](https://github.com/Nriver/pocket-trilium).
-It runs a complete Trilium instance on your phone, supports full offline use, and allows you to sync with your server.
+If you want a full-featured native Android app, check out [Pocket Notely](https://github.com/Nriver/pocket-trilium).
+It runs a complete Notely instance on your phone, supports full offline use, and allows you to sync with your server.
 
 #### Trinote
 
-If you want a native iOS app, you can use [Trinote](https://apps.apple.com/us/app/trinote/id6761228249), an open-source client for your self-hosted Trilium / TriliumNext server.
+If you want a native iOS app, you can use [Trinote](https://apps.apple.com/us/app/trinote/id6761228249), an open-source client for your self-hosted Notely / Notely server.
 It lets you browse and organize your note tree, search for notes on the server, read and edit all note types (text, code, mindmap, spreadsheet, geomap, canvas, etc.), and keeps notes available and editable offline.
 Here's the [repo](https://github.com/StephenArg/Trinote) if you're interested in contributing and here's the [discord](https://discord.com/invite/ghjJG56EUS) server if you have any feedback or suggestions you want to discuss.
 
 ### Server
 
-To install TriliumNext on your own server (including via Docker from [Dockerhub](https://hub.docker.com/r/triliumnext/trilium)) follow [the server installation docs](https://docs.triliumnotes.org/user-guide/setup/server).
+To install Notely on your own server (including via Docker from [Dockerhub](https://hub.docker.com/r/triliumnext/trilium)) follow [the server installation docs](https://docs.triliumnotes.org/user-guide/setup/server).
 
 
 ## 💻 Contribute
 
 ### Translations
 
-If you are a native speaker, help us translate Trilium by heading over to our [Weblate page](https://hosted.weblate.org/engage/trilium/).
+If you are a native speaker, help us translate Notely by heading over to our [Weblate page](https://hosted.weblate.org/engage/trilium/).
 
 Here's the language coverage we have so far:
 

@@ -1,9 +1,9 @@
 # PDFs
 <figure class="image image_resized" style="width:74.34%;"><img style="aspect-ratio:1360/698;" src="PDFs_image.png" width="1360" height="698"></figure>
 
-PDFs file can be uploaded in Trilium, where they will be displayed without the need to download them first.
+PDFs file can be uploaded in Notely, where they will be displayed without the need to download them first.
 
-Since v0.102.0, PDFs will be rendered using Trilium's built-in PDF viewer, which is a customization of [Mozilla's PDF.js viewer](https://mozilla.github.io/pdf.js/) (also built-in in the Mozilla Firefox browser). Versions prior to that render PDFs using the browser's default PDF viewer.
+Since v0.102.0, PDFs will be rendered using Notely's built-in PDF viewer, which is a customization of [Mozilla's PDF.js viewer](https://mozilla.github.io/pdf.js/) (also built-in in the Mozilla Firefox browser). Versions prior to that render PDFs using the browser's default PDF viewer.
 
 ## Features
 
@@ -17,7 +17,7 @@ Since v0.102.0, PDFs will be rendered using Trilium's built-in PDF viewer, which
 
 ## Storing last position and settings
 
-For every PDF, Trilium will remember the following information:
+For every PDF, Notely will remember the following information:
 
 *   The current page.
 *   The scroll position, within the current page.

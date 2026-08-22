@@ -50,7 +50,7 @@ function exportToOpml(taskContext: TaskContext<"export">, branch: BBranch, res: 
     res.write(`<?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
 <head>
-<title>Trilium export</title>
+<title>Notely export</title>
 </head>
 <body>`);
 

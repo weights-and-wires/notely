@@ -1,11 +1,11 @@
 <aside class="admonition note">
-  <p>This article is a description of the original author of Trilium (zadam)
+  <p>This article is a description of the original author of Notely (zadam)
     in regards with his own knowledge base.</p>
 </aside>
 <p>This page contains description of some of the patterns I use to organize
   information in my knowledge base. This is meant to give some inspiration
   of how one might create and structure their knowledge base in general and
-  also specifically in Trilium Notes. It also gives some background and justification
+  also specifically in Notely. It also gives some background and justification
   for some of the design decisions.</p>
 <h2>Meta patterns</h2>
 <p>Just to be clear, meta patterns are "patterns of patterns", i.e. patterns
@@ -23,7 +23,7 @@
   how large amount of data are we talking about.</p>
 <p>My rule of thumb for estimation of size of personal knowledge base is
   that you can reasonably produce around 10 notes a day, which is 3650 in
-  a year. I plan to use my knowledge base long term (with or without Trilium
+  a year. I plan to use my knowledge base long term (with or without Notely
   Notes), probably decades so you can easily get to number 100 000 or even
   more. Right now, my personal knowledge base has around 10 000 notes.</p>
 <p>100 000 is a number to which most note taking software doesn't scale well
@@ -62,7 +62,7 @@
   an annoying problem that in order to split out the Highlights and Review
   into sub-notes I would also have to convert <em>The Fellowship of the Ring</em> from
   text file into directory and split out all sections of the note into sub-notes.
-  Instead, Trilium treats all notes as equal - both leaf notes and inner
+  Instead, Notely treats all notes as equal - both leaf notes and inner
   notes can have both text content which allows me to sub-structure only
   content which needs it.</p>
 <h3>Sorting notes into multiple places in the hierarchy</h3>
@@ -72,7 +72,7 @@
   does it belong to "OS / Linux" or "Programming / Scripting languages"?
   This is actually a false dichotomy forced down by the limits of the basic
   tree hierarchy - the answer is <em>of course it belongs to both</em>. This
-  is the reason why Trilium doesn't use standard tree structure (which requires
+  is the reason why Notely doesn't use standard tree structure (which requires
   every note to have exactly one parent), but an extension which allows every
   note to have several parents, thus effectively allowing it to appear in
   multiple places in the hierarchy. For lack of better term I call this "cloning".
@@ -83,11 +83,11 @@
   an important difference that it is possible to hard link (clone) a directory
   (inner note).</p>
 <h3>Protected notes</h3>
-<p>I have Trilium Notes opened non-stop. Sometimes I forget to lock my computer
+<p>I have Notely opened non-stop. Sometimes I forget to lock my computer
   when going to the bathroom. Sometimes I let a friend or family member to
   use my computer for a minute without supervision. They might click on (running)
-  Trilium and inadvertently see a note I really don't want anybody to see
-  (personal diary, credentials). To cover this, Trilium has a concept of
+  Notely and inadvertently see a note I really don't want anybody to see
+  (personal diary, credentials). To cover this, Notely has a concept of
   "<a href="https://github.com/zadam/trilium/wiki/Protected-notes">protected notes</a>"
   - protected note is encrypted and on top of that requires the user to enter
   the password every 5 minutes which guarantees that such note can be in
@@ -98,7 +98,7 @@
 <p>Notes can lose relevancy with time - let's say I switch jobs - all the
   notes specific to the former employer immediately lose most of its import.
   This doesn't mean I want to delete these notes though - typically I just
-  want them to somehow deprioritize - in Trilium I would do that by assigning
+  want them to somehow deprioritize - in Notely I would do that by assigning
   an <a href="https://github.com/zadam/trilium/wiki/Attribute-inheritance">inherited</a> 
   <a
   href="https://github.com/zadam/trilium/wiki/Attributes">label</a> <code spellcheck="false">archived</code> to the company root note.
@@ -153,7 +153,7 @@
   the default location to create a note when I don't have time to think about
   proper placement. At the end of the day I typically review my day note
   and clone the notes into suitable locations in the hierarchy.</p>
-<p>Trilium has this pattern partly built-in - Trilium understands and can
+<p>Notely has this pattern partly built-in - Notely understands and can
   create this Year / Month / Day structure semi-automatically (on API call).
   There's also global keyboard shortcut <code spellcheck="false">CTRL-ALT-P</code> which
   will create new note in the day note.</p>
@@ -191,13 +191,13 @@
   places is pretty fundamental.</p>
 <h3>Projects</h3>
 <p><em>Project</em> is pretty self-explanatory, for me specifically it also
-  means being long term (years) - an example of a project might be Trilium
+  means being long term (years) - an example of a project might be Notely
   Notes or university studies. Given their longevity, projects can be large
   and deep, but their structure is very domain specific, and I don't see
   any common patterns. What's pretty clear is they are often widely interconnected
   with other parts of the knowledge base - e.g. university credentials are
-  cloned from "Credentials / University" top level notes and Trilium related
-  blog posts are in "Blog / [Name of the blog] / Trilium".</p>
+  cloned from "Credentials / University" top level notes and Notely related
+  blog posts are in "Blog / [Name of the blog] / Notely".</p>
 <p><em>Epics</em> are the same thing as projects, but differ in scope - they
   are typically several months long and as such are usually placed into a
   year note (e.g. <em>2018 / Epics</em>). Epics are often of work nature (also

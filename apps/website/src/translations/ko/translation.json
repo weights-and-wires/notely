@@ -4,8 +4,8 @@
         "dockerhub": "Docker Hub",
         "get_started": "시작하기",
         "title": "생각을 정리하고 나만의 지식 기반을 구축하세요.",
-        "subtitle": "Trilium은 노트를 작성하고 개인 지식 기반을 체계적으로 관리할 수 있는 오픈 소스 솔루션입니다. 데스크톱에서 단독으로 사용하거나 자체 호스팅 서버와 동기화하여 어디서나 노트를 이용하세요.",
-        "screenshot_alt": "Trilium Notes 데스크톱 애플리케이션의 스크린샷",
+        "subtitle": "Notely은 노트를 작성하고 개인 지식 기반을 체계적으로 관리할 수 있는 오픈 소스 솔루션입니다. 데스크톱에서 단독으로 사용하거나 자체 호스팅 서버와 동기화하여 어디서나 노트를 이용하세요.",
+        "screenshot_alt": "Notely 데스크톱 애플리케이션의 스크린샷",
         "tagline_license": "AGPL-3.0 라이선스",
         "tagline_no_account": "계정 불필요",
         "tagline_cross_platform": "오프라인에서도 작동"
@@ -33,7 +33,7 @@
         "hoisting_title": "작업 공간과 루트 보기",
         "hoisting_description": "개인 노트와 업무 노트를 작업 공간별로 묶어 손쉽게 구분하세요. 노트 트리에는 선택한 작업 공간의 노트만 집중해서 표시할 수 있습니다.",
         "note_structure_title": "노트 구조",
-        "screenshot_alt": "Trilium의 계층형 노트 트리"
+        "screenshot_alt": "Notely의 계층형 노트 트리"
     },
     "productivity_benefits": {
         "title": "일상을 더 강력하게 만드는 기능",
@@ -46,7 +46,7 @@
         "search_title": "검색과 빠른 탐색",
         "search_content": "퍼지 검색으로 제목이 일치하는 노트나 명령으로 바로 이동하고, 전체 텍스트 검색으로 모든 노트를 찾아보세요. OCR을 이용하면 이미지와 PDF 안의 텍스트도 검색할 수 있습니다.",
         "web_clipper_title": "웹 클리퍼",
-        "web_clipper_content": "웹 클리퍼 브라우저 확장 프로그램으로 웹 페이지나 스크린샷을 캡처하여 Trilium에 바로 저장하세요.",
+        "web_clipper_content": "웹 클리퍼 브라우저 확장 프로그램으로 웹 페이지나 스크린샷을 캡처하여 Notely에 바로 저장하세요.",
         "auth_title": "안전한 로그인",
         "auth_content": "다단계 인증(TOTP)으로 서버 로그인을 보호하거나 OpenID Connect를 통해 ID 공급자 계정으로 로그인하세요.",
         "templates_title": "템플릿",
@@ -54,7 +54,7 @@
         "share_title": "웹에서 노트 공유",
         "share_content": "서버가 있다면 노트의 하위 트리를 공개 읽기 전용 웹사이트로 게시할 수 있습니다. 누구나 계정 없이 열람할 수 있습니다.",
         "api_title": "REST API",
-        "api_content": "Trilium에 내장된 REST API를 통해 HTTP로 노트를 읽고 만들고 업데이트하세요. 자동화와 서드 파티 연동에 유용합니다."
+        "api_content": "Notely에 내장된 REST API를 통해 HTTP로 노트를 읽고 만들고 업데이트하세요. 자동화와 서드 파티 연동에 유용합니다."
     },
     "header": {
         "get-started": "시작하기",
@@ -65,7 +65,7 @@
     },
     "support_us": {
         "financial_donations_title": "후원금",
-        "financial_donations_description": "Trilium은 <Link>수백시간의 작업</Link>을 통해 구축되고 유지관리됩니다. 여러분의 지원은 Trilium을 오픈소스로 유지하고, 기능을 개선하고, 호스팅 등의 비용을 충당합니다.",
+        "financial_donations_description": "Notely은 <Link>수백시간의 작업</Link>을 통해 구축되고 유지관리됩니다. 여러분의 지원은 Notely을 오픈소스로 유지하고, 기능을 개선하고, 호스팅 등의 비용을 충당합니다.",
         "financial_donations_cta": "애플리케이션의 주요 개발자 (<Link>eliandoran</Link>)을 다음 방법으로 후원하는 것을 고려해 주십시오.",
         "github_sponsors": "GitHub Sponsors",
         "paypal": "PayPal",
@@ -78,7 +78,7 @@
         "way_community": "<Discussions>GitHub Discussions</Discussions>나 <Matrix>Matrix</Matrix>에서 커뮤니티와 소통하세요.",
         "way_reports": "<Link>GitHub issues</Link>를 통해 버그를 제보하세요.",
         "way_document": "문서에서 부족한 부분을 알려 주거나 가이드, FAQ, 튜토리얼을 작성하여 문서 개선에 참여해 주세요.",
-        "way_market": "Trilium Notes를 친구에게 소개하거나 블로그와 소셜 미디어에 공유해 주세요."
+        "way_market": "Notely를 친구에게 소개하거나 블로그와 소셜 미디어에 공유해 주세요."
     },
     "404": {
         "title": "404: 페이지를 찾을 수 없음",
@@ -122,7 +122,7 @@
         "mermaid_description": "Mermaid 구문으로 순서도, 클래스 및 시퀀스 다이어그램, 간트 차트 등 다양한 다이어그램을 만드세요.",
         "mindmap_title": "마인드맵",
         "mindmap_description": "생각을 시각적으로 정리하거나 새로운 아이디어를 자유롭게 구상하세요.",
-        "subtitle": "모든 콘텐츠가 하나의 문단에 꼭 맞지는 않습니다. Trilium은 서식 있는 텍스트와 코드부터 스프레드시트, 다이어그램, 마인드맵까지 다양한 노트 유형을 제공합니다. 아이디어마다 가장 알맞은 형식을 선택하고 노트 트리 안에서 자유롭게 조합하세요.",
+        "subtitle": "모든 콘텐츠가 하나의 문단에 꼭 맞지는 않습니다. Notely은 서식 있는 텍스트와 코드부터 스프레드시트, 다이어그램, 마인드맵까지 다양한 노트 유형을 제공합니다. 아이디어마다 가장 알맞은 형식을 선택하고 노트 트리 안에서 자유롭게 조합하세요.",
         "others_label": "그 밖의 유형",
         "notemap_title": "노트 지도",
         "relationmap_title": "관계 지도",
@@ -154,22 +154,22 @@
         "mobile_question": "모바일 앱이 있나요?",
         "mobile_answer": "현재 공식 모바일 앱은 없습니다. 서버 인스턴스가 있다면 웹 브라우저로 접속하거나 PWA로 설치할 수 있습니다. Android에서는 데스크톱 클라이언트처럼 오프라인에서도 작동하는 비공식 앱 TriliumDroid를 이용할 수 있습니다.",
         "database_question": "어디에 데이터가 저장되나요?",
-        "server_question": "Trilium을 사용하는 데 서버가 필요한가요?",
+        "server_question": "Notely을 사용하는 데 서버가 필요한가요?",
         "title": "자주 묻는 질문",
-        "database_answer": "모든 노트는 애플리케이션 폴더의 SQLite 데이터베이스에 저장됩니다. Trilium이 일반 텍스트 파일 대신 데이터베이스를 사용하는 이유는 성능과 기능 때문입니다. 예를 들어 같은 노트를 트리의 여러 위치에 배치하는 기능은 데이터베이스 없이 구현하기가 훨씬 어렵습니다. 애플리케이션 폴더의 위치는 ‘정보’ 창에서 확인할 수 있습니다.",
+        "database_answer": "모든 노트는 애플리케이션 폴더의 SQLite 데이터베이스에 저장됩니다. Notely이 일반 텍스트 파일 대신 데이터베이스를 사용하는 이유는 성능과 기능 때문입니다. 예를 들어 같은 노트를 트리의 여러 위치에 배치하는 기능은 데이터베이스 없이 구현하기가 훨씬 어렵습니다. 애플리케이션 폴더의 위치는 ‘정보’ 창에서 확인할 수 있습니다.",
         "server_answer": "아니요. 서버는 웹 브라우저를 통한 접속을 제공하고 여러 기기 사이의 동기화를 관리합니다. 시작할 때는 데스크톱 애플리케이션을 다운로드하여 사용하기만 하면 됩니다.",
         "scaling_question": "노트가 많아도 원활하게 작동하나요?",
-        "scaling_answer": "사용 방식에 따라 다르지만 최소 10만 개의 노트를 문제없이 처리할 수 있습니다. Trilium은 NextCloud 같은 파일 저장소보다 지식 기반 애플리케이션에 가깝습니다. 따라서 파일당 1GB 정도의 대용량 파일을 많이 업로드하면 동기화가 실패할 수 있습니다.",
+        "scaling_answer": "사용 방식에 따라 다르지만 최소 10만 개의 노트를 문제없이 처리할 수 있습니다. Notely은 NextCloud 같은 파일 저장소보다 지식 기반 애플리케이션에 가깝습니다. 따라서 파일당 1GB 정도의 대용량 파일을 많이 업로드하면 동기화가 실패할 수 있습니다.",
         "network_share_question": "내 데이터베이스를 네트워크 드라이브로 공유할 수 있나요?",
         "network_share_answer": "아니요, 일반적으로 SQLite 데이터베이스를 네트워크 드라이브로 공유하는 것은 좋지 않습니다. 경우에 따라 작동할 수도 있지만, 네트워크를 통한 파일 잠금이 완벽하지 않아 데이터베이스가 손상될 가능성이 있습니다.",
         "security_question": "내 데이터는 어떻게 보호되나요?",
         "security_answer": "기본적으로 노트는 암호화되지 않으며 데이터베이스에서 직접 읽을 수 있습니다. 노트를 암호화 대상으로 지정하면 AES-128-CBC 방식으로 암호화됩니다.",
-        "free_question": "Trilium은 무료인가요?",
-        "free_answer": "네, 완전히 무료입니다. Trilium은 AGPL-3.0 라이선스로 제공되는 무료 오픈 소스 소프트웨어이며 유료 요금제, 계정, 유료 기능 제한이 없습니다. 자유롭게 사용하고 자체 호스팅하며 원하는 대로 수정할 수 있습니다.",
+        "free_question": "Notely은 무료인가요?",
+        "free_answer": "네, 완전히 무료입니다. Notely은 AGPL-3.0 라이선스로 제공되는 무료 오픈 소스 소프트웨어이며 유료 요금제, 계정, 유료 기능 제한이 없습니다. 자유롭게 사용하고 자체 호스팅하며 원하는 대로 수정할 수 있습니다.",
         "cloud_question": "호스팅 또는 클라우드 버전이 있나요?",
-        "cloud_answer": "아직 공식 서비스는 없지만 향후 제공을 검토하고 있습니다. 현재 Trilium은 데스크톱 앱을 실행하거나 서버를 직접 운영하는 자체 호스팅 방식입니다. 서버를 직접 관리하고 싶지 않다면 <0>PikaPods</0> 같은 서드 파티 공급자의 관리형 Trilium 호스팅을 이용할 수 있습니다.",
+        "cloud_answer": "아직 공식 서비스는 없지만 향후 제공을 검토하고 있습니다. 현재 Notely은 데스크톱 앱을 실행하거나 서버를 직접 운영하는 자체 호스팅 방식입니다. 서버를 직접 관리하고 싶지 않다면 <0>PikaPods</0> 같은 서드 파티 공급자의 관리형 Notely 호스팅을 이용할 수 있습니다.",
         "collaboration_question": "여러 사람이 같은 노트에서 공동 작업할 수 있나요?",
-        "collaboration_answer": "Trilium은 단일 사용자용 애플리케이션으로 설계되었습니다. 자신의 모든 기기에서 노트를 동기화하고, 다른 사람이 볼 수 있도록 읽기 전용 노트를 웹에 게시할 수는 있지만, 같은 노트를 여러 사용자가 실시간으로 편집하는 기능은 지원하지 않습니다.",
+        "collaboration_answer": "Notely은 단일 사용자용 애플리케이션으로 설계되었습니다. 자신의 모든 기기에서 노트를 동기화하고, 다른 사람이 볼 수 있도록 읽기 전용 노트를 웹에 게시할 수는 있지만, 같은 노트를 여러 사용자가 실시간으로 편집하는 기능은 지원하지 않습니다.",
         "more_questions": "더 궁금한 점이 있나요? <0>커뮤니티에 질문하기</0>"
     },
     "final_cta": {
@@ -208,14 +208,14 @@
     },
     "download_helper_server_linux": {
         "title": "Linux에서 자체 호스팅",
-        "description": "Trilium Notes를 자체 서버 또는 VPS에 배포하세요. 대부분의 배포판과 호환됩니다.",
+        "description": "Notely를 자체 서버 또는 VPS에 배포하세요. 대부분의 배포판과 호환됩니다.",
         "download_tar_x64": "x64 (.tar.xz)",
         "download_tar_arm64": "ARM (.tar.xz)",
         "download_nixos": "NixOS 모듈"
     },
     "download_helper_server_hosted": {
         "title": "유료 호스팅",
-        "description": "간편한 접속과 관리를 위해 유료 서비스 PikaPods에서 Trilium Notes를 호스팅할 수 있습니다. PikaPods는 Trilium 팀과 직접 제휴한 서비스가 아닙니다.",
+        "description": "간편한 접속과 관리를 위해 유료 서비스 PikaPods에서 Notely를 호스팅할 수 있습니다. PikaPods는 Notely 팀과 직접 제휴한 서비스가 아닙니다.",
         "download_pikapod": "PikaPods에서 설정하기"
     },
     "resources": {
@@ -262,21 +262,21 @@
     "ai_integration": {
         "title": "원하는 방식으로 활용하는 AI",
         "subtitle": "AI 기능의 사용 여부와 방식은 전적으로 선택할 수 있습니다. 기본적으로 비활성화되어 있으며, 직접 활성화하고 사용할 공급자를 연결하기 전에는 노트가 어디에도 전송되지 않습니다.",
-        "screenshot_alt": "내장 도구를 통해 사용자를 대신해 노트를 만드는 Trilium AI 채팅",
+        "screenshot_alt": "내장 도구를 통해 사용자를 대신해 노트를 만드는 Notely AI 채팅",
         "chat_title": "노트와 대화하기",
         "chat_description": "자신의 노트 내용을 활용할 수 있는 기본 제공 채팅에서 질문하고 아이디어를 구상할 수 있습니다.",
         "tools_title": "노트와 함께 작업하는 AI",
         "tools_description": "내장 도구를 활용해 AI 어시스턴트가 사용자를 대신하여 노트를 검색하고 생성하고 업데이트합니다.",
         "providers_title": "직접 선택한 공급자와 API 키",
-        "providers_description": "내 API 키로 OpenAI, Anthropic 또는 Google을 연결하거나 자체 호스팅 OpenAI 호환 모델을 Trilium에 연결하세요. MCP를 통해 외부 AI 어시스턴트가 노트에 접근하도록 설정할 수도 있습니다.",
+        "providers_description": "내 API 키로 OpenAI, Anthropic 또는 Google을 연결하거나 자체 호스팅 OpenAI 호환 모델을 Notely에 연결하세요. MCP를 통해 외부 AI 어시스턴트가 노트에 접근하도록 설정할 수도 있습니다.",
         "learn_more": "더 알아보기"
     },
     "scripting": {
         "title": "상상한 기능을 스크립트로 구현하세요",
-        "subtitle": "Trilium은 단순한 노트 저장소를 넘어 프로그래밍 가능한 공간입니다. 앱이나 서버에서 실행되는 JavaScript를 작성하고, 나만의 인터페이스를 만들고, 한 줄의 간단한 수정부터 완전한 사용자 지정 앱까지 작업 흐름을 자동화하세요.",
-        "screenshot_alt": "스크립트로 만든 대화형 아날로그 시계를 표시하는 Trilium 렌더링 노트",
+        "subtitle": "Notely은 단순한 노트 저장소를 넘어 프로그래밍 가능한 공간입니다. 앱이나 서버에서 실행되는 JavaScript를 작성하고, 나만의 인터페이스를 만들고, 한 줄의 간단한 수정부터 완전한 사용자 지정 앱까지 작업 흐름을 자동화하세요.",
+        "screenshot_alt": "스크립트로 만든 대화형 아날로그 시계를 표시하는 Notely 렌더링 노트",
         "widgets_title": "사용자 지정 위젯",
-        "widgets_description": "프런트엔드 JavaScript로 Trilium 인터페이스에 나만의 버튼, 패널, 실행 메뉴 위젯을 추가하세요.",
+        "widgets_description": "프런트엔드 JavaScript로 Notely 인터페이스에 나만의 버튼, 패널, 실행 메뉴 위젯을 추가하세요.",
         "backend_title": "백엔드 스크립트와 이벤트",
         "backend_description": "서버 측 스크립트를 일정에 따라 실행하거나 노트 생성 및 변경 같은 이벤트에 반응하여 실행하세요.",
         "render_title": "렌더링 노트",

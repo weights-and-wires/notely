@@ -1,5 +1,5 @@
 # Split View
-In Trilium, is possible to work with two or more notes side-by-side.
+In Notely, is possible to work with two or more notes side-by-side.
 
 <figure class="image image-style-align-center"><img style="aspect-ratio:1398/1015;" src="Split View_2_Split View_image.png" width="1398" height="1015"></figure>
 

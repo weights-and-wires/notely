@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![Urraitheoirí GitHub](https://img.shields.io/github/sponsors/eliandoran)
 ![Pátrúin LiberaPay](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -22,7 +22,7 @@ aistriúcháin](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https:
 <!-- translate:on -->
 
 Is feidhmchlár saor in aisce agus foinse oscailte, tras-ardán, ordlathach é
-Trilium Notes chun nótaí a thógáil le fócas ar bhunachair mhóra eolais
+Notely chun nótaí a thógáil le fócas ar bhunachair mhóra eolais
 phearsanta a thógáil.
 
 <img src="./app.png" alt="Trilium Screenshot" width="1000">
@@ -42,7 +42,7 @@ phearsanta a thógáil.
 Tá ár ndoiciméadacht ar fáil i bhformáidí éagsúla:
 - **Doiciméadacht Ar Líne**: Brabhsáil an doiciméadacht iomlán ag
   [docs.triliumnotes.org](https://docs.triliumnotes.org/)
-- **Cabhair san Aip**: Brúigh `F1` laistigh de Trilium chun rochtain a fháil ar
+- **Cabhair san Aip**: Brúigh `F1` laistigh de Notely chun rochtain a fháil ar
   an doiciméadacht chéanna go díreach san fheidhmchlár
 - **GitHub**: Nascleanúint tríd an [Treoir
   Úsáideora](./User%20Guide/User%20Guide/) sa stórlann seo
@@ -53,7 +53,7 @@ Tá ár ndoiciméadacht ar fáil i bhformáidí éagsúla:
 - [Socrú
   Docker](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
 - [Uasghrádú
-  TriliumNext](https://docs.triliumnotes.org/user-guide/setup/upgrading)
+  Notely](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [Coincheapa agus Gnéithe
   Bunúsacha](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [Patrúin de Bhunachar Eolais

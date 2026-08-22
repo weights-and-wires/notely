@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![Спонсоры GitHub](https://img.shields.io/github/sponsors/eliandoran) ![Спонсоры
 LiberaPay](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ LiberaPay](https://img.shields.io/liberapay/patrons/ElianDoran)\
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes – это приложение для заметок с иерархической структурой,
+Notely – это приложение для заметок с иерархической структурой,
 ориентированное на создание больших персональных баз знаний.
 
 <img src="./app.png" alt="Trilium Screenshot" width="1000">
@@ -41,7 +41,7 @@ Trilium Notes – это приложение для заметок с иера�
 Документация доступна в нескольких форматах:
 - **Онлайн Документация**: Полная документация доступна по адресу:
   [docs.triliumnotes.org](https://docs.triliumnotes.org/)
-- **Справка в приложении**: Нажмите`F1` в Trilium для доступа к этой
+- **Справка в приложении**: Нажмите`F1` в Notely для доступа к этой
   документации прямо в приложении
 - **GitHub**: Ознакомьтесь с [Руководством
   пользователя](./User%20Guide/User%20Guide/) в этом репозитории
@@ -52,7 +52,7 @@ Trilium Notes – это приложение для заметок с иера�
 - [Установка
   Docker](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
 - [Обновление
-  TriliumNext](https://docs.triliumnotes.org/user-guide/setup/upgrading)
+  Notely](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [Основные идеи и
   возможности](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [Шаблоны Персональный Базы

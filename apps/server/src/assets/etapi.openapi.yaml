@@ -2,9 +2,9 @@ openapi: "3.0.3"
 info:
     version: 1.0.0
     title: ETAPI
-    description: External Trilium API
+    description: External Notely API
     contact:
-        name: Trilium Notes Team
+        name: Notely Team
         email: contact@eliandoran.me
         url: https://triliumnotes.org
     license:
@@ -933,7 +933,7 @@ paths:
                             properties:
                                 password:
                                     type: string
-                                    description: user's password used to e.g. login to Trilium server and/or protect notes
+                                    description: user's password used to e.g. login to Notely server and/or protect notes
             responses:
                 "201":
                     description: auth token
@@ -967,7 +967,7 @@ paths:
                                 $ref: "#/components/schemas/Error"
     /app-info:
         get:
-            description: returns information about the running Trilium instance
+            description: returns information about the running Notely instance
             operationId: getAppInfo
             responses:
                 "200":
@@ -1012,9 +1012,9 @@ components:
             type: http
             scheme: basic
             description: >
-                Basic Auth where username is arbitrary string (e.g. "trilium", not checked),
+                Basic Auth where username is arbitrary string (e.g. "Notely", not checked),
                 username is the ETAPI token.
-                To emphasize, do not use Trilium password here (won't work), only the generated
+                To emphasize, do not use Notely password here (won't work), only the generated
                 ETAPI token (from Options -> ETAPI)
     schemas:
         CreateNoteDef:
@@ -1284,7 +1284,7 @@ components:
             properties:
                 appVersion:
                     type: string
-                    description: Trilium version
+                    description: Notely version
                     example: 0.50.2
                 dbVersion:
                     type: integer
@@ -1307,11 +1307,11 @@ components:
                     example: 23daaa2387a0655685377f0a541d154aeec2aae8
                 dataDirectory:
                     type: string
-                    description: data directory where Trilium stores files
+                    description: data directory where Notely stores files
                     example: /home/user/data
                 clipperProtocolVersion:
                     type: string
-                    description: version of the supported Trilium Web Clipper protocol
+                    description: version of the supported Notely Web Clipper protocol
                     example: 1.0
                 utcDateTime:
                     type: string

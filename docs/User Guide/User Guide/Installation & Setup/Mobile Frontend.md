@@ -1,7 +1,7 @@
 # Mobile Frontend
 <figure class="image image_resized image-style-align-right" style="width:33.52%;"><img style="aspect-ratio:1242/2688;" src="Mobile Frontend_IMG_1765.PNG" width="1242" height="2688"></figure>
 
-Trilium has a mobile web frontend which is optimized for touch based devices - smartphones and tablets. It is activated automatically during login process based on browser detection.
+Notely has a mobile web frontend which is optimized for touch based devices - smartphones and tablets. It is activated automatically during login process based on browser detection.
 
 Mobile frontend is limited in features compared to the full desktop version. See below for more details on this.
 

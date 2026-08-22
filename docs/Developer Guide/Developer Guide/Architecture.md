@@ -1,5 +1,5 @@
 # Architecture
-Trilium Notes is a hierarchical note-taking application built as a TypeScript monorepo. It supports multiple deployment modes (desktop, server, mobile web) and features advanced capabilities including synchronization, scripting, encryption, and rich content editing.
+Notely is a hierarchical note-taking application built as a TypeScript monorepo. It supports multiple deployment modes (desktop, server, mobile web) and features advanced capabilities including synchronization, scripting, encryption, and rich content editing.
 
 ### Key Characteristics
 

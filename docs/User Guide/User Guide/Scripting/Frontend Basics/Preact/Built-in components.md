@@ -1,7 +1,7 @@
 # Built-in components
 <figure class="image image_resized" style="width:54.58%;"><img style="aspect-ratio:896/712;" src="Built-in components_image.png" width="896" height="712"><figcaption>A partial screenshot from the Widget showcase example (see below).</figcaption></figure>
 
-Trilium comes with its own set of Preact components, some of which are also available to <a class="reference-link" href="../Custom%20Widgets.md">Custom Widgets</a> and <a class="reference-link" href="../../../Note%20Types/Render%20Note.md">Render Note</a>.
+Notely comes with its own set of Preact components, some of which are also available to <a class="reference-link" href="../Custom%20Widgets.md">Custom Widgets</a> and <a class="reference-link" href="../../../Note%20Types/Render%20Note.md">Render Note</a>.
 
 To use these components, simply import them from `trilium:preact`:
 

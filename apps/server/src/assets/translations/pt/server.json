@@ -165,7 +165,7 @@
   },
   "login": {
     "title": "Login",
-    "heading": "Trilium login",
+    "heading": "Notely login",
     "incorrect-totp": "O código TOTP está incorreto. Por favor, tente novamente.",
     "incorrect-password": "Palavra-passe incorreta. Tente novamente.",
     "password": "Palavra-passe",
@@ -176,7 +176,7 @@
   "set_password": {
     "title": "Definir palavra-passe",
     "heading": "Definir palavra-passe",
-    "description": "Antes de começar a usar o Trilium web, precisa definir uma palavra-passe. Usará esta palavra-passe para fazer login.",
+    "description": "Antes de começar a usar o Notely web, precisa definir uma palavra-passe. Usará esta palavra-passe para fazer login.",
     "password": "Palavra-passe",
     "password-confirmation": "Confirmar Palavra-passe",
     "button": "Definir palavra-passe"
@@ -293,8 +293,8 @@
     "unable-to-save-message": "O ficheiro selecionado não pôde ser gravado. Tente novamente ou selecione outro destino."
   },
   "tray": {
-    "tooltip": "Trilium Notes",
-    "close": "Sair do Trilium",
+    "tooltip": "Notely",
+    "close": "Sair do Notely",
     "recents": "Notas recentes",
     "bookmarks": "Favoritos",
     "today": "Abrir a nota do diário de hoje",
@@ -305,7 +305,7 @@
   "migration": {
     "old_version": "A migração direta da sua versão atual não é suportada. Por favor, atualize primeiro para a versão mais recente v0.60.4 e somente depois para esta versão.",
     "error_message": "Erro durante a migração para a versão {{version}}: {{stack}}",
-    "wrong_db_version": "A versão da base de dados ({{version}}) é mais recente do que a esperada pela aplicação ({{targetVersion}}), o que significa que ele foi criado por uma versão mais nova e incompatível do Trilium. Atualize para a versão mais recente do Trilium para resolver este problema."
+    "wrong_db_version": "A versão da base de dados ({{version}}) é mais recente do que a esperada pela aplicação ({{targetVersion}}), o que significa que ele foi criado por uma versão mais nova e incompatível do Notely. Atualize para a versão mais recente do Notely para resolver este problema."
   },
   "modals": {
     "error_title": "Erro"
@@ -344,6 +344,6 @@
   },
   "sql_init": {
     "db_not_initialized_desktop": "BD não inicializada, siga as instruções no ecrã.",
-    "db_not_initialized_server": "BD não inicializada, visite a página de configuração - http://[anfitrião-do-servidor]:{{port}} para ver instruções sobre como inicializar o Trilium."
+    "db_not_initialized_server": "BD não inicializada, visite a página de configuração - http://[anfitrião-do-servidor]:{{port}} para ver instruções sobre como inicializar o Notely."
   }
 }

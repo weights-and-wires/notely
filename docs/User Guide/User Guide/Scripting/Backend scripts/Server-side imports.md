@@ -1,5 +1,5 @@
 # Server-side imports
-Older versions of Trilium Notes allowed the use of Common.js module imports inside backend scripts, such as:
+Older versions of Notely allowed the use of Common.js module imports inside backend scripts, such as:
 
 ```
 const isBetween = require('dayjs/plugin/isBetween')

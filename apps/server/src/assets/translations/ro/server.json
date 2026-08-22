@@ -73,21 +73,21 @@
   },
   "login": {
     "button": "Autentifică",
-    "heading": "Autentificare în Trilium",
+    "heading": "Autentificare în Notely",
     "incorrect-password": "Parola nu este corectă. Încercați din nou.",
     "password": "Parolă",
     "remember-me": "Ține-mă minte",
     "title": "Autentificare",
     "incorrect-totp": "TOTP-ul este incorect. Încercați din nou.",
     "sign_in_with_sso": "Autentificare cu {{ ssoIssuerName }}",
-    "sso-wrong-account": "Acest cont nu este cel asociat acestei instanțe Trilium. Autentificați-vă cu contul asociat.",
+    "sso-wrong-account": "Acest cont nu este cel asociat acestei instanțe Notely. Autentificați-vă cu contul asociat.",
     "sso-not-enrolled": "Autentificarea unică nu este încă configurată. Autentificați-vă mai întâi cu parola, apoi asociați-vă contul din setări."
   },
   "set_password": {
     "title": "Setare parolă",
     "heading": "Setare parolă",
     "button": "Setează parola",
-    "description": "Înainte de a putea utiliza Trilium din navigator, trebuie mai întâi setată o parolă. Ulterior această parolă va fi folosită la autentificare.",
+    "description": "Înainte de a putea utiliza Notely din navigator, trebuie mai întâi setată o parolă. Ulterior această parolă va fi folosită la autentificare.",
     "password": "Parolă",
     "password-confirmation": "Confirmarea parolei"
   },
@@ -228,18 +228,18 @@
   },
   "tray": {
     "bookmarks": "Semne de carte",
-    "close": "Închide Trilium",
+    "close": "Închide Notely",
     "new-note": "Notiță nouă",
     "recents": "Notițe recente",
     "today": "Mergi la notița de astăzi",
-    "tooltip": "Trilium Notes",
+    "tooltip": "Notely",
     "show-windows": "Afișează ferestrele",
     "open_new_window": "Deschide fereastră nouă"
   },
   "migration": {
     "error_message": "Eroare la migrarea către versiunea {{version}}: {{stack}}",
     "old_version": "Nu se poate migra la ultima versiune direct de la versiunea dvs. Actualizați mai întâi la versiunea v0.60.4 și ulterior la această versiune.",
-    "wrong_db_version": "Versiunea actuală a bazei de date ({{version}}) este mai nouă decât versiunea de bază de date suportată de aplicație ({{targetVersion}}), ceea ce înseamnă că a fost creată de către o versiune mai nouă de Trilium. Actualizați aplicația la ultima versiune pentru a putea continua.",
+    "wrong_db_version": "Versiunea actuală a bazei de date ({{version}}) este mai nouă decât versiunea de bază de date suportată de aplicație ({{targetVersion}}), ceea ce înseamnă că a fost creată de către o versiune mai nouă de Notely. Actualizați aplicația la ultima versiune pentru a putea continua.",
     "automatic_migrations_disabled": "Migrările automate ale bazei de date sunt dezactivate prin variabila de mediu TRILIUM_MANUAL_DB_MIGRATION = {{envVarValue}}",
     "invalid_db_version": "Versiunea bazei de date nu este un număr valid. Acest lucru indică de obicei o opțiune „dbVersion” coruptă în baza de date. Vă rugăm să restaurați dintr-o copie de rezervă."
   },
@@ -472,7 +472,7 @@
   },
   "notion_import": {
     "root-title": "Import Notion",
-    "markdown-export-unsupported": "Acesta pare a fi un export Notion „Markdown & CSV”, pe care Trilium nu îl poate importa. Vă rugăm să reexportați spațiul de lucru Notion folosind formatul „HTML” și să importați acel fișier.",
+    "markdown-export-unsupported": "Acesta pare a fi un export Notion „Markdown & CSV”, pe care Notely nu îl poate importa. Vă rugăm să reexportați spațiul de lucru Notion folosind formatul „HTML” și să importați acel fișier.",
     "subpage-folders-disabled": "Acest export Notion a fost creat fără opțiunea „Create folders for subpages”, așa că ierarhia paginilor nu poate fi reconstruită. Vă rugăm să reexportați din Notion cu opțiunea „Create folders for subpages” activată și să importați acel fișier."
   },
   "keep_import": {
@@ -480,8 +480,8 @@
   },
   "anytype_import": {
     "root-title": "Import Anytype",
-    "protobuf-export-unsupported": "Acesta pare a fi un export Anytype „Protobuf”, pe care Trilium nu îl poate importa. Vă rugăm să reexportați spațiul Anytype folosind formatul „Any-Block” cu „JSON” selectat și să importați acel fișier.",
-    "markdown-export-unsupported": "Acesta pare a fi un export Anytype „Markdown”, pe care Trilium nu îl poate importa. Vă rugăm să reexportați spațiul Anytype folosind formatul „Any-Block” cu „JSON” selectat și să importați acel fișier."
+    "protobuf-export-unsupported": "Acesta pare a fi un export Anytype „Protobuf”, pe care Notely nu îl poate importa. Vă rugăm să reexportați spațiul Anytype folosind formatul „Any-Block” cu „JSON” selectat și să importați acel fișier.",
+    "markdown-export-unsupported": "Acesta pare a fi un export Anytype „Markdown”, pe care Notely nu îl poate importa. Vă rugăm să reexportați spațiul Anytype folosind formatul „Any-Block” cu „JSON” selectat și să importați acel fișier."
   },
   "obsidian_import": {
     "root-title": "Import Obsidian"
@@ -494,7 +494,7 @@
   },
   "restore": {
     "pick_backup_title": "Alegeți o copie de siguranță pentru restaurare",
-    "backup_filter": "Copie de siguranță Trilium (*.db, *.tnbackup)",
+    "backup_filter": "Copie de siguranță Notely (*.db, *.tnbackup)",
     "any_file_filter": "Toate fișierele"
   },
   "backup": {
@@ -508,7 +508,7 @@
     "cancel": "Anulează",
     "set-title": "Setați parola pentru copiile de siguranță?",
     "set-message": "Copiile de siguranță viitoare vor fi criptate cu această parolă.",
-    "set-detail": "Trilium nu poate afișa din nou această parolă, așa că păstrați o copie într-un loc sigur: fără ea, o copie de siguranță nu poate fi restaurată.\n\nDacă nu vă așteptați să fiți întrebat, anulați — este posibil ca o notiță sau un script să fi solicitat acest lucru.",
+    "set-detail": "Notely nu poate afișa din nou această parolă, așa că păstrați o copie într-un loc sigur: fără ea, o copie de siguranță nu poate fi restaurată.\n\nDacă nu vă așteptați să fiți întrebat, anulați — este posibil ca o notiță sau un script să fi solicitat acest lucru.",
     "set-confirm": "Setează parola",
     "clear-title": "Uitați parola pentru copiile de siguranță?",
     "clear-message": "Copiile de siguranță nu vor mai fi criptate.",
@@ -516,12 +516,12 @@
     "clear-confirm": "Uită parola"
   },
   "setup-window": {
-    "getting-started": "Primii pași - Trilium Notes",
-    "start-over": "Reia de la început - Trilium Notes"
+    "getting-started": "Primii pași - Notely",
+    "start-over": "Reia de la început - Notely"
   },
   "start-over-dialog": {
     "title": "Reia de la început",
-    "message": "Reporniți Trilium și reveniți la ecranul de configurare?",
+    "message": "Reporniți Notely și reveniți la ecranul de configurare?",
     "detail": "Vi se va oferi mai întâi o copie de siguranță a bazei de cunoștințe actuale. Nimic nu este șters până când nu alegeți să creați o bază de cunoștințe nouă, să restaurați o copie de siguranță sau să sincronizați de pe alt dispozitiv.\n\nNu continuați dacă un script sau o notiță necunoscută v-a solicitat acest lucru.",
     "cancel": "Anulează",
     "confirm": "Repornește și reia de la început"

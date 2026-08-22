@@ -1,5 +1,5 @@
 # Developer Guide
-This documentation is intended for developers planning to implement new features or maintain the Trilium Notes application, as it describes the architecture of the application.
+This documentation is intended for developers planning to implement new features or maintain the Notely application, as it describes the architecture of the application.
 
 For the user-facing documentation, including how to write scripts and the various APIs, consult the [user guide](https://docs.triliumnotes.org/user-guide/) instead.
 
@@ -10,6 +10,6 @@ For the user-facing documentation, including how to write scripts and the variou
 
 ### External links
 
-*   The [Trilium Notes website](https://triliumnotes.org/), for a quick presentation of the application.
+*   The [Notely website](https://triliumnotes.org/), for a quick presentation of the application.
 *   [User Guide](https://docs.triliumnotes.org/user-guide/), to understand the concepts of the application itself.
-*   [GitHub Repository (TriliumNext/Trilium)](https://github.com/TriliumNext/Trilium/)
+*   [GitHub Repository (Notely/Notely)](https://github.com/TriliumNext/Trilium/)

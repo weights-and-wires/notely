@@ -1,7 +1,7 @@
 # Attributes
 <figure class="image"><img style="aspect-ratio:1071/146;" src="Attributes_image.png" width="1071" height="146"></figure>
 
-In Trilium, attributes are key-value pairs assigned to notes, providing additional metadata or functionality. There are two primary types of attributes:
+In Notely, attributes are key-value pairs assigned to notes, providing additional metadata or functionality. There are two primary types of attributes:
 
 1.  <a class="reference-link" href="Attributes/Labels.md">Labels</a> can be used for a variety of purposes, such as storing metadata or configuring the behavior of notes. Labels are also searchable, enhancing note retrieval.
     

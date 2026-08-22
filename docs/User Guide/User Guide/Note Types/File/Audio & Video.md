@@ -1,7 +1,7 @@
 # Audio & Video
 <figure class="image image-style-align-right image_resized" style="width:61.8%;"><img style="aspect-ratio:953/587;" src="Audio &amp; Video_image.png" width="953" height="587"></figure>
 
-Starting with v0.103.0, Trilium has a custom media player for both video and audio files, which offers more features than the built-in player.
+Starting with v0.103.0, Notely has a custom media player for both video and audio files, which offers more features than the built-in player.
 
 Versions prior to v0.103.0 also support media, but using the built-in player.
 
@@ -9,11 +9,11 @@ The file is streamed directly, so when accessing the note from a server it doesn
 
 ## Note on large media files
 
-Although Trilium offers support for media files, it is generally not meant to be used with very large files. Uploading large media will cause the <a class="reference-link" href="../../Advanced%20Usage/Database.md">Database</a> to balloon, as well as any <a class="reference-link" href="../../Installation%20%26%20Setup/Backup.md">Backup</a> of it. In addition, there might be slowdowns when first uploading the files. Otherwise, a large database should not impact the general performance of Trilium significantly.
+Although Notely offers support for media files, it is generally not meant to be used with very large files. Uploading large media will cause the <a class="reference-link" href="../../Advanced%20Usage/Database.md">Database</a> to balloon, as well as any <a class="reference-link" href="../../Installation%20%26%20Setup/Backup.md">Backup</a> of it. In addition, there might be slowdowns when first uploading the files. Otherwise, a large database should not impact the general performance of Notely significantly.
 
 ## Supported formats
 
-Trilium uses the built-in media decoding mechanism of the browser (or Electron/Chromium when running on the desktop). Starting with v0.103.0, a message will be displayed instead when a media format is not supported.
+Notely uses the built-in media decoding mechanism of the browser (or Electron/Chromium when running on the desktop). Starting with v0.103.0, a message will be displayed instead when a media format is not supported.
 
 ## Interactions
 

@@ -1,5 +1,5 @@
 # Security
-Starting with v0.104.0, some features in Trilium are intentionally disabled in order to reduce the attack surface:
+Starting with v0.104.0, some features in Notely are intentionally disabled in order to reduce the attack surface:
 
 *   <a class="reference-link" href="Backend%20scripts.md">Backend scripts</a>, which can run processes on the server, access the file system or bypass security measures.
 *   <a class="reference-link" href="../Advanced%20Usage/Database/Manually%20altering%20the%20database/SQL%20Console.md">SQL Console</a>, which can be used to exfiltrate important data such as the document secret or cause irreparable damage to the database.

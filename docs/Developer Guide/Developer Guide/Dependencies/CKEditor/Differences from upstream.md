@@ -16,7 +16,7 @@ Use the following command to identify commits from Zadam:
 git log --oneline --author="adam" --all
 ```
 
-It's best to run the command from zadam's fork of `trilium-ckeditor5` instead of the TriliumNext once since it might not contain all the unmerged branches.
+It's best to run the command from zadam's fork of `trilium-ckeditor5` instead of the Notely once since it might not contain all the unmerged branches.
 
 To show a filtered diff of a commit:
 

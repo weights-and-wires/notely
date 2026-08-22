@@ -1,5 +1,5 @@
 # Internationalisation / Translations
-During the initial development of Trilium Notes, internationalisation was not considered as it was meant to be an English-only product.
+During the initial development of Notely, internationalisation was not considered as it was meant to be an English-only product.
 
 As the application and the user base grows, it makes sense to be able to reach out as many people as possible by providing translations in their native language.
 

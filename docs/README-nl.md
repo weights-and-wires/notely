@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -42,7 +42,7 @@ persoonlijke kennisbanken.
 Onze documentatie is beschikbaar in meerdere formaten:
 - **Online Documentatie**: Blader door de volledige documentatie op
   [docs.triliumnotes.org](https://docs.triliumnotes.org/)
-- **In-App Help**: Toets`F1` binnen Trilium om dezelfde documentatie direct in
+- **In-App Help**: Toets`F1` binnen Notely om dezelfde documentatie direct in
   de applicatie te bekijken
 - **GitHub**: Navigeer door de [User Guide](./User%20Guide/User%20Guide/) in
   deze repository
@@ -53,7 +53,7 @@ Onze documentatie is beschikbaar in meerdere formaten:
 - [Docker
   Installatie](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
 - [Upgrading
-  TriliumNext](https://docs.triliumnotes.org/user-guide/setup/upgrading)
+  Notely](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [Basis Concepten en
   Features](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [Patronen van Personal Knowledge

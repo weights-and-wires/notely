@@ -11,11 +11,11 @@ The URL needs to contain the full scheme.
 
 ## Web view on the server vs. Electron
 
-When accessing Trilium via a browser instead of the desktop application, the web view will still try to render the content of the desired webpage. However, since it's running in a browser there are quite a few limitations as opposed to the desktop one.
+When accessing Notely via a browser instead of the desktop application, the web view will still try to render the content of the desired webpage. However, since it's running in a browser there are quite a few limitations as opposed to the desktop one.
 
-More specifically, quite a few websites oppose being embedded in another website (technically they have a non-permisive `X-Frame-Options` header). This is not bypassable by Trilium so the page will simply fail to render.
+More specifically, quite a few websites oppose being embedded in another website (technically they have a non-permisive `X-Frame-Options` header). This is not bypassable by Notely so the page will simply fail to render.
 
-You can diagnose this by right clicking the Trilium web page → Inspect (element) and looking in the “Console” tab for errors such as:
+You can diagnose this by right clicking the Notely web page → Inspect (element) and looking in the “Console” tab for errors such as:
 
 *   `Refused to display 'https://www.google.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'.`
 *   `Refused to frame 'https://duckduckgo.com/' because an ancestor violates the following Content Security Policy directive: "frame-ancestors 'self' https://html.duckduckgo.com".`

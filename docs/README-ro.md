@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes este o aplicație gratuită și open-source pentru notițe structurate
+Notely este o aplicație gratuită și open-source pentru notițe structurate
 ierarhic cu scopul de a crea o bază de date de cunoștințe personală, de mari
 dimensiuni.
 
@@ -43,7 +43,7 @@ dimensiuni.
 Documentația este disponibilă în mai multe formate:
 - **Documentație online**: vizualizați întreaga documentație la
   [docs.triliumnotes.org](https://docs.triliumnotes.org/)
-- **Ghid în aplicație**: Apăsați `F1` în Trilium pentru a accesa aceeași
+- **Ghid în aplicație**: Apăsați `F1` în Notely pentru a accesa aceeași
   documentație local, direct din aplicație
 - **GitHub**: Navigați [ghidul de utilizator](./User%20Guide/User%20Guide/)
   direct din acest repository

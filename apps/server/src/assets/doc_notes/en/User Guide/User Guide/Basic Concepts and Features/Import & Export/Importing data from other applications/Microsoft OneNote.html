@@ -1,6 +1,6 @@
-<p>Trilium allows importing from OneNote. Currently the only mechanism supported
+<p>Notely allows importing from OneNote. Currently the only mechanism supported
   is via the Microsoft Graph API which requires you to authenticate in a
-  browser in order for the notes to be obtained by Trilium.</p>
+  browser in order for the notes to be obtained by Notely.</p>
 <h2>Import process</h2>
 <ol>
   <li>In the&nbsp;<a class="reference-link" href="#root/_help_oPVyFC7WL2Lp">Note Tree</a>,
@@ -21,7 +21,7 @@
   <li>Wait for the import to finish.</li>
 </ol>
 <h2>Supported features</h2>
-<p>The following features are preserved by Trilium during the import process:</p>
+<p>The following features are preserved by Notely during the import process:</p>
 <ul>
   <li>Basic formatting (bold, italic, underline, strikethrough, subscript, super
     script, font sizes, headings, colors, highlights).
@@ -44,7 +44,7 @@
       <li>Cell backgrounds are preserved, including a best-effort hue correction
         because the colors returned by the Graph API are sometimes incorrect.</li>
       <li>Cell widths are also preserved proportionally, with the only difference
-        that tables in Trilium have a percentage-based width, not fixed pixel sizes.</li>
+        that tables in Notely have a percentage-based width, not fixed pixel sizes.</li>
     </ul>
   </li>
   <li>Images and&nbsp;<a class="reference-link" href="#root/_help_0vhv7lsOLy82">Attachments</a>.
@@ -67,7 +67,7 @@
     the pages are not part of the import, the original <code spellcheck="false">onenote:</code> link
     is kept.</li>
   <li>Tags (apart from to-do lists) are mildly preserved by converting them
-    to emojis. This loses their searchability. Since Trilium has no concept
+    to emojis. This loses their searchability. Since Notely has no concept
     of inline attributes or badges, this is considered a middle-ground.</li>
 </ul>
 <p>Regarding the note structure:</p>
@@ -80,7 +80,7 @@
 </ul>
 <h2>Error management and reporting</h2>
 <p>The OneNote importer uses Microsoft's Graph API which handles the HTML
-  export (that we later post-process for Trilium use). The Graph API itself
+  export (that we later post-process for Notely use). The Graph API itself
   has to process the OneNote pages before sending them to us, and as such
   it's a time-consuming operation that is directly proportional to the number
   of notes and the complexity/size of the notes.</p>
@@ -89,10 +89,10 @@
   the time is spent waiting for the Graph API to unblock access rather than
   actually importing data.</p>
 <p>In addition, some pages may fail at the Graph API level due to an internal
-  timeout on their side or other issues. Trilium will try to refetch pages
+  timeout on their side or other issues. Notely will try to refetch pages
   in order to avoid that but sometimes pages cannot be retrieved even after
   multiple retries. In that case, the importer will still create a corresponding
-  note in Trilium but with an error report instead of a content. This preserves&nbsp;
+  note in Notely but with an error report instead of a content. This preserves&nbsp;
   <a
   class="reference-link" href="#root/_help_hrZ1D00cLbal">Internal (reference) links</a>&nbsp;and makes it easy to identify and
     manually fix the pages that failed.</p>
@@ -113,25 +113,25 @@
 <ul>
   <li><code spellcheck="false">oneNotePageId</code>, with the corresponding
     page ID in OneNote. This can be used to identify the original OneNote page.
-    Trilium doesn't use it in any way at this moment.</li>
+    Notely doesn't use it in any way at this moment.</li>
   <li><code spellcheck="false">oneNoteImportFailed</code> attached to notes that
     couldn't be imported. This can be used to quickly&nbsp;<a class="reference-link"
     href="#root/_help_eIg8jdvaoNNd">Search</a>&nbsp;for failed notes.</li>
 </ul>
 <h2>Limitations</h2>
 <h3>Regarding OneNote's freehand structure</h3>
-<p>OneNote is fundamentally different to Trilium in structure because it
+<p>OneNote is fundamentally different to Notely in structure because it
   allows freehand drawing to coexist with text, and text boxes can be placed
-  anywhere in the document (e.g. a common use case is to have columns). Trilium
+  anywhere in the document (e.g. a common use case is to have columns). Notely
   has a document flow mechanism for&nbsp;<a class="reference-link" href="#root/_help_iPIMuisry3hd">Text</a>&nbsp;notes
   which means that it can't be freely positioned.</p>
-<p>To cope with this difference, Trilium will flatten the text structure
+<p>To cope with this difference, Notely will flatten the text structure
   into normal paragraphs. The paragraphs will be ordered visually based on
   the original position of the text boxes, but their horizontal position
   will not be preserved. Parallel text such as columns may appear interleaved
   which can cause problems.</p>
 <p>In addition, drawing in OneNote can be interleaved with text boxes. Text
-  notes in Trilium do not allow for this feature, so all drawing will appear
+  notes in Notely do not allow for this feature, so all drawing will appear
   at the end. For some use cases (diagrams, for example) this will work fine,
   but if you have highlights or other text-dependent drawings they will appear
   out of order.</p>
@@ -141,9 +141,9 @@
 </aside>
 <h3>Password-protected sections</h3>
 <p>OneNote supports encryption at section level; when importing a notebook
-  that contains these password-protection sections, Trilium will not be able
+  that contains these password-protection sections, Notely will not be able
   to read the content of password-protected sections so they will appear
-  empty. This is not a limitation of Trilium, the information is simply not
+  empty. This is not a limitation of Notely, the information is simply not
   available from the source (Graph API).</p>
 <p>The section itself is kept for reference and all the sections that could
   not be imported will be shown in the report (the top-level note called <em>OneNote import</em>).</p>
@@ -176,6 +176,6 @@
   <li>Export only the affected page as ZIP, making sure not to accidentally
     expose any sensitive information.</li>
   <li>Take screenshots of how the note looked like in OneNote and how it ends
-    up in Trilium.</li>
+    up in Notely.</li>
   <li>Attach the ZIP and the screenshots to the issue report.</li>
 </ul>

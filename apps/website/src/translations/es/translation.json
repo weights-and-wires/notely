@@ -8,11 +8,11 @@
     },
     "hero_section": {
         "title": "Organiza tus ideas. Construye tu propia base de conocimiento personal.",
-        "subtitle": "Trilium es una aplicación de código abierto para tomar notas y organizar tu base de conocimiento personal. Puedes usarla localmente en tu escritorio o sincronizarla con tu propio servidor para tener tus notas disponibles en cualquier lugar.",
+        "subtitle": "Notely es una aplicación de código abierto para tomar notas y organizar tu base de conocimiento personal. Puedes usarla localmente en tu escritorio o sincronizarla con tu propio servidor para tener tus notas disponibles en cualquier lugar.",
         "get_started": "Comenzar",
         "github": "GitHub",
         "dockerhub": "Docker Hub",
-        "screenshot_alt": "Captura de pantalla de la aplicación de escritorio Trilium Notes",
+        "screenshot_alt": "Captura de pantalla de la aplicación de escritorio Notely",
         "tagline_license": "Con licencia AGPL-3.0",
         "tagline_no_account": "No necesitas una cuenta",
         "tagline_cross_platform": "Funciona sin conexión a internet"
@@ -25,7 +25,7 @@
         "attributes_description": "Puedes establecer relaciones entre notas o añadir etiquetas para categorizarlas más fácilmente. Los atributos promovidos te permiten ingresar información estructurada, que luego puedes usar en tablas o tableros.",
         "hoisting_title": "Espacios de trabajo y organización jerárquica",
         "hoisting_description": "Se pueden separar fácilmente tus notas personales y de trabajo agrupándolas en un espacio de trabajo, lo que centra el árbol de notas en mostrar únicamente un conjunto específico de ellas.",
-        "screenshot_alt": "Árbol jerárquico de notas en Trilium"
+        "screenshot_alt": "Árbol jerárquico de notas en Notely"
     },
     "productivity_benefits": {
         "title": "Productividad y seguridad",
@@ -38,7 +38,7 @@
         "search_title": "Búsqueda potente",
         "search_content": "O busca texto dentro de las notas y acota la búsqueda filtrando por la nota principal o por nivel de profundidad.",
         "web_clipper_title": "Clipper web",
-        "web_clipper_content": "Captura páginas web (o capturas de pantalla) y agrégalas directamente a Trilium usando la extensión del \"Clipper web\" para el navegador.",
+        "web_clipper_content": "Captura páginas web (o capturas de pantalla) y agrégalas directamente a Notely usando la extensión del \"Clipper web\" para el navegador.",
         "auth_title": "Inicio de sesión seguro",
         "auth_content": "Protege el inicio de sesión de tu servidor con autenticación multifactor (TOTP) o inicia sesión mediante tu proveedor de identidad con OpenID Connect.",
         "templates_title": "Plantillas",
@@ -46,7 +46,7 @@
         "share_title": "Comparte notas en la red",
         "share_content": "Si tienes un servidor, publica cualquier subárbol de tus notas como un sitio web público de solo lectura que cualquiera puede explorar sin necesidad de una cuenta.",
         "api_title": "REST API",
-        "api_content": "Lee, crea y actualiza tus notas mediante programación a través de HTTP con la API REST integrada de Trilium, ideal para automatizaciones e integraciones de terceros."
+        "api_content": "Lee, crea y actualiza tus notas mediante programación a través de HTTP con la API REST integrada de Notely, ideal para automatizaciones e integraciones de terceros."
     },
     "note_types": {
         "text_title": "Notas tipo texto",
@@ -62,7 +62,7 @@
         "mindmap_title": "Mapa mental",
         "mindmap_description": "Organiza ideas visualmente o haz una sesión de lluvia de ideas.",
         "title": "Múltiples formas de representar su información",
-        "subtitle": "No todo encaja perfectamente en un párrafo. Trilium ofrece una amplia variedad de tipos de notas, desde texto enriquecido y código hasta hojas de cálculo, diagramas y mapas mentales, para que puedas capturar cada idea en el formato que mejor se adapte a ella y combinarlos libremente en tu árbol de notas.",
+        "subtitle": "No todo encaja perfectamente en un párrafo. Notely ofrece una amplia variedad de tipos de notas, desde texto enriquecido y código hasta hojas de cálculo, diagramas y mapas mentales, para que puedas capturar cada idea en el formato que mejor se adapte a ella y combinarlos libremente en tu árbol de notas.",
         "others_label": "Y más",
         "notemap_title": "Mapa de notas",
         "relationmap_title": "Mapa de relaciones",
@@ -92,18 +92,18 @@
         "mobile_question": "¿Existe una aplicación móvil?",
         "mobile_answer": "Actualmente no hay una aplicación móvil oficial. Sin embargo, si se dispone de una instancia en un servidor, se puede acceder desde un navegador web e incluso instalarla como PWA. Para Android, existe una aplicación no oficial llamada TriliumDroid que funciona incluso sin conexión (igual que un cliente de escritorio).",
         "database_question": "¿Dónde se almacenan los datos?",
-        "database_answer": "Todas las notas se almacenan en una base de datos SQLite dentro de la carpeta de la aplicación. Trilium utiliza una base de datos en lugar de archivos de texto plano por motivos de rendimiento y porque algunas funciones, como los clones (la misma nota en varios lugares del árbol), serían mucho más difíciles de implementar. Para localizar la carpeta de la aplicación, basta con abrir la ventana \"Acerca de\".",
-        "server_question": "¿Es necesario un servidor para usar Trilium?",
+        "database_answer": "Todas las notas se almacenan en una base de datos SQLite dentro de la carpeta de la aplicación. Notely utiliza una base de datos en lugar de archivos de texto plano por motivos de rendimiento y porque algunas funciones, como los clones (la misma nota en varios lugares del árbol), serían mucho más difíciles de implementar. Para localizar la carpeta de la aplicación, basta con abrir la ventana \"Acerca de\".",
+        "server_question": "¿Es necesario un servidor para usar Notely?",
         "server_answer": "No, el servidor permite acceder desde un navegador web y gestionar la sincronización si se usan varios dispositivos. Para empezar, basta con descargar la aplicación de escritorio y comenzar a usarla.",
         "scaling_question": "¿Cómo escala la aplicación con una gran cantidad de notas?",
-        "scaling_answer": "Según el uso, la aplicación puede manejar al menos 100.000 notas sin problemas. Hay que tener en cuenta que la sincronización puede fallar al subir muchos archivos grandes (1 GB por archivo), ya que Trilium está pensado como una base de conocimiento y no como un almacenamiento de archivos (como NextCloud, por ejemplo).",
+        "scaling_answer": "Según el uso, la aplicación puede manejar al menos 100.000 notas sin problemas. Hay que tener en cuenta que la sincronización puede fallar al subir muchos archivos grandes (1 GB por archivo), ya que Notely está pensado como una base de conocimiento y no como un almacenamiento de archivos (como NextCloud, por ejemplo).",
         "network_share_question": "¿Puedo compartir mi base de datos a través de una unidad de red?",
         "network_share_answer": "No, generalmente no es recomendable compartir una base de datos SQLite mediante una unidad de red. Aunque a veces podría funcionar, existe el riesgo de que la base de datos se corrompa debido a bloqueos de archivos imperfectos en la red.",
         "security_question": "¿Cómo se protegen mis datos?",
         "security_answer": "Por defecto, las notas no están encriptadas y se pueden leer directamente desde la base de datos. Una vez que una nota se marca como encriptada, se cifra usando AES-128-CBC."
     },
     "final_cta": {
-        "title": "¿Listo para empezar con Trilium Notes?",
+        "title": "¿Listo para empezar con Notely?",
         "description": "Construye tu propia base de conocimiento con funciones avanzadas y total privacidad.",
         "get_started": "Comenzar"
     },
@@ -131,7 +131,7 @@
     "support_us": {
         "title": "Apóyanos",
         "financial_donations_title": "Donaciones económicas",
-        "financial_donations_description": "Trilium se desarrolla y mantiene con <Link>cientos de horas de trabajo</Link>. Tu apoyo ayuda a mantenerlo de código abierto, mejorar sus funciones y cubrir gastos como el alojamiento.",
+        "financial_donations_description": "Notely se desarrolla y mantiene con <Link>cientos de horas de trabajo</Link>. Tu apoyo ayuda a mantenerlo de código abierto, mejorar sus funciones y cubrir gastos como el alojamiento.",
         "financial_donations_cta": "Considera apoyar al desarrollador principal (<Link>eliandoran</Link>) de la aplicación a través de:",
         "github_sponsors": "Patrocinadores de GitHub",
         "paypal": "PayPal",
@@ -143,7 +143,7 @@
         "way_community": "Interactúa con la comunidad en <Discussions>GitHub Discussions</Discussions> o en <Matrix>Matrix</Matrix>.",
         "way_reports": "Reporta errores a través de <Link>GitHub Issues</Link>.",
         "way_document": "Ayuda a mejorar la documentación señalando vacíos en ella o contribuyendo con guías, preguntas frecuentes o tutoriales.",
-        "way_market": "Corre la voz: comparte Trilium Notes con amigos, en blogs o en redes sociales."
+        "way_market": "Corre la voz: comparte Notely con amigos, en blogs o en redes sociales."
     },
     "404": {
         "title": "404: No encontrado",
@@ -191,14 +191,14 @@
     },
     "download_helper_server_linux": {
         "title": "Autohospedado en Linux",
-        "description": "Despliega Trilium Notes en tu propio servidor o VPS, compatible con la mayoría de las distribuciones.",
+        "description": "Despliega Notely en tu propio servidor o VPS, compatible con la mayoría de las distribuciones.",
         "download_tar_x64": "x64 (.tar.xz)",
         "download_tar_arm64": "ARM (.tar.xz)",
         "download_nixos": "Módulo de NixOS"
     },
     "download_helper_server_hosted": {
         "title": "Alojamiento de pago",
-        "description": "Trilium Notes hospedado en PikaPods, un servicio de pago que ofrece acceso y gestión sencillos. Sin afiliación directa con el equipo de Trilium.",
+        "description": "Notely hospedado en PikaPods, un servicio de pago que ofrece acceso y gestión sencillos. Sin afiliación directa con el equipo de Notely.",
         "download_pikapod": "Configurar en PikaPods"
     },
     "header": {

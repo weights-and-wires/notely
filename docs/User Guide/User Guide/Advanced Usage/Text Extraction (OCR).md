@@ -3,7 +3,7 @@ Optical Character Recognition is the process in which the text from images or PD
 
 ## Built-in support
 
-Since v0.103.0, Trilium has built-in support for OCR. The extracted text can be:
+Since v0.103.0, Notely has built-in support for OCR. The extracted text can be:
 
 *   Integrated with <a class="reference-link" href="../Basic%20Concepts%20and%20Features/Navigation/Search.md">Search</a>, to quickly find the image or file based on snippets of text.
 *   Integrated with the <a class="reference-link" href="../AI.md">AI</a> feature, which allows the agent to access the content of a non-text note.
@@ -11,7 +11,7 @@ Since v0.103.0, Trilium has built-in support for OCR. The extracted text can be:
 
 ## Supported formats
 
-OCR in Trilium supports the following formats:
+OCR in Notely supports the following formats:
 
 ### Images
 

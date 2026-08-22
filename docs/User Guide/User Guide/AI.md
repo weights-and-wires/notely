@@ -1,7 +1,7 @@
 # AI
-Trilium can connect to a large language model and use it as an assistant that works directly on your notes: ask questions about the note you're reading, have it draft or restructure content, or get it to write scripts and widgets for you.
+Notely can connect to a large language model and use it as an assistant that works directly on your notes: ask questions about the note you're reading, have it draft or restructure content, or get it to write scripts and widgets for you.
 
-The integration is off by default and does nothing until you enable it and configure a provider; Trilium ships no model of its own. Which provider you pick also decides where your notes travel: a cloud API billed per use, a subscription you already pay for, or a model running on your own hardware, in which case nothing leaves the machine. See <a class="reference-link" href="AI/Providers.md">Providers</a> for what each involves, and <a class="reference-link" href="AI/Privacy.md">Privacy</a> for exactly what gets sent.
+The integration is off by default and does nothing until you enable it and configure a provider; Notely ships no model of its own. Which provider you pick also decides where your notes travel: a cloud API billed per use, a subscription you already pay for, or a model running on your own hardware, in which case nothing leaves the machine. See <a class="reference-link" href="AI/Providers.md">Providers</a> for what each involves, and <a class="reference-link" href="AI/Privacy.md">Privacy</a> for exactly what gets sent.
 
 Once enabled, the assistant is available as:
 
@@ -16,7 +16,7 @@ Once enabled, the assistant is available as:
 *   Tools to alter note content, create new notes, etc.
 *   Statistics regarding context window use and pricing per message.
 *   Attachments for multi-modal chat (images, text files, PDFs).
-*   Optional MCP to allow external chat tools (e.g. Claude Code) to operate on notes within Trilium.
+*   Optional MCP to allow external chat tools (e.g. Claude Code) to operate on notes within Notely.
 
 ## Sample use-cases
 
@@ -29,7 +29,7 @@ Once enabled, the assistant is available as:
 
 ## LLM Providers
 
-Trilium supports four different types of providers:
+Notely supports four different types of providers:
 
 *   **Cloud providers**  
     Pay-per use with an API key which is billed separately from any subscription you might already have

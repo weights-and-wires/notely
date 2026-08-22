@@ -8,11 +8,11 @@
     },
     "hero_section": {
         "title": "整理您的思緒。建立您的個人知識庫。",
-        "subtitle": "Trilium 是一款開源解決方案，專為筆記記錄與個人知識庫管理而生。您可選擇在桌面端本地使用，或與自架伺服器同步，讓筆記隨行無阻。",
+        "subtitle": "Notely 是一款開源解決方案，專為筆記記錄與個人知識庫管理而生。您可選擇在桌面端本地使用，或與自架伺服器同步，讓筆記隨行無阻。",
         "get_started": "開始使用",
         "github": "GitHub",
         "dockerhub": "Docker Hub",
-        "screenshot_alt": "Trilium Notes 桌面應用程式的螢幕截圖"
+        "screenshot_alt": "Notely 桌面應用程式的螢幕截圖"
     },
     "organization_benefits": {
         "title": "組織",
@@ -34,7 +34,7 @@
         "search_title": "強大的搜尋功能",
         "search_content": "或在筆記內搜尋文字，並透過篩選父筆記或層級深度來縮小搜尋範圍。",
         "web_clipper_title": "網頁剪取器",
-        "web_clipper_content": "使用網頁剪取器瀏覽器擴充功能，直接擷取網頁（或截圖）並將其置入 Trilium。"
+        "web_clipper_content": "使用網頁剪取器瀏覽器擴充功能，直接擷取網頁（或截圖）並將其置入 Notely。"
     },
     "note_types": {
         "text_title": "文字筆記",
@@ -69,18 +69,18 @@
         "mobile_question": "是否有行動應用程式？",
         "mobile_answer": "目前尚無官方行動應用程式。不過，若您擁有伺服器實例，可透過網頁瀏覽器存取，甚至能將其安裝為進程式網路應用程式（PWA）。至於 Android系統，則有款名為 TriliumDroid 的非官方應用程式，其功能與桌面端客戶端相同，甚至支援離線運作。",
         "database_question": "資料儲存在哪裡？",
-        "database_answer": "所有筆記都將儲存於應用程式資料夾內的 SQLite 資料庫中。Trilium 採用資料庫而非純文字檔案的考量，在於效能表現，以及某些功能（例如複製筆記——在樹狀結構中多處出現相同筆記）若以純文字檔案實現將困難得多。若需尋找應用程式資料夾位置，請直接開啟「關於」視窗即可。",
-        "server_question": "使用 Trilium 是否需要伺服器？",
+        "database_answer": "所有筆記都將儲存於應用程式資料夾內的 SQLite 資料庫中。Notely 採用資料庫而非純文字檔案的考量，在於效能表現，以及某些功能（例如複製筆記——在樹狀結構中多處出現相同筆記）若以純文字檔案實現將困難得多。若需尋找應用程式資料夾位置，請直接開啟「關於」視窗即可。",
+        "server_question": "使用 Notely 是否需要伺服器？",
         "server_answer": "不，伺服器允許透過網頁瀏覽器存取，並在您擁有多台裝置時管理同步作業。若無多台裝置同步需求，只需下載桌面應用程式並啟動即可。",
         "scaling_question": "應用程式在筆記數量龐大時表現如何？",
-        "scaling_answer": "根據使用情境，本應用程式應能無障礙處理至少十萬筆筆記。請注意，若上傳大量大型檔案（單一檔案達 1 GB），同步過程可能發生失敗，因 Trilium 本質上更偏向知識庫應用程式，而非檔案儲存服務（例如 NextCloud）。",
+        "scaling_answer": "根據使用情境，本應用程式應能無障礙處理至少十萬筆筆記。請注意，若上傳大量大型檔案（單一檔案達 1 GB），同步過程可能發生失敗，因 Notely 本質上更偏向知識庫應用程式，而非檔案儲存服務（例如 NextCloud）。",
         "network_share_question": "我能否透過網路磁碟機共享我的資料庫？",
         "network_share_answer": "不，通常不建議透過網路磁碟機共享 SQLite 資料庫。雖然有時可能運作正常，但由於網路環境中檔案鎖定機制不完善，資料庫仍存在損毀的風險。",
         "security_question": "我的資料如何受到保護？",
         "security_answer": "預設情況下，筆記不會進行加密，可直接從資料庫讀取。一旦將筆記標記為加密狀態，系統便會使用 AES-128-CBC 演算法對該筆記進行加密。"
     },
     "final_cta": {
-        "title": "準備好開始使用 Trilium Notes 了嗎？",
+        "title": "準備好開始使用 Notely 了嗎？",
         "description": "運用強大功能與完整隱私保護，建立您的個人知識庫。",
         "get_started": "開始使用"
     },
@@ -108,7 +108,7 @@
     "support_us": {
         "title": "支持我們",
         "financial_donations_title": "財務捐贈",
-        "financial_donations_description": "Trilium 的開發與維護耗費了 <Link>數百小時的工作</Link>。您的支持能確保其開源性質、提升功能品質，並支付伺服器託管等相關成本。",
+        "financial_donations_description": "Notely 的開發與維護耗費了 <Link>數百小時的工作</Link>。您的支持能確保其開源性質、提升功能品質，並支付伺服器託管等相關成本。",
         "financial_donations_cta": "請考慮透過以下方式支持本應用程式的主要開發者（<Link>eliandoran</Link>）：",
         "github_sponsors": "GitHub Sponsors",
         "paypal": "PayPal",
@@ -120,7 +120,7 @@
         "way_community": "在 <Discussions>GitHub Discussions</Discussions> 或 <Matrix>Matrix</Matrix> 上與社群互動。",
         "way_reports": "透過 <Link>GitHub issues</Link> 回報錯誤。",
         "way_document": "告訴我們文件中的缺漏之處，或貢獻指南、常見問題解答或教學內容，協助完善文件。",
-        "way_market": "廣為宣傳：將 Trilium Notes 分享給朋友，或發佈於部落格與社群媒體。"
+        "way_market": "廣為宣傳：將 Notely 分享給朋友，或發佈於部落格與社群媒體。"
     },
     "404": {
         "title": "404：找不到此頁面",
@@ -168,14 +168,14 @@
     },
     "download_helper_server_linux": {
         "title": "在 Linux 上自行架設",
-        "description": "在您自己的伺服器或虛擬主機上部署 Trilium Notes，相容於大多數發行版。",
+        "description": "在您自己的伺服器或虛擬主機上部署 Notely，相容於大多數發行版。",
         "download_tar_x64": "x64 (.tar.xz)",
         "download_tar_arm64": "ARM (.tar.xz)",
         "download_nixos": "NixOS 模組"
     },
     "download_helper_server_hosted": {
         "title": "付費託管",
-        "description": "Trilium Notes 託管於 PikaPods，此為付費服務，提供便捷存取與管理功能。與 Trilium 團隊無直接關聯。",
+        "description": "Notely 託管於 PikaPods，此為付費服務，提供便捷存取與管理功能。與 Notely 團隊無直接關聯。",
         "download_pikapod": "在 PikaPods 上設定"
     },
     "header": {

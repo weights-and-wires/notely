@@ -1,8 +1,8 @@
 # User Guide
-Trilium is an open-source solution for note-taking and organizing a personal knowledge base. Use it locally on your desktop, or sync it with your self-hosted server to keep your notes everywhere you go.
+Notely is an open-source solution for note-taking and organizing a personal knowledge base. Use it locally on your desktop, or sync it with your self-hosted server to keep your notes everywhere you go.
 
 > [!TIP]
-> The same documentation can be accessed locally from within the Trilium Notes application by pressing F1.
+> The same documentation can be accessed locally from within the Notely application by pressing F1.
 
 ## Getting started
 
@@ -20,6 +20,6 @@ Trilium is an open-source solution for note-taking and organizing a personal kno
 
 ## External links
 
-*   The [Trilium Notes website](https://triliumnotes.org/), for a quick presentation of the application.
-*   [Developer Guide](https://docs.triliumnotes.org/developer-guide/), to understand the architecture and processes behind the development of Trilium Notes.
-*   [GitHub Repository (TriliumNext/Trilium)](https://github.com/TriliumNext/Trilium/)
+*   The [Notely website](https://triliumnotes.org/), for a quick presentation of the application.
+*   [Developer Guide](https://docs.triliumnotes.org/developer-guide/), to understand the architecture and processes behind the development of Notely.
+*   [GitHub Repository (Notely/Notely)](https://github.com/TriliumNext/Trilium/)

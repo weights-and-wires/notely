@@ -5,7 +5,7 @@ By requiring more than one verification method, MFA helps reduce the risk of una
 
 ## Relationship to OpenID Connect (OIDC)
 
-Multi-factor authentication makes your Trilium login safer by requiring an additional proof of identity apart from your password. <a class="reference-link" href="Signing%20in%20with%20OpenID%20Connect.md">Signing in with OpenID Connect</a> is a different concept which delegates your authentication to an external provider (e.g. your Google provider, or a self-hosted one such as Authelia). These authentication providers might provide their own security features such as TOTP or passkeys.
+Multi-factor authentication makes your Notely login safer by requiring an additional proof of identity apart from your password. <a class="reference-link" href="Signing%20in%20with%20OpenID%20Connect.md">Signing in with OpenID Connect</a> is a different concept which delegates your authentication to an external provider (e.g. your Google provider, or a self-hosted one such as Authelia). These authentication providers might provide their own security features such as TOTP or passkeys.
 
 ## Time-based one-time password (TOTP)
 
@@ -21,7 +21,7 @@ TOTP (Time-Based One-Time Password) is a security feature that generates a uniqu
 
 ## Recovery codes
 
-Recovery codes can be used in place of the TOTP if you lose access to your authenticator. Trilium provides 8 different recovery codes, each recovery code can be used once.
+Recovery codes can be used in place of the TOTP if you lose access to your authenticator. Notely provides 8 different recovery codes, each recovery code can be used once.
 
 To use a recovery code, simply login with your password and use the recovery code as the security token.
 

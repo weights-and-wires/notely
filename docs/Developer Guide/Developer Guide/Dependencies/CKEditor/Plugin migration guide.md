@@ -1,5 +1,5 @@
 # Plugin migration guide
-This guide walks through the basic steps to take to integrate a CKEditor 5 plugin for use inside the Trilium monorepo, which allows:
+This guide walks through the basic steps to take to integrate a CKEditor 5 plugin for use inside the Notely monorepo, which allows:
 
 *   Making modifications to the implementation without having to maintain a new repo.
 *   Integrating an older plugin based on the legacy installation method so that it works well with the new one.

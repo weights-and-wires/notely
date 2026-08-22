@@ -18,7 +18,7 @@ You can attach the whole file to the bug report (preferable) or open it and copy
 
 ## Customizing the retention of logs
 
-The backend logs are fully managed by the Trilium server. By default the last 90 days worth of logs are kept; the logs older than that are deleted in order to reduce the space consumption.
+The backend logs are fully managed by the Notely server. By default the last 90 days worth of logs are kept; the logs older than that are deleted in order to reduce the space consumption.
 
 It's possible to change the retention period by modifying the <a class="reference-link" href="../../Advanced%20Usage/Configuration%20(config.ini%20or%20environment%20variables).md">Configuration (config.ini or environment variables)</a> via the `.ini` file:
 

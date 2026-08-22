@@ -66,12 +66,12 @@
 <p>This automatic conversion can be disabled by going to&nbsp;<a class="reference-link"
   href="#root/_help_4TIF1oA4VQRO">Options</a>&nbsp;→ <em>Text Notes</em> and unchecking <em>Autogenerate link previews</em> from
   the <em>Features</em> section.</p>
-<p>If the link is not accessible to the Trilium server (or the network request
+<p>If the link is not accessible to the Notely server (or the network request
   fails for any other reason), it will not be converted to a link preview.</p>
 <aside
 class="admonition note">
   <p>A URL is only auto-converted when the pasted text <em>is</em> the URL. Links
-    with a display name (e.g. <a href="https://triliumnotes.org">Trilium Notes website</a>)
+    with a display name (e.g. <a href="https://triliumnotes.org">Notely website</a>)
     are left as plain links.</p>
   </aside>
   <h3>2. By using the "Link preview" toolbar button</h3>
@@ -93,12 +93,12 @@ class="admonition note">
     </li>
   </ul>
   <h2>Where the preview data comes from</h2>
-  <p>When you insert a link preview, Trilium fetches metadata once and stores
+  <p>When you insert a link preview, Notely fetches metadata once and stores
     it inside the note's HTML:</p>
   <ul>
     <li><strong>YouTube URLs</strong> — title, channel name, and thumbnail are
       fetched via YouTube's public oEmbed endpoint.</li>
-    <li><strong>All other URLs</strong> — Trilium fetches the page and reads OpenGraph
+    <li><strong>All other URLs</strong> — Notely fetches the page and reads OpenGraph
       tags (<code spellcheck="false">og:title</code>, <code spellcheck="false">og:description</code>,
       <code
       spellcheck="false">og:image</code>, <code spellcheck="false">og:site_name</code>), falling
@@ -122,6 +122,6 @@ class="admonition note">
       media platforms fall back to a Card preview.</li>
     <li>Pages that block automated fetches may produce a minimal preview (hostname
       only).</li>
-    <li>Link previews require the Trilium server to reach the target URL, so they
+    <li>Link previews require the Notely server to reach the target URL, so they
       won't generate previews for pages on networks the server can't see.</li>
   </ul>

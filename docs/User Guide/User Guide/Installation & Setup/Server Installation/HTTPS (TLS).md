@@ -1,8 +1,8 @@
 # HTTPS (TLS)
-Configuring TLS is essential for [server installation](../Server%20Installation.md) in Trilium. This guide details the steps to set up TLS within Trilium itself.
+Configuring TLS is essential for [server installation](../Server%20Installation.md) in Notely. This guide details the steps to set up TLS within Notely itself.
 
 > [!TIP]
-> While Trilium supports HTTPS on its own, it's generally a good idea to use a [reverse proxy](2.%20Reverse%20proxy.md) instead with TLS termination. You can follow a [guide like this](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04) for such setups.
+> While Notely supports HTTPS on its own, it's generally a good idea to use a [reverse proxy](2.%20Reverse%20proxy.md) instead with TLS termination. You can follow a [guide like this](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04) for such setups.
 
 ## Obtaining a TLS Certificate
 
@@ -13,7 +13,7 @@ You have two options for obtaining a TLS certificate:
 
 ## Modifying `config.ini`
 
-Once you have your certificate, modify the `config.ini` file in the [data directory](../Data%20directory.md) to configure Trilium to use it:
+Once you have your certificate, modify the `config.ini` file in the [data directory](../Data%20directory.md) to configure Notely to use it:
 
 ```
 [Network]
@@ -36,7 +36,7 @@ export TRILIUM_NETWORK_KEYPATH=/path/to/key.pem
 
 The above example shows how this is set up in an environment where the certificate was generated using Let's Encrypt's ACME utility. Your paths may differ. For Docker installations, ensure these paths are within a volume or another directory accessible by the Docker container, such as `/home/node/trilium-data/[DIR IN DATA DIRECTORY]`.
 
-After configuring `config.ini`, restart Trilium and access the hostname using "https".
+After configuring `config.ini`, restart Notely and access the hostname using "https".
 
 ## Self-Signed Certificate
 
@@ -49,6 +49,6 @@ export NODE_TLS_REJECT_UNAUTHORIZED=0
 trilium
 ```
 
-Trilium provides scripts to start in this mode, such as `trilium-no-cert-check.bat` for Windows.
+Notely provides scripts to start in this mode, such as `trilium-no-cert-check.bat` for Windows.
 
 **Warning**: Disabling TLS certificate validation is insecure. Proceed only if you fully understand the implications.

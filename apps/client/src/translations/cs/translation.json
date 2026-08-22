@@ -154,7 +154,7 @@
     "numberedList": "<code>1.</code> nebo <code>1)</code> následované mezerou pro číslovaný seznam",
     "blockQuote": "začněte řádek <code>></code> následovaný mezerou pro blok citace",
     "troubleshooting": "Řešení problémů",
-    "reloadFrontend": "znovu načíst ⟨Trilium⟩ ⟨frontend⟩",
+    "reloadFrontend": "znovu načíst ⟨Notely⟩ ⟨frontend⟩",
     "showDevTools": "zobrazit nástroje pro vývojáře",
     "showSQLConsole": "zobrazit ⟨SQL⟩ konzoli",
     "other": "Ostatní",
@@ -166,11 +166,11 @@
     "chooseImportFile": "Vyberte soubor k importu",
     "importZipRecommendation": "Při importu ZIP souboru bude hierarchie poznámek odrážet strukturu podadresářů v archivu.",
     "options": "Nastavení",
-    "safeImportTooltip": "Exportované soubory Trilium <code>.zip</code> mohou obsahovat spustitelné skripty, které mohou mít škodlivé chování. Bezpečný import deaktivuje automatické spouštění všech importovaných skriptů. Zrušte zaškrtnutí \"Bezpečný import\" pouze v případě, že importovaný archiv má obsahovat spustitelné skripty a plně důvěřujete obsahu importovaného souboru.",
+    "safeImportTooltip": "Exportované soubory Notely <code>.zip</code> mohou obsahovat spustitelné skripty, které mohou mít škodlivé chování. Bezpečný import deaktivuje automatické spouštění všech importovaných skriptů. Zrušte zaškrtnutí \"Bezpečný import\" pouze v případě, že importovaný archiv má obsahovat spustitelné skripty a plně důvěřujete obsahu importovaného souboru.",
     "safeImport": "Bezpečný import",
-    "explodeArchivesTooltip": "Pokud je toto zaškrtnuto, Trilium bude číst <code>.zip</code>, <code>.enex</code> a <code>.opml</code> soubory a vytvářet poznámky ze souborů uvnitř těchto archivů. Pokud není zaškrtnuto, Trilium připojí samotné archivy k poznámce.",
+    "explodeArchivesTooltip": "Pokud je toto zaškrtnuto, Notely bude číst <code>.zip</code>, <code>.enex</code> a <code>.opml</code> soubory a vytvářet poznámky ze souborů uvnitř těchto archivů. Pokud není zaškrtnuto, Notely připojí samotné archivy k poznámce.",
     "explodeArchives": "Číst obsah archivů <code>.zip</code>, <code>.enex</code> a <code>.opml</code>.",
-    "shrinkImagesTooltip": "<p>Pokud zaškrtnete tuto možnost, Trilium se pokusí zmenšit importované obrázky škálováním a optimalizací, což může ovlivnit vnímanou kvalitu obrazu. Pokud není zaškrtnuto, obrázky budou importovány beze změn.</p><p>To se nevztahuje na importy <code>.zip</code> s metadaty, protože se předpokládá, že tyto soubory jsou již optimalizovány.</p>",
+    "shrinkImagesTooltip": "<p>Pokud zaškrtnete tuto možnost, Notely se pokusí zmenšit importované obrázky škálováním a optimalizací, což může ovlivnit vnímanou kvalitu obrazu. Pokud není zaškrtnuto, obrázky budou importovány beze změn.</p><p>To se nevztahuje na importy <code>.zip</code> s metadaty, protože se předpokládá, že tyto soubory jsou již optimalizovány.</p>",
     "shrinkImages": "Zmenšit obrázky",
     "textImportedAsText": "Importovat HTML, Markdown a TXT jako textové poznámky, pokud to není z metadat zřejmé",
     "codeImportedAsCode": "Importovat rozpoznané soubory s kódem (např. <code>.json</code>) jako poznámky s kódem, pokud to není z metadat zřejmé",
@@ -279,7 +279,7 @@
     "options": "Nastavení",
     "shrink_images": "Zmenšit obrázky",
     "upload": "Nahrát",
-    "tooltip": "Pokud tuto možnost zaškrtnete, Trilium se pokusí zmenšit nahrané obrázky škálováním a optimalizací, což může ovlivnit vnímanou kvalitu obrazu. Pokud není zaškrtnuta, obrázky budou nahrány beze změn."
+    "tooltip": "Pokud tuto možnost zaškrtnete, Notely se pokusí zmenšit nahrané obrázky škálováním a optimalizací, což může ovlivnit vnímanou kvalitu obrazu. Pokud není zaškrtnuta, obrázky budou nahrány beze změn."
   },
   "attribute_detail": {
     "close_button_title": "Zrušit změny a zavřít",
@@ -319,8 +319,8 @@
     "calendar_root": "označí poznámku, která by měla být použita jako kořen pro denní poznámky. Pouze jedna by měla být takto označena.",
     "archived": "Poznámky s tímto štítkem nebudou ve výchozím nastavení viditelné ve výsledcích vyhledávání (také v dialogových oknech Přeskočit na, Přidat odkaz atd.).",
     "exclude_from_export": "Poznámky (včetně jejich podstromu) nebudou zahrnuty do žádného exportu poznámek",
-    "run": "Definuje, při kterých událostech se má skript spustit. Možné hodnoty jsou: \n<ul>\n <li>frontendStartup - když se spustí frontend Trilium (nebo se obnoví), ale ne na mobilních zařízeních.</li>\n<li>mobileStartup - když se spustí frontend Trilium (nebo se obnoví), na mobilních zařízeních.</li>\n <li>backendStartup - když se spustí backend Trilium.</li>\n<li>hourly - spustit jednou za hodinu. Můžete použít další štítek <code>runAtHour</code> pro určení hodiny.</li>\n <li>daily - spustit jednou denně.</li>\n </ul>",
-    "run_on_instance": "Definujte, na které instanci Trilium se má toto spustit. Ve výchozím nastavení na všech instancích.",
+    "run": "Definuje, při kterých událostech se má skript spustit. Možné hodnoty jsou: \n<ul>\n <li>frontendStartup - když se spustí frontend Notely (nebo se obnoví), ale ne na mobilních zařízeních.</li>\n<li>mobileStartup - když se spustí frontend Notely (nebo se obnoví), na mobilních zařízeních.</li>\n <li>backendStartup - když se spustí backend Notely.</li>\n<li>hourly - spustit jednou za hodinu. Můžete použít další štítek <code>runAtHour</code> pro určení hodiny.</li>\n <li>daily - spustit jednou denně.</li>\n </ul>",
+    "run_on_instance": "Definujte, na které instanci Notely se má toto spustit. Ve výchozím nastavení na všech instancích.",
     "run_at_hour": "V kterou hodinu se má toto spustit. Mělo by se používat společně s <code>#run=hourly</code>. Lze definovat vícekrát pro více spuštění během dne.",
     "disable_inclusion": "Skripty s tímto štítkem nebudou zahrnuty do spuštění nadřazeného skriptu.",
     "sorted": "Udržuje podřízené poznámky seřazené podle názvu abecedně",
@@ -330,15 +330,15 @@
     "hide_promoted_attributes": "Skryje propagované atributy v této poznámce",
     "read_only": "Editor je v režimu pouze pro čtení. Funguje pouze pro textové a kódové poznámky.",
     "auto_read_only_disabled": "Textové/kódové poznámky se mohou automaticky nastavit do režimu pouze pro čtení, pokud jsou příliš velké. Toto chování můžete zakázat pro každou poznámku přidáním tohoto štítku do poznámky",
-    "app_css": "Označuje CSS poznámky, které jsou načteny do aplikace Trilium a mohou být tak použity k úpravě vzhledu Trilium.",
-    "app_theme": "Označuje CSS poznámky, které jsou kompletními motivy Trilium a jsou tak dostupné v možnostech Trilium.",
-    "app_theme_base": "nastavte na \"next\", \"next-light\" nebo \"next-dark\" pro použití odpovídajícího tématu TriliumNext (auto, světlé nebo tmavé) jako základu pro vlastní téma, namísto staršího.",
+    "app_css": "Označuje CSS poznámky, které jsou načteny do aplikace Notely a mohou být tak použity k úpravě vzhledu Notely.",
+    "app_theme": "Označuje CSS poznámky, které jsou kompletními motivy Notely a jsou tak dostupné v možnostech Notely.",
+    "app_theme_base": "nastavte na \"next\", \"next-light\" nebo \"next-dark\" pro použití odpovídajícího tématu Notely (auto, světlé nebo tmavé) jako základu pro vlastní téma, namísto staršího.",
     "css_class": "hodnota tohoto štítku je poté přidána jako CSS třída k uzlu reprezentujícímu danou poznámku ve stromu. To může být užitečné pro pokročilé tématizace. Lze použít v šablonových poznámkách.",
     "icon_class": "hodnota tohoto štítku je přidána jako CSS třída k ikoně ve stromu, což může pomoci vizuálně odlišit poznámky ve stromu. Příkladem může být bx bx-home - ikony jsou převzaty z boxicons. Lze použít v šablonových poznámkách.",
     "page_size": "počet položek na stránce v seznamu poznámek",
     "custom_request_handler": "viz <a href=\"javascript:\" data-help-page=\"custom-request-handler.html\">Vlastní zpracovatel požadavků</a>",
     "custom_resource_provider": "viz <a href=\"javascript:\" data-help-page=\"custom-request-handler.html\">Vlastní zpracovatel požadavků</a>",
-    "widget": "označí tuto poznámku jako vlastní widget, který bude přidán do stromu komponent Trilium",
+    "widget": "označí tuto poznámku jako vlastní widget, který bude přidán do stromu komponent Notely",
     "workspace": "označí tuto poznámku jako pracovní prostor, který umožňuje snadné zúžení zobrazení",
     "workspace_icon_class": "definuje CSS třídu ikony box, která bude použita na záložce při zúžení zobrazení na tuto poznámku",
     "workspace_tab_background_color": "CSS barva použitá na záložce při zúžení zobrazení na tuto poznámku",
@@ -516,9 +516,9 @@
   },
   "attachments_actions": {
     "open_externally": "Otevřít externě",
-    "open_externally_title": "Soubor bude otevřen v externí aplikaci a sledován na změny. Poté budete moci nahrát upravenou verzi zpět do Trilium.",
+    "open_externally_title": "Soubor bude otevřen v externí aplikaci a sledován na změny. Poté budete moci nahrát upravenou verzi zpět do Notely.",
     "open_custom": "Otevřít vlastní",
-    "open_custom_title": "Soubor bude otevřen v externí aplikaci a sledován na změny. Poté budete moci nahrát upravenou verzi zpět do Trilium.",
+    "open_custom_title": "Soubor bude otevřen v externí aplikaci a sledován na změny. Poté budete moci nahrát upravenou verzi zpět do Notely.",
     "download": "Stáhnout",
     "rename_attachment": "Přejmenovat přílohu",
     "upload_new_revision": "Nahrát novou revizi",
@@ -607,7 +607,7 @@
     "reload_frontend": "Obnovit Frontend",
     "show_hidden_subtree": "Zobrazit Skrytý Podstrom",
     "show_help": "Zobrazit Nápovědu",
-    "about": "O Trilium Notes",
+    "about": "O Notely",
     "logout": "Odhlásit se",
     "show-cheatsheet": "Zobrazit Cheatsheet",
     "toggle-zen-mode": "Zen Režim",
@@ -642,7 +642,7 @@
     "note_attachments": "Přílohy poznámky",
     "view_ocr_text": "Zobrazit text z OCR",
     "open_note_externally": "Otevřít poznámku externě",
-    "open_note_externally_title": "Soubor bude otevřen v externí aplikaci a sledován na změny. Poté budete moci nahrát upravenou verzi zpět do Trilium.",
+    "open_note_externally_title": "Soubor bude otevřen v externí aplikaci a sledován na změny. Poté budete moci nahrát upravenou verzi zpět do Notely.",
     "open_note_custom": "Otevřít poznámku vlastním způsobem",
     "open_note_on_server": "Otevřít poznámku na serveru",
     "import_files": "Importovat soubory",
@@ -679,7 +679,7 @@
   },
   "code_buttons": {
     "execute_button_title": "Spustit skript",
-    "trilium_api_docs_button_title": "Otevřít dokumentaci Trilium API",
+    "trilium_api_docs_button_title": "Otevřít dokumentaci Notely API",
     "save_to_note_button_title": "Uložit do poznámky",
     "opening_api_docs_message": "Otevírám API dokumentaci...",
     "sql_console_saved_message": "Poznámka SQL konzole byla uložena do {{note_path}}"
@@ -974,7 +974,7 @@
     "editor_crashed_details_intro": "Pokud se tato chyba vyskytne několikrát, zvažte její nahlášení na GitHub vložením informací níže.",
     "editor_crashed_details_title": "Technické informace",
     "auto-detect-language": "Automaticky detekováno",
-    "keeps-crashing": "Komponenta pro úpravy opakovaně havaruje. Zkuste restartovat Trilium. Pokud problém přetrvává, zvažte vytvoření hlášení o chybě."
+    "keeps-crashing": "Komponenta pro úpravy opakovaně havaruje. Zkuste restartovat Notely. Pokud problém přetrvává, zvažte vytvoření hlášení o chybě."
   },
   "empty": {
     "open_note_instruction": "Otevřete poznámku zadáním názvu poznámky do pole níže nebo vyberte poznámku ve stromu.",
@@ -1035,7 +1035,7 @@
     "disabled_button_enable": "Povolit poznámku pro vykreslení"
   },
   "web_view_setup": {
-    "title": "Vytvořte živý pohled na webovou stránku přímo v Trilium",
+    "title": "Vytvořte živý pohled na webovou stránku přímo v Notely",
     "url_placeholder": "Zadejte nebo vložte webovou adresu, například https://triliumnotes.org",
     "create_button": "Vytvořit Webový Pohled",
     "invalid_url_title": "Neplatná adresa",
@@ -1123,7 +1123,7 @@
   },
   "max_content_width": {
     "title": "Šířka obsahu",
-    "default_description": "Trilium ve výchozím nastavení omezuje maximální šířku obsahu pro zlepšení čitelnosti na maximalizovaných obrazovkách na širokých monitorech.",
+    "default_description": "Notely ve výchozím nastavení omezuje maximální šířku obsahu pro zlepšení čitelnosti na maximalizovaných obrazovkách na širokých monitorech.",
     "max_width_label": "Maximální šířka obsahu",
     "max_width_unit": "pixelů",
     "centerContent": "Udržovat obsah centrováný"
@@ -1143,9 +1143,9 @@
     "auto_theme": "Starší (Sledovat barevné schéma systému)",
     "light_theme": "Starší (Světlé)",
     "dark_theme": "Starší (Tmavé)",
-    "triliumnext": "Trilium (Sledovat barevné schéma systému)",
-    "triliumnext-light": "Trilium (Světlé)",
-    "triliumnext-dark": "Trilium (Tmavé)",
+    "triliumnext": "Notely (Sledovat barevné schéma systému)",
+    "triliumnext-light": "Notely (Světlé)",
+    "triliumnext-dark": "Notely (Tmavé)",
     "layout": "Rozložení",
     "layout-vertical-title": "Vertikální",
     "layout-horizontal-title": "Horizontální",
@@ -1258,7 +1258,7 @@
   },
   "tray": {
     "title": "Systémová informační oblast",
-    "enable_tray": "Povolit informační oblast (pro zavedení této změny je nutné Trilium restartovat)"
+    "enable_tray": "Povolit informační oblast (pro zavedení této změny je nutné Notely restartovat)"
   },
   "heading_style": {
     "title": "Styl nadpisu",
@@ -1319,7 +1319,7 @@
   },
   "backup": {
     "automatic_backup": "Automatické zálohování",
-    "automatic_backup_description": "Trilium může automaticky zálohovat databázi:",
+    "automatic_backup_description": "Notely může automaticky zálohovat databázi:",
     "enable_daily_backup": "Povolit denní zálohování",
     "enable_weekly_backup": "Povolit týdenní zálohování",
     "enable_monthly_backup": "Povolit měsíční zálohování",
@@ -1332,7 +1332,7 @@
     "no_backup_yet": "Zatím neexistuje žádná záloha"
   },
   "etapi": {
-    "description": "ETAPI je REST API používané pro programatický přístup k instanci Trilium bez uživatelského rozhraní.",
+    "description": "ETAPI je REST API používané pro programatický přístup k instanci Notely bez uživatelského rozhraní.",
     "create_token": "Vytvořit nový ETAPI token",
     "existing_tokens": "Existující tokeny",
     "no_tokens_yet": "Zatím neexistují žádné tokeny. Klikněte na tlačítko výše a vytvořte jeden.",
@@ -1344,7 +1344,7 @@
     "default_token_name": "nový token",
     "error_empty_name": "Název tokenu nemůže být prázdný",
     "token_created_title": "ETAPI token vytvořen",
-    "token_created_message": "Zkopírujte vytvořený token do schránky. Trilium token ukládá hashovaný a toto je poslední možnost, jak jej uvidíte.",
+    "token_created_message": "Zkopírujte vytvořený token do schránky. Notely token ukládá hashovaný a toto je poslední možnost, jak jej uvidíte.",
     "rename_token": "Přejmenovat tento token",
     "delete_token": "Smazat / deaktivovat tento token",
     "rename_token_title": "Přejmenovat token",
@@ -1374,7 +1374,7 @@
     "set_password_heading": "Nastavit heslo",
     "set_password": "Nastavit heslo",
     "password_mismatch": "Nová hesla se neshodují.",
-    "password_changed_success": "Heslo bylo změněno. Trilium se po stisknutí OK znovu načte."
+    "password_changed_success": "Heslo bylo změněno. Notely se po stisknutí OK znovu načte."
   },
   "multi_factor_authentication": {
     "recovery_keys_description_warning": "Záchranné klíče nebudou po opuštění stránky znovu zobrazeny, uchovejte je na bezpečném místě. Po použití záchranného klíče jej nelze znovu použít.",
@@ -1782,7 +1782,7 @@
     "copy-link": "Kopírovat odkaz",
     "paste": "Vložit",
     "paste-as-plain-text": "Vložit jako prostý text",
-    "search_in_trilium": "Hledat „{{term}}“ v Trilium",
+    "search_in_trilium": "Hledat „{{term}}“ v Notely",
     "search_online": "Hledat „{{term}}“ pomocí {{searchEngine}}"
   },
   "image_context_menu": {
@@ -1892,9 +1892,9 @@
   },
   "cpu_arch_warning": {
     "title": "Prosím stáhněte si verzi ARM64",
-    "message_macos": "TriliumNext momentálně běží pod překladem Rosetta 2, což znamená, že na Macu s Apple Silicon používáte verzi Intel (x64). To bude mít výrazný dopad na výkon a výdrž baterie.",
-    "message_windows": "TriliumNext momentálně běží v režimu emulace, což znamená, že na zařízení Windows pro ARM používáte verzi Intel (x64). To bude mít výrazný dopad na výkon a výdrž baterie.",
-    "recommendation": "Pro nejlepší zážitek si prosím stáhněte nativní verzi ARM64 aplikace TriliumNext z naší stránky s vydáními.",
+    "message_macos": "Notely momentálně běží pod překladem Rosetta 2, což znamená, že na Macu s Apple Silicon používáte verzi Intel (x64). To bude mít výrazný dopad na výkon a výdrž baterie.",
+    "message_windows": "Notely momentálně běží v režimu emulace, což znamená, že na zařízení Windows pro ARM používáte verzi Intel (x64). To bude mít výrazný dopad na výkon a výdrž baterie.",
+    "recommendation": "Pro nejlepší zážitek si prosím stáhněte nativní verzi ARM64 aplikace Notely z naší stránky s vydáními.",
     "download_link": "Stáhnout nativní verzi",
     "continue_anyway": "Pokračovat i tak",
     "dont_show_again": "Toto varování již nezobrazovat"
@@ -2007,14 +2007,14 @@
     "help_title": "Zobrazit více informací o této obrazovce"
   },
   "call_to_action": {
-    "next_theme_title": "Vyzkoušejte nové téma Trilium",
+    "next_theme_title": "Vyzkoušejte nové téma Notely",
     "next_theme_message": "Momentálně používáte staré téma, chcete vyzkoušet nové téma?",
     "next_theme_button": "Vyzkoušet nové téma",
     "background_effects_title": "Efekty pozadí jsou nyní stabilní",
     "background_effects_message": "Na zařízeních Windows a macOS jsou efekty pozadí nyní stabilní. Efekty pozadí přidávají uživatelskému rozhraní nádech barvy rozostřením pozadí za ním.",
     "background_effects_button": "Povolit efekty pozadí",
     "new_layout_title": "Nové rozvržení",
-    "new_layout_message": "Pro Trilium jsme zavedli modernizované rozvržení. Pás karet byl odstraněn a plynule integrovan do hlavního rozhraní, přičemž nové stavové řádky a rozšiřitelné sekce (jako jsou propagované atributy) převzaly klíčové funkce. \n\nNové rozvržení je padrãoně zapnuté a lze jej dočasně vypnout přes Nastavení → Vzhled.",
+    "new_layout_message": "Pro Notely jsme zavedli modernizované rozvržení. Pás karet byl odstraněn a plynule integrovan do hlavního rozhraní, přičemž nové stavové řádky a rozšiřitelné sekce (jako jsou propagované atributy) převzaly klíčové funkce. \n\nNové rozvržení je padrãoně zapnuté a lze jej dočasně vypnout přes Nastavení → Vzhled.",
     "new_layout_button": "Více informací",
     "dismiss": "Zavřít"
   },

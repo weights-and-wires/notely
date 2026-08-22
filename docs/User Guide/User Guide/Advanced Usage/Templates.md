@@ -1,5 +1,5 @@
 # Templates
-A template in Trilium serves as a predefined structure for other notes, referred to as instance notes. Assigning a template to a note brings three main effects:
+A template in Notely serves as a predefined structure for other notes, referred to as instance notes. Assigning a template to a note brings three main effects:
 
 1.  **Attribute Inheritance**: All attributes from the template note are [inherited](Attributes/Attribute%20Inheritance.md) by the instance notes. Even attributes with `#isInheritable=false` are inherited by the instance notes, although only inheritable attributes are further inherited by the children of the instance notes.
 2.  **Content Duplication**: The content of the template note is copied to the instance note, provided the instance note is empty at the time of template assignment.

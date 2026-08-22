@@ -8,11 +8,11 @@
     },
     "hero_section": {
         "title": "Organizați-vă gândurile. Construiți-vă propria bază de cunoștințe digitală.",
-        "subtitle": "Trilium este o aplicație open-source pentru notițe și pentru organizarea unei baze de cunoștințe personală. Se poate folosi local pe desktop sau se poate sincroniza cu un server găzduit de dvs. pentru a putea accesa notițele de oriunde.",
+        "subtitle": "Notely este o aplicație open-source pentru notițe și pentru organizarea unei baze de cunoștințe personală. Se poate folosi local pe desktop sau se poate sincroniza cu un server găzduit de dvs. pentru a putea accesa notițele de oriunde.",
         "get_started": "Primii pași",
         "github": "GitHub",
         "dockerhub": "Docker Hub",
-        "screenshot_alt": "Captură de ecran a aplicației de desktop Trilium Notes"
+        "screenshot_alt": "Captură de ecran a aplicației de desktop Notely"
     },
     "organization_benefits": {
         "title": "Funcții de organizare",
@@ -34,7 +34,7 @@
         "search_title": "Căutare performantă",
         "search_content": "Căutați în interiorul notițelor și reduceți numărul de rezultate prin filtrarea după notița părinte, sau după adâncime.",
         "web_clipper_title": "Clipper web",
-        "web_clipper_content": "Preluați pagini web (sau capturi de ecran), care vor apărea direct în Trilium utilizând extensia de browser „Clipper web”."
+        "web_clipper_content": "Preluați pagini web (sau capturi de ecran), care vor apărea direct în Notely utilizând extensia de browser „Clipper web”."
     },
     "note_types": {
         "text_title": "Notițe de tip text",
@@ -69,18 +69,18 @@
         "mobile_question": "Există o aplicație de mobil?",
         "mobile_answer": "În momentul de față nu există o aplicație de mobil oficială. Totuși, dacă aveți o instanță de server o puteți accesa folosind un navigator web și o puteți instala ca un PWA. Pentru Android, există o aplicație neoficială denumită TriliumDroid care poate funcționa chiar și offline (similar cu aplicația de desktop).",
         "database_question": "Unde sunt stocate datele?",
-        "database_answer": "Toate notițele sunt stocate într-o bază de date SQLite la nivelul unui dosar al aplicației. Motivul pentru care Trilium folosește o bază de date în locul de fișiere text este legat de performanță și deoarece unele funcții ar fi fost mult mai greu de replicat precum clone (aceeași notițe în mai multe locuri). Pentru a găsi folder-ul aplicației, mergeți în fereastra „Despre”.",
-        "server_question": "Am nevoie de un server să folosesc Trilium?",
+        "database_answer": "Toate notițele sunt stocate într-o bază de date SQLite la nivelul unui dosar al aplicației. Motivul pentru care Notely folosește o bază de date în locul de fișiere text este legat de performanță și deoarece unele funcții ar fi fost mult mai greu de replicat precum clone (aceeași notițe în mai multe locuri). Pentru a găsi folder-ul aplicației, mergeți în fereastra „Despre”.",
+        "server_question": "Am nevoie de un server să folosesc Notely?",
         "server_answer": "Nu, server-ul permite accesarea printr-un browser web și coordonează sincronizarea dacă aveți dispozitive multiple. Pentru început este suficient să descărcați aplicația de desktop și s-o folosiți.",
         "scaling_question": "Cât de bine suportă aplicația un număr mare de notițe?",
-        "scaling_answer": "În funcție de modul de utilizare, aplicația ar trebui să suporte cel puțin 100.000 de notițe fără probleme. De avut în vedere faptul că procesul de sincronizare poate eșua dacă se încarcă prea multe fișiere mari (ex. 1 GB per fișier) deoarece Trilium este prevăzut mai mult ca o aplicație de bază de cunoștințe decât de stocare a fișierelor (precum NextCloud, spre exemplu).",
+        "scaling_answer": "În funcție de modul de utilizare, aplicația ar trebui să suporte cel puțin 100.000 de notițe fără probleme. De avut în vedere faptul că procesul de sincronizare poate eșua dacă se încarcă prea multe fișiere mari (ex. 1 GB per fișier) deoarece Notely este prevăzut mai mult ca o aplicație de bază de cunoștințe decât de stocare a fișierelor (precum NextCloud, spre exemplu).",
         "network_share_question": "Pot partaja baza mea de date pe rețea?",
         "network_share_answer": "Nu, nu este o idee bună să partajați o bază de date SQLite pe rețea. Deși uneori poate funcționa, sunt șanse mari ca baza de date să se corupă din cauza sistemului de blocare al fișierului la nivel de rețea.",
         "security_question": "Cum sunt datele mele protejate?",
         "security_answer": "În mod implicit, notițele nu sunt criptate și pot fi citite direct din baza de date. Odată ce o notiță este marcată drept protejată, conținutul este criptat folosind AES-128-CBC."
     },
     "final_cta": {
-        "title": "Gata de a folosi Trilium Notes?",
+        "title": "Gata de a folosi Notely?",
         "description": "Construiți-vă baza de cunoștințe personală cu funcții puternice și intimitate maximă.",
         "get_started": "Începe"
     },
@@ -107,7 +107,7 @@
     "support_us": {
         "title": "Sprijină-ne",
         "financial_donations_title": "Donații financiare",
-        "financial_donations_description": "Trilium este construit și menținut prin <Link>sute de ore de muncă</Link>. Sprijinul dvs. ne ajută să-l menținem open-source, să îmbunătățim funcțiile și să acoperim costuri precum găzduirea.",
+        "financial_donations_description": "Notely este construit și menținut prin <Link>sute de ore de muncă</Link>. Sprijinul dvs. ne ajută să-l menținem open-source, să îmbunătățim funcțiile și să acoperim costuri precum găzduirea.",
         "financial_donations_cta": "Considerați sprijinirea dezvoltatorului principal al aplicației (<Link>eliandoran</Link>) prin:",
         "github_sponsors": "Sponsori GitHub",
         "paypal": "PayPal",
@@ -119,7 +119,7 @@
         "way_community": "Interacționați cu comunitatea pe <Discussions>Discuții GitHub</Discussions> sau pe <Matrix>Matrix</Matrix>.",
         "way_reports": "Raportați bug-uri prin <Link>GitHub Issues</Link>.",
         "way_document": "Îmbunătățiți documentația prin a ne informa de lacune în documentație sau prin a contribui ghiduri, întrebări frecvente și tutoriale.",
-        "way_market": "Informați-vă prietenii, colegii despre Trilium Notes sau prin blog-uri și social media."
+        "way_market": "Informați-vă prietenii, colegii despre Notely sau prin blog-uri și social media."
     },
     "404": {
         "title": "404: Nu s-a găsit pagina",
@@ -166,14 +166,14 @@
     },
     "download_helper_server_linux": {
         "title": "Găzduit în regim propriu pe Linux",
-        "description": "Rulați Trilium Notes pe propriul server sau VPS, compatibil cu majoritatea distribuțiilor.",
+        "description": "Rulați Notely pe propriul server sau VPS, compatibil cu majoritatea distribuțiilor.",
         "download_tar_x64": "x64 (.tar.xz)",
         "download_nixos": "Modul NixOS",
         "download_tar_arm64": "ARM (.tar.xz)"
     },
     "download_helper_server_hosted": {
         "title": "Găzduire contra cost",
-        "description": "Trilium Notes găzduit pe PikaPods, un serviciu plătit pentru acces facil. Nu este direct afiliat cu echipa Trilium.",
+        "description": "Notely găzduit pe PikaPods, un serviciu plătit pentru acces facil. Nu este direct afiliat cu echipa Notely.",
         "download_pikapod": "Folosește PikaPods"
     },
     "social_buttons": {

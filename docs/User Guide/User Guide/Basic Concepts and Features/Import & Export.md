@@ -1,5 +1,5 @@
 # Import & Export
-Trilium natively supports the following formats for both import and export.
+Notely natively supports the following formats for both import and export.
 
 ## Supported formats
 

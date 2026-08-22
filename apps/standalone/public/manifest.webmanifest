@@ -1,7 +1,7 @@
 {
-    "name": "Trilium Notes",
-    "short_name": "Trilium",
-    "description": "Trilium Notes is a hierarchical note taking application with focus on building large personal knowledge bases.",
+    "name": "Notely",
+    "short_name": "Notely",
+    "description": "Notely is a hierarchical note taking application with focus on building large personal knowledge bases.",
     "theme_color": "#333333",
     "background_color": "#1F1F1F",
     "display": "standalone",

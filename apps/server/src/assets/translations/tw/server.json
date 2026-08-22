@@ -70,7 +70,7 @@
   },
   "login": {
     "title": "登入",
-    "heading": "Trilium 登入",
+    "heading": "Notely 登入",
     "incorrect-password": "密碼不正確。請再試一次。",
     "password": "密碼",
     "remember-me": "記住我",
@@ -81,7 +81,7 @@
   "set_password": {
     "title": "設定密碼",
     "heading": "設定密碼",
-    "description": "在由網頁開始使用 Trilium 之前，您需要先設定一個密碼並用此密碼登入。",
+    "description": "在由網頁開始使用 Notely 之前，您需要先設定一個密碼並用此密碼登入。",
     "password": "密碼",
     "password-confirmation": "確認密碼",
     "button": "設定密碼"
@@ -306,8 +306,8 @@
     "unable-to-print": "無法列印筆記"
   },
   "tray": {
-    "tooltip": "Trilium 筆記",
-    "close": "退出 Trilium",
+    "tooltip": "Notely 筆記",
+    "close": "退出 Notely",
     "recents": "最近筆記",
     "bookmarks": "書籤",
     "today": "打開今日日記筆記",
@@ -318,7 +318,7 @@
   "migration": {
     "old_version": "您目前的版本不支援直接遷移。請先更新至最新的 v0.60.4 然後再到此版本。",
     "error_message": "遷移至版本 {{version}} 時發生錯誤：{{stack}}",
-    "wrong_db_version": "資料庫版本（{{version}}）比程式預期（{{targetVersion}}）新，這意味著它由一個更新且不相容的 Trilium 版本所創建。升級至最新版的 Trilium 以解決此問題。",
+    "wrong_db_version": "資料庫版本（{{version}}）比程式預期（{{targetVersion}}）新，這意味著它由一個更新且不相容的 Notely 版本所創建。升級至最新版的 Notely 以解決此問題。",
     "invalid_db_version": "資料庫版本號不是有效的數字。這通常表示資料庫中的「dbVersion」選項已損毀。請從備份還原。"
   },
   "modals": {
@@ -366,7 +366,7 @@
   },
   "sql_init": {
     "db_not_initialized_desktop": "資料庫尚未初始化，請依螢幕指示操作。",
-    "db_not_initialized_server": "資料庫尚未初始化，請前往設定頁面 http://[your-server-host]:{{port}} 查看如何初始化 Trilium。"
+    "db_not_initialized_server": "資料庫尚未初始化，請前往設定頁面 http://[your-server-host]:{{port}} 查看如何初始化 Notely。"
   },
   "search": {
     "error": {

@@ -1,5 +1,5 @@
 # Notes
-Note is a central entity in Trilium. Main attributes of note are [title](Notes/Title.md) and content.
+Note is a central entity in Notely. Main attributes of note are [title](Notes/Title.md) and content.
 
 ### Note types
 
@@ -7,7 +7,7 @@ The main note type is a rich-text note type called <a class="reference-link" hr
 
 There are also more complex note types such as <a class="reference-link" href="../Note%20Types/Saved%20Search.md">Saved Search</a>, <a class="reference-link" href="../Note%20Types/Render%20Note.md">Render Note</a> that usually go hand-in-hand with <a class="reference-link" href="../Scripting.md">Scripting</a>.
 
-In Trilium there's no specific "folder" note type. Any note can have children and thus be a folder.
+In Notely there's no specific "folder" note type. Any note can have children and thus be a folder.
 
 ### Root note
 
@@ -17,11 +17,11 @@ There's one special note called "root note" which is root of the note tree. All 
 
 Importantly, note itself doesn't carry information on its placement in note tree. See <a class="reference-link" href="Notes/Cloning%20Notes.md">Cloning Notes</a> for details.
 
-Tree structure of notes can resemble file system - but compared to that notes in Trilium can act as both file and directory - meaning that note can both have its own content and have children. "Leaf note" is a note which doesn't have any children.
+Tree structure of notes can resemble file system - but compared to that notes in Notely can act as both file and directory - meaning that note can both have its own content and have children. "Leaf note" is a note which doesn't have any children.
 
 ### Deleting / undeleting notes
 
-When you delete a note in Trilium, it is actually only marked for deletion (soft-delete) - the actual content, title, attributes etc. are not deleted, only hidden.
+When you delete a note in Notely, it is actually only marked for deletion (soft-delete) - the actual content, title, attributes etc. are not deleted, only hidden.
 
 Within (by default) 7 days, it is possible to undelete these soft-deleted notes - open the <a class="reference-link" href="UI%20Elements/Recent%20Changes.md">Recent Changes</a> dialog, and you will see a list of all modified notes including the deleted ones. Notes available for undeletion have a link to do so. This is kind of "trash can" functionality known from e.g. Windows.
 

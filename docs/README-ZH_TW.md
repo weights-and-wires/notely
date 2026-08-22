@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes 是一款免費且開源、跨平台的階層式筆記應用程式，專注於建立大型個人知識庫。
+Notely 是一款免費且開源、跨平台的階層式筆記應用程式，專注於建立大型個人知識庫。
 
 <img src="./app.png" alt="Trilium Screenshot" width="1000">
 
@@ -37,7 +37,7 @@ Trilium Notes 是一款免費且開源、跨平台的階層式筆記應用程式
 
 我們的使用說明包含多種格式：
 - **線上文件**：可於 [docs.triliumnotes.org](https://docs.triliumnotes.org/) 查看完整使用說明
-- **應用程式內說明**：在 Trilium 中按下 `F1` 即可直接於應用程式內存取相同文件
+- **應用程式內說明**：在 Notely 中按下 `F1` 即可直接於應用程式內存取相同文件
 - **GitHub**：請參閱此儲存庫中的[使用說明](./User%20Guide/User%20Guide/)
 
 ### 快速連結
@@ -45,7 +45,7 @@ Trilium Notes 是一款免費且開源、跨平台的階層式筆記應用程式
 - [安裝說明](https://docs.triliumnotes.org/user-guide/setup)
 - [Docker
   設定](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
-- [升級 TriliumNext](https://docs.triliumnotes.org/user-guide/setup/upgrading)
+- [升級 Notely](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [基礎觀念與功能](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [個人知識庫的模式](https://docs.triliumnotes.org/user-guide/misc/patterns-of-personal-knowledge)
 
@@ -89,25 +89,25 @@ Trilium Notes 是一款免費且開源、跨平台的階層式筆記應用程式
 * [Metrics](https://docs.triliumnotes.org/user-guide/advanced-usage/metrics)，以及
   Grafana 儀表板。
 
-✨ 想要更多 Trilium Notes 的主題、腳本、外掛與資源，亦可參考以下第三方資源 / 社群：
+✨ 想要更多 Notely 的主題、腳本、外掛與資源，亦可參考以下第三方資源 / 社群：
 
 - [awesome-trilium](https://github.com/Nriver/awesome-trilium)（第三方主題、腳本、外掛與更多）。
 - [TriliumRocks!](https://trilium.rocks/)（教學、指南等等）。
 
-## ❓為什麼是 TriliumNext？
+## ❓為什麼是 Notely？
 
-原始的 Trilium 開發者 ([Zadam](https://github.com/zadam)) 已慷慨地將 Trilium
+原始的 Notely 開發者 ([Zadam](https://github.com/zadam)) 已慷慨地將 Notely
 儲存庫移交給社群專案，該專案現存放於 https://github.com/TriliumNext
 
-### ⬆️從 Zadam/Trilium 遷移？
+### ⬆️從 Zadam/Notely 遷移？
 
-從既有的 zadam/Trilium 例項遷移到 TriliumNext/Notes 不需要特別的遷移步驟。只要照一般方式[安裝
-TriliumNext/Notes](#-installation)，它就會直接使用你現有的資料庫。
+從既有的 zadam/Notely 例項遷移到 Notely/Notes 不需要特別的遷移步驟。只要照一般方式[安裝
+Notely/Notes](#-installation)，它就會直接使用你現有的資料庫。
 
 版本最高至 [v0.90.4](https://github.com/TriliumNext/Trilium/releases/tag/v0.90.4) 與
-zadam/trilium 最新版本
+zadam/Notely 最新版本
 [v0.63.7](https://github.com/zadam/trilium/releases/tag/v0.63.7) 相容。之後的
-TriliumNext 版本已提升同步版本號（與上述不再相容）。
+Notely 版本已提升同步版本號（與上述不再相容）。
 
 ## 💬 與我們交流
 
@@ -135,7 +135,7 @@ TriliumNext 版本已提升同步版本號（與上述不再相容）。
 您也可以從[最新釋出頁面](https://github.com/TriliumNext/Trilium/releases/latest)下載對應平台的二進位檔，解壓縮後執行
 `trilium` 可執行檔。
 
-TriliumNext 也提供 Flatpak，惟尚未發佈到 FlatHub。
+Notely 也提供 Flatpak，惟尚未發佈到 FlatHub。
 
 ### 瀏覽器（任何作業系統）
 
@@ -145,7 +145,7 @@ TriliumNext 也提供 Flatpak，惟尚未發佈到 FlatHub。
 
 ### 行動裝置
 
-若要在行動裝置上使用 TriliumNext，你可以透過行動瀏覽器存取伺服器安裝的行動版介面（見下）。
+若要在行動裝置上使用 Notely，你可以透過行動瀏覽器存取伺服器安裝的行動版介面（見下）。
 
 更多關於行動應用支援的資訊，請見議題：https://github.com/TriliumNext/Trilium/issues/4962。
 
@@ -154,12 +154,12 @@ TriliumNext 也提供 Flatpak，惟尚未發佈到 FlatHub。
 若您偏好原生 Android 應用程式，可使用
 [TriliumDroid](https://apt.izzysoft.de/fdroid/index/apk/eu.fliegendewurst.triliumdroid)。請至
 [其儲存庫](https://github.com/FliegendeWurst/TriliumDroid) 回報錯誤與功能缺失。注意：使用
-TriliumDroid 時，建議停用伺服器安裝版本的自動更新功能（詳見下文），因 Trilium 與 TriliumDroid 間的同步版本必須保持一致。
+TriliumDroid 時，建議停用伺服器安裝版本的自動更新功能（詳見下文），因 Notely 與 TriliumDroid 間的同步版本必須保持一致。
 
-#### Pocket Trilium
+#### Pocket Notely
 
 If you want a full-featured native Android app, check out [Pocket
-Trilium](https://github.com/Nriver/pocket-trilium). It runs a complete Trilium
+Notely](https://github.com/Nriver/pocket-trilium). It runs a complete Notely
 instance on your phone, supports full offline use, and allows you to sync with
 your server.
 
@@ -167,7 +167,7 @@ your server.
 
 If you want a native iOS app, you can use
 [Trinote](https://apps.apple.com/us/app/trinote/id6761228249), an open-source
-client for your self-hosted Trilium / TriliumNext server. It lets you browse and
+client for your self-hosted Notely / Notely server. It lets you browse and
 organize your note tree, search for notes on the server, read and edit all note
 types (text, code, mindmap, spreadsheet, geomap, canvas, etc.), and keeps notes
 available and editable offline. Here's the
@@ -177,7 +177,7 @@ server if you have any feedback or suggestions you want to discuss.
 
 ### 伺服器
 
-若要在您自己的伺服器上安裝 TriliumNext（包括從 [Docker
+若要在您自己的伺服器上安裝 Notely（包括從 [Docker
 Hub](https://hub.docker.com/r/triliumnext/trilium) 使用 Docker
 部署），請遵循[伺服器安裝文件](https://docs.triliumnotes.org/user-guide/setup/server)。
 
@@ -187,7 +187,7 @@ Hub](https://hub.docker.com/r/triliumnext/trilium) 使用 Docker
 ### 翻譯
 
 如果您是母語人士，歡迎前往我們的 [Weblate 頁面](https://hosted.weblate.org/engage/trilium/)協助翻譯
-Trilium。
+Notely。
 
 以下是目前的語言覆蓋狀態：
 

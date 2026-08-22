@@ -210,7 +210,7 @@
     "numberedList": "<code>1.</code> or <code>1)</code> 後跟空格，自動轉換為編號列表",
     "blockQuote": "一行以 <code>></code> 開頭並後跟空格，自動轉換為區塊引用",
     "troubleshooting": "故障排除",
-    "reloadFrontend": "重新載入Trilium前端",
+    "reloadFrontend": "重新載入Notely前端",
     "showDevTools": "顯示開發者工具",
     "showSQLConsole": "顯示 SQL 控制台",
     "other": "其他",
@@ -227,11 +227,11 @@
     "importIntoNote": "匯入至筆記",
     "chooseImportFile": "選擇檔案匯入",
     "options": "選項",
-    "safeImportTooltip": "Trilium <code>.zip</code> 匯出的檔案可能包含可執行腳本。安全匯入會停用這些腳本；僅當該壓縮檔旨在執行腳本，且您信任其內容時，才應取消勾選此選項。",
+    "safeImportTooltip": "Notely <code>.zip</code> 匯出的檔案可能包含可執行腳本。安全匯入會停用這些腳本；僅當該壓縮檔旨在執行腳本，且您信任其內容時，才應取消勾選此選項。",
     "safeImport": "安全匯入",
     "explodeArchivesTooltip": "根據 <code>.zip</code>、<code>.enex</code> 及 <code>.opml</code> 壓縮檔中的檔案建立筆記。若此功能關閉，則壓縮檔將以原始狀態附加。",
     "explodeArchives": "讀取<code>.zip</code>、<code>.enex</code>和<code>.opml</code>封存文件的內容。",
-    "shrinkImagesTooltip": "減小導入圖片的大小，這可能會略微降低其品質。不適用於包含 Trilium 元資料的 <code>.zip</code> 導入，其圖片被假定已經壓縮過。",
+    "shrinkImagesTooltip": "減小導入圖片的大小，這可能會略微降低其品質。不適用於包含 Notely 元資料的 <code>.zip</code> 導入，其圖片被假定已經壓縮過。",
     "shrinkImages": "壓縮圖片",
     "textImportedAsText": "如果元數據不明確，將HTML、Markdown和TXT匯入為文字筆記",
     "codeImportedAsCode": "如果詮釋資料不明確，將識別的程式碼檔案（例如<code>.json</code>）匯入為程式碼筆記",
@@ -363,7 +363,7 @@
     "options": "選項",
     "shrink_images": "縮小圖片",
     "upload": "上傳",
-    "tooltip": "如果您勾選此選項，Trilium 將嘗試透過縮放和最佳化來縮小上傳的圖片，這可能會影響圖片的觀看品質。如果未勾選，則將不進行修改直接上傳圖片。"
+    "tooltip": "如果您勾選此選項，Notely 將嘗試透過縮放和最佳化來縮小上傳的圖片，這可能會影響圖片的觀看品質。如果未勾選，則將不進行修改直接上傳圖片。"
   },
   "attribute_detail": {
     "close_button_title": "取消修改並關閉",
@@ -402,8 +402,8 @@
     "calendar_root": "標記應用作為每日筆記的根。只應標記一個筆記。",
     "archived": "含有此標籤的筆記預設在搜尋結果中不可見（也適用於跳轉至、新增連結對話方塊等）。",
     "exclude_from_export": "筆記（及其子階層）不會包含在任何匯出的筆記中",
-    "run": "定義腳本應運行的事件。可能的值包括：\n<ul>\n<li>frontendStartup - Trilium前端啟動時（或重新整理時），但不會在移動端執行。</li>\n<li>mobileStartup - Trilium前端啟動時（或重新整理時）， 在行動端會執行。</li>\n<li>backendStartup - Trilium後端啟動時。</li>\n<li>hourly - 每小時運行一次。您可以使用附加標籤<code>runAtHour</code>指定小時。</li>\n<li>daily - 每天運行一次。</li>\n</ul>",
-    "run_on_instance": "定義應在哪個 Trilium 實例上運行。預設為所有實例。",
+    "run": "定義腳本應運行的事件。可能的值包括：\n<ul>\n<li>frontendStartup - Notely前端啟動時（或重新整理時），但不會在移動端執行。</li>\n<li>mobileStartup - Notely前端啟動時（或重新整理時）， 在行動端會執行。</li>\n<li>backendStartup - Notely後端啟動時。</li>\n<li>hourly - 每小時運行一次。您可以使用附加標籤<code>runAtHour</code>指定小時。</li>\n<li>daily - 每天運行一次。</li>\n</ul>",
+    "run_on_instance": "定義應在哪個 Notely 實例上運行。預設為所有實例。",
     "run_at_hour": "應在哪個小時運行。應與<code>#run=hourly</code>一起使用。可以多次定義，以便一天內運行多次。",
     "disable_inclusion": "含有此標籤的腳本不會包含在父腳本執行中。",
     "sorted": "依標題字母順序保持子筆記排序",
@@ -413,14 +413,14 @@
     "hide_promoted_attributes": "隱藏此筆記上的升級屬性",
     "read_only": "編輯器處於唯讀模式。僅適用於文字和程式碼筆記。",
     "auto_read_only_disabled": "文字 / 程式碼筆記可以在太大時自動設定為唯讀模式。您可以透過向筆記新增此標籤來對單個筆記單獨設定禁用唯讀。",
-    "app_css": "標記載入至 Trilium 應用程式中的 CSS 筆記，因此可以用於修改 Trilium 的外觀。",
-    "app_theme": "標記為完整的 Trilium 主題的 CSS 筆記，因此可以在 Trilium 選項中使用。",
+    "app_css": "標記載入至 Notely 應用程式中的 CSS 筆記，因此可以用於修改 Notely 的外觀。",
+    "app_theme": "標記為完整的 Notely 主題的 CSS 筆記，因此可以在 Notely 選項中使用。",
     "css_class": "該標籤的值將作為 CSS 類新增至樹中表示給定筆記的節點。這對於進階主題設定非常有用。可用於模板筆記。",
     "icon_class": "該標籤的值將作為 CSS 類新增至樹中圖標上，有助於從視覺上區分筆記樹裡的筆記。比如可以是 bx bx-home——圖標來自 boxicons。可用於模板筆記。",
     "page_size": "筆記列表中每頁的項目數",
     "custom_request_handler": "自訂請求處理程序",
     "custom_resource_provider": "自訂資源提供者",
-    "widget": "將此筆記標記為將新增至 Trilium 元件樹中的自訂元件",
+    "widget": "將此筆記標記為將新增至 Notely 元件樹中的自訂元件",
     "workspace": "將此筆記標記為允許輕鬆聚焦的工作區",
     "workspace_icon_class": "定義在選項卡中聚焦至此筆記時將使用的框圖圖標 CSS 類",
     "workspace_tab_background_color": "聚焦至此筆記時在筆記選項卡中使用的CSS顏色",
@@ -476,7 +476,7 @@
     "share_favicon": "在分享頁面中設定的favicon筆記。一般需要將它設定為分享和可繼承。Favicon筆記也必須位於分享子階層中。可以考慮一並使用'share_hidden_from_tree'。",
     "is_owned_by_note": "由此筆記所有",
     "other_notes_with_name": "其他含有 {{attributeType}} 名為 \"{{attributeName}}\" 的的筆記",
-    "app_theme_base": "設定為 \"next\"、\"next-light \" 或 \"next-dark\"，以使用相應的 TriliumNext 主題（自動、淺色或深色）作為自訂主題的基礎，而非傳統主題。",
+    "app_theme_base": "設定為 \"next\"、\"next-light \" 或 \"next-dark\"，以使用相應的 Notely 主題（自動、淺色或深色）作為自訂主題的基礎，而非傳統主題。",
     "print_landscape": "匯出為 PDF 時，將頁面方向更改為橫向而非縱向。",
     "print_page_size": "在匯出 PDF 時更改頁面大小。支援的值：<code>A0</code>、<code>A1</code>、<code>A2</code>、<code>A3</code>、<code>A4</code>、<code>A5</code>、<code>A6</code>、<code>Legal</code>、<code>Letter</code>、<code>Tabloid</code>、<code>Ledger</code>。",
     "color_type": "顏色",
@@ -602,9 +602,9 @@
   },
   "attachments_actions": {
     "open_externally": "以外部程式打開",
-    "open_externally_title": "檔案將會在外部應用程式中打開並監視其更改。然後您可以將修改後的版本上傳回 Trilium。",
+    "open_externally_title": "檔案將會在外部應用程式中打開並監視其更改。然後您可以將修改後的版本上傳回 Notely。",
     "open_custom": "自訂打開方式",
-    "open_custom_title": "檔案將會在外部應用程式中打開並監視其更改。然後您可以將修改後的版本上傳回 Trilium。",
+    "open_custom_title": "檔案將會在外部應用程式中打開並監視其更改。然後您可以將修改後的版本上傳回 Notely。",
     "download": "下載",
     "rename_attachment": "重新命名附件",
     "upload_new_revision": "上傳新版本",
@@ -698,7 +698,7 @@
     "reload_frontend": "重新載入前端",
     "show_hidden_subtree": "顯示隱藏的子階層",
     "show_help": "顯示說明",
-    "about": "關於 TriliumNext 筆記",
+    "about": "關於 Notely 筆記",
     "logout": "登出",
     "show-cheatsheet": "顯示快捷鍵說明",
     "toggle-zen-mode": "禪模式",
@@ -730,7 +730,7 @@
     "note_source": "筆記原始碼",
     "note_attachments": "筆記附件",
     "open_note_externally": "用外部程式打開筆記",
-    "open_note_externally_title": "檔案將在外部應用程式中打開並監視其更改。然後您可以將修改後的版本上傳回 Trilium。",
+    "open_note_externally_title": "檔案將在外部應用程式中打開並監視其更改。然後您可以將修改後的版本上傳回 Notely。",
     "open_note_custom": "使用自訂程式打開筆記",
     "import_files": "匯入檔案",
     "export_note": "匯出筆記",
@@ -781,7 +781,7 @@
   },
   "code_buttons": {
     "execute_button_title": "執行腳本",
-    "trilium_api_docs_button_title": "打開 Trilium API 文件",
+    "trilium_api_docs_button_title": "打開 Notely API 文件",
     "save_to_note_button_title": "儲存至筆記",
     "opening_api_docs_message": "正在打開 API 文檔…",
     "sql_console_saved_message": "SQL 控制台已儲存至 {{note_path}}",
@@ -1085,7 +1085,7 @@
   "editable_text": {
     "placeholder": "在這裡輸入您的筆記內容…",
     "auto-detect-language": "自動檢測",
-    "keeps-crashing": "編輯元件持續發生崩潰。請嘗試重新啟動 Trilium。若問題仍存在，請考慮提交錯誤報告。",
+    "keeps-crashing": "編輯元件持續發生崩潰。請嘗試重新啟動 Notely。若問題仍存在，請考慮提交錯誤報告。",
     "editor_crashed_title": "文字編輯器崩潰",
     "editor_crashed_content": "您的內容已成功恢復，但最近的幾項變更可能未被儲存。",
     "editor_crashed_details_button": "檢視更多資訊⋯",
@@ -1219,7 +1219,7 @@
   },
   "max_content_width": {
     "title": "內容寬度",
-    "default_description": "Trilium 預設會限制內容的最大寬度以提高在寬螢幕中全螢幕時的可讀性。",
+    "default_description": "Notely 預設會限制內容的最大寬度以提高在寬螢幕中全螢幕時的可讀性。",
     "max_width_label": "內容最大寬度（像素）",
     "max_width_unit": "像素",
     "centerContent": "將內容置中"
@@ -1356,7 +1356,7 @@
   "tray": {
     "title": "系統匣",
     "enable_tray": "系統匣圖示",
-    "enable_tray_description": "需重新啟動 Trilium 才能使此變更生效。"
+    "enable_tray_description": "需重新啟動 Notely 才能使此變更生效。"
   },
   "heading_style": {
     "title": "標題風格",
@@ -1412,7 +1412,7 @@
   },
   "backup": {
     "automatic_backup": "自動備份",
-    "automatic_backup_description": "Trilium 可以自動備份資料庫：",
+    "automatic_backup_description": "Notely 可以自動備份資料庫：",
     "enable_daily_backup": "每日備份",
     "enable_weekly_backup": "每週備份",
     "enable_monthly_backup": "每月備份",
@@ -1427,7 +1427,7 @@
     "title": "備份"
   },
   "etapi": {
-    "description": "ETAPI 是一個 REST API，用於以編程方式訪問 Trilium 實例，而無需 UI。",
+    "description": "ETAPI 是一個 REST API，用於以編程方式訪問 Notely 實例，而無需 UI。",
     "create_token": "新增 ETAPI 令牌",
     "existing_tokens": "現有令牌",
     "no_tokens_yet": "目前還沒有令牌。點擊上面的按鈕新增一個。",
@@ -1439,7 +1439,7 @@
     "default_token_name": "新令牌",
     "error_empty_name": "令牌名稱不能為空",
     "token_created_title": "已新增 ETAPI 令牌",
-    "token_created_message": "將新增的令牌複製到剪貼簿。Trilium 儲存了令牌的哈希值，這會是您最後一次看到它。",
+    "token_created_message": "將新增的令牌複製到剪貼簿。Notely 儲存了令牌的哈希值，這會是您最後一次看到它。",
     "rename_token": "重新命名此令牌",
     "delete_token": "刪除 / 停用此令牌",
     "rename_token_title": "重新命名令牌",
@@ -1509,7 +1509,7 @@
     "test_button": "測試同步",
     "handshake_failed": "同步伺服器握手失敗，錯誤：{{message}}",
     "timeout_description": "在放棄慢速連線前應等待多久。",
-    "server_address_description": "要同步的 Trilium 伺服器網址。",
+    "server_address_description": "要同步的 Notely 伺服器網址。",
     "proxy_description": "若要使用系統代理伺服器，請留空（僅限桌面版）。若要繞過所有代理伺服器，請輸入「noproxy」。"
   },
   "api_log": {
@@ -1839,7 +1839,7 @@
     "paste": "貼上",
     "paste-as-plain-text": "以純文字貼上",
     "search_online": "用 {{searchEngine}} 搜尋 \"{{term}}\"",
-    "search_in_trilium": "在 Trilium 中搜尋「{{term}}」"
+    "search_in_trilium": "在 Notely 中搜尋「{{term}}」"
   },
   "image_context_menu": {
     "copy_reference_to_clipboard": "複製引用到剪貼簿",
@@ -1889,7 +1889,7 @@
     "signin_method": "登入方式",
     "signin_local": "本機密碼（可選用雙因素驗證）",
     "signin_oauth": "OpenID Connect 提供者（例如 Google）",
-    "signin_local_description": "使用您的 Trilium 密碼登入。您可選擇啟用雙因素驗證，以增加一層安全防護。",
+    "signin_local_description": "使用您的 Notely 密碼登入。您可選擇啟用雙因素驗證，以增加一層安全防護。",
     "totp_setup_label": "基於時間的一次性密碼（TOTP）",
     "totp_setup_description": "透過驗證器應用程式產生一個基於時間的驗證碼，作為您的第二重驗證因素。您需掃描 QR 碼並確認驗證碼以完成設定。最後系統會發放恢復碼。",
     "totp_setup_button": "設定",
@@ -2053,9 +2053,9 @@
   },
   "cpu_arch_warning": {
     "title": "請下載 ARM64 版本",
-    "message_macos": "TriliumNext 目前正在透過 Rosetta 2 轉譯執行，這意味著您在 Apple Silicon 晶片的 Mac 上使用 Intel (x64) 版本。這將顯著影響性能和電池續航。",
-    "message_windows": "TriliumNext 目前正在模擬環境中執行，這意味著您在 ARM 架構的 Windows 裝置上使用 Intel (x64) 版本。這將顯著影響性能和電池續航。",
-    "recommendation": "為獲得最佳體驗，請從我們的發布頁面下載原生 ARM64 版本的 TriliumNext。",
+    "message_macos": "Notely 目前正在透過 Rosetta 2 轉譯執行，這意味著您在 Apple Silicon 晶片的 Mac 上使用 Intel (x64) 版本。這將顯著影響性能和電池續航。",
+    "message_windows": "Notely 目前正在模擬環境中執行，這意味著您在 ARM 架構的 Windows 裝置上使用 Intel (x64) 版本。這將顯著影響性能和電池續航。",
+    "recommendation": "為獲得最佳體驗，請從我們的發布頁面下載原生 ARM64 版本的 Notely。",
     "download_link": "下載原生版本",
     "continue_anyway": "仍要繼續",
     "dont_show_again": "不再顯示此警告"
@@ -2147,13 +2147,13 @@
     "background_effects_title": "背景特效已推出穩定版本",
     "background_effects_message": "在 Windows 和macOS裝置上，背景特效現在已穩定。背景特效透過模糊背後的背景，為使用者介面增添一抹色彩。",
     "background_effects_button": "啟用背景特效",
-    "next_theme_title": "試用新 Trilium 主題",
+    "next_theme_title": "試用新 Notely 主題",
     "next_theme_message": "您正在使用舊版主題，要試用新主題嗎？",
     "next_theme_button": "試用新主題",
     "dismiss": "關閉",
     "new_layout_title": "新版面配置",
     "new_layout_button": "更多資訊",
-    "new_layout_message": "我們為 Trilium 推出了現代化版面配置。功能區分頁已移除並無縫整合至主介面，取而代之的是全新狀態列與可擴展區塊（例如提升屬性）承擔其主要功能。\n\n新版面配置預設為啟用狀態，您可透過「選項 → 外觀」暫時停用。"
+    "new_layout_message": "我們為 Notely 推出了現代化版面配置。功能區分頁已移除並無縫整合至主介面，取而代之的是全新狀態列與可擴展區塊（例如提升屬性）承擔其主要功能。\n\n新版面配置預設為啟用狀態，您可透過「選項 → 外觀」暫時停用。"
   },
   "settings": {
     "related_settings": "相關設定"
@@ -2331,7 +2331,7 @@
     "disabled_button_enable": "啟用渲染筆記"
   },
   "web_view_setup": {
-    "title": "將網頁直接匯入 Trilium 建立即時預覽",
+    "title": "將網頁直接匯入 Notely 建立即時預覽",
     "url_placeholder": "輸入或貼上網站網址，例如 https://triliumnotes.org",
     "create_button": "建立網頁檢視",
     "invalid_url_title": "無效地址",
@@ -2583,7 +2583,7 @@
     "date_this_month": "這個月",
     "source_description_auto": "由系統定期自動儲存",
     "source_description_manual": "由使用者手動儲存",
-    "source_description_etapi": "透過外部 Trilium API 建立",
+    "source_description_etapi": "透過外部 Notely API 建立",
     "source_description_llm": "由 AI 助理所創建",
     "source_description_restore": "在還原至先前版本之前已儲存",
     "source_description_unknown": "來源不可用",
@@ -2820,7 +2820,7 @@
       "create-a-numbered-list": "建立編號清單",
       "create-a-to-do-list": "建立待辦事項清單",
       "display-the-content-of-another-note-in-this-note": "在此筆記中顯示另一則筆記的內容",
-      "insert-a-link-to-another-trilium-note": "插入另一則 Trilium 筆記的連結",
+      "insert-a-link-to-another-notely-note": "插入另一則 Notely 筆記的連結",
       "insert-a-math-equation": "插入數學方程式",
       "insert-a-new-admonition": "插入一個新的提示框",
       "insert-a-page-break-for-printing": "插入分頁符號（用於列印）",

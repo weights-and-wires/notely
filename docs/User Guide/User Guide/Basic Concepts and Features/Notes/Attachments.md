@@ -1,5 +1,5 @@
 # Attachments
-A [note](../Notes.md) in Trilium can _own_ one or more attachments, which can be either images or files. These attachments can be displayed or linked within the note that owns them.
+A [note](../Notes.md) in Notely can _own_ one or more attachments, which can be either images or files. These attachments can be displayed or linked within the note that owns them.
 
 This can be especially useful to include dependencies for your [scripts](../../Scripting.md). The <a class="reference-link" href="../../Advanced%20Usage/Advanced%20Showcases/Weight%20Tracker.md">Weight Tracker</a> shows how to use [chartjs](https://chartjs.org/) which is attached to the script note.
 
@@ -12,7 +12,7 @@ Attachments, especially image files, are the recommended method for embedding vi
 There are two different types of attachment:
 
 *   _User content_, representing files or images that are uploaded and part of the content of the note.
-*   _System attachments_ which are used internally by Trilium and can be of multiple types, including:
+*   _System attachments_ which are used internally by Notely and can be of multiple types, including:
     *   <a class="reference-link" href="../../Collections.md">Collections</a> to store information about views such as the column information for the <a class="reference-link" href="../../Collections/Kanban%20Board.md">Kanban Board</a>.
     *   Icons and cover images for <a class="reference-link" href="../../Note%20Types/Text/Link%20Previews.md">Link Previews</a>.
     *   Debug information for some importers such as <a class="reference-link" href="../Import%20%26%20Export/Importing%20data%20from%20other%20applications/Microsoft%20OneNote.md">Microsoft OneNote</a> (only if the debug flag was enabled at import time).

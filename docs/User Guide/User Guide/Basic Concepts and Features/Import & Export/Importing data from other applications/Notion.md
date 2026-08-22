@@ -1,5 +1,5 @@
 # Notion
-Trilium can import ZIP exports from Notion while preserving structure and formatting.
+Notely can import ZIP exports from Notion while preserving structure and formatting.
 
 ## Import process
 

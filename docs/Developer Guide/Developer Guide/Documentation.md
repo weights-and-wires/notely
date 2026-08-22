@@ -1,16 +1,16 @@
 # Documentation
-There are multiple types of documentation for Trilium:
+There are multiple types of documentation for Notely:
 
-*   The _User Guide_ represents the user-facing documentation. This documentation can be browsed by users directly from within Trilium, by pressing <kbd>F1</kbd>.
-*   The _Developer's Guide_ represents a set of Markdown documents that present the internals of Trilium, for developers.
+*   The _User Guide_ represents the user-facing documentation. This documentation can be browsed by users directly from within Notely, by pressing <kbd>F1</kbd>.
+*   The _Developer's Guide_ represents a set of Markdown documents that present the internals of Notely, for developers.
 *   _Release Notes_, this contains the change log for each released or soon-to-be-released version. The release notes are used automatically by the CI when releasing a version.
 *   The _Script API_, which is an automatically generated documentation for the front-end and back-end APIs for scripts.
 
 ## Location of the documentation
 
-All documentation is stored in the [Trilium](https://github.com/TriliumNext/Trilium) repository:
+All documentation is stored in the [Notely](https://github.com/TriliumNext/Trilium) repository:
 
-*   `docs/Developer Guide` contains Markdown documentation that can be modified either externally (using a Markdown editor, or internally using Trilium).
+*   `docs/Developer Guide` contains Markdown documentation that can be modified either externally (using a Markdown editor, or internally using Notely).
 *   `docs/Release Notes` is also stored in Markdown format and can be freely edited.
 *   The _Script API_ is auto-generated and is **not** committed to the repository. It is built into the gitignored `site/` directory and published to [docs.triliumnotes.org](https://docs.triliumnotes.org/); see [Updating the Script API](#updating-the-script-api) below.
 *   `docs/User Guide` contains also Markdown-only documentation but must generally not be edited externally.

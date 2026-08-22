@@ -1,7 +1,7 @@
 # Authentication
 ## Disabling authentication
 
-If you are running Trilium on `localhost` only or if authentication is handled by another component, you can disable Trilium’s authentication by adding the following to `config.ini`:
+If you are running Notely on `localhost` only or if authentication is handled by another component, you can disable Notely’s authentication by adding the following to `config.ini`:
 
 ```
 [General]
@@ -12,7 +12,7 @@ Disabling authentication will bypass even the <a class="reference-link" href="M
 
 ## Understanding how the session works
 
-Once logged into Trilium, the application will store this information about the login into a cookie on the browser, but also as a session on the server.
+Once logged into Notely, the application will store this information about the login into a cookie on the browser, but also as a session on the server.
 
 If “Remember me” is checked, then the login will expire in 21 days. This period can be adjusted by modifying the `Session.cookieMaxAge` value in `config.ini`. For example, to have the session expire in one day:
 

@@ -377,7 +377,7 @@ function LayoutIllustration({ isNewLayout }: { isNewLayout?: boolean }) {
                     </div>}
 
                     <div className="content-inner">
-                        This is a "demo" document packaged with Trilium to showcase some of its features and also give you some ideas on how you might structure your notes. You can play with it, and modify the note content and tree structure as you wish.
+                        This is a "demo" document packaged with Notely to showcase some of its features and also give you some ideas on how you might structure your notes. You can play with it, and modify the note content and tree structure as you wish.
                     </div>
 
                     {isNewLayout && <div className="status-bar">

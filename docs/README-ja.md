@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes
+Notely
 は、大規模な個人知識ベースの構築に重点を置いた、無料かつオープンソースのクロスプラットフォームの階層型ノート作成アプリケーションです。
 
 <img src="./app.png" alt="Trilium Screenshot" width="1000">
@@ -39,7 +39,7 @@ Trilium Notes
 当社のドキュメントは複数の形式でご利用いただけます:
 - **オンラインドキュメント**: [docs.triliumnotes.org](https://docs.triliumnotes.org/)
   で完全なドキュメントを参照してください
-- **アプリ内ヘルプ**: Trilium内で `F1` キーを押すと、アプリケーション内で同じドキュメントに直接アクセスできます
+- **アプリ内ヘルプ**: Notely内で `F1` キーを押すと、アプリケーション内で同じドキュメントに直接アクセスできます
 - **GitHub**: このリポジトリの [ユーザーガイド](./User%20Guide/User%20Guide/) を参照してください
 
 ### クイックリンク
@@ -47,7 +47,7 @@ Trilium Notes
 - [インストール手順](https://docs.triliumnotes.org/user-guide/setup)
 - [Docker
   のセットアップ](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
-- [TriliumNext
+- [Notely
   のアップグレード](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [基本概念と機能](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [個人ナレッジベースのパターン](https://docs.triliumnotes.org/user-guide/misc/patterns-of-personal-knowledge)
@@ -103,26 +103,26 @@ Trilium Notes
 * [Metrics](https://docs.triliumnotes.org/user-guide/advanced-usage/metrics) と
   Grafana ダッシュボード。
 
-✨ TriliumNext 関連のその他の情報については、次のサードパーティのリソース/コミュニティをご覧ください:
+✨ Notely 関連のその他の情報については、次のサードパーティのリソース/コミュニティをご覧ください:
 
 - [awesome-trilium](https://github.com/Nriver/awesome-trilium)
   サードパーティのテーマ、スクリプト、プラグインなど。
 - [TriliumRocks!](https://trilium.rocks/) ではチュートリアルやガイドなど、その他多数。
 
-## ❓なぜTriliumNext なのか？
+## ❓なぜNotely なのか？
 
-オリジナルの Trilium 開発者 ([Zadam](https://github.com/zadam))
-は、https://github.com/TriliumNext にあるコミュニティプロジェクトに Trilium リポジトリを快く提供してくれました
+オリジナルの Notely 開発者 ([Zadam](https://github.com/zadam))
+は、https://github.com/TriliumNext にあるコミュニティプロジェクトに Notely リポジトリを快く提供してくれました
 
-### ⬆️Zadam/Trilium から移行しますか?
+### ⬆️Zadam/Notely から移行しますか?
 
-zadam/Trilium インスタンスから TriliumNext/Trilium インスタンスへの移行には特別な手順はありません。通常通り
-[TriliumNext/Triliumをインストール](#-installation) するだけで、既存のデータベースが使用されます。
+zadam/Notely インスタンスから Notely/Notely インスタンスへの移行には特別な手順はありません。通常通り
+[Notely/Notelyをインストール](#-installation) するだけで、既存のデータベースが使用されます。
 
 [v0.90.4](https://github.com/TriliumNext/Trilium/releases/tag/v0.90.4)
-までのバージョンは、最新の zadam/trilium バージョン
+までのバージョンは、最新の zadam/Notely バージョン
 [v0.63.7](https://github.com/zadam/trilium/releases/tag/v0.63.7)
-と互換性があります。それ以降のバージョンの TriliumNext/Trilium では同期バージョンがインクリメントされるため、直接移行することはできません。
+と互換性があります。それ以降のバージョンの Notely/Notely では同期バージョンがインクリメントされるため、直接移行することはできません。
 
 ## 💬 私たちと議論しましょう
 

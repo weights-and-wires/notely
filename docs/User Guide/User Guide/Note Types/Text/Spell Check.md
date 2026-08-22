@@ -1,5 +1,5 @@
 # Spell Check
-Trilium supports spell checking for your notes. How it works depends on whether you're using the **desktop application** (Electron) or accessing Trilium through a **web browser**.
+Notely supports spell checking for your notes. How it works depends on whether you're using the **desktop application** (Electron) or accessing Notely through a **web browser**.
 
 ## Desktop
 
@@ -21,9 +21,9 @@ The available languages depend on your operating system's installed language pac
 ### Custom dictionary
 
 > [!TIP]
-> This function is available starting with Trilium v0.103.0.
+> This function is available starting with Notely v0.103.0.
 
-Words you add to the dictionary (e.g. via the right-click context menu → "Add to dictionary") are stored in a **synced note** inside Trilium. This means your custom dictionary automatically syncs across all your devices.
+Words you add to the dictionary (e.g. via the right-click context menu → "Add to dictionary") are stored in a **synced note** inside Notely. This means your custom dictionary automatically syncs across all your devices.
 
 You can view and edit the dictionary directly from _Settings_ → _Spell Check_ → _Custom Dictionary_ → _Edit dictionary_. This opens the underlying note, which contains one word per line. You can add, remove, or modify entries as you like.
 
@@ -33,8 +33,8 @@ You can view and edit the dictionary directly from _Settings_ → _Spell Check_ 
 #### How the custom dictionary works
 
 *   When you right-click a misspelled word and choose "Add to dictionary", the word is saved both to Electron's local spellchecker and to the synced dictionary note.
-*   On startup, Trilium loads all words from the dictionary note into the spellchecker session.
-*   If Trilium detects words in Electron's local dictionary but the dictionary note is empty (e.g. on first use), it performs a **one-time import** of those words into the note.
+*   On startup, Notely loads all words from the dictionary note into the spellchecker session.
+*   If Notely detects words in Electron's local dictionary but the dictionary note is empty (e.g. on first use), it performs a **one-time import** of those words into the note.
 *   Words that are in Electron's local dictionary but _not_ in the note (e.g. you removed them manually) are cleaned up from the local dictionary on startup.
 
 #### Known limitations
@@ -42,13 +42,13 @@ You can view and edit the dictionary directly from _Settings_ → _Spell Check_ 
 On Windows and macOS, Electron delegates "Add to dictionary" to the operating system's user dictionary. This means:
 
 *   Words added via the context menu are also written to the OS-level dictionary (e.g. `%APPDATA%\Microsoft\Spelling\<language>\default.dic` on Windows).
-*   **Removing a word** from the Trilium dictionary note prevents it from being loaded into the spellchecker on next startup, but does _not_ remove it from the OS dictionary. The word may still be accepted by the OS spellchecker until you remove it from the OS dictionary manually.
+*   **Removing a word** from the Notely dictionary note prevents it from being loaded into the spellchecker on next startup, but does _not_ remove it from the OS dictionary. The word may still be accepted by the OS spellchecker until you remove it from the OS dictionary manually.
 
 ## Web browser
 
-When accessing Trilium through a web browser, spell checking is handled entirely by the browser itself. Trilium does not control the browser's spellchecker — language selection, dictionaries, and all other settings are managed through your browser's preferences.
+When accessing Notely through a web browser, spell checking is handled entirely by the browser itself. Notely does not control the browser's spellchecker — language selection, dictionaries, and all other settings are managed through your browser's preferences.
 
-The Spell Check settings page in Trilium will indicate that these options apply only to desktop builds.
+The Spell Check settings page in Notely will indicate that these options apply only to desktop builds.
 
 ## Frequently asked questions
 
@@ -62,7 +62,7 @@ Yes. Select as many languages as you need from the checklist. The spellchecker w
 
 ### My custom words disappeared after syncing to a new device — what happened?
 
-On the first launch of a new device, Trilium may import existing local dictionary words into the note. If the note already has words from another device (via sync), those are preserved. Make sure sync completes before restarting the application on a new device.
+On the first launch of a new device, Notely may import existing local dictionary words into the note. If the note already has words from another device (via sync), those are preserved. Make sure sync completes before restarting the application on a new device.
 
 ### I removed a word from the dictionary note but it's still accepted
 

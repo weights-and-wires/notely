@@ -190,7 +190,7 @@
     "numberedList": "<code>1.</code> lub <code>1)</code> a następnie spacja dla listy numerowanej",
     "blockQuote": "rozpocznij linię znakiem <code>></code> a następnie spacją dla cytatu blokowego",
     "troubleshooting": "Rozwiązywanie problemów",
-    "reloadFrontend": "przeładuj frontend Trilium",
+    "reloadFrontend": "przeładuj frontend Notely",
     "showDevTools": "pokaż narzędzia deweloperskie",
     "showSQLConsole": "pokaż konsolę SQL",
     "quickSearch": "skupienie na szybkim wyszukiwaniu",
@@ -259,7 +259,7 @@
     "help_title": "Wyświetl więcej informacji o tym ekranie"
   },
   "call_to_action": {
-    "next_theme_title": "Wypróbuj nowy motyw Trilium",
+    "next_theme_title": "Wypróbuj nowy motyw Notely",
     "next_theme_message": "Obecnie używasz starszego motywu (legacy), czy chciałbyś wypróbować nowy motyw?",
     "next_theme_button": "Wypróbuj nowy motyw",
     "background_effects_title": "Efekty tła są teraz stabilne",
@@ -267,7 +267,7 @@
     "background_effects_button": "Włącz efekty tła",
     "background_effects_message": "Na urządzeniach z systemem Windows i macOS efekty tła są stabilne. Efekty tła dodają odrobinę koloru do interfejsu użytkownika poprzez rozmycie tła za nim.",
     "new_layout_title": "Nowy układ",
-    "new_layout_message": "Wprowadziliśmy zmodernizowany układ interfejsu dla Trilium. Wstążka została usunięta i płynnie zintegrowana z głównym interfejsem, a jej kluczowe funkcje przejęły nowy pasek stanu i rozwijane sekcje (takie jak promowane atrybuty).\n\nNowy układ jest domyślnie włączony i można go tymczasowo wyłączyć w Ustawienia → Wygląd.",
+    "new_layout_message": "Wprowadziliśmy zmodernizowany układ interfejsu dla Notely. Wstążka została usunięta i płynnie zintegrowana z głównym interfejsem, a jej kluczowe funkcje przejęły nowy pasek stanu i rozwijane sekcje (takie jak promowane atrybuty).\n\nNowy układ jest domyślnie włączony i można go tymczasowo wyłączyć w Ustawienia → Wygląd.",
     "new_layout_button": "Szczegóły"
   },
   "settings": {
@@ -341,8 +341,8 @@
     "calendar_root": "oznacza notatkę, która powinna być używana jako korzeń dla notatek dziennych. Tylko jedna powinna być tak oznaczona.",
     "archived": "notatki z tą etykietą domyślnie nie będą widoczne w wynikach wyszukiwania (również w oknach Przejdź do, Dodaj link itp.).",
     "exclude_from_export": "notatki (wraz z ich poddrzewem) nie zostaną uwzględnione w żadnym eksporcie notatek",
-    "run": "określa, przy jakich zdarzeniach skrypt powinien zostać uruchomiony. Możliwe wartości:\n<ul>\n<li>frontendStartup - gdy frontend Trilium uruchamia się (lub jest odświeżany), ale nie na urządzeniach mobilnych.</li>\n<li>mobileStartup - gdy frontend Trilium uruchamia się (lub jest odświeżany) na urządzeniach mobilnych.</li>\n<li>backendStartup - gdy backend Trilium uruchamia się</li>\n<li>hourly - uruchamiaj raz na godzinę. Możesz użyć dodatkowej etykiety <code>runAtHour</code>, aby określić godzinę.</li>\n<li>daily - uruchamiaj raz dziennie</li>\n</ul>",
-    "run_on_instance": "Zdefiniuj, która instancja Trilium powinna to uruchomić. Domyślnie wszystkie instancje.",
+    "run": "określa, przy jakich zdarzeniach skrypt powinien zostać uruchomiony. Możliwe wartości:\n<ul>\n<li>frontendStartup - gdy frontend Notely uruchamia się (lub jest odświeżany), ale nie na urządzeniach mobilnych.</li>\n<li>mobileStartup - gdy frontend Notely uruchamia się (lub jest odświeżany) na urządzeniach mobilnych.</li>\n<li>backendStartup - gdy backend Notely uruchamia się</li>\n<li>hourly - uruchamiaj raz na godzinę. Możesz użyć dodatkowej etykiety <code>runAtHour</code>, aby określić godzinę.</li>\n<li>daily - uruchamiaj raz dziennie</li>\n</ul>",
+    "run_on_instance": "Zdefiniuj, która instancja Notely powinna to uruchomić. Domyślnie wszystkie instancje.",
     "run_at_hour": "O której godzinie powinno to zostać uruchomione. Należy używać razem z <code>#run=hourly</code>. Można zdefiniować wielokrotnie dla większej liczby uruchomień w ciągu dnia.",
     "disable_inclusion": "skrypty z tą etykietą nie zostaną uwzględnione w wykonaniu skryptu nadrzędnego.",
     "sorted": "utrzymuje notatki podrzędne posortowane alfabetycznie według tytułu",
@@ -352,15 +352,15 @@
     "hide_promoted_attributes": "Ukryj wyróżnione atrybuty w tej notatce",
     "read_only": "edytor jest w trybie tylko do odczytu. Działa tylko dla notatek tekstowych i kodowych.",
     "auto_read_only_disabled": "notatki tekstowe/kodowe mogą być automatycznie ustawiane w tryb odczytu, gdy są zbyt duże. Możesz wyłączyć to zachowanie dla poszczególnych notatek, dodając tę etykietę",
-    "app_css": "oznacza notatki CSS, które są ładowane do aplikacji Trilium i mogą być używane do modyfikowania wyglądu Trilium.",
-    "app_theme": "oznacza notatki CSS, które są pełnymi motywami Trilium i są dostępne w opcjach Trilium.",
-    "app_theme_base": "ustaw na \"next\", \"next-light\" lub \"next-dark\", aby użyć odpowiedniego motywu TriliumNext (auto, jasny lub ciemny) jako bazy dla własnego motywu, zamiast starszego (legacy).",
+    "app_css": "oznacza notatki CSS, które są ładowane do aplikacji Notely i mogą być używane do modyfikowania wyglądu Notely.",
+    "app_theme": "oznacza notatki CSS, które są pełnymi motywami Notely i są dostępne w opcjach Notely.",
+    "app_theme_base": "ustaw na \"next\", \"next-light\" lub \"next-dark\", aby użyć odpowiedniego motywu Notely (auto, jasny lub ciemny) jako bazy dla własnego motywu, zamiast starszego (legacy).",
     "css_class": "wartość tej etykiety jest dodawana jako klasa CSS do węzła reprezentującego daną notatkę w drzewie. Może to być przydatne do zaawansowanego stylowania. Można używać w notatkach szablonów.",
     "icon_class": "wartość tej etykiety jest dodawana jako klasa CSS do ikony w drzewie, co może pomóc wizualnie odróżnić notatki. Przykładem może być bx bx-home - ikony pochodzą z boxicons. Można używać w notatkach szablonów.",
     "page_size": "liczba elementów na stronę w liście notatek",
     "custom_request_handler": "zobacz <a href=\"javascript:\" data-help-page=\"custom-request-handler.html\">Niestandardowa obsługa żądań</a>",
     "custom_resource_provider": "zobacz <a href=\"javascript:\" data-help-page=\"custom-request-handler.html\">Niestandardowa obsługa żądań</a>",
-    "widget": "oznacza tę notatkę jako niestandardowy widżet, który zostanie dodany do drzewa komponentów Trilium",
+    "widget": "oznacza tę notatkę jako niestandardowy widżet, który zostanie dodany do drzewa komponentów Notely",
     "workspace": "oznacza tę notatkę jako obszar roboczy, który umożliwia łatwe zawężanie widoku (hoisting)",
     "workspace_icon_class": "definiuje klasę CSS box icon, która będzie używana w karcie po zawężeniu widoku do tej notatki",
     "workspace_tab_background_color": "kolor CSS używany w karcie notatki po zawężeniu widoku do tej notatki",
@@ -429,7 +429,7 @@
     "safeImport": "Bezpieczny import",
     "in-progress": "Import w toku: {{progress}}",
     "successful": "Import zakończony pomyślnie.",
-    "safeImportTooltip": "Pliki eksportu <code>.zip</code> Trilium mogą zawierać skrypty wykonywalne, które mogą mieć szkodliwe działanie. Bezpieczny import dezaktywuje automatyczne wykonywanie wszystkich zaimportowanych skryptów. Odznacz \"Bezpieczny import\" tylko wtedy, gdy importowane archiwum ma zawierać skrypty i całkowicie ufasz zawartości pliku importu.",
+    "safeImportTooltip": "Pliki eksportu <code>.zip</code> Notely mogą zawierać skrypty wykonywalne, które mogą mieć szkodliwe działanie. Bezpieczny import dezaktywuje automatyczne wykonywanie wszystkich zaimportowanych skryptów. Odznacz \"Bezpieczny import\" tylko wtedy, gdy importowane archiwum ma zawierać skrypty i całkowicie ufasz zawartości pliku importu.",
     "import": "Importuj",
     "failed": "Import nie powiódł się: {{message}}.",
     "html_import_tags": {
@@ -438,9 +438,9 @@
       "placeholder": "Wprowadź tagi HTML, jeden w wierszu",
       "reset_button": "Przywróć listę domyślną"
     },
-    "explodeArchivesTooltip": "Jeśli zaznaczone, Trilium odczyta pliki <code>.zip</code>, <code>.enex</code> i <code>.opml</code> i utworzy notatki z plików wewnątrz tych archiwów. Jeśli odznaczone, Trilium dołączy same archiwa do notatki.",
+    "explodeArchivesTooltip": "Jeśli zaznaczone, Notely odczyta pliki <code>.zip</code>, <code>.enex</code> i <code>.opml</code> i utworzy notatki z plików wewnątrz tych archiwów. Jeśli odznaczone, Notely dołączy same archiwa do notatki.",
     "explodeArchives": "Czytaj zawartość archiwów <code>.zip</code>, <code>.enex</code> i <code>.opml</code>.",
-    "shrinkImagesTooltip": "<p>Jeśli zaznaczysz tę opcję, Trilium spróbuje zmniejszyć importowane obrazy poprzez skalowanie i optymalizację, co może wpłynąć na postrzeganą jakość obrazu. Jeśli odznaczone, obrazy zostaną zaimportowane bez zmian.</p><p>Nie dotyczy to importu <code>.zip</code> z metadanymi, ponieważ zakłada się, że te pliki są już zoptymalizowane.</p>",
+    "shrinkImagesTooltip": "<p>Jeśli zaznaczysz tę opcję, Notely spróbuje zmniejszyć importowane obrazy poprzez skalowanie i optymalizację, co może wpłynąć na postrzeganą jakość obrazu. Jeśli odznaczone, obrazy zostaną zaimportowane bez zmian.</p><p>Nie dotyczy to importu <code>.zip</code> z metadanymi, ponieważ zakłada się, że te pliki są już zoptymalizowane.</p>",
     "textImportedAsText": "Importuj HTML, Markdown i TXT jako notatki tekstowe, jeśli metadane nie wskazują inaczej",
     "codeImportedAsCode": "Importuj rozpoznane pliki kodu (np. <code>.json</code>) jako notatki kodu, jeśli metadane nie wskazują inaczej",
     "replaceUnderscoresWithSpaces": "Zamień znaki podkreślenia na spacje w nazwach importowanych notatek",
@@ -637,7 +637,7 @@
     "paste-as-plain-text": "Wklej jako zwykły tekst",
     "search_online": "Szukaj \"{{term}}\" w {{searchEngine}}",
     "add-term-to-dictionary": "Dodaj \"{{term}}\" do słownika",
-    "search_in_trilium": "Szukaj \"{{term}}\" w Trilium"
+    "search_in_trilium": "Szukaj \"{{term}}\" w Notely"
   },
   "image_context_menu": {
     "copy_reference_to_clipboard": "Kopiuj odniesienie do schowka",
@@ -713,9 +713,9 @@
   },
   "cpu_arch_warning": {
     "title": "Proszę pobrać wersję ARM64",
-    "message_macos": "TriliumNext działa obecnie w ramach translacji Rosetta 2, co oznacza, że używasz wersji Intel (x64) na komputerze Mac z procesorem Apple Silicon. Wpłynie to znacząco na wydajność i żywotność baterii.",
-    "message_windows": "TriliumNext działa obecnie w trybie emulacji, co oznacza, że używasz wersji Intel (x64) na urządzeniu Windows on ARM. Wpłynie to znacząco na wydajność i żywotność baterii.",
-    "recommendation": "Aby uzyskać najlepsze wrażenia, pobierz natywną wersję ARM64 TriliumNext z naszej strony wydań.",
+    "message_macos": "Notely działa obecnie w ramach translacji Rosetta 2, co oznacza, że używasz wersji Intel (x64) na komputerze Mac z procesorem Apple Silicon. Wpłynie to znacząco na wydajność i żywotność baterii.",
+    "message_windows": "Notely działa obecnie w trybie emulacji, co oznacza, że używasz wersji Intel (x64) na urządzeniu Windows on ARM. Wpłynie to znacząco na wydajność i żywotność baterii.",
+    "recommendation": "Aby uzyskać najlepsze wrażenia, pobierz natywną wersję ARM64 Notely z naszej strony wydań.",
     "download_link": "Pobierz wersję natywną",
     "continue_anyway": "Kontynuuj mimo to",
     "dont_show_again": "Nie pokazuj tego ostrzeżenia ponownie"
@@ -838,7 +838,7 @@
     "options": "Opcje",
     "shrink_images": "Zmniejsz obrazy",
     "upload": "Prześlij",
-    "tooltip": "Jeśli zaznaczysz tę opcję, Trilium spróbuje zmniejszyć przesłane obrazy poprzez skalowanie i optymalizację, co może wpłynąć na postrzeganą jakość obrazu. Jeśli odznaczone, obrazy zostaną przesłane bez zmian."
+    "tooltip": "Jeśli zaznaczysz tę opcję, Notely spróbuje zmniejszyć przesłane obrazy poprzez skalowanie i optymalizację, co może wpłynąć na postrzeganą jakość obrazu. Jeśli odznaczone, obrazy zostaną przesłane bez zmian."
   },
   "attribute_editor": {
     "help_text_body1": "Aby dodać etykietę, po prostu wpisz np. <code>#rock</code> lub jeśli chcesz dodać również wartość, np. <code>#year = 2020</code>",
@@ -939,9 +939,9 @@
   },
   "attachments_actions": {
     "open_externally": "Otwórz zewnętrznie",
-    "open_externally_title": "Plik zostanie otwarty w zewnętrznej aplikacji i będzie monitorowany pod kątem zmian. Następnie będzie można przesłać zmodyfikowaną wersję z powrotem do Trilium.",
+    "open_externally_title": "Plik zostanie otwarty w zewnętrznej aplikacji i będzie monitorowany pod kątem zmian. Następnie będzie można przesłać zmodyfikowaną wersję z powrotem do Notely.",
     "open_custom": "Otwórz niestandardowo",
-    "open_custom_title": "Plik zostanie otwarty w zewnętrznej aplikacji i będzie monitorowany pod kątem zmian. Następnie będzie można przesłać zmodyfikowaną wersję z powrotem do Trilium.",
+    "open_custom_title": "Plik zostanie otwarty w zewnętrznej aplikacji i będzie monitorowany pod kątem zmian. Następnie będzie można przesłać zmodyfikowaną wersję z powrotem do Notely.",
     "download": "Pobierz",
     "rename_attachment": "Zmień nazwę załącznika",
     "upload_new_revision": "Prześlij nową wersję",
@@ -1030,7 +1030,7 @@
     "reload_frontend": "Przeładuj frontend",
     "show_hidden_subtree": "Pokaż ukryte poddrzewo",
     "show_help": "Pokaż pomoc",
-    "about": "O Trilium Notes",
+    "about": "O Notely",
     "logout": "Wyloguj",
     "show-cheatsheet": "Pokaż ściągawkę",
     "toggle-zen-mode": "Tryb Zen",
@@ -1064,7 +1064,7 @@
     "note_source": "Źródło notatki",
     "note_attachments": "Załączniki notatki",
     "open_note_externally": "Otwórz notatkę zewnętrznie",
-    "open_note_externally_title": "Plik zostanie otwarty w zewnętrznej aplikacji i będzie monitorowany pod kątem zmian. Następnie będzie można przesłać zmodyfikowaną wersję z powrotem do Trilium.",
+    "open_note_externally_title": "Plik zostanie otwarty w zewnętrznej aplikacji i będzie monitorowany pod kątem zmian. Następnie będzie można przesłać zmodyfikowaną wersję z powrotem do Notely.",
     "open_note_custom": "Otwórz notatkę niestandardowo",
     "import_files": "Importuj pliki",
     "export_note": "Eksportuj notatkę",
@@ -1101,7 +1101,7 @@
   },
   "code_buttons": {
     "execute_button_title": "Wykonaj skrypt",
-    "trilium_api_docs_button_title": "Otwórz dokumentację API Trilium",
+    "trilium_api_docs_button_title": "Otwórz dokumentację API Notely",
     "save_to_note_button_title": "Zapisz do notatki",
     "opening_api_docs_message": "Otwieranie dokumentacji API...",
     "sql_console_saved_message": "Notatka konsoli SQL została zapisana w {{note_path}}"
@@ -1241,7 +1241,7 @@
     "editor_crashed_details_button": "Zobacz więcej szczegółów...",
     "editor_crashed_details_intro": "Jeśli napotkasz ten błąd wielokrotnie, rozważ zgłoszenie go na GitHub, wklejając poniższe informacje.",
     "editor_crashed_details_title": "Informacje techniczne",
-    "keeps-crashing": "Komponent edycji ciągle ulega awarii. Proszę spróbować zrestartować Trilium. Jeśli problem będzie się powtarzał, rozważ utworzenie zgłoszenia błędu."
+    "keeps-crashing": "Komponent edycji ciągle ulega awarii. Proszę spróbować zrestartować Notely. Jeśli problem będzie się powtarzał, rozważ utworzenie zgłoszenia błędu."
   },
   "empty": {
     "open_note_instruction": "Otwórz notatkę, wpisując tytuł notatki w polu poniżej lub wybierz notatkę w drzewie.",
@@ -1351,7 +1351,7 @@
   },
   "max_content_width": {
     "title": "Szerokość treści",
-    "default_description": "Trilium domyślnie ogranicza maksymalną szerokość treści, aby poprawić czytelność na zmaksymalizowanych ekranach szerokokątnych.",
+    "default_description": "Notely domyślnie ogranicza maksymalną szerokość treści, aby poprawić czytelność na zmaksymalizowanych ekranach szerokokątnych.",
     "max_width_label": "Maksymalna szerokość treści",
     "max_width_unit": "pikseli",
     "centerContent": "Utrzymuj treść wyśrodkowaną"
@@ -1371,9 +1371,9 @@
     "auto_theme": "Legacy (zgodny z systemem)",
     "light_theme": "Legacy (Jasny)",
     "dark_theme": "Legacy (Ciemny)",
-    "triliumnext": "Trilium (zgodny z systemem)",
-    "triliumnext-light": "Trilium (Jasny)",
-    "triliumnext-dark": "Trilium (Ciemny)",
+    "triliumnext": "Notely (zgodny z systemem)",
+    "triliumnext-light": "Notely (Jasny)",
+    "triliumnext-dark": "Notely (Ciemny)",
     "layout": "Układ",
     "layout-vertical-title": "Pionowy",
     "layout-horizontal-title": "Poziomy",
@@ -1418,7 +1418,7 @@
   "images": {
     "images_section_title": "Obrazy",
     "download_images_automatically": "Pobieraj obrazy automatycznie do użytku offline.",
-    "download_images_description": "Wklejony HTML może zawierać odniesienia do obrazów online, Trilium znajdzie te odniesienia i pobierze obrazy, aby były dostępne offline.",
+    "download_images_description": "Wklejony HTML może zawierać odniesienia do obrazów online, Notely znajdzie te odniesienia i pobierze obrazy, aby były dostępne offline.",
     "max_image_dimensions": "Maksymalna szerokość / wysokość obrazu (obraz zostanie przeskalowany, jeśli przekroczy to ustawienie).",
     "max_image_dimensions_unit": "pikseli",
     "jpeg_quality_description": "Jakość JPEG (10 - najgorsza jakość, 100 - najlepsza jakość, zalecane 50 - 85)"
@@ -1470,7 +1470,7 @@
   },
   "tray": {
     "title": "Zasobnik systemowy (Tray)",
-    "enable_tray": "Włącz zasobnik (wymagany restart Trilium, aby zmiana weszła w życie)"
+    "enable_tray": "Włącz zasobnik (wymagany restart Notely, aby zmiana weszła w życie)"
   },
   "heading_style": {
     "title": "Styl nagłówków",
@@ -1531,7 +1531,7 @@
   },
   "backup": {
     "automatic_backup": "Automatyczna kopia zapasowa",
-    "automatic_backup_description": "Trilium może automatycznie tworzyć kopię zapasową bazy danych:",
+    "automatic_backup_description": "Notely może automatycznie tworzyć kopię zapasową bazy danych:",
     "enable_daily_backup": "Włącz codzienną kopię zapasową",
     "enable_weekly_backup": "Włącz cotygodniową kopię zapasową",
     "enable_monthly_backup": "Włącz comiesięczną kopię zapasową",
@@ -1544,7 +1544,7 @@
     "no_backup_yet": "brak kopii zapasowych"
   },
   "etapi": {
-    "description": "ETAPI to REST API służące do programowego dostępu do instancji Trilium, bez interfejsu użytkownika.",
+    "description": "ETAPI to REST API służące do programowego dostępu do instancji Notely, bez interfejsu użytkownika.",
     "create_token": "Utwórz nowy token ETAPI",
     "existing_tokens": "Istniejące tokeny",
     "no_tokens_yet": "Nie ma jeszcze żadnych tokenów. Kliknij przycisk powyżej, aby utworzyć jeden.",
@@ -1556,7 +1556,7 @@
     "default_token_name": "nowy token",
     "error_empty_name": "Nazwa tokenu nie może być pusta",
     "token_created_title": "Token ETAPI utworzony",
-    "token_created_message": "Skopiuj utworzony token do schowka. Trilium przechowuje token zaszyfrowany i jest to ostatni raz, kiedy go widzisz.",
+    "token_created_message": "Skopiuj utworzony token do schowka. Notely przechowuje token zaszyfrowany i jest to ostatni raz, kiedy go widzisz.",
     "rename_token": "Zmień nazwę tego tokenu",
     "delete_token": "Usuń / dezaktywuj ten token",
     "rename_token_title": "Zmień nazwę tokenu",
@@ -1586,7 +1586,7 @@
     "set_password_heading": "Ustaw hasło",
     "set_password": "Ustaw hasło",
     "password_mismatch": "Nowe hasła nie są takie same.",
-    "password_changed_success": "Hasło zostało zmienione. Trilium zostanie przeładowane po naciśnięciu OK."
+    "password_changed_success": "Hasło zostało zmienione. Notely zostanie przeładowane po naciśnięciu OK."
   },
   "multi_factor_authentication": {
     "recovery_keys_description_warning": "Klucze odzyskiwania nie zostaną pokazane ponownie po opuszczeniu strony, przechowuj je w bezpiecznym miejscu.<br>Po użyciu klucza odzyskiwania nie można go użyć ponownie.",
@@ -2094,7 +2094,7 @@
     "disabled_button_enable": "Włącz renderowanie notatki"
   },
   "web_view_setup": {
-    "title": "Utwórz podgląd strony na żywo bezpośrednio w Trilium",
+    "title": "Utwórz podgląd strony na żywo bezpośrednio w Notely",
     "url_placeholder": "Wpisz lub wklej adres strony internetowej, na przykład https://triliumnotes.org",
     "create_button": "Utwórz widok strony",
     "invalid_url_title": "Nieprawidłowy adres",

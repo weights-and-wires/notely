@@ -1,5 +1,5 @@
 # Synchronization
-Trilium is an offline-first note-taking application that stores all data locally on the desktop client. However, it also offers the option to set up synchronization with a server instance, allowing multiple desktop clients to sync with a central server. This creates a star-shaped topology:
+Notely is an offline-first note-taking application that stores all data locally on the desktop client. However, it also offers the option to set up synchronization with a server instance, allowing multiple desktop clients to sync with a central server. This creates a star-shaped topology:
 
 ![](Synchronization_image.png)
 
@@ -13,14 +13,14 @@ Setting up the server securely is critical and can be complex. It is crucial to 
 
 ### Synchronizing a Desktop Instance with a Sync Server
 
-This method is used when you already have a desktop instance of Trilium and want to set up a sync server on your web host.
+This method is used when you already have a desktop instance of Notely and want to set up a sync server on your web host.
 
 1.  **Server Deployment**: Ensure your server instance is deployed but uninitialized.
 2.  **Desktop Configuration**: Open your desktop instance, navigate to Options -> Sync tab -> Sync configuration, and set the "Server instance address" to your sync server's address. Click Save.
 
 ![screenshot of the sync settings options modal](Synchronization_sync-config.png)
 
-1.  **Testing Sync**: Click the "Test sync" button to verify the connection to the sync server. If successful, the client will start pushing all data to the server instance. This process may take some time, but you can continue using Trilium. Periodically check the server instance to confirm when the sync is complete. Once finished, you should see the login screen on the server.
+1.  **Testing Sync**: Click the "Test sync" button to verify the connection to the sync server. If successful, the client will start pushing all data to the server instance. This process may take some time, but you can continue using Notely. Periodically check the server instance to confirm when the sync is complete. Once finished, you should see the login screen on the server.
 
 ### Synchronizing a Desktop Instance from a Sync Server
 
@@ -31,12 +31,12 @@ This method is used when you already have a sync server and want to configure a 
 
 ![screenshot of the sync from server setup page](Synchronization_sync-init.png)
 
-1.  **Server Details**: Configure the Trilium server address and enter the correct username and password for authentication.
+1.  **Server Details**: Configure the Notely server address and enter the correct username and password for authentication.
 2.  **Finish Setup**: Click the "Finish setup" button. If successful, you will see the following screen:
 
 ![screenshot of the sync page](Synchronization_sync-in-progress.png)
 
-Once synchronization is complete, you will be automatically redirected to the Trilium application.
+Once synchronization is complete, you will be automatically redirected to the Notely application.
 
 ### Desktop-to-desktop sync
 
@@ -50,7 +50,7 @@ This method allows two desktop instances to synchronize between each other witho
 Two proxy setups are supported:
 
 *   **Explicit Proxy Configuration**: Set the proxy server in Options / Sync. Only unauthenticated proxy servers are supported.
-*   **System Proxy Settings**: If no proxy server is explicitly configured, Trilium will use the system proxy settings.
+*   **System Proxy Settings**: If no proxy server is explicitly configured, Notely will use the system proxy settings.
 
 ## Troubleshooting
 
@@ -60,18 +60,18 @@ For successful synchronization, both client and server must have the same date a
 
 ### Certificate Issues
 
-When using TLS, Trilium will verify the server certificate. If verification fails (e.g., due to self-signed certificates or certain corporate proxies), you can run the Trilium client with the `NODE_TLS_REJECT_UNAUTHORIZED` environment variable set to `0`:
+When using TLS, Notely will verify the server certificate. If verification fails (e.g., due to self-signed certificates or certain corporate proxies), you can run the Notely client with the `NODE_TLS_REJECT_UNAUTHORIZED` environment variable set to `0`:
 
 ```
 export NODE_TLS_REJECT_UNAUTHORIZED=0
 ```
 
-This will disable TLS certificate verification, significantly reducing security and exposing the setup to MITM attacks. It is strongly recommended to use a valid signed server certificate. Newer Trilium versions include a script called `trilium-no-cert-check.sh` for this purpose.
+This will disable TLS certificate verification, significantly reducing security and exposing the setup to MITM attacks. It is strongly recommended to use a valid signed server certificate. Newer Notely versions include a script called `trilium-no-cert-check.sh` for this purpose.
 
 ### Conflict Resolution
 
-If you edit the same note on multiple instances before synchronization, Trilium resolves conflicts by retaining the newer change and discarding the older one. The older version remains accessible in [note revisions](../Basic%20Concepts%20and%20Features/Notes/Note%20Revisions.md), allowing data recovery if needed.
+If you edit the same note on multiple instances before synchronization, Notely resolves conflicts by retaining the newer change and discarding the older one. The older version remains accessible in [note revisions](../Basic%20Concepts%20and%20Features/Notes/Note%20Revisions.md), allowing data recovery if needed.
 
 ### Hash Check
 
-After each synchronization, Trilium computes a hash of all synced data on both the client and the sync server. If there is a discrepancy, Trilium will automatically initiate a recovery mechanism to resolve the issue.
+After each synchronization, Notely computes a hash of all synced data on both the client and the sync server. If there is a discrepancy, Notely will automatically initiate a recovery mechanism to resolve the issue.

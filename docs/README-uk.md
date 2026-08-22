@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes — це безкоштовний кросплатформний ієрархічний додаток для ведення
+Notely — це безкоштовний кросплатформний ієрархічний додаток для ведення
 нотаток з відкритим кодом, орієнтований на створення великих персональних баз
 знань.
 
@@ -42,7 +42,7 @@ Trilium Notes — це безкоштовний кросплатформний �
 Наша документація доступна в кількох форматах:
 - **Онлайн-документація**: Перегляньте повну документацію на сайті
   [docs.triliumnotes.org](https://docs.triliumnotes.org/)
-- **Довідка в додатку**: Натисніть `F1` у Trilium, щоб отримати доступ до тієї ж
+- **Довідка в додатку**: Натисніть `F1` у Notely, щоб отримати доступ до тієї ж
   документації безпосередньо в додатку
 - **GitHub**: Перегляд [Посібника користувача](./User%20Guide/User%20Guide/) у
   цьому репозиторії
@@ -53,7 +53,7 @@ Trilium Notes — це безкоштовний кросплатформний �
 - [Налаштування
   Docker](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
 - [Оновлення
-  TriliumNext](https://docs.triliumnotes.org/user-guide/setup/upgrading)
+  Notely](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [Основні поняття та
   функції](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [Шаблони особистої бази

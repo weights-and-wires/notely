@@ -190,20 +190,20 @@
   },
   "login": {
     "title": "Logáil Isteach",
-    "heading": "Logáil Isteach Trilium",
+    "heading": "Logáil Isteach Notely",
     "incorrect-totp": "Tá an TOTP mícheart. Déan iarracht arís.",
     "incorrect-password": "Tá an focal faire mícheart. Déan iarracht arís.",
     "password": "Pasfhocal",
     "remember-me": "Cuimhnigh orm",
     "button": "Logáil Isteach",
     "sign_in_with_sso": "Sínigh isteach le {{ ssoIssuerName }}",
-    "sso-wrong-account": "Ní hé an cuntas sin an ceann atá nasctha leis an gcás Trilium seo. Sínigh isteach leis an gcuntas nasctha.",
+    "sso-wrong-account": "Ní hé an cuntas sin an ceann atá nasctha leis an gcás Notely seo. Sínigh isteach leis an gcuntas nasctha.",
     "sso-not-enrolled": "Níl síniú isteach aonair socraithe fós. Sínigh isteach le do phasfhocal ar dtús, ansin nasc do chuntas ó na socruithe."
   },
   "set_password": {
     "title": "Socraigh Pasfhocal",
     "heading": "Socraigh pasfhocal",
-    "description": "Sula dtosaíonn tú ag úsáid Trilium ón ngréasán, ní mór duit pasfhocal a shocrú ar dtús. Úsáidfidh tú an pasfhocal seo ansin chun logáil isteach.",
+    "description": "Sula dtosaíonn tú ag úsáid Notely ón ngréasán, ní mór duit pasfhocal a shocrú ar dtús. Úsáidfidh tú an pasfhocal seo ansin chun logáil isteach.",
     "password": "Pasfhocal",
     "password-confirmation": "Deimhniú pasfhocail",
     "button": "Socraigh pasfhocal"
@@ -347,19 +347,19 @@
     "unable-to-print": "Ní féidir an nóta a phriontáil"
   },
   "tray": {
-    "close": "Scoir de Trilium",
+    "close": "Scoir de Notely",
     "recents": "Nótaí le déanaí",
     "bookmarks": "Leabharmharcanna",
     "today": "Oscail nóta dialainne an lae inniu",
     "new-note": "Nóta nua",
     "show-windows": "Taispeáin fuinneoga",
     "open_new_window": "Oscail fuinneog nua",
-    "tooltip": "Trilium Notes"
+    "tooltip": "Notely"
   },
   "migration": {
     "old_version": "Ní thacaítear le haistriú díreach ó do leagan reatha. Uasghrádaigh go dtí an leagan is déanaí v0.60.4 ar dtús agus ansin go dtí an leagan seo amháin.",
     "error_message": "Earráid le linn imirce go leagan {{version}}: {{stack}}",
-    "wrong_db_version": "Tá leagan an bhunachair shonraí ({{version}}) níos nuaí ná mar a bhfuil súil ag an bhfeidhmchlár leis ({{targetVersion}}), rud a chiallaíonn gur cruthaíodh é le leagan níos nuaí agus neamh-chomhoiriúnach de Trilium. Uasghrádaigh go dtí an leagan is déanaí de Trilium chun an fhadhb seo a réiteach.",
+    "wrong_db_version": "Tá leagan an bhunachair shonraí ({{version}}) níos nuaí ná mar a bhfuil súil ag an bhfeidhmchlár leis ({{targetVersion}}), rud a chiallaíonn gur cruthaíodh é le leagan níos nuaí agus neamh-chomhoiriúnach de Notely. Uasghrádaigh go dtí an leagan is déanaí de Notely chun an fhadhb seo a réiteach.",
     "invalid_db_version": "Ní uimhir bhailí í an leagan bunachar sonraí. De ghnáth léiríonn sé seo go bhfuil an rogha 'dbVersion' truaillithe sa bhunachar sonraí. Athchóirigh ó chúltaca le do thoil.",
     "automatic_migrations_disabled": "Tá imirce uathoibríoch DB díchumasaithe tríd an athróg timpeallachta TRILIUM_MANUAL_DB_MIGRATION = {{envVarValue}}"
   },
@@ -413,7 +413,7 @@
   },
   "sql_init": {
     "db_not_initialized_desktop": "Níl an bunachar sonraí tosaithe, lean na treoracha ar an scáileán le do thoil.",
-    "db_not_initialized_server": "Níl an bunachar sonraí tosaithe, tabhair cuairt ar an leathanach socraithe - http://[your-server-host]:{{port}} le treoracha a fheiceáil maidir le conas Trilium a thosú."
+    "db_not_initialized_server": "Níl an bunachar sonraí tosaithe, tabhair cuairt ar an leathanach socraithe - http://[your-server-host]:{{port}} le treoracha a fheiceáil maidir le conas Notely a thosú."
   },
   "script": {
     "wrong-environment": "Ní féidir an nóta \"{{- noteTitle}}\" ({{- noteId}}) a fhorghníomhú. Is script {{- actualEnv}} é seo, ach rinneadh iarracht é a fhorghníomhú sa {{- expectedEnv}}."
@@ -489,7 +489,7 @@
   },
   "notion_import": {
     "root-title": "Iompórtáil Notion",
-    "markdown-export-unsupported": "Breathnaíonn sé seo cosúil le easpórtáil \"Markdown & CSV\" de chuid Notion, nach féidir le Trilium a allmhairiú. Ath-easpórtáil do spás oibre Notion ag baint úsáide as an bhformáid easpórtála \"HTML\" agus allmhairigh é sin ina ionad.",
+    "markdown-export-unsupported": "Breathnaíonn sé seo cosúil le easpórtáil \"Markdown & CSV\" de chuid Notion, nach féidir le Notely a allmhairiú. Ath-easpórtáil do spás oibre Notion ag baint úsáide as an bhformáid easpórtála \"HTML\" agus allmhairigh é sin ina ionad.",
     "subpage-folders-disabled": "Cruthaíodh an easpórtáil Notion seo gan an rogha \"Cruthaigh fillteáin do fho-leathanaigh\", mar sin ní féidir ordlathas an leathanaigh a atógáil. Ath-easpórtáil ó Notion le \"Cruthaigh fillteáin do fho-leathanaigh\" cumasaithe agus allmhairigh é sin ina ionad."
   },
   "keep_import": {
@@ -497,8 +497,8 @@
   },
   "anytype_import": {
     "root-title": "Iompórtáil Anytype",
-    "protobuf-export-unsupported": "Breathnaíonn sé seo cosúil le heaspórtáil \"Protobuf\" de chuid Anytype, nach féidir le Trilium a allmhairiú. Ath-easpórtáil do spás Anytype ag baint úsáide as an bhformáid \"Any-Block\" le \"JSON\" roghnaithe agus allmhairigh é sin ina ionad.",
-    "markdown-export-unsupported": "Breathnaíonn sé seo cosúil le heaspórtáil \"Markdown\" de chuid Anytype, nach féidir le Trilium a allmhairiú. Ath-easpórtáil do spás Anytype ag baint úsáide as an bhformáid \"Any-Block\" le \"JSON\" roghnaithe agus allmhairigh é sin ina ionad."
+    "protobuf-export-unsupported": "Breathnaíonn sé seo cosúil le heaspórtáil \"Protobuf\" de chuid Anytype, nach féidir le Notely a allmhairiú. Ath-easpórtáil do spás Anytype ag baint úsáide as an bhformáid \"Any-Block\" le \"JSON\" roghnaithe agus allmhairigh é sin ina ionad.",
+    "markdown-export-unsupported": "Breathnaíonn sé seo cosúil le heaspórtáil \"Markdown\" de chuid Anytype, nach féidir le Notely a allmhairiú. Ath-easpórtáil do spás Anytype ag baint úsáide as an bhformáid \"Any-Block\" le \"JSON\" roghnaithe agus allmhairigh é sin ina ionad."
   },
   "obsidian_import": {
     "root-title": "Allmhairiú Obsidian"
@@ -524,7 +524,7 @@
     "cancel": "Cealaigh",
     "set-title": "An bhfuil focal faire cúltaca socraithe?",
     "set-message": "Déanfar cúltacaí amach anseo a chriptiú leis an bpasfhocal seo.",
-    "set-detail": "Ní féidir le Trilium an pasfhocal seo a thaispeáint arís, mar sin coinnigh cóip in áit shábháilte: gan é, ní féidir cúltaca a athchóiriú.\n\nMura raibh súil agat go n-iarrfaí ort é, cealaigh — b’fhéidir gur iarr nóta nó script é seo.",
+    "set-detail": "Ní féidir le Notely an pasfhocal seo a thaispeáint arís, mar sin coinnigh cóip in áit shábháilte: gan é, ní féidir cúltaca a athchóiriú.\n\nMura raibh súil agat go n-iarrfaí ort é, cealaigh — b’fhéidir gur iarr nóta nó script é seo.",
     "set-confirm": "Socraigh pasfhocal",
     "clear-title": "An bhfuil dearmad déanta agat ar an bpasfhocal cúltaca?",
     "clear-message": "Ní bheidh cúltacaí criptithe a thuilleadh.",
@@ -533,16 +533,16 @@
   },
   "restore": {
     "pick_backup_title": "Roghnaigh cúltaca le hathchóiriú",
-    "backup_filter": "Cúltaca trilium (*.db, *.tnbackup)",
+    "backup_filter": "Cúltaca Notely (*.db, *.tnbackup)",
     "any_file_filter": "Gach comhad"
   },
   "setup-window": {
-    "getting-started": "Ag Tosú - Nótaí Trilium",
-    "start-over": "Tosaigh Arís - Nótaí Trilium"
+    "getting-started": "Ag Tosú - Nótaí Notely",
+    "start-over": "Tosaigh Arís - Nótaí Notely"
   },
   "start-over-dialog": {
     "title": "Tosaigh arís",
-    "message": "Atosaigh Trilium agus fill ar an scáileán socraithe?",
+    "message": "Atosaigh Notely agus fill ar an scáileán socraithe?",
     "detail": "Tairgfear cúltaca de do bhunachar eolais reatha duit ar dtús. Ní scriostar aon rud go dtí go roghnaíonn tú bunachar eolais nua a chruthú, cúltaca a athbhunú nó sioncrónú ó ghléas eile.\n\nNá lean ar aghaidh má spreag script nó nóta nach bhfuil tú eolach air thú.",
     "cancel": "Cealaigh",
     "confirm": "Atosaigh agus tosaigh arís"

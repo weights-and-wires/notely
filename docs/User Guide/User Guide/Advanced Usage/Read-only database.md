@@ -3,9 +3,9 @@
 > This functionality is still in preview, expect possible issues or even the feature disappearing completely.  
 > Feel free to [report](../Troubleshooting/Reporting%20issues.md) any issues you might have.
 
-The read-only database is an alternative to <a class="reference-link" href="Sharing.md">Sharing</a> notes. Although the share functionality works pretty well to publish pages to the Internet in a wiki, blog-like format it does not offer the full functionality behind Trilium (such as the advanced <a class="reference-link" href="../Basic%20Concepts%20and%20Features/Navigation/Search.md">Search</a> or the interactivity behind <a class="reference-link" href="../Collections.md">Collections</a> or the various <a class="reference-link" href="../Note%20Types.md">Note Types</a>).
+The read-only database is an alternative to <a class="reference-link" href="Sharing.md">Sharing</a> notes. Although the share functionality works pretty well to publish pages to the Internet in a wiki, blog-like format it does not offer the full functionality behind Notely (such as the advanced <a class="reference-link" href="../Basic%20Concepts%20and%20Features/Navigation/Search.md">Search</a> or the interactivity behind <a class="reference-link" href="../Collections.md">Collections</a> or the various <a class="reference-link" href="../Note%20Types.md">Note Types</a>).
 
-When the database is in read-only mode, the Trilium application can be used as normal, but editing is disabled and changes are made in-memory only.
+When the database is in read-only mode, the Notely application can be used as normal, but editing is disabled and changes are made in-memory only.
 
 ## What it does
 

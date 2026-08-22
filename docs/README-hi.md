@@ -21,7 +21,7 @@
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-ट्रिलियम नोट्स (Trilium Notes) एक मुफ़्त और ओपन-सोर्स, क्रॉस-प्लेटफ़ॉर्म
+ट्रिलियम नोट्स (Notely) एक मुफ़्त और ओपन-सोर्स, क्रॉस-प्लेटफ़ॉर्म
 श्रेणीबद्ध (hierarchical) नोट लेने वाला एप्लिकेशन है, जिसका मुख्य ध्यान बड़े
 व्यक्तिगत ज्ञान आधार (knowledge bases) बनाने पर है।
 
@@ -51,7 +51,7 @@
 - [Installation Instructions](https://docs.triliumnotes.org/user-guide/setup)
 - [डॉकर
   सेटअप](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
-- [TriliumNext को अपग्रेड
+- [Notely को अपग्रेड
   करना](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [बुनियादी कॉन्सेप्ट्स और
   फीचर्स](https://docs.triliumnotes.org/user-guide/concepts/notes)

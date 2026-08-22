@@ -5,7 +5,7 @@ This is supposed to be a complete list of keyboard shortcuts. Note that some of 
 
 It is also possible to configure most keyboard shortcuts in <a class="reference-link" href="UI%20Elements/Options.md">Options</a> → _Shortcuts_.
 
-On the <a class="reference-link" href="../Installation%20%26%20Setup/Desktop%20Installation.md">Desktop Installation</a>, it's also possible to make shortcuts global by pressing on the globe icon near the key combination, which makes the shortcut work even without Trilium being in focus.
+On the <a class="reference-link" href="../Installation%20%26%20Setup/Desktop%20Installation.md">Desktop Installation</a>, it's also possible to make shortcuts global by pressing on the globe icon near the key combination, which makes the shortcut work even without Notely being in focus.
 
 ## Shortcut reference
 
@@ -24,7 +24,7 @@ See the corresponding section: <a class="reference-link" href="UI%20Elements/No
 *   <kbd>Backspace</kbd> – jumps to parent note
 *   <kbd>Alt</kbd>+<kbd>C</kbd> – collapse whole note tree
 *   <kbd>Alt</kbd>+<kbd>-</kbd> (alt with minus sign) – collapse subtree (if some subtree takes too much space on tree pane you can collapse it)
-*   you can define a [label](../Advanced%20Usage/Attributes.md) `#keyboardShortcut` with e.g. value `Ctrl + I` . Pressing this keyboard combination will then bring you to the note on which it is defined. Note that Trilium must be reloaded/restarted (<kbd>Ctrl</kbd>+<kbd>R</kbd> ) for changes to be in effect.
+*   you can define a [label](../Advanced%20Usage/Attributes.md) `#keyboardShortcut` with e.g. value `Ctrl + I` . Pressing this keyboard combination will then bring you to the note on which it is defined. Note that Notely must be reloaded/restarted (<kbd>Ctrl</kbd>+<kbd>R</kbd> ) for changes to be in effect.
 
 See demo of some of these features in [note navigation](Navigation/Note%20Navigation.md).
 
@@ -68,7 +68,7 @@ All these keyboard shortcuts do not have a default set, go to <a class="referen
 
 These are hooked in Electron to be similar to native browser keyboard shortcuts.
 
-*   <kbd>F5</kbd>, <kbd>Ctrl</kbd>+<kbd>R</kbd> – reloads Trilium front-end
+*   <kbd>F5</kbd>, <kbd>Ctrl</kbd>+<kbd>R</kbd> – reloads Notely front-end
 *   <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> – show developer tools
 *   <kbd>Ctrl</kbd>+<kbd>F</kbd> – show search dialog
 *   <kbd>Ctrl</kbd>+<kbd>-</kbd> – zoom out

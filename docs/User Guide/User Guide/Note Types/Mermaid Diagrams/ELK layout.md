@@ -1,5 +1,5 @@
 # ELK layout
-Mermaid supports a different layout engine which supports slightly more complex diagrams, called the [Eclipse Layout Kernel (ELK)](https://eclipse.dev/elk/). Trilium has support for these as well, but it's not enabled by default.
+Mermaid supports a different layout engine which supports slightly more complex diagrams, called the [Eclipse Layout Kernel (ELK)](https://eclipse.dev/elk/). Notely has support for these as well, but it's not enabled by default.
 
 In order to activate ELK for any diagram, insert the following YAML frontmatter right at the beginning of the diagram:
 

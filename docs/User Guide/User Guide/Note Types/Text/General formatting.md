@@ -3,7 +3,7 @@
 
 <figure class="image image-style-align-right"><img style="aspect-ratio:255/284;" src="3_General formatting_image.png" width="255" height="284"></figure>
 
-Trilium provides headings to define sections within text. Headings are numbered from 2 to 6.
+Notely provides headings to define sections within text. Headings are numbered from 2 to 6.
 
 The reason why Heading 1 is missing from the list is that it is being reserved for the title of note.
 

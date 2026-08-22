@@ -1,9 +1,9 @@
 # Custom Request Handler
-Trilium provides a mechanism for [scripts](../Scripting.md) to open a public REST endpoint. This opens a way for various integrations with other services - a simple example would be creating new note from Slack by issuing a slash command (e.g. `/trilium buy milk`).
+Notely provides a mechanism for [scripts](../Scripting.md) to open a public REST endpoint. This opens a way for various integrations with other services - a simple example would be creating new note from Slack by issuing a slash command (e.g. `/trilium buy milk`).
 
-## Create note from outside Trilium
+## Create note from outside Notely
 
-Let's take a look at an example. The goal is to provide a REST endpoint to which we can send title and content and Trilium will create a note.
+Let's take a look at an example. The goal is to provide a REST endpoint to which we can send title and content and Notely will create a note.
 
 We'll start with creating a JavaScript backend [code note](../Note%20Types/Code.md) containing:
 
@@ -47,9 +47,9 @@ Content-Type: application/json
 }+++++++++++++++++++++++++++++++++++++++++++++++
 ```
 
-Notice the `/custom` part in the request path - Trilium considers any request with this prefix as "custom" and tries to find a matching handler by looking at all notes which have `customRequestHandler` [label](Attributes.md). Value of this label then contains a regular expression which will match the request path (in our case trivial regex "create-note").
+Notice the `/custom` part in the request path - Notely considers any request with this prefix as "custom" and tries to find a matching handler by looking at all notes which have `customRequestHandler` [label](Attributes.md). Value of this label then contains a regular expression which will match the request path (in our case trivial regex "create-note").
 
-Trilium will then find our code note created above and execute it. `api.req`, `api.res` are set to [request](https://expressjs.com/en/api.html#req) and [response](https://expressjs.com/en/api.html#res)objects from which we can get details of the request and also respond.
+Notely will then find our code note created above and execute it. `api.req`, `api.res` are set to [request](https://expressjs.com/en/api.html#req) and [response](https://expressjs.com/en/api.html#res)objects from which we can get details of the request and also respond.
 
 In the code note we check the request method and then use trivial authentication - keep in mind that these endpoints are by default totally unauthenticated, and you need to take care of this yourself.
 

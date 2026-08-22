@@ -63,7 +63,7 @@ import utils from "../../services/utils.js";
  *               properties:
  *                 message:
  *                   type: string
- *                   example: "Non-matching sync versions, local is version ${server syncVersion}, remote is ${requested syncVersion}. It is recommended to run same version of Trilium on both sides of sync"
+ *                   example: "Non-matching sync versions, local is version ${server syncVersion}, remote is ${requested syncVersion}. It is recommended to run same version of Notely on both sides of sync"
  *       '401':
  *         description: Timestamp mismatch
  *         content:
@@ -96,7 +96,7 @@ async function loginSync(req: Request) {
     if (syncVersion !== appInfo.syncVersion) {
         return [
             400,
-            { message: `Non-matching sync versions, local is version ${appInfo.syncVersion}, remote is ${syncVersion}. It is recommended to run same version of Trilium on both sides of sync.` }
+            { message: `Non-matching sync versions, local is version ${appInfo.syncVersion}, remote is ${syncVersion}. It is recommended to run same version of Notely on both sides of sync.` }
         ];
     }
 
@@ -137,7 +137,7 @@ async function token(req: Request) {
     }
 
     // for backwards compatibility with Sender which does not send the name
-    const tokenName = req.body.tokenName || "Trilium Sender / Web Clipper";
+    const tokenName = req.body.tokenName || "Notely Sender / Web Clipper";
 
     const { authToken } = etapiTokenService.createToken(tokenName);
 

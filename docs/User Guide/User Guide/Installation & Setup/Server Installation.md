@@ -1,9 +1,9 @@
 # Server Installation
-This guide outlines the steps to install Trilium on your own server. You might consider this option if you want to set up [synchronization](Synchronization.md) or use Trilium in a browser - accessible from anywhere.
+This guide outlines the steps to install Notely on your own server. You might consider this option if you want to set up [synchronization](Synchronization.md) or use Notely in a browser - accessible from anywhere.
 
 ## Installation Options
 
-There are several ways to install Trilium on a server, each with its own advantages:
+There are several ways to install Notely on a server, each with its own advantages:
 
 *   **Recommended**: [Docker Installation](Server%20Installation/1.%20Installing%20the%20server/Using%20Docker.md) - Available for **AMD64** and **ARM** architectures.
 *   [Packaged Server Installation](Server%20Installation/1.%20Installing%20the%20server/Packaged%20version%20for%20Linux.md)
@@ -18,13 +18,13 @@ The server installation includes both web and [mobile frontends](Mobile%20Fronte
 
 ## Configuration
 
-After setting up your server installation, you may want to configure settings such as the port or enable [TLS](Server%20Installation/HTTPS%20\(TLS\).md). Configuration is managed via the Trilium `config.ini` file, which is located in the [data directory](Data%20directory.md) by default. To begin customizing your setup, copy the provided `config-sample.ini` file with default values to `config.ini`.
+After setting up your server installation, you may want to configure settings such as the port or enable [TLS](Server%20Installation/HTTPS%20\(TLS\).md). Configuration is managed via the Notely `config.ini` file, which is located in the [data directory](Data%20directory.md) by default. To begin customizing your setup, copy the provided `config-sample.ini` file with default values to `config.ini`.
 
 You can also review the [configuration](../Advanced%20Usage/Configuration%20\(config.ini%20or%20environment%20variables\).md) file to provide all `config.ini` values as environment variables instead.
 
 ### Config Location
 
-By default, `config.ini`, the [database](../Advanced%20Usage/Database.md), and other important Trilium data files are stored in the [data directory](Data%20directory.md). If you prefer a different location, you can change it by setting the `TRILIUM_DATA_DIR` environment variable:
+By default, `config.ini`, the [database](../Advanced%20Usage/Database.md), and other important Notely data files are stored in the [data directory](Data%20directory.md). If you prefer a different location, you can change it by setting the `TRILIUM_DATA_DIR` environment variable:
 
 ```
 export TRILIUM_DATA_DIR=/home/myuser/data/my-trilium-data
@@ -36,11 +36,11 @@ See <a class="reference-link" href="Server%20Installation/Authentication.md">Au
 
 ## Reverse Proxy Setup
 
-To configure a reverse proxy for Trilium, you can use either **nginx** or **Apache**. You can also check out the documentation stored in the Reverse proxy folder.
+To configure a reverse proxy for Notely, you can use either **nginx** or **Apache**. You can also check out the documentation stored in the Reverse proxy folder.
 
 ### nginx
 
-Add the following configuration to your `nginx` setup to proxy requests to Trilium:
+Add the following configuration to your `nginx` setup to proxy requests to Notely:
 
 ```
 location /trilium/ {

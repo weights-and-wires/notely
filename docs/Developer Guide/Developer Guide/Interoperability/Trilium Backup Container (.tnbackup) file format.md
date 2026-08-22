@@ -1,4 +1,4 @@
-# Trilium Backup Container (.tnbackup) file format
+# Notely Backup Container (.tnbackup) file format
 A container wraps exactly one SQLite database file, with optional gzip compression and optional AES-256-GCM authenticated encryption. Containers are named `.tnbackup`.
 
 **Every container is written in a single forward pass.** Nothing in one is patched in afterwards, so a destination that cannot be written back to, a download already on its way to the user, holds the format as readily as a file does. That is what puts the payload digest at the end rather than in the header, and it is why even the plainest container, neither compressed nor encrypted, has a hash standing behind its contents.
@@ -158,7 +158,7 @@ The three parameter bytes are interpreted per algorithm, so a future KDF is not 
 key = scrypt(NFC(passphrase) as UTF-8, salt, 32 bytes, { N: 1 << log2N, r, p })
 ```
 
-The passphrase is the user's backup passphrase, which is not the Trilium login password.
+The passphrase is the user's backup passphrase, which is not the Notely login password.
 
 **Passphrase encoding is part of the format**: the passphrase is normalised to Unicode NFC and encoded as UTF-8 before it reaches the KDF. Neither JavaScript nor Node normalises implicitly, so an implementation must call `String.prototype.normalize("NFC")` explicitly. Without this, the same passphrase typed with a composed `é` on one machine and a decomposed one on another derives a different key, and the user is told their passphrase is wrong.
 
@@ -326,9 +326,9 @@ Cheap, and it catches a container that wrapped something other than a database:
 
 | Condition | Reported as |
 | --- | --- |
-| Magic mismatch | Not a Trilium backup container |
+| Magic mismatch | Not a Notely backup container |
 | Version `0` | Not a valid container |
-| Version above the reader's | Written by a newer Trilium |
+| Version above the reader's | Written by a newer Notely |
 | Reserved flag bit set, unknown KDF id, or out-of-bounds KDF parameters | Unsupported container |
 | Header length wrong, too large, or past EOF | Not a valid container |
 | Verifier tag mismatch | Wrong backup passphrase, or the header is damaged |

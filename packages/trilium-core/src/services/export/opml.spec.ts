@@ -100,7 +100,7 @@ describe("exportToOpml (real DB)", () => {
         const body = res.body;
         // The XML/opml envelope is always emitted as OPML 2.0.
         expect(body).toContain(`<opml version="2.0">`);
-        expect(body).toContain("<title>Trilium export</title>");
+        expect(body).toContain("<title>Notely export</title>");
         expect(body.trim().endsWith("</opml>")).toBe(true);
 
         // The title goes in the standard `text` attribute; the raw HTML content is

@@ -73,20 +73,20 @@
   },
   "login": {
     "title": "Iniciar sesión",
-    "heading": "Iniciar sesión en Trilium",
+    "heading": "Iniciar sesión en Notely",
     "incorrect-totp": "El TOTP es incorrecto. Por favor, intente de nuevo.",
     "incorrect-password": "La contraseña es incorrecta. Por favor, inténtelo de nuevo.",
     "password": "Contraseña",
     "remember-me": "Recordarme",
     "button": "Iniciar sesión",
     "sign_in_with_sso": "Iniciar sesión con {{ ssoIssuerName }}",
-    "sso-wrong-account": "Esa cuenta no es la vinculada a esta instancia de Trilium. Inicie sesión con la cuenta vinculada.",
+    "sso-wrong-account": "Esa cuenta no es la vinculada a esta instancia de Notely. Inicie sesión con la cuenta vinculada.",
     "sso-not-enrolled": "El inicio de sesión único aún no está configurado. Inicie sesión primero con su contraseña y, a continuación, vincule su cuenta desde la configuración."
   },
   "set_password": {
     "title": "Establecer contraseña",
     "heading": "Establecer contraseña",
-    "description": "Antes de poder usar Trilium desde la web, debe establecer una contraseña. A continuación, utilizará esta contraseña para iniciar sesión.",
+    "description": "Antes de poder usar Notely desde la web, debe establecer una contraseña. A continuación, utilizará esta contraseña para iniciar sesión.",
     "password": "Contraseña",
     "password-confirmation": "Confirmación de contraseña",
     "button": "Establecer contraseña"
@@ -229,8 +229,8 @@
     "unable-to-print": "No se puede imprimir la nota"
   },
   "tray": {
-    "tooltip": "Trilium Notes",
-    "close": "Cerrar Trilium",
+    "tooltip": "Notely",
+    "close": "Cerrar Notely",
     "recents": "Notas recientes",
     "bookmarks": "Marcadores",
     "today": "Abrir nota del diario de hoy",
@@ -241,7 +241,7 @@
   "migration": {
     "old_version": "La migración directa desde su versión actual no está admitida. Por favor, actualice primero a la última v0.60.4 y solo después a esta versión.",
     "error_message": "Error durante la migración a la versión {{version}}: {{stack}}",
-    "wrong_db_version": "La versión de la base de datos {{version}} es más nueva de lo que la aplicación espera {{targetVersion}}, lo que significa que fue creada por una versión más reciente e incompatible de Trilium. Actualice a la última versión de Trilium para resolver este problema.",
+    "wrong_db_version": "La versión de la base de datos {{version}} es más nueva de lo que la aplicación espera {{targetVersion}}, lo que significa que fue creada por una versión más reciente e incompatible de Notely. Actualice a la última versión de Notely para resolver este problema.",
     "invalid_db_version": "La versión de la base de datos no es un número válido. Esto usualmente indica una opción \"dbVersion\" corrupta en la base de datos. Por favor, restaure de una copia de seguridad.",
     "automatic_migrations_disabled": "Las migraciones automáticas de la base de datos están deshabilitadas mediante la variable de entorno TRILIUM_MANUAL_DB_MIGRATION = {{envVarValue}}"
   },
@@ -396,7 +396,7 @@
   },
   "sql_init": {
     "db_not_initialized_desktop": "Base de datos no inicializada, por favor, siga las instrucciones en pantalla.",
-    "db_not_initialized_server": "Base de datos no inicializada, por favor, visite la página de configuración - http://[your-server-host]:{{port}} para ver instrucciones sobre cómo inicializar Trilium."
+    "db_not_initialized_server": "Base de datos no inicializada, por favor, visite la página de configuración - http://[your-server-host]:{{port}} para ver instrucciones sobre cómo inicializar Notely."
   },
   "password": {
     "incorrect": "La contraseña que ha introducido es incorrecta."
@@ -454,7 +454,7 @@
   },
   "notion_import": {
     "root-title": "Importación de Notion",
-    "markdown-export-unsupported": "Esto parece una exportación «Markdown & CSV» de Notion, que Trilium no puede importar. Por favor, vuelva a exportar su espacio de trabajo de Notion usando el formato de exportación «HTML» e importe ese archivo en su lugar.",
+    "markdown-export-unsupported": "Esto parece una exportación «Markdown & CSV» de Notion, que Notely no puede importar. Por favor, vuelva a exportar su espacio de trabajo de Notion usando el formato de exportación «HTML» e importe ese archivo en su lugar.",
     "subpage-folders-disabled": "Esta exportación de Notion se creó sin la opción «Create folders for subpages», por lo que no se puede reconstruir la jerarquía de páginas. Por favor, vuelva a exportar desde Notion con «Create folders for subpages» habilitada e importe ese archivo en su lugar."
   },
   "keep_import": {
@@ -462,8 +462,8 @@
   },
   "anytype_import": {
     "root-title": "Importación de Anytype",
-    "protobuf-export-unsupported": "Esto parece una exportación «Protobuf» de Anytype, que Trilium no puede importar. Por favor, vuelva a exportar su espacio de Anytype usando el formato «Any-Block» con «JSON» seleccionado e importe ese archivo en su lugar.",
-    "markdown-export-unsupported": "Esto parece una exportación «Markdown» de Anytype, que Trilium no puede importar. Por favor, vuelva a exportar su espacio de Anytype usando el formato «Any-Block» con «JSON» seleccionado e importe ese archivo en su lugar."
+    "protobuf-export-unsupported": "Esto parece una exportación «Protobuf» de Anytype, que Notely no puede importar. Por favor, vuelva a exportar su espacio de Anytype usando el formato «Any-Block» con «JSON» seleccionado e importe ese archivo en su lugar.",
+    "markdown-export-unsupported": "Esto parece una exportación «Markdown» de Anytype, que Notely no puede importar. Por favor, vuelva a exportar su espacio de Anytype usando el formato «Any-Block» con «JSON» seleccionado e importe ese archivo en su lugar."
   },
   "obsidian_import": {
     "root-title": "Importación de Obsidian"
@@ -494,7 +494,7 @@
   },
   "restore": {
     "pick_backup_title": "Elija una copia de seguridad para restaurar",
-    "backup_filter": "Copia de seguridad de Trilium (*.db, *.tnbackup)",
+    "backup_filter": "Copia de seguridad de Notely (*.db, *.tnbackup)",
     "any_file_filter": "Todos los archivos"
   },
   "backup": {
@@ -508,7 +508,7 @@
     "cancel": "Cancelar",
     "set-title": "¿Establecer la contraseña de copia de seguridad?",
     "set-message": "Las futuras copias de seguridad se cifrarán con esta contraseña.",
-    "set-detail": "Trilium no puede volver a mostrar esta contraseña, así que conserve una copia en un lugar seguro: sin ella no se puede restaurar una copia de seguridad.\n\nSi no esperaba que se le preguntara, cancele: una nota o un script pueden haberlo solicitado.",
+    "set-detail": "Notely no puede volver a mostrar esta contraseña, así que conserve una copia en un lugar seguro: sin ella no se puede restaurar una copia de seguridad.\n\nSi no esperaba que se le preguntara, cancele: una nota o un script pueden haberlo solicitado.",
     "set-confirm": "Establecer contraseña",
     "clear-title": "¿Olvidar la contraseña de copia de seguridad?",
     "clear-message": "Las copias de seguridad ya no se cifrarán.",
@@ -516,12 +516,12 @@
     "clear-confirm": "Olvidar contraseña"
   },
   "setup-window": {
-    "getting-started": "Empezar - Trilium Notes",
-    "start-over": "Empezar de nuevo - Trilium Notes"
+    "getting-started": "Empezar - Notely",
+    "start-over": "Empezar de nuevo - Notely"
   },
   "start-over-dialog": {
     "title": "Empezar de nuevo",
-    "message": "¿Reiniciar Trilium y volver a la pantalla de configuración?",
+    "message": "¿Reiniciar Notely y volver a la pantalla de configuración?",
     "detail": "Primero se le ofrecerá una copia de seguridad de su base de conocimientos actual. No se elimina nada hasta que elija crear una nueva base de conocimientos, restaurar una copia de seguridad o sincronizar desde otro dispositivo.\n\nNo continúe si se lo ha pedido un script o una nota desconocida.",
     "cancel": "Cancelar",
     "confirm": "Reiniciar y empezar de nuevo"

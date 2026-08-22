@@ -79,7 +79,7 @@
                         "root",
                         "rvaX6hEaQlmk"
                     ],
-                    "title": "Trilium Demo",
+                    "title": "Notely Demo",
                     "notePosition": 20,
                     "prefix": null,
                     "isExpanded": true,
@@ -137,7 +137,7 @@
                         }
                     ],
                     "format": "html",
-                    "dataFileName": "Trilium Demo.html",
+                    "dataFileName": "Notely Demo.html",
                     "attachments": [
                         {
                             "attachmentId": "49LZY5VsPxHQ",
@@ -145,10 +145,10 @@
                             "role": "image",
                             "mime": "image/svg+xml",
                             "position": 10,
-                            "dataFileName": "Trilium Demo_icon-color.svg"
+                            "dataFileName": "Notely Demo_icon-color.svg"
                         }
                     ],
-                    "dirFileName": "Trilium Demo",
+                    "dirFileName": "Notely Demo",
                     "children": [
                         {
                             "isClone": false,

@@ -181,7 +181,7 @@ describe("UploadimagePlugin", () => {
         // A reverse proxy enforcing its own body-size limit answers HTML, which the adapter parses
         // as JSON and gets nothing from — the status is all there is to report (#10859).
         for (const [ status, expected ] of [
-            [ 413, "Cannot upload file: pic.png. The file is too large to be uploaded (HTTP 413). If Trilium is behind a reverse proxy, raise its request body size limit." ],
+            [ 413, "Cannot upload file: pic.png. The file is too large to be uploaded (HTTP 413). If Notely is behind a reverse proxy, raise its request body size limit." ],
             [ 502, "Cannot upload file: pic.png. The server responded with HTTP 502." ]
         ] as const) {
             FakeXHR.last = undefined;

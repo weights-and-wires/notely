@@ -3,7 +3,7 @@
 
 Screenshot of Zen Mode activated on a Windows 11 system with native title bar off and background effects on.
 
-When Zen Mode is activated (pictured on the side), most of the user interface of Trilium is hidden away in order to be able to focus on the content, whether it's for reading or writing.
+When Zen Mode is activated (pictured on the side), most of the user interface of Notely is hidden away in order to be able to focus on the content, whether it's for reading or writing.
 
 ![](2_Zen%20mode_image.png)
 
@@ -13,7 +13,7 @@ Screenshot of the Zen Mode option in the global menu.
 
 The Zen Mode can be activated by accessing the global menu and selecting the “Zen Mode” option:
 
-Aside from the global menu, it's also possible to activate this mode by using a keyboard shortcut (which is <kbd>F9</kbd> since TriliumNext 0.92.5 and <kbd>Alt</kbd>+<kbd>Z</kbd> for older versions). Look for `toggleZenMode` in the shortcut configuration.
+Aside from the global menu, it's also possible to activate this mode by using a keyboard shortcut (which is <kbd>F9</kbd> since Notely 0.92.5 and <kbd>Alt</kbd>+<kbd>Z</kbd> for older versions). Look for `toggleZenMode` in the shortcut configuration.
 
 Once Zen Mode is activated, all the UI elements of the application will be hidden away, including the global menu. In that case, the Zen Mode can be deactivated either by pressing the ![](Zen%20mode_image.png) icon in the top-right corner of the window or by pressing the keyboard combination again.
 

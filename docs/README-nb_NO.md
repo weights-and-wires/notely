@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes er et gratis og åpen kildekode-basert, plattformuavhengig
+Notely er et gratis og åpen kildekode-basert, plattformuavhengig
 hierarkisk notatprogram med fokus på å bygge store personlige kunnskapsbaser.
 
 <img src="./app.png" alt="Trilium Screenshot" width="1000">
@@ -41,7 +41,7 @@ hierarkisk notatprogram med fokus på å bygge store personlige kunnskapsbaser.
 Vår dokumentasjon er tilgjengelig i flere format:
 - **Online Dokumentasjon**: Utforsk full dokumentasjon på
   [docs.triliumnotes.org](https://docs.triliumnotes.org/)
-- **Hjelp i app**: Trykk`F1` i Trilium for å lese samme dokumentasjon direkte i
+- **Hjelp i app**: Trykk`F1` i Notely for å lese samme dokumentasjon direkte i
   applikasjonen
 - **GitHub**: Navigate through the [User Guide](./User%20Guide/User%20Guide/) in
   this repository
@@ -52,7 +52,7 @@ Vår dokumentasjon er tilgjengelig i flere format:
 - [Oppsett med
   Docker](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
 - [Oppgradere
-  TriliumNext](https://docs.triliumnotes.org/user-guide/setup/upgrading)
+  Notely](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [Grunnleggende konsepter og
   funksjoner](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [Modeller for personlig

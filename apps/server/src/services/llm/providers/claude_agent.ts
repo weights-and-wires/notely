@@ -925,7 +925,7 @@ function describeAssistantError(message: SDKAssistantMessage): string | undefine
         return undefined;
     }
     if (message.error === "authentication_failed" || message.error === "oauth_org_not_allowed") {
-        return "Claude Code is not authenticated. Run `claude /login` on the machine running the Trilium server to sign in with your Claude subscription (or an API key).";
+        return "Claude Code is not authenticated. Run `claude /login` on the machine running the Notely server to sign in with your Claude subscription (or an API key).";
     }
     return `Claude Agent error: ${message.error}`;
 }

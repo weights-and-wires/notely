@@ -1,9 +1,9 @@
 # Exported content with extended task states
-If you're a developer working with HTML or Markdown content exported from Trilium, here are the details on how task states are stored.
+If you're a developer working with HTML or Markdown content exported from Notely, here are the details on how task states are stored.
 
 ## HTML notes
 
-Trilium stores the task state identifier in the `data-trilium-task-state` attribute on the `<li>` element of the to-do list. The task state's title is also included to provide a fallback, human-readable tooltip (shown even when no custom checkbox is rendered).
+Notely stores the task state identifier in the `data-trilium-task-state` attribute on the `<li>` element of the to-do list. The task state's title is also included to provide a fallback, human-readable tooltip (shown even when no custom checkbox is rendered).
 
 ```html
 <ul class="todo-list">
@@ -20,7 +20,7 @@ Trilium stores the task state identifier in the `data-trilium-task-state` attrib
 </ul>
 ```
 
-The checkbox glyph, color and other details are not present in the HTML markup. They are resolved at render time from the task state definition under "Task States" in Trilium's hidden subtree.
+The checkbox glyph, color and other details are not present in the HTML markup. They are resolved at render time from the task state definition under "Task States" in Notely's hidden subtree.
 
 The default task states use the following identifiers:
 

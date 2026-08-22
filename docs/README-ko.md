@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub 스폰서](https://img.shields.io/github/sponsors/eliandoran) ![LiberaPay
 후원자](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes는 대규모 개인 지식 기반 구축에 중점을 둔 무료 오픈 소스 크로스 플랫폼 계층형 노트 작성 애플리케이션입니다.
+Notely는 대규모 개인 지식 기반 구축에 중점을 둔 무료 오픈 소스 크로스 플랫폼 계층형 노트 작성 애플리케이션입니다.
 
 <img src="./app.png" alt="Trilium Screenshot" width="1000">
 
@@ -38,7 +38,7 @@ Trilium Notes는 대규모 개인 지식 기반 구축에 중점을 둔 무료 �
 문서는 다양한 형식으로 제공됩니다:
 - **온라인 문서**: [docs.triliumnotes.org](https://docs.triliumnotes.org/)에서 전체 문서를
   확인할 수 있습니다
-- **앱 내 도움말**: Trilium에서 `F1` 키를 누르면 애플리케이션 내에서 동일한 문서에 바로 접근할 수 있습니다
+- **앱 내 도움말**: Notely에서 `F1` 키를 누르면 애플리케이션 내에서 동일한 문서에 바로 접근할 수 있습니다
 - **GitHub**: 이 저장소의 [사용자 가이드](./User%20Guide/User%20Guide/)를 살펴보세요
 
 ### 바로가기
@@ -46,7 +46,7 @@ Trilium Notes는 대규모 개인 지식 기반 구축에 중점을 둔 무료 �
 - [설치 방법](https://docs.triliumnotes.org/user-guide/setup)
 - [Docker
   설정](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
-- [TriliumNext로 업그레이드](https://docs.triliumnotes.org/user-guide/setup/upgrading)
+- [Notely로 업그레이드](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [기본 개념 및 기능](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [개인 지식 기반 활용
   패턴](https://docs.triliumnotes.org/user-guide/misc/patterns-of-personal-knowledge)

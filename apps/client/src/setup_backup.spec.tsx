@@ -77,7 +77,7 @@ function type(input: HTMLInputElement | null, value: string) {
 }
 
 /** The shape of the name proposed by commons, which every platform now suggests. */
-const SUGGESTED_NAME = /^Trilium data \(\d{4}-\d{2}-\d{2} \d{2}-\d{2}-\d{2}\)$/;
+const SUGGESTED_NAME = /^Notely data \(\d{4}-\d{2}-\d{2} \d{2}-\d{2}-\d{2}\)$/;
 
 /**
  * Answers the parameters screen and arrives at the download, which is where most of this is.

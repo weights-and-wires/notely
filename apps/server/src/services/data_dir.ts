@@ -97,7 +97,7 @@ function outputPermissionDiagnostics(targetPath: fs.PathLike) {
     }
 
     console.error("\nTo fix this issue:");
-    console.error("  - Ensure the data directory is owned by the user running Trilium");
+    console.error("  - Ensure the data directory is owned by the user running Notely");
     console.error("  - Or set USER_UID and USER_GID environment variables to match the directory owner");
     console.error("  - Example: docker run -e USER_UID=$(id -u) -e USER_GID=$(id -g) ...");
     console.error("====================================================\n");

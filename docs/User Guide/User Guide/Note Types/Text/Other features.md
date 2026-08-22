@@ -18,7 +18,7 @@ Note that this only works with raw Markdown (e.g. `# Heading 1` to generate a he
 
 This is mostly useful for snippets of text, for entire Markdown documents use the dedicated <a class="reference-link" href="../../Basic%20Concepts%20and%20Features/Import%20%26%20Export/Markdown.md">Markdown</a> import/export function.
 
-If accessing Trilium with a web browser, the Markdown import action will ask for the content to be inserted into a dedicated screen since it does not have access to the clipboard.
+If accessing Notely with a web browser, the Markdown import action will ask for the content to be inserted into a dedicated screen since it does not have access to the clipboard.
 
 ## Cut to subnote
 

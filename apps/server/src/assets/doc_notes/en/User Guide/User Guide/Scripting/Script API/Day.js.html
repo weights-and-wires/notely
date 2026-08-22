@@ -1,4 +1,4 @@
-<p>Day.js is a date manipulation library that's used by Trilium, but it's
+<p>Day.js is a date manipulation library that's used by Notely, but it's
   also shared with both front-end and back-end scripts. For more information
   about the library itself, consult the <a href="https://day.js.org/en/">official documentation</a>.</p>
 <h2>How to use</h2>
@@ -7,11 +7,11 @@
 api.log(date.format("YYYY-MM-DD"));</code></pre>
 <h2>Plugins</h2>
 <p>Day.js uses a modular, plugin-based architecture. Generally these plugins
-  must be imported, but this process doesn't work inside Trilium scripts
+  must be imported, but this process doesn't work inside Notely scripts
   due to the use of a bundler.</p>
 <p>Since v0.100.0, the same set of plugins is available for both front-end
   and back-end scripts.</p>
-<p>The following Day.js plugins are directly integrated into Trilium:</p>
+<p>The following Day.js plugins are directly integrated into Notely:</p>
 <ul>
   <li><a href="https://day.js.org/docs/en/plugin/advanced-format">AdvancedFormat</a>
   </li>
@@ -33,6 +33,6 @@ api.log(date.format("YYYY-MM-DD"));</code></pre>
 <aside class="admonition note">
   <p>If another Day.js plugin might be needed for scripting purposes, feel
     free to open a feature request for it. Depending on the size of the plugin
-    and the potential use of it inside the Trilium code base, it has a chance
+    and the potential use of it inside the Notely code base, it has a chance
     of being integrated.</p>
 </aside>

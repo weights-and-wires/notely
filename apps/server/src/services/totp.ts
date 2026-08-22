@@ -20,9 +20,9 @@ function isTotpEnabled(): boolean {
  * which the client renders as a scannable QR code. `accountName` is only the human-readable label
  * shown next to the "Trilium" issuer in the authenticator app (typically the instance host).
  */
-function generateSecret(accountName = "Trilium"): { success: boolean; message?: string; url?: string } {
+function generateSecret(accountName = "Notely"): { success: boolean; message?: string; url?: string } {
     try {
-        const key = Totp.generateKey({ issuer: "Trilium", user: accountName });
+        const key = Totp.generateKey({ issuer: "Notely", user: accountName });
 
         return {
             success: true,

@@ -3,7 +3,7 @@ Inheritance refers to the process of having a [label](Labels.md) or a [relation]
 
 ## Standard Inheritance
 
-In Trilium, attributes can be automatically inherited by child notes if they have the `isInheritable` flag set to `true`. This means the attribute (a key-value pair) is applied to the note and all its descendants.
+In Notely, attributes can be automatically inherited by child notes if they have the `isInheritable` flag set to `true`. This means the attribute (a key-value pair) is applied to the note and all its descendants.
 
 To make an attribute inheritable, simply use the visual editor for <a class="reference-link" href="Labels.md">Labels</a> or <a class="reference-link" href="Relations.md">Relations</a>. Alternatively, the attribute can be manually defined where `#myLabel=value` becomes `#myLabel(inheritable)=value` when inheritable.
 

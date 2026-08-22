@@ -1,5 +1,5 @@
 # Google Keep
-Trilium can import notes from Google Keep, preserving their structure and formatting.
+Notely can import notes from Google Keep, preserving their structure and formatting.
 
 ## Import process
 

@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub 赞助者](https://img.shields.io/github/sponsors/eliandoran) ![LiberaPay
 赞助者](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -20,7 +20,7 @@
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes 是一款免费且开源、跨平台的阶层式笔记应用程序，专注于建立大型个人知识库。
+Notely 是一款免费且开源、跨平台的阶层式笔记应用程序，专注于建立大型个人知识库。
 
 <img src="./app.png" alt="Trilium Screenshot" width="1000">
 
@@ -36,7 +36,7 @@ Trilium Notes 是一款免费且开源、跨平台的阶层式笔记应用程序
 
 我们的文档有多种格式可供使用：
 - **在线文档**：请访问我们完整的文档：[docs.triliumnotes.org](https://docs.triliumnotes.org/)
-- **应用内帮助**：在 Trilium 中按下`F1`即可直接在应用程序内访问相同文档
+- **应用内帮助**：在 Notely 中按下`F1`即可直接在应用程序内访问相同文档
 - **GitHub**：浏览此存储库中的[用户指南](./User%20Guide/User%20Guide/)
 
 ### 快速链接
@@ -44,7 +44,7 @@ Trilium Notes 是一款免费且开源、跨平台的阶层式笔记应用程序
 - [安装说明](https://docs.triliumnotes.org/user-guide/setup)
 - [Docker
   设置](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
-- [升级 TriliumNext](https://docs.triliumnotes.org/user-guide/setup/upgrading)
+- [升级 Notely](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [基本概念与特性](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [个人知识库模式](https://docs.triliumnotes.org/user-guide/misc/patterns-of-personal-knowledge)
 
@@ -87,25 +87,25 @@ Trilium Notes 是一款免费且开源、跨平台的阶层式笔记应用程序
 * [Metrics](https://docs.triliumnotes.org/user-guide/advanced-usage/metrics)，以及
   Grafana 仪表板。
 
-✨ 查看以下第三方资源/社区，获取更多与 TriliumNext 相关的实用内容：
+✨ 查看以下第三方资源/社区，获取更多与 Notely 相关的实用内容：
 
 - [awesome-trilium](https://github.com/Nriver/awesome-trilium) 提供第三方主题、脚本、插件等资源。
 - [TriliumRocks!](https://trilium.rocks/) 提供教程、指南以及更多内容。
 
-## ❓为什么选择TriliumNext？
+## ❓为什么选择Notely？
 
-Trilium 的原开发者（[Zadam](https://github.com/zadam)）已慷慨地将 Trilium
+Notely 的原开发者（[Zadam](https://github.com/zadam)）已慷慨地将 Notely
 仓库移交至社区项目，该项目现托管于：https://github.com/TriliumNext
 
-### ⬆️从 Zadam/Trilium 迁移？
+### ⬆️从 Zadam/Notely 迁移？
 
-从 zadam/Trilium 实例迁移到 TriliumNext/Trilium 实例无需任何特殊步骤。只需像往常一样[安装
-TriliumNext/Trilium](#-installation)，它便会沿用你现有的数据库。
+从 zadam/Notely 实例迁移到 Notely/Notely 实例无需任何特殊步骤。只需像往常一样[安装
+Notely/Notely](#-installation)，它便会沿用你现有的数据库。
 
 直至 [v0.90.4](https://github.com/TriliumNext/Trilium/releases/tag/v0.90.4)
-版本（含）均与最新的 zadam/trilium 版本
+版本（含）均与最新的 zadam/Notely 版本
 [v0.63.7](https://github.com/zadam/trilium/releases/tag/v0.63.7) 兼容。此后任何更新的
-TriliumNext/Trilium 版本都已递增了同步版本号，因此无法直接迁移。
+Notely/Notely 版本都已递增了同步版本号，因此无法直接迁移。
 
 ## 💬 与我们讨论
 
@@ -131,7 +131,7 @@ TriliumNext/Trilium 版本都已递增了同步版本号，因此无法直接迁
 
 你也可以从[最新发布页面](https://github.com/TriliumNext/Trilium/releases/latest)下载适合你平台的二进制发行版，解压后运行`trilium`可执行文件即可。
 
-TriliumNext 也提供了 Flatpak 格式，但尚未在 FlatHub 上发布。
+Notely 也提供了 Flatpak 格式，但尚未在 FlatHub 上发布。
 
 ### 浏览器（任意操作系统）
 
@@ -141,7 +141,7 @@ TriliumNext 也提供了 Flatpak 格式，但尚未在 FlatHub 上发布。
 
 ### 移动端
 
-要在移动设备上使用 TriliumNext，你可以通过移动网页浏览器访问服务器安装版本的移动界面（见下文）。
+要在移动设备上使用 Notely，你可以通过移动网页浏览器访问服务器安装版本的移动界面（见下文）。
 
 更多关于移动应用支持的信息，请参阅 https://github.com/TriliumNext/Trilium/issues/4962。
 
@@ -150,22 +150,22 @@ TriliumNext 也提供了 Flatpak 格式，但尚未在 FlatHub 上发布。
 如果你更喜欢原生 Android 应用，可以使用
 [TriliumDroid](https://apt.izzysoft.de/fdroid/index/apk/eu.fliegendewurst.triliumdroid)。遇到
 bug 或功能缺失，请到[它的代码仓库](https://github.com/FliegendeWurst/TriliumDroid)反馈。注意：在使用
-TriliumDroid 时，最好关闭服务器端安装的自动更新（见下文），因为 Trilium 与 TriliumDroid 的同步版本必须保持一致。
+TriliumDroid 时，最好关闭服务器端安装的自动更新（见下文），因为 Notely 与 TriliumDroid 的同步版本必须保持一致。
 
-#### Pocket Trilium
+#### Pocket Notely
 
 如果你想要一个功能齐全的原生 Android 应用，不妨看看 [Pocket
-Trilium](https://github.com/Nriver/pocket-trilium)。它能在手机上运行一个完整的 Trilium
+Notely](https://github.com/Nriver/pocket-trilium)。它能在手机上运行一个完整的 Notely
 实例，支持完全离线使用，还能与你的服务器同步。
 
 #### Trinote
 
 如果你想要一个原生 iOS 应用，你可以使用
-[Trinote](https://apps.apple.com/us/app/trinote/id6761228249)，这是一个开源的客户端，用于连接你自托管的Trilium/TriliumNext服务器。它支持浏览和整理笔记树、在服务器上搜索笔记、阅读和编辑所有笔记类型（文本、代码、思维导图、电子表格、地理地图、画布等），并且可以离线保存和编辑笔记。如果你有兴趣参与贡献，这里是[仓库链接](https://github.com/StephenArg/Trinote)；如果你想讨论反馈或建议，这里是[Discord](https://discord.com/invite/ghjJG56EUS)。
+[Trinote](https://apps.apple.com/us/app/trinote/id6761228249)，这是一个开源的客户端，用于连接你自托管的Notely/Notely服务器。它支持浏览和整理笔记树、在服务器上搜索笔记、阅读和编辑所有笔记类型（文本、代码、思维导图、电子表格、地理地图、画布等），并且可以离线保存和编辑笔记。如果你有兴趣参与贡献，这里是[仓库链接](https://github.com/StephenArg/Trinote)；如果你想讨论反馈或建议，这里是[Discord](https://discord.com/invite/ghjJG56EUS)。
 
 ### 服务器
 
-如要在你自己的服务器上安装 TriliumNext（包括通过
+如要在你自己的服务器上安装 Notely（包括通过
 [Dockerhub](https://hub.docker.com/r/triliumnext/trilium) 使用
 Docker），请参照[服务器安装文档](https://docs.triliumnotes.org/user-guide/setup/server)。
 
@@ -175,7 +175,7 @@ Docker），请参照[服务器安装文档](https://docs.triliumnotes.org/user-
 ### 翻译
 
 如果你是母语者，欢迎前往我们的 [Weblate 页面](https://hosted.weblate.org/engage/trilium/)协助翻译
-Trilium。
+Notely。
 
 以下是我们目前涵盖的语言范围：
 

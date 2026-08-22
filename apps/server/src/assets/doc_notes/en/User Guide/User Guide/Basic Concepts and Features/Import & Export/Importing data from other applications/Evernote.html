@@ -1,4 +1,4 @@
-<p>Trilium can import ENEX files, which are used by Evernote for backup/export.
+<p>Notely can import ENEX files, which are used by Evernote for backup/export.
   One ENEX file represents the content (notes and resources) of one notebook.</p>
 <h2>Import process</h2>
 <p>The first step is to export the data from Evernote:</p>
@@ -51,7 +51,7 @@
     tool called <a href="https://github.com/vzhd1701/evernote-backup">evernote-backup</a>
   </p>
 </aside>
-<p>Once you have your ENEX files, do the following to import them in Trilium:</p>
+<p>Once you have your ENEX files, do the following to import them in Notely:</p>
 <ol>
   <li>In the&nbsp;<a class="reference-link" href="#root/_help_oPVyFC7WL2Lp">Note Tree</a>,
     right click and select <em>Import into note</em>.</li>
@@ -63,7 +63,7 @@
     verify that you haven’t lost any data.</li>
 </ol>
 <h2>Supported features</h2>
-<p>The following features are preserved by Trilium during the import process:</p>
+<p>The following features are preserved by Notely during the import process:</p>
 <ul>
   <li>Basic formatting (bold, italic, underline, strikethrough, colors, highlights,
     superscript, subscript, text alignment, inline code).</li>
@@ -99,11 +99,11 @@
     or divide your files, and run the import as many times as necessary.</li>
   <li>All resources (except for images) are created as notes’ attachments.</li>
   <li>If you have HTML inside ENEX files, the HTML formatting may be broken
-    or lost after import in Trilium. See&nbsp;<a class="reference-link" href="#root/_help_wy8So3yZZlH9">Reporting issues</a>.</li>
+    or lost after import in Notely. See&nbsp;<a class="reference-link" href="#root/_help_wy8So3yZZlH9">Reporting issues</a>.</li>
 </ul>
 <h3>Links to other notes</h3>
 <p>Since v0.104.0, the ENEX importer tries to recreate links to other notes
-  automatically by converting their Evernote-specific URLs to Trilium's&nbsp;
+  automatically by converting their Evernote-specific URLs to Notely's&nbsp;
   <a
   class="reference-link" href="#root/_help_hrZ1D00cLbal">Internal (reference) links</a>.</p>
 <p>Since the ENEX format does not provide the unique ID of notes, the note
@@ -124,7 +124,7 @@
   <p>This script allows rewriting links after the import has been done, and
     it should also allow finding links between two different imports.</p>
 </aside>
-<p>If you want to restore the internal links in Trilium after you import
+<p>If you want to restore the internal links in Notely after you import
   all of your ENEX files, you can use or adapt this custom script:&nbsp;
   <a
   class="reference-link" href="#root/_help_dj3j8dG4th4l">Process internal links by title</a>
@@ -133,12 +133,12 @@
 <ol>
   <li>It finds all Evernote internal links.</li>
   <li>For each one, it checks if its link text matches a note title, and if
-    yes, it replaces the Evernote link with an internal Trilium link. If not,
+    yes, it replaces the Evernote link with an internal Notely link. If not,
     it leaves the Evernote link in place.</li>
   <li>If it finds more than one note with a matching note title, it leaves the
     Evernote link in place.</li>
   <li>It outputs the results in a log that you can see in the respective code
-    note in Trilium.</li>
+    note in Notely.</li>
 </ol>
 <p>The script has the following limitations:</p>
 <ul>

@@ -41,7 +41,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 يتوفر التوثيق لدينا بصيغ متعددة:
 - **الوثائق الإلكترونية**: تصفح الوثائق الكاملة على
   [docs.triliumnotes.org](https://docs.triliumnotes.org/)
-- **المساعدة داخل التطبيق**: اضغط على مفتاح `F1` داخل تطبيق Trilium للوصول إلى
+- **المساعدة داخل التطبيق**: اضغط على مفتاح `F1` داخل تطبيق Notely للوصول إلى
   نفس الوثائق مباشرةً داخل التطبيق
 - **GitHub**: تصفح [دليل المستخدم](./User%20Guide/User%20Guide/) في هذا المستودع
 

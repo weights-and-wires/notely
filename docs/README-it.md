@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes è un'applicazione per appunti ad organizzazione gerarchica,
+Notely è un'applicazione per appunti ad organizzazione gerarchica,
 studiata per la costruzione di archivi di conoscenza personali di grandi
 dimensioni.
 
@@ -42,7 +42,7 @@ dimensioni.
 La nostra documentazione è disponibile in diversi formati:
 - **Documentazione online**: consulta la documentazione completa all'indirizzo
   [docs.triliumnotes.org](https://docs.triliumnotes.org/)
-- **Guida in-app**: premi `F1` all'interno di Trilium per accedere alla stessa
+- **Guida in-app**: premi `F1` all'interno di Notely per accedere alla stessa
   documentazione direttamente nell'applicazione
 - **GitHub**: consulta la [Guida utente](./User%20Guide/User%20Guide/) in questo
   repository
@@ -54,7 +54,7 @@ La nostra documentazione è disponibile in diversi formati:
 - [Configurazione
   Docker](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
 - [Aggiornamento di
-  TriliumNext](https://docs.triliumnotes.org/user-guide/setup/upgrading)
+  Notely](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [Concetti e caratteristiche di
   base](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [Modelli di base di conoscenza

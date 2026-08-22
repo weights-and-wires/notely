@@ -1,7 +1,7 @@
 # Hidden Notes
 <figure class="image image-style-align-right"><img style="aspect-ratio:263/445;" src="Hidden Notes_image.png" width="263" height="445"></figure>
 
-For easy extensibility, a lot of features in Trilium make use of actual notes to store information as opposed to having them stored in a separate location in the database. This allows some functions such as <a class="reference-link" href="Attributes.md">Attributes</a>, <a class="reference-link" href="Attributes/Relations.md">Relations</a> or even <a class="reference-link" href="../Basic%20Concepts%20and%20Features/Navigation/Search.md">Search</a> and <a class="reference-link" href="../Note%20Types/Text/Links.md">Links</a> to be able to operate on them.
+For easy extensibility, a lot of features in Notely make use of actual notes to store information as opposed to having them stored in a separate location in the database. This allows some functions such as <a class="reference-link" href="Attributes.md">Attributes</a>, <a class="reference-link" href="Attributes/Relations.md">Relations</a> or even <a class="reference-link" href="../Basic%20Concepts%20and%20Features/Navigation/Search.md">Search</a> and <a class="reference-link" href="../Note%20Types/Text/Links.md">Links</a> to be able to operate on them.
 
 As the name suggests, these notes are hidden to the user by default to prevent cluttering the note tree and to prevent them from being accidentally deleted.
 

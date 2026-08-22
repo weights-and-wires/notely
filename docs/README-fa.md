@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes is a free and open-source, cross-platform hierarchical note taking
+Notely is a free and open-source, cross-platform hierarchical note taking
 application with focus on building large personal knowledge bases.
 
 <img src="./app.png" alt="Trilium Screenshot" width="1000">
@@ -40,7 +40,7 @@ application with focus on building large personal knowledge bases.
 مستندات ما در چندین قالب مختلف در دسترس است:
 - مستندات آنلاین: می‌توانید نسخهٔ کامل مستندات را در
   ‎[docs.triliumnotes.org](https://docs.triliumnotes.org/)‎ مرور کنید
-- ** In-App Help **: Press `F1 ` در Trilium برای دسترسی به همان اسناد به طور
+- ** In-App Help **: Press `F1 ` در Notely برای دسترسی به همان اسناد به طور
   مستقیم در برنامه
 - ** GitHub **: از طریق [راهنمای کاربر] در این مخزن حرکت کنید
 
@@ -48,7 +48,7 @@ application with focus on building large personal knowledge bases.
 - راهنمای شروع کار
 - دستورالعمل‌های نصب
 - راه‌اندازی داکر
-- ارتقای TriliumNext
+- ارتقای Notely
 - مفاهیم و ویژگی‌های پایه
 - الگوهای پایگاه دانشی شخصی
 

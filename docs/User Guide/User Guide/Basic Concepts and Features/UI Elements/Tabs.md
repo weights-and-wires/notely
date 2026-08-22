@@ -1,7 +1,7 @@
 # Tabs
 <figure class="image image-style-align-center"><img style="aspect-ratio:1119/43;" src="2_Tabs_image.png" width="1119" height="43"></figure>
 
-In Trilium, tabs allow easy switching between notes.
+In Notely, tabs allow easy switching between notes.
 
 ## Layout
 

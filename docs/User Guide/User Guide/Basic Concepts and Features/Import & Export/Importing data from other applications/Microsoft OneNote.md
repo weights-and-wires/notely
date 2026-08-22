@@ -1,5 +1,5 @@
 # Microsoft OneNote
-Trilium allows importing from OneNote. Currently the only mechanism supported is via the Microsoft Graph API which requires you to authenticate in a browser in order for the notes to be obtained by Trilium.
+Notely allows importing from OneNote. Currently the only mechanism supported is via the Microsoft Graph API which requires you to authenticate in a browser in order for the notes to be obtained by Notely.
 
 ## Import process
 

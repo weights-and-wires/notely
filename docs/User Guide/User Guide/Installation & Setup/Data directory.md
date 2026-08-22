@@ -2,13 +2,13 @@
 Data directory contains:
 
 *   `document.db` - [database](../Advanced%20Usage/Database.md)
-*   `config.ini` - instance level settings like port on which the Trilium application runs
+*   `config.ini` - instance level settings like port on which the Notely application runs
 *   `backup` - contains automatically [backup](Backup.md) of documents
 *   `log` - contains application log files
 
 ## Location of the data directory
 
-Easy way how to find out which data directory Trilium uses is to look at the "About Trilium Notes" dialog (from "Menu" in upper left corner):
+Easy way how to find out which data directory Notely uses is to look at the "About Notely" dialog (from "Menu" in upper left corner):
 
 ![](Data%20directory_image.png)
 
@@ -22,7 +22,7 @@ Data directory is normally named `trilium-data` and it is stored in:
 *   user's home is a fallback if some of the paths above don't exist
 *   user's home is also a default setup for \[\[docker|Docker server installation\]\]
 
-If you want to back up your Trilium data, just backup this single directory - it contains everything you need.
+If you want to back up your Notely data, just backup this single directory - it contains everything you need.
 
 ### Changing the location of data directory
 
@@ -67,7 +67,7 @@ Here is a pre-defined template, where you just need to add your path to:
 
 ### Create a script to run with specific data directory
 
-An alternative to globally setting environment variable is to run only the Trilium Notes with this environment variable. This then allows for different setup styles like two [database](../Advanced%20Usage/Database.md) instances or "portable" installation.
+An alternative to globally setting environment variable is to run only the Notely with this environment variable. This then allows for different setup styles like two [database](../Advanced%20Usage/Database.md) instances or "portable" installation.
 
 To do this in Unix-based systems simply run `trilium` like this:
 
@@ -79,7 +79,7 @@ You can then save the above command as a shell script on your path for convenien
 
 ## Electron user data directory (desktop only)
 
-When running the desktop application, Electron stores internal data (caches, spell-check dictionaries, session storage, etc.) separately from the Trilium data directory. By default this goes to the system's application data folder (e.g. `%APPDATA%` on Windows), which may be undesirable in corporate environments with roaming profiles or when running in portable mode.
+When running the desktop application, Electron stores internal data (caches, spell-check dictionaries, session storage, etc.) separately from the Notely data directory. By default this goes to the system's application data folder (e.g. `%APPDATA%` on Windows), which may be undesirable in corporate environments with roaming profiles or when running in portable mode.
 
 To keep Electron data out of the system's roaming profile, set the `TRILIUM_ELECTRON_DATA_DIR` environment variable to an explicit path. The `trilium-portable` script does this automatically, pointing it to `trilium-electron-data/` next to the application.
 

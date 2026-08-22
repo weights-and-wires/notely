@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes je open-source, cross-platform aplikace pro hierarchiální psaní
+Notely je open-source, cross-platform aplikace pro hierarchiální psaní
 poznámek.
 
 <img src="./app.png" alt="Trilium Screenshot" width="1000">
@@ -40,7 +40,7 @@ poznámek.
 Naše dokumenatce je dostupná ve vícero formátech:
 - **Online dokumentace**: Prohlédněte si kompletní dokumentaci na
   [docs.triliumnotes.org](https://docs.triliumnotes.org/)
-- **Pomoc v aplikaci**: V Trilium stiskněte `F1`, pro přístup k stejné
+- **Pomoc v aplikaci**: V Notely stiskněte `F1`, pro přístup k stejné
   dokumentaci přímo v aplikaci
 - **GitHub**: Projděte si [Uživatelskou příručku](./User%20Guide/User%20Guide/)
   v tomto repozitáři
@@ -51,7 +51,7 @@ Naše dokumenatce je dostupná ve vícero formátech:
 - [Nastavení
   Dockeru](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
 - [Aktualizování
-  TriliumNext](https://docs.triliumnotes.org/user-guide/setup/upgrading)
+  Notely](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [Základní pojmy a
   funkce](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [Vzory osobní znalostní

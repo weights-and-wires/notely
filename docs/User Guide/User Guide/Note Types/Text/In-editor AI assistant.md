@@ -33,7 +33,7 @@ In all cases the assistant also sends the text before and after the target, so t
 
 The arrow beside the toolbar button opens a menu of ready-made instructions, grouped by what they do.
 
-*   The _Reformat_ actions produce real Trilium content rather than plain text: _Diagram_ inserts a Mermaid diagram, _Callout_ an admonition, and _Collapsible_ a collapsible block.
+*   The _Reformat_ actions produce real Notely content rather than plain text: _Diagram_ inserts a Mermaid diagram, _Callout_ an admonition, and _Collapsible_ a collapsible block.
 *   The _Translate_ group lists the [content languages](Content%20language%20%26%20Right-to-left%20support.md) you have enabled, or a predefined list if no content languages are set. It can be filled from within the editor, the last entry of the submenu opens the language configuration directly.
 
 Actions that need something to work on are greyed out when there is nothing to work on (for example an empty paragraph with no selection).
@@ -56,7 +56,7 @@ Nothing is written into the note until you say so. The review offers:
 *   **Replace**, which substitutes the original passage
 *   **Insert below**, which keeps the original and adds the response after it.
 
-Trilium also reports the model that produced it, the tokens consumed and, for providers that report it, the price.
+Notely also reports the model that produced it, the tokens consumed and, for providers that report it, the price.
 
 If you ask for a correction and there is nothing to correct, the assistant will indicate it instead of showing a blank diff.
 

@@ -53,7 +53,7 @@ appContext.trigger('noteTreeLoaded')
 
 ### State Management
 
-Trilium uses **custom state management** rather than Redux/MobX:
+Notely uses **custom state management** rather than Redux/MobX:
 
 *   `note_context.ts` - Active note and context
 *   `froca.ts` - Entity cache

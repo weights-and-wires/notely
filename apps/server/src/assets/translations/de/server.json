@@ -73,20 +73,20 @@
   },
   "login": {
     "title": "Anmeldung",
-    "heading": "Trilium Anmeldung",
+    "heading": "Notely Anmeldung",
     "incorrect-password": "Das Passwort ist falsch. Bitte versuchen Sie es erneut.",
     "password": "Passwort",
     "remember-me": "Angemeldet bleiben",
     "button": "Anmelden",
     "incorrect-totp": "TOTP ist falsch. Bitte versuchen Sie es erneut.",
     "sign_in_with_sso": "Mit {{ ssoIssuerName }} anmelden",
-    "sso-wrong-account": "Dieses Konto ist nicht mit dieser Trilium-Instanz verknüpft. Melden Sie sich mit dem verknüpften Konto an.",
+    "sso-wrong-account": "Dieses Konto ist nicht mit dieser Notely-Instanz verknüpft. Melden Sie sich mit dem verknüpften Konto an.",
     "sso-not-enrolled": "Single Sign-on ist noch nicht eingerichtet. Melden Sie sich zuerst mit Ihrem Passwort an und verknüpfen Sie anschließend Ihr Konto in den Einstellungen."
   },
   "set_password": {
     "title": "Passwort festlegen",
     "heading": "Passwort festlegen",
-    "description": "Bevor Sie Trilium im Web verwenden können, müssen Sie zuerst ein Passwort festlegen. Anschließend verwenden Sie dieses Passwort zum Anmelden.",
+    "description": "Bevor Sie Notely im Web verwenden können, müssen Sie zuerst ein Passwort festlegen. Anschließend verwenden Sie dieses Passwort zum Anmelden.",
     "password": "Passwort",
     "password-confirmation": "Passwortbestätigung",
     "button": "Passwort festlegen"
@@ -225,8 +225,8 @@
     "unable-to-print": "Notiz kann nicht gedruckt werden"
   },
   "tray": {
-    "tooltip": "Trilium Notes",
-    "close": "Trilium schließen",
+    "tooltip": "Notely",
+    "close": "Notely schließen",
     "recents": "Kürzliche Notizen",
     "bookmarks": "Lesezeichen",
     "today": "Heutigen Journaleintrag öffnen",
@@ -372,7 +372,7 @@
   "migration": {
     "old_version": "Eine direkte Migration von Ihrer aktuellen Version wird nicht unterstützt. Bitte führen Sie zunächst ein Upgrade auf die neueste Version v0.60.4 durch und erst dann auf diese Version.",
     "error_message": "Fehler bei der Migration zu Version {{version}}: {{stack}}",
-    "wrong_db_version": "Die Version der Datenbank ({{version}}) ist neuer als die von der Anwendung erwartete Version ({{targetVersion}}), was bedeutet, dass diese mit einer neueren und inkompatiblen Version von Trilium erstellt wurde. Führen Sie ein Upgrade auf die neueste Version von Trilium durch, um dieses Problem zu beheben.",
+    "wrong_db_version": "Die Version der Datenbank ({{version}}) ist neuer als die von der Anwendung erwartete Version ({{targetVersion}}), was bedeutet, dass diese mit einer neueren und inkompatiblen Version von Notely erstellt wurde. Führen Sie ein Upgrade auf die neueste Version von Notely durch, um dieses Problem zu beheben.",
     "invalid_db_version": "Die Datenbankversion ist keine gültige Zahl. Dies deutet in der Regel auf eine beschädigte Option 'dbVersion' in der Datenbank hin. Bitte stellen Sie sie aus einer Sicherung wieder her.",
     "automatic_migrations_disabled": "Automatische Datenbank-Migrationen sind über die Umgebungsvariable TRILIUM_MANUAL_DB_MIGRATION = {{envVarValue}} deaktiviert"
   },
@@ -394,7 +394,7 @@
   },
   "sql_init": {
     "db_not_initialized_desktop": "Datenbank nicht initialisiert, bitte folgen Sie den Anweisungen auf dem Bildschirm.",
-    "db_not_initialized_server": "Datenbank nicht initialisiert, bitte besuchen Sie die Einrichtungsseite – http://[Server-Host]:{{port}}, um Anweisungen zur Initialisierung von Trilium zu erhalten."
+    "db_not_initialized_server": "Datenbank nicht initialisiert, bitte besuchen Sie die Einrichtungsseite – http://[Server-Host]:{{port}}, um Anweisungen zur Initialisierung von Notely zu erhalten."
   },
   "password": {
     "incorrect": "Das eingegebene Passwort ist nicht korrekt."
@@ -468,7 +468,7 @@
   },
   "notion_import": {
     "root-title": "Notion-Import",
-    "markdown-export-unsupported": "Dies scheint ein Notion-Export im Format „Markdown & CSV“ zu sein, den Trilium nicht importieren kann. Exportieren Sie Ihren Notion-Arbeitsbereich erneut im Exportformat „HTML“ und importieren Sie diesen stattdessen.",
+    "markdown-export-unsupported": "Dies scheint ein Notion-Export im Format „Markdown & CSV“ zu sein, den Notely nicht importieren kann. Exportieren Sie Ihren Notion-Arbeitsbereich erneut im Exportformat „HTML“ und importieren Sie diesen stattdessen.",
     "subpage-folders-disabled": "Dieser Notion-Export wurde ohne die Option „Ordner für Unterseiten erstellen“ erstellt, daher kann die Seitenhierarchie nicht wiederhergestellt werden. Exportieren Sie erneut aus Notion mit aktivierter Option „Ordner für Unterseiten erstellen“ und importieren Sie diesen Export stattdessen."
   },
   "keep_import": {
@@ -476,8 +476,8 @@
   },
   "anytype_import": {
     "root-title": "Anytype-Import",
-    "protobuf-export-unsupported": "Dies scheint ein Anytype-Export im Format „Protobuf“ zu sein, den Trilium nicht importieren kann. Exportieren Sie Ihren Anytype-Bereich erneut im Format „Any-Block“ mit ausgewähltem „JSON“ und importieren Sie diesen Export stattdessen.",
-    "markdown-export-unsupported": "Dies scheint ein Anytype-Export im Format „Markdown“ zu sein, den Trilium nicht importieren kann. Exportieren Sie Ihren Anytype-Bereich erneut im Format „Any-Block“ mit ausgewähltem „JSON“ und importieren Sie diesen Export stattdessen."
+    "protobuf-export-unsupported": "Dies scheint ein Anytype-Export im Format „Protobuf“ zu sein, den Notely nicht importieren kann. Exportieren Sie Ihren Anytype-Bereich erneut im Format „Any-Block“ mit ausgewähltem „JSON“ und importieren Sie diesen Export stattdessen.",
+    "markdown-export-unsupported": "Dies scheint ein Anytype-Export im Format „Markdown“ zu sein, den Notely nicht importieren kann. Exportieren Sie Ihren Anytype-Bereich erneut im Format „Any-Block“ mit ausgewähltem „JSON“ und importieren Sie diesen Export stattdessen."
   },
   "obsidian_import": {
     "root-title": "Obsidian-Import"

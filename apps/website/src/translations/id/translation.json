@@ -8,11 +8,11 @@
     },
     "hero_section": {
         "title": "Rapikan pikiranmu. Bangunlah pusat pengetahuan pribadimu.",
-        "subtitle": "Trilium adalah solusi sumber terbuka untuk mencatat dan pengorganisasian sebuah pusat pengetahuan. Pakai offline di desktop, atau sinkronisasi dengan server pribadi untuk mengakses catatanmu di manapun kamu berada.",
+        "subtitle": "Notely adalah solusi sumber terbuka untuk mencatat dan pengorganisasian sebuah pusat pengetahuan. Pakai offline di desktop, atau sinkronisasi dengan server pribadi untuk mengakses catatanmu di manapun kamu berada.",
         "get_started": "Mulai",
         "github": "GitHub",
         "dockerhub": "Docker Hub",
-        "screenshot_alt": "Cuplikan layar aplikasi desktop Trilium Notes",
+        "screenshot_alt": "Cuplikan layar aplikasi desktop Notely",
         "tagline_license": "Berlisensi AGPL-3.0",
         "tagline_no_account": "Tidak perlu akun",
         "tagline_cross_platform": "Bekerja luring"
@@ -25,7 +25,7 @@
         "attributes_description": "Gunakan relasi antar catatan atau tambahkan label untuk kategorisasi mudah. Gunakan atribut yang dipromosikan untuk memasukkan informasi terstruktur yang dapat digunakan dalam tabel dan papan.",
         "hoisting_title": "Workspace dan Area Fokus",
         "hoisting_description": "Dengan mudah memisahkan catatan personal dan kerjaan dengan grouping dalam workspace, fokus hanya ke catatan-catatan yang spesifik di workspace tertentu.",
-        "screenshot_alt": "Pohon catatan hierarkis di Trilium"
+        "screenshot_alt": "Pohon catatan hierarkis di Notely"
     },
     "productivity_benefits": {
         "title": "Fitur andalan sehari-hari",
@@ -35,7 +35,7 @@
         "sync_content": "Gunakan hostinganmu sendiri atau instansi cloud untuk sinkronisasi mudah catatan-catatan anda pada beberapa perangkat, dan untuk akses dari ponsel anda dengan PWA.",
         "search_content": "Lompat ke catatan atau perintah apa pun berdasarkan judul dengan pencocokan fuzzy, atau jalankan pencarian teks lengkap di seluruh catatan Anda, bahkan teks di dalam gambar dan PDF melalui OCR.",
         "web_clipper_title": "Penyemat Web",
-        "web_clipper_content": "Mengambil halaman web (atau foto halaman web) dan disematkan langsung ke catatan Trilium dengan ekstensi browser penyemat web.",
+        "web_clipper_content": "Mengambil halaman web (atau foto halaman web) dan disematkan langsung ke catatan Notely dengan ekstensi browser penyemat web.",
         "protected_notes_title": "Catatan terlindungi",
         "protected_notes_content": "Lindungi informasi pribadi sensitif dengan mengenkripsi catatan dan menguncinya di balik sesi yang dilindungi kata sandi.",
         "search_title": "Pencarian & navigasi cepat",
@@ -46,7 +46,7 @@
         "share_title": "Bagikan catatan di web",
         "share_content": "Jika Anda memiliki server, terbitkan subpohon catatan Anda apa pun sebagai situs web publik yang hanya dapat dibaca yang dapat dijelajahi siapa saja tanpa akun.",
         "api_title": "REST API",
-        "api_content": "Baca, buat, dan perbarui catatan Anda secara terprogram melalui HTTP dengan REST API bawaan Trilium, ideal untuk automasi dan integrasi pihak ketiga."
+        "api_content": "Baca, buat, dan perbarui catatan Anda secara terprogram melalui HTTP dengan REST API bawaan Notely, ideal untuk automasi dan integrasi pihak ketiga."
     },
     "note_types": {
         "title": "Jenis catatan untuk setiap jenis konten",
@@ -62,7 +62,7 @@
         "mermaid_description": "Buat diagram seperti diagram alur (flowchart), diagram kelas & urutan (class & sequence), bagan Gantt, dan banyak lagi, menggunakan sintaks Mermaid.",
         "mindmap_title": "Peta pikiran (Mindmap)",
         "mindmap_description": "Atur pemikiran Anda secara visual atau buat ide-ide.",
-        "subtitle": "Tidak semuanya cocok dengan rapi dalam satu paragraf. Trilium menawarkan berbagai jenis catatan, dari teks kaya dan kode hingga spreadsheet, diagram, dan peta pikiran, sehingga Anda dapat menangkap setiap ide dalam bentuk yang paling sesuai dan mencampurnya secara bebas di seluruh pohon Anda.",
+        "subtitle": "Tidak semuanya cocok dengan rapi dalam satu paragraf. Notely menawarkan berbagai jenis catatan, dari teks kaya dan kode hingga spreadsheet, diagram, dan peta pikiran, sehingga Anda dapat menangkap setiap ide dalam bentuk yang paling sesuai dan mencampurnya secara bebas di seluruh pohon Anda.",
         "others_label": "Dan lainnya",
         "notemap_title": "Peta catatan",
         "relationmap_title": "Peta relasi",
@@ -95,21 +95,21 @@
         "mobile_question": "Apakah ada aplikasi mobile?",
         "mobile_answer": "Saat ini belum ada aplikasi mobile resmi. Namun, jika Anda memiliki server, Anda dapat mengaksesnya menggunakan browser web dan bahkan menginstalnya sebagai PWA. Untuk Android, tersedia aplikasi tidak resmi bernama TriliumDroid yang dapat bekerja secara offline (sama seperti aplikasi desktop).",
         "database_question": "Di manakah data disimpan?",
-        "database_answer": "Semua catatan Anda akan disimpan dalam database SQLite di folder aplikasi. Trilium menggunakan database alih-alih file teks biasa karena dua alasan: kinerja dan beberapa fitur seperti menempatkan catatan yang sama di beberapa tempat di pohon akan jauh lebih sulit untuk diimplementasikan. Untuk menemukan folder aplikasi, cukup buka jendela Tentang.",
-        "server_question": "Apakah saya butuh server untuk menjalankan Trilium?",
+        "database_answer": "Semua catatan Anda akan disimpan dalam database SQLite di folder aplikasi. Notely menggunakan database alih-alih file teks biasa karena dua alasan: kinerja dan beberapa fitur seperti menempatkan catatan yang sama di beberapa tempat di pohon akan jauh lebih sulit untuk diimplementasikan. Untuk menemukan folder aplikasi, cukup buka jendela Tentang.",
+        "server_question": "Apakah saya butuh server untuk menjalankan Notely?",
         "scaling_question": "Seberapa baik aplikasi ini dapat diskalakan dengan jumlah catatan yang besar?",
-        "scaling_answer": "Tergantung pada penggunaan, aplikasi ini seharusnya dapat menangani setidaknya 100.000 catatan tanpa masalah. Perlu dicatat bahwa proses sinkronisasi kadang dapat gagal jika mengunggah banyak file berukuran besar (1 GB per file), karena Trilium lebih ditujukan sebagai aplikasi knowledge base daripada penyimpanan file seperti NextCloud, misalnya.",
+        "scaling_answer": "Tergantung pada penggunaan, aplikasi ini seharusnya dapat menangani setidaknya 100.000 catatan tanpa masalah. Perlu dicatat bahwa proses sinkronisasi kadang dapat gagal jika mengunggah banyak file berukuran besar (1 GB per file), karena Notely lebih ditujukan sebagai aplikasi knowledge base daripada penyimpanan file seperti NextCloud, misalnya.",
         "network_share_question": "Bisakah saya membagikan basis data saya melalui drive jaringan?",
         "network_share_answer": "Tidak, secara umum bukan ide yang baik untuk membagikan basis data SQLite melalui drive jaringan. Meskipun kadang-kadang mungkin berfungsi, ada kemungkinan basis data menjadi rusak akibat penguncian file yang tidak sempurna melalui jaringan.",
         "security_question": "Bagaimana data saya dilindungi?",
         "security_answer": "Secara default, catatan tidak terenkripsi dan dapat dibaca langsung dari basis data. Setelah sebuah catatan ditandai sebagai terenkripsi, catatan tersebut dienkripsi menggunakan AES-128-CBC.",
         "server_answer": "Tidak, server memungkinkan akses melalui browser web dan mengelola sinkronisasi jika Anda memiliki beberapa perangkat. Untuk memulai, cukup download aplikasi desktop dan langsung gunakan.",
-        "free_question": "Apakah Trilium gratis?",
-        "free_answer": "Ya, sepenuhnya. Trilium gratis dan open-source di bawah lisensi AGPL-3.0, tanpa tingkatan berbayar, akun, atau paywall fitur. Anda bebas menggunakan, menghosting sendiri, dan memodifikasinya sesuka Anda.",
+        "free_question": "Apakah Notely gratis?",
+        "free_answer": "Ya, sepenuhnya. Notely gratis dan open-source di bawah lisensi AGPL-3.0, tanpa tingkatan berbayar, akun, atau paywall fitur. Anda bebas menggunakan, menghosting sendiri, dan memodifikasinya sesuka Anda.",
         "cloud_question": "Apakah ada versi hosting atau cloud?",
-        "cloud_answer": "Belum ada versi resmi, meskipun itu sesuatu yang ingin kami tawarkan di masa depan. Saat ini Trilium dihosting sendiri: jalankan aplikasi desktop, atau host server Anda sendiri. Jika Anda lebih memilih untuk tidak mengelola server, penyedia pihak ketiga seperti <0>PikaPods</0> menawarkan hosting Trilium terkelola.",
+        "cloud_answer": "Belum ada versi resmi, meskipun itu sesuatu yang ingin kami tawarkan di masa depan. Saat ini Notely dihosting sendiri: jalankan aplikasi desktop, atau host server Anda sendiri. Jika Anda lebih memilih untuk tidak mengelola server, penyedia pihak ketiga seperti <0>PikaPods</0> menawarkan hosting Notely terkelola.",
         "collaboration_question": "Dapatkah beberapa orang berkolaborasi pada catatan yang sama?",
-        "collaboration_answer": "Trilium dirancang sebagai aplikasi single-user. Anda dapat menyinkronkan catatan Anda sendiri di semua perangkat, dan memublikasikan catatan read-only ke web untuk dilihat orang lain, tetapi pengeditan multi-user secara real-time pada catatan yang sama tidak didukung.",
+        "collaboration_answer": "Notely dirancang sebagai aplikasi single-user. Anda dapat menyinkronkan catatan Anda sendiri di semua perangkat, dan memublikasikan catatan read-only ke web untuk dilihat orang lain, tetapi pengeditan multi-user secara real-time pada catatan yang sama tidak didukung.",
         "more_questions": "Masih ada pertanyaan? <0>Tanyakan kepada komunitas</0>"
     },
     "final_cta": {
@@ -148,7 +148,7 @@
     "support_us": {
         "title": "Dukung kami",
         "financial_donations_title": "Donasi finansial",
-        "financial_donations_description": "Trilium dibangun dan dipelihara dengan <Link>ratusan jam kerja</Link>. Dukungan Anda membantu menjaganya tetap open-source, meningkatkan fitur, dan menutupi biaya seperti hosting.",
+        "financial_donations_description": "Notely dibangun dan dipelihara dengan <Link>ratusan jam kerja</Link>. Dukungan Anda membantu menjaganya tetap open-source, meningkatkan fitur, dan menutupi biaya seperti hosting.",
         "financial_donations_cta": "Pertimbangkan untuk mendukung pengembang utama (<Link>eliandoran</Link>) aplikasi ini melalui:",
         "github_sponsors": "GitHub Sponsors",
         "paypal": "PayPal",
@@ -160,7 +160,7 @@
         "way_community": "Berinteraksilah dengan komunitas di <Discussions>Diskusi GitHub</Discussions> atau di <Matrix>Matrix</Matrix>.",
         "way_reports": "Laporkan bug melalui <Link>GitHub issues</Link>.",
         "way_document": "Tingkatkan dokumentasi dengan memberi tahu kami tentang kekurangan dalam dokumentasi atau berkontribusi pada panduan, FAQ, atau tutorial.",
-        "way_market": "Sebarkan kabar ini: Bagikan Trilium Notes kepada teman, atau di blog dan media sosial."
+        "way_market": "Sebarkan kabar ini: Bagikan Notely kepada teman, atau di blog dan media sosial."
     },
     "404": {
         "title": "404: Tidak Ditemukan",
@@ -208,14 +208,14 @@
     },
     "download_helper_server_linux": {
         "title": "Dihosting sendiri di Linux",
-        "description": "Deploy Trilium Notes di server atau VPS Anda sendiri, kompatibel dengan sebagian besar distribusi.",
+        "description": "Deploy Notely di server atau VPS Anda sendiri, kompatibel dengan sebagian besar distribusi.",
         "download_tar_x64": "x64 (.tar.xz)",
         "download_tar_arm64": "ARM (.tar.xz)",
         "download_nixos": "Modul NixOS"
     },
     "download_helper_server_hosted": {
         "title": "Hosting berbayar",
-        "description": "Trilium Notes dihosting di PikaPods, sebuah layanan berbayar untuk akses dan pengelolaan yang mudah. Tidak berafiliasi langsung dengan tim Trilium.",
+        "description": "Notely dihosting di PikaPods, sebuah layanan berbayar untuk akses dan pengelolaan yang mudah. Tidak berafiliasi langsung dengan tim Notely.",
         "download_pikapod": "Siapkan di PikaPods"
     },
     "resources": {
@@ -262,21 +262,21 @@
     "ai_integration": {
         "title": "AI sesuai ketentuan Anda",
         "subtitle": "Opsional, dan sepenuhnya sesuai ketentuan Anda. Fitur AI bersifat opsional dan dinonaktifkan secara default: catatan Anda tidak pernah dikirim ke mana pun kecuali Anda mengaktifkannya dan menghubungkan penyedia Anda sendiri.",
-        "screenshot_alt": "Obrolan AI Trilium membuat catatan atas nama Anda melalui alat bawaan",
+        "screenshot_alt": "Obrolan AI Notely membuat catatan atas nama Anda melalui alat bawaan",
         "chat_title": "Obrolan dengan catatan Anda",
         "chat_description": "Ajukan pertanyaan dan buat ide dalam obrolan bawaan yang dapat memanfaatkan konten catatan Anda sendiri.",
         "tools_title": "AI yang bekerja dengan catatan Anda",
         "tools_description": "Biarkan asisten mencari, membuat, dan memperbarui catatan atas nama Anda melalui seperangkat alat bawaan.",
         "providers_title": "Penyedia Anda, kunci Anda",
-        "providers_description": "Hubungkan OpenAI, Anthropic, atau Google dengan kunci API Anda sendiri, atau arahkan Trilium ke model yang dihosting sendiri dan kompatibel dengan OpenAI. Ekspos catatan Anda ke asisten eksternal melalui MCP.",
+        "providers_description": "Hubungkan OpenAI, Anthropic, atau Google dengan kunci API Anda sendiri, atau arahkan Notely ke model yang dihosting sendiri dan kompatibel dengan OpenAI. Ekspos catatan Anda ke asisten eksternal melalui MCP.",
         "learn_more": "Pelajari lebih lanjut"
     },
     "scripting": {
         "title": "Jika Anda dapat membayangkannya, Anda dapat membuatnya dalam skrip",
-        "subtitle": "Trilium bukan sekadar tempat menyimpan catatan, tetapi dapat diprogram. Tulis JavaScript yang berjalan di aplikasi atau di server, buat antarmuka Anda sendiri, dan otomatiskan alur kerja Anda, dari penyesuaian satu baris hingga aplikasi custom lengkap.",
-        "screenshot_alt": "Catatan render Trilium menampilkan jam analog interaktif yang dibuat dengan skrip",
+        "subtitle": "Notely bukan sekadar tempat menyimpan catatan, tetapi dapat diprogram. Tulis JavaScript yang berjalan di aplikasi atau di server, buat antarmuka Anda sendiri, dan otomatiskan alur kerja Anda, dari penyesuaian satu baris hingga aplikasi custom lengkap.",
+        "screenshot_alt": "Catatan render Notely menampilkan jam analog interaktif yang dibuat dengan skrip",
         "widgets_title": "Widget custom",
-        "widgets_description": "Tambahkan tombol, panel, dan widget peluncur Anda sendiri ke antarmuka Trilium menggunakan JavaScript frontend.",
+        "widgets_description": "Tambahkan tombol, panel, dan widget peluncur Anda sendiri ke antarmuka Notely menggunakan JavaScript frontend.",
         "backend_title": "Skrip & acara backend",
         "backend_description": "Jalankan skrip sisi server sesuai jadwal atau sebagai respons terhadap acara seperti membuat atau mengubah catatan.",
         "render_title": "Render catatan",

@@ -1,7 +1,7 @@
 # Day Notes
 A common pattern in note-taking is that a lot of notes will be centered around a certain date - e.g. you have some tasks which needs to be done on a certain date, you have meeting minutes from a certain date, you have your thoughts etc. and it all revolves around a date on which they occurred. For this reason, it makes sense to create a certain "day workspace" which will centralize all those notes relevant for a certain date.
 
-For this, Trilium provides a concept of "day note". Trilium semi-automatically generates a single note for each day. Under this note you can save all those relevant notes.
+For this, Notely provides a concept of "day note". Notely semi-automatically generates a single note for each day. Under this note you can save all those relevant notes.
 
 Select an existing day note, and the menubar contains a calendar widget. Select any day to create a note for that day. 
 
@@ -23,7 +23,7 @@ Week and quarter notes are disabled by default, since it might be too much for s
 
 ## Templates
 
-Trilium provides [template](../Templates.md) functionality, and it could be used together with day notes.
+Notely provides [template](../Templates.md) functionality, and it could be used together with day notes.
 
 You can define one of the following relations on the root of the journal (identified by `#calendarRoot` label):
 
@@ -33,7 +33,7 @@ You can define one of the following relations on the root of the journal (identi
 *   weekTemplate (if `#enableWeekNote` is set)
 *   dateTemplate
 
-All of these are relations. When Trilium creates a new note for year or month or date, it will take a look at the root and attach a corresponding `~template` relation to the newly created role. Using this, you can e.g. create your daily template with e.g. checkboxes for daily routine etc.
+All of these are relations. When Notely creates a new note for year or month or date, it will take a look at the root and attach a corresponding `~template` relation to the newly created role. Using this, you can e.g. create your daily template with e.g. checkboxes for daily routine etc.
 
 ### Migrate from old template usage
 
@@ -105,6 +105,6 @@ The default is `{year}`
 
 ## Implementation
 
-Trilium has some special support for day notes in the form of [backend Script API](https://triliumnext.github.io/Notes/backend_api/BackendScriptApi.html) - see e.g. getDayNote() function.
+Notely has some special support for day notes in the form of [backend Script API](https://triliumnext.github.io/Notes/backend_api/BackendScriptApi.html) - see e.g. getDayNote() function.
 
 Day (and year, month) notes are created with a label - e.g. `#dateNote="2025-03-09"` this can then be used by other scripts to add new notes to day note etc.

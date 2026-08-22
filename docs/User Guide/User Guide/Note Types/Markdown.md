@@ -1,5 +1,5 @@
 # Markdown
-Trilium has always supported Markdown through its [import feature](../Basic%20Concepts%20and%20Features/Import%20%26%20Export/Markdown.md), however the file was either transformed to a <a class="reference-link" href="Text.md">Text</a> note (converted to Trilium's internal HTML format) or saved as a <a class="reference-link" href="Code.md">Code</a> note with only syntax highlight.
+Notely has always supported Markdown through its [import feature](../Basic%20Concepts%20and%20Features/Import%20%26%20Export/Markdown.md), however the file was either transformed to a <a class="reference-link" href="Text.md">Text</a> note (converted to Notely's internal HTML format) or saved as a <a class="reference-link" href="Code.md">Code</a> note with only syntax highlight.
 
 This note type is a split view, meaning that both the source code and a preview of the document are displayed side-by-side. See <a class="reference-link" href="../Basic%20Concepts%20and%20Features/UI%20Elements/Note%20types%20with%20split%20view.md">Note types with split view</a> for more information.
 
@@ -7,10 +7,10 @@ This note type is a split view, meaning that both the source code and a preview 
 
 The goal of this note type is to fill a gap: rendering Markdown but not altering its structure or its whitespace which would inevitably change otherwise through import/export.
 
-Even if Markdown is now specially treated by having a preview mechanism, Trilium remains at its core a WYSWYG editor so Markdown will not replace text notes.
+Even if Markdown is now specially treated by having a preview mechanism, Notely remains at its core a WYSWYG editor so Markdown will not replace text notes.
 
 > [!NOTE]
-> Feature requests regarding the Markdown implementation will be considered, but if they are outside the realm of Trilium, they will not be implemented. One of the core aspects of the Markdown integration is that it reuses components that are already available through other features of the application.
+> Feature requests regarding the Markdown implementation will be considered, but if they are outside the realm of Notely, they will not be implemented. One of the core aspects of the Markdown integration is that it reuses components that are already available through other features of the application.
 
 ## Features
 
@@ -22,7 +22,7 @@ Even if Markdown is now specially treated by having a preview mechanism, Trilium
 
 ### Preview pane
 
-The following features are supported by Trilium's Markdown format and will show up in the preview pane:
+The following features are supported by Notely's Markdown format and will show up in the preview pane:
 
 *   All standard and GitHub-flavored syntax (basic formatting, tables, blockquotes).
 *   Basic HTML is also supported (e.g. collapsible blocks using `<details>` and `<summary>`).

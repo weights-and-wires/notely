@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes là một ứng dụng ghi chú phân cấp miễn phí, mã nguồn mở, đa nền
+Notely là một ứng dụng ghi chú phân cấp miễn phí, mã nguồn mở, đa nền
 tảng tập trung vào việc xây dựng cơ sở tri thức cá nhân lớn.
 
 <img src="./app.png" alt="Trilium Screenshot" width="1000">
@@ -43,7 +43,7 @@ tảng tập trung vào việc xây dựng cơ sở tri thức cá nhân lớn.
 Tài liệu của chúng tôi có sẵn ở nhiều định dạng:
 - **Tài liệu trực tuyến**: Xem tài liệu đầy đủ tại
   [docs.triliumnotes.org](https://docs.triliumnotes.org/)
-- **Trợ giúp trong ứng dụng**: Nhấn `F1` trong Trilium để truy cập tài liệu
+- **Trợ giúp trong ứng dụng**: Nhấn `F1` trong Notely để truy cập tài liệu
   tương tự trực tiếp trong ứng dụng
 - **Github**: Đi đến [Hướng dẫn sử dụng] trong kho lưu trữ này
 
@@ -53,7 +53,7 @@ Tài liệu của chúng tôi có sẵn ở nhiều định dạng:
 - [Thiết Lập
   Docker](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
 - [Cập Nhật
-  TriliumNext](https://docs.triliumnotes.org/user-guide/setup/upgrading)
+  Notely](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [Khái Niệm Và Chức Năng Cơ
   Bản](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [Các Mẫu Cơ Sở Tri Thức Cá

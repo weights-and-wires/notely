@@ -1,5 +1,5 @@
 # Keyboard shortcuts
-## Trilium-specific shortcuts
+## Notely-specific shortcuts
 
 | Action | PC | Mac |
 | --- | --- | --- |

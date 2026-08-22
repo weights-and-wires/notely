@@ -1,11 +1,11 @@
 {
   "import": {
-    "safeImportTooltip": "Trilium <code>.zip</code> export files can contain executable scripts which may contain harmful behaviour. Safe import will deactivate automatic execution of all imported scripts. Uncheck \"Safe import\" only if the imported archive is supposed to contain executable scripts and you completely trust the contents of the import file.",
-    "shrinkImagesTooltip": "<p>If you check this option, Trilium will attempt to shrink the imported images by scaling and optimisation which may affect the perceived image quality. If unchecked, images will be imported without changes.</p><p>This doesn't apply to <code>.zip</code> imports with metadata since it is assumed these files are already optimised.</p>",
+    "safeImportTooltip": "Notely <code>.zip</code> export files can contain executable scripts which may contain harmful behaviour. Safe import will deactivate automatic execution of all imported scripts. Uncheck \"Safe import\" only if the imported archive is supposed to contain executable scripts and you completely trust the contents of the import file.",
+    "shrinkImagesTooltip": "<p>If you check this option, Notely will attempt to shrink the imported images by scaling and optimisation which may affect the perceived image quality. If unchecked, images will be imported without changes.</p><p>This doesn't apply to <code>.zip</code> imports with metadata since it is assumed these files are already optimised.</p>",
     "codeImportedAsCode": "Import recognised code files (e.g. <code>.json</code>) as code notes if it's unclear from metadata"
   },
   "upload_attachments": {
-    "tooltip": "If you check this option, Trilium will attempt to shrink the uploaded images by scaling and optimisation which may affect the perceived image quality. If unchecked, images will be uploaded without changes."
+    "tooltip": "If you check this option, Notely will attempt to shrink the uploaded images by scaling and optimisation which may affect the perceived image quality. If unchecked, images will be uploaded without changes."
   },
   "attribute_detail": {
     "auto_read_only_disabled": "text/code notes can be set automatically into read mode when they are too large. You can disable this behaviour on per-note basis by adding this label to the note",
@@ -24,7 +24,7 @@
   },
   "theme": {
     "auto_theme": "Legacy (Follow system colour scheme)",
-    "triliumnext": "Trilium (Follow system colour scheme)"
+    "triliumnext": "Notely (Follow system colour scheme)"
   },
   "search_engine": {
     "custom_name_placeholder": "Customise search engine name",

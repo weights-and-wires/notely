@@ -1,13 +1,13 @@
 # Themes
 ## Default Themes
 
-Trilium comes with a couple pre-installed color themes, with the default being a light theme. To switch to a dark theme or any other available theme, navigate to the Options menu (accessible via the app icon in the top-left corner), select the Appearance tab, and choose your preferred theme.
+Notely comes with a couple pre-installed color themes, with the default being a light theme. To switch to a dark theme or any other available theme, navigate to the Options menu (accessible via the app icon in the top-left corner), select the Appearance tab, and choose your preferred theme.
 
 ![Dark Theme](Themes_dark-theme.png)
 
 ## Creating Custom CSS Themes
 
-Trilium supports custom user themes, allowing you to personalize the application's appearance. To create a custom theme, follow these steps:
+Notely supports custom user themes, allowing you to personalize the application's appearance. To create a custom theme, follow these steps:
 
 1.  **Create a CSS Code Note**: Start by creating a new [code note](../Note%20Types/Code.md) with the `CSS` type.
 2.  **Annotate with** `#appTheme`: Add the [attribute](../Advanced%20Usage/Attributes.md) `#appTheme=my-theme-name` to your note, where `my-theme-name` is the name of your custom theme.
@@ -89,7 +89,7 @@ An example user theme, _Steel Blue_, is available in the demo document.
 
 ### Using Custom CSS for Specific Purposes
 
-In addition to full themes, Trilium allows for custom CSS that isn't tied to a theme. This can be particularly useful in scripting contexts, where you might want to modify specific UI elements, such as changing the colors of notes in the tree view.
+In addition to full themes, Notely allows for custom CSS that isn't tied to a theme. This can be particularly useful in scripting contexts, where you might want to modify specific UI elements, such as changing the colors of notes in the tree view.
 
 ### Applying Custom CSS
 
@@ -108,7 +108,7 @@ For example:
 }
 ```
 
-When Trilium's frontend starts, all notes labeled with `appCss` are automatically included in the style element of the HTML page.
+When Notely's frontend starts, all notes labeled with `appCss` are automatically included in the style element of the HTML page.
 
 After making changes, press <kbd>Ctrl</kbd> + <kbd>R</kbd> to reload the frontend and apply your new styles.
 
@@ -125,8 +125,8 @@ For example, if you want to style notes of a specific type, such as notes contai
 
 ### User-Provided Themes
 
-A gallery of user-created themes is available, showcasing the variety of customizations that the Trilium community has developed. For more information, check the <a class="reference-link" href="Themes/Theme%20Gallery.md">Theme Gallery</a>.
+A gallery of user-created themes is available, showcasing the variety of customizations that the Notely community has developed. For more information, check the <a class="reference-link" href="Themes/Theme%20Gallery.md">Theme Gallery</a>.
 
 ### Asset Path Management
 
-When referencing built-in assets like images in your custom themes or CSS, you can avoid hardcoding version numbers by using the `vX` alias. For example, instead of specifying `/assets/v0.57.0-beta/images/icon-grey.png`, you can use `/assets/vX/images/icon-grey.png` to keep your theme compatible with future versions of Trilium.
+When referencing built-in assets like images in your custom themes or CSS, you can avoid hardcoding version numbers by using the `vX` alias. For example, instead of specifying `/assets/v0.57.0-beta/images/icon-grey.png`, you can use `/assets/vX/images/icon-grey.png` to keep your theme compatible with future versions of Notely.

@@ -10,9 +10,9 @@
         "github": "GitHub",
         "get_started": "Commencer",
         "title": "Organisez vos pensées. Construisez votre base de connaissances personnelles.",
-        "subtitle": "Trilium est une solution open source pour la prise de notes et l'organisation de votre base de connaissances personnelle. Utilisez-la localement sur votre ordinateur ou synchronisez-la avec votre serveur auto-hébergé pour conserver vos notes où que vous soyez.",
+        "subtitle": "Notely est une solution open source pour la prise de notes et l'organisation de votre base de connaissances personnelle. Utilisez-la localement sur votre ordinateur ou synchronisez-la avec votre serveur auto-hébergé pour conserver vos notes où que vous soyez.",
         "dockerhub": "Docker Hub",
-        "screenshot_alt": "Capture d'écran de l'application de bureau Trilium Notes"
+        "screenshot_alt": "Capture d'écran de l'application de bureau Notely"
     },
     "organization_benefits": {
         "title": "Organisation",
@@ -34,7 +34,7 @@
         "search_title": "Recherche puissante",
         "search_content": "Ou recherchez du texte à l’intérieur des notes et affinez les résultats en filtrant par note parent ou par profondeur.",
         "web_clipper_title": "Web clipper",
-        "web_clipper_content": "Récupérez des pages Web (ou des captures d'écran) et placez-les directement dans Trilium à l'aide de l'extension de navigateur \"Web Clipper\"."
+        "web_clipper_content": "Récupérez des pages Web (ou des captures d'écran) et placez-les directement dans Notely à l'aide de l'extension de navigateur \"Web Clipper\"."
     },
     "note_types": {
         "text_title": "Notes de texte",
@@ -53,21 +53,21 @@
     },
     "faq": {
         "database_question": "Où sont stockées les données ?",
-        "database_answer": "Toutes vos notes seront stockées dans une base de données SQLite, dans un dossier d'application. Trilium utilise une base de données plutôt que des fichiers texte pour des raisons de performances, et certaines fonctionnalités seraient beaucoup plus complexes à implémenter, comme les clones (même note à plusieurs endroits de l'arborescence). Pour trouver le dossier d'application, accédez simplement à la fenêtre « À propos ».",
+        "database_answer": "Toutes vos notes seront stockées dans une base de données SQLite, dans un dossier d'application. Notely utilise une base de données plutôt que des fichiers texte pour des raisons de performances, et certaines fonctionnalités seraient beaucoup plus complexes à implémenter, comme les clones (même note à plusieurs endroits de l'arborescence). Pour trouver le dossier d'application, accédez simplement à la fenêtre « À propos ».",
         "mobile_answer": "Il n'existe actuellement aucune application mobile officielle. Cependant, si vous disposez d'une instance serveur, vous pouvez y accéder via un navigateur web et même l'installer en tant que PWA. Pour Android, il existe une application non officielle appelée \"TriliumDroid\", qui fonctionne même hors ligne (comme un client de bureau).",
         "mobile_question": "Y a-t-il une application mobile ?",
         "title": "Foire aux questions",
-        "server_question": "Ai-je besoin d'un serveur pour utiliser Trilium ?",
+        "server_question": "Ai-je besoin d'un serveur pour utiliser Notely ?",
         "server_answer": "Non, le serveur permet l'accès via un navigateur web et gère la synchronisation si vous possédez plusieurs appareils. Pour commencer, il suffit de télécharger l'application de bureau et de l'utiliser.",
         "scaling_question": "Dans quelle mesure l'application s'adapte-t-elle à une grande quantité de notes ?",
-        "scaling_answer": "Selon l'utilisation qui en est faite, l'application devrait pouvoir gérer sans problème au moins 100 000 notes. Veuillez noter que le processus de synchronisation peut parfois échouer en cas de téléchargement de nombreux fichiers volumineux (1 Go par fichier), car Trilium est davantage conçu comme une application de base de connaissances que comme un espace de stockage de fichiers (à l'instar de NextCloud, par exemple).",
+        "scaling_answer": "Selon l'utilisation qui en est faite, l'application devrait pouvoir gérer sans problème au moins 100 000 notes. Veuillez noter que le processus de synchronisation peut parfois échouer en cas de téléchargement de nombreux fichiers volumineux (1 Go par fichier), car Notely est davantage conçu comme une application de base de connaissances que comme un espace de stockage de fichiers (à l'instar de NextCloud, par exemple).",
         "network_share_question": "Puis-je partager ma base de données sur un lecteur réseau ?",
         "network_share_answer": "Non, il est généralement déconseillé de partager une base de données SQLite sur un lecteur réseau. Bien que cela puisse parfois fonctionner, il existe un risque de corruption de la base de données en raison de verrous de fichiers imparfaits sur le réseau.",
         "security_question": "Comment mes données sont-elles protégées?",
         "security_answer": "Par défaut, les notes ne sont pas chiffrées et peuvent être consultées directement depuis la base de données. Une fois chiffrée, une note l'est avec le protocole AES-128-CBC."
     },
     "final_cta": {
-        "title": "Prêt à commencer avec Trilium Notes ?",
+        "title": "Prêt à commencer avec Notely ?",
         "description": "Créez votre base de connaissances personnelle avec des fonctionnalités puissantes et une totale confidentialité.",
         "get_started": "Commencer"
     },
@@ -76,7 +76,7 @@
     },
     "support_us": {
         "financial_donations_title": "Dons financiers",
-        "financial_donations_description": "Trilium est développé et maintenu grâce à <Link>des centaines d'heures de travail</Link>. Votre soutien permet de maintenir son open-source, d'améliorer ses fonctionnalités et de couvrir des coûts tels que l'hébergement.",
+        "financial_donations_description": "Notely est développé et maintenu grâce à <Link>des centaines d'heures de travail</Link>. Votre soutien permet de maintenir son open-source, d'améliorer ses fonctionnalités et de couvrir des coûts tels que l'hébergement.",
         "financial_donations_cta": "Envisagez de soutenir le développeur principal (<Link>eliandoran</Link>) de l'application via :",
         "github_sponsors": "Sponsors GitHub",
         "paypal": "PayPal",
@@ -89,7 +89,7 @@
         "way_community": "Interagissez avec la communauté sur <Discussions>GitHub Discussions</Discussions> ou sur <Matrix>Matrix</Matrix>.",
         "way_reports": "Signalez les bugs via <Link>GitHub issues</Link>.",
         "way_document": "Améliorez la documentation en nous informant des lacunes dans celle-ci ou en contribuant à des guides, des FAQ ou des tutoriels.",
-        "way_market": "Passez le mot : partagez Trilium Notes avec vos amis, sur des blogs et sur les réseaux sociaux."
+        "way_market": "Passez le mot : partagez Notely avec vos amis, sur des blogs et sur les réseaux sociaux."
     },
     "404": {
         "title": "404 : introuvable",
@@ -137,14 +137,14 @@
     },
     "download_helper_server_linux": {
         "title": "Auto-hébergé sur Linux",
-        "description": "Déployez Trilium Notes sur votre propre serveur ou VPS, compatible avec la plupart des distributions.",
+        "description": "Déployez Notely sur votre propre serveur ou VPS, compatible avec la plupart des distributions.",
         "download_tar_x64": "x64 (.tar.xz)",
         "download_tar_arm64": "ARM (.tar.xz)",
         "download_nixos": "Module NixOS"
     },
     "download_helper_server_hosted": {
         "title": "Hébergement payant",
-        "description": "Notes Trilium hébergées sur PikaPods, un service payant pour un accès et une gestion simplifiés. Non affilié directement à l'équipe Trilium.",
+        "description": "Notes Notely hébergées sur PikaPods, un service payant pour un accès et une gestion simplifiés. Non affilié directement à l'équipe Notely.",
         "download_pikapod": "Installé sur PikaPods"
     },
     "collections": {

@@ -1,14 +1,14 @@
 # Custom Resource Providers
-A custom resource provider allows any file imported into Trilium (images, fonts, stylesheets) to be publicly accessible via a URL.
+A custom resource provider allows any file imported into Notely (images, fonts, stylesheets) to be publicly accessible via a URL.
 
 A potential use case for this is to add embed a custom font alongside a theme.
 
 ## Steps for creating a custom resource provider
 
-1.  Import a file such as an image or a font into Trilium by drag & drop.
+1.  Import a file such as an image or a font into Notely by drag & drop.
 2.  Select the file and go to the _Owned Attributes_ section.
 3.  Add the label `#customResourceProvider=hello`.
-4.  To test if it is working, use a browser to navigate to `<protocol>://<host>/custom/hello` (where `<protocol>` is either `http` or `https` based on your setup, and `<host>` is the host or IP to your Trilium server instance). If you are running the TriliumNext application without a server, use `http://localhost:37840` as the base URL.
+4.  To test if it is working, use a browser to navigate to `<protocol>://<host>/custom/hello` (where `<protocol>` is either `http` or `https` based on your setup, and `<host>` is the host or IP to your Notely server instance). If you are running the Notely application without a server, use `http://localhost:37840` as the base URL.
 5.  If everything went well, at the previous step the browser should have downloaded the file uploaded in the first step.
 
 Instead of `hello`, the name can be:
@@ -18,7 +18,7 @@ Instead of `hello`, the name can be:
 
 ## Using it in a theme
 
-For example, if you have a custom font to be imported by the theme, first upload a font file into Trilium and assign it the `#customResourceProvider=fonts/myfont.ttf` attribute.
+For example, if you have a custom font to be imported by the theme, first upload a font file into Notely and assign it the `#customResourceProvider=fonts/myfont.ttf` attribute.
 
 Then modify the theme CSS to point to:
 

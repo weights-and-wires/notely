@@ -34,7 +34,7 @@ In the _Owned Attributes_ section in the <a class="reference-link" href="../../
 
 ## Predefined labels
 
-This is a list of labels that Trilium natively supports.
+This is a list of labels that Notely natively supports.
 
 > [!TIP]
 > Some labels presented here end with a `*`. That means that there are multiple labels with the same prefix, consult the specific page linked in the description of that label for more information.
@@ -52,15 +52,15 @@ This is a list of labels that Trilium natively supports.
 | `hidePromotedAttributes` | Hide <a class="reference-link" href="Promoted%20Attributes.md">Promoted Attributes</a> on this note. Generally useful when defining inherited attributes, but the parent note doesn't need them. |
 | `readOnly` | Marks a note to always be [read-only](../../Basic%20Concepts%20and%20Features/Notes/Read-Only%20Notes.md), if it's a supported note (text, code, mermaid). |
 | `autoReadOnlyDisabled` | Disables automatic [read-only mode](../../Basic%20Concepts%20and%20Features/Notes/Read-Only%20Notes.md) for the given note. |
-| `appCss` | Marks CSS notes which are loaded into the Trilium application and can thus be used to modify Trilium's looks. See <a class="reference-link" href="../../Theme%20development/Custom%20app-wide%20CSS.md">Custom app-wide CSS</a> for more info. |
-| `appTheme` | Marks CSS notes which are full Trilium themes and are thus available in Trilium options. See <a class="reference-link" href="../../Theme%20development">Theme development</a> for more information. |
-| `appThemeBase` | Set to `next`, `next-light`, or `next-dark` to use the corresponding TriliumNext theme (auto, light or dark) as the base for a custom theme, instead of the legacy one. See <a class="reference-link" href="../../Theme%20development/Customize%20the%20Next%20theme.md">Customize the Next theme</a> for more information. |
+| `appCss` | Marks CSS notes which are loaded into the Notely application and can thus be used to modify Notely's looks. See <a class="reference-link" href="../../Theme%20development/Custom%20app-wide%20CSS.md">Custom app-wide CSS</a> for more info. |
+| `appTheme` | Marks CSS notes which are full Notely themes and are thus available in Notely options. See <a class="reference-link" href="../../Theme%20development">Theme development</a> for more information. |
+| `appThemeBase` | Set to `next`, `next-light`, or `next-dark` to use the corresponding Notely theme (auto, light or dark) as the base for a custom theme, instead of the legacy one. See <a class="reference-link" href="../../Theme%20development/Customize%20the%20Next%20theme.md">Customize the Next theme</a> for more information. |
 | `cssClass` | Value of this label is then added as CSS class to the node representing given note in the <a class="reference-link" href="../../Basic%20Concepts%20and%20Features/UI%20Elements/Note%20Tree.md">Note Tree</a>. This can be useful for advanced theming. Can be used in template notes. |
 | `iconClass` | value of this label is added as a CSS class to the icon on the tree which can help visually distinguish the notes in the tree. Example might be bx bx-home - icons are taken from boxicons. Can be used in template notes. |
 | `pageSize` | Specifies the number of items per page in <a class="reference-link" href="../../Basic%20Concepts%20and%20Features/Notes/Note%20List.md">Note List</a>. |
 | `customRequestHandler` | See <a class="reference-link" href="../Custom%20Request%20Handler.md">Custom Request Handler</a>. |
 | `customResourceProvider` | See <a class="reference-link" href="../Custom%20Resource%20Providers.md">Custom Resource Providers</a>. |
-| `widget` | Marks this note as a custom widget which will be added to the Trilium component tree. See <a class="reference-link" href="../../Scripting/Frontend%20Basics/Custom%20Widgets.md">Custom Widgets</a> for more information. |
+| `widget` | Marks this note as a custom widget which will be added to the Notely component tree. See <a class="reference-link" href="../../Scripting/Frontend%20Basics/Custom%20Widgets.md">Custom Widgets</a> for more information. |
 | `searchHome` | New search notes will be created as children of this note (see <a class="reference-link" href="../../Note%20Types/Saved%20Search.md">Saved Search</a>). |
 | `workspace` and related attributes | See <a class="reference-link" href="../../Basic%20Concepts%20and%20Features/Navigation/Workspaces.md">Workspaces</a>. |
 | `inbox` | Default inbox location for new notes. See <a class="reference-link" href="../../Basic%20Concepts%20and%20Features/Notes/Note%20Inbox.md">Note Inbox</a> for more information. |

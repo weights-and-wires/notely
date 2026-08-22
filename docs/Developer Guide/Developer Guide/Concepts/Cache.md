@@ -1,7 +1,7 @@
 # Cache
 ### Three-Layer Cache System
 
-Trilium implements a sophisticated **three-tier caching system** to optimize performance and enable offline functionality:
+Notely implements a sophisticated **three-tier caching system** to optimize performance and enable offline functionality:
 
 #### 1\. Becca (Backend Cache)
 

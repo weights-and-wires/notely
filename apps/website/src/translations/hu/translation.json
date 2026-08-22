@@ -8,11 +8,11 @@
     },
     "hero_section": {
         "title": "Rendszerezd a gondolataidat. Építsd fel a személyes tudásbázisodat.",
-        "subtitle": "A Trilium egy nyílt forráskódú megoldás jegyzeteléshez és személyes tudásbázis rendszerezéséhez. Használd helyben az asztali gépeden, vagy szinkronizáld a saját szervereddel, hogy jegyzeteid mindenhol elérhetőek legyenek.",
+        "subtitle": "A Notely egy nyílt forráskódú megoldás jegyzeteléshez és személyes tudásbázis rendszerezéséhez. Használd helyben az asztali gépeden, vagy szinkronizáld a saját szervereddel, hogy jegyzeteid mindenhol elérhetőek legyenek.",
         "get_started": "Kezdés",
         "github": "GitHub",
         "dockerhub": "Docker Hub",
-        "screenshot_alt": "A Trilium Notes asztali alkalmazás képernyőképe"
+        "screenshot_alt": "A Notely asztali alkalmazás képernyőképe"
     },
     "organization_benefits": {
         "title": "Szervezet",

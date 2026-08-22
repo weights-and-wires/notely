@@ -1,7 +1,7 @@
 # Presentation
 <figure class="image"><img style="aspect-ratio:1120/763;" src="Presentation_image.png" width="1120" height="763"></figure>
 
-The Presentation view allows the creation of slideshows directly from within Trilium.
+The Presentation view allows the creation of slideshows directly from within Notely.
 
 ### Creating a new presentation
 
@@ -31,7 +31,7 @@ The following keyboard shortcuts are supported:
 
 ## Vertical slides and nesting
 
-Unlike traditional presentation software such as Microsoft PowerPoint, the slides in Trilium can be laid out horizontally or vertically in order to create depth or better organize the slides by topic.
+Unlike traditional presentation software such as Microsoft PowerPoint, the slides in Notely can be laid out horizontally or vertically in order to create depth or better organize the slides by topic.
 
 This horizontal/vertical organization affects transitions (especially on the “slide” transition), however it is most noticeable in navigation.
 

@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes ist eine freie, Open-Source, plattformübergreifende, hierarchische
+Notely ist eine freie, Open-Source, plattformübergreifende, hierarchische
 Notiz-Anwendung mit Fokus auf die Erstellung großer persönlicher
 Wissenssammlungen.
 
@@ -42,7 +42,7 @@ Wissenssammlungen.
 Unsere Dokumentation ist verfügbar in mehreren Formaten:
 - **Online-Dokumentation**: Die vollständige Dokumentation ist unter
   [docs.triliumnotes.org](https://docs.triliumnotes.org/) verfügbar
-- **In-App-Hilfe**: Drücken Sie `F1` in Trilium, um dieselbe Dokumentation
+- **In-App-Hilfe**: Drücken Sie `F1` in Notely, um dieselbe Dokumentation
   direkt in der Anwendung aufzurufen
 - **GitHub**: Durchsuchen Sie das
   [Benutzerhandbuch](./User%20Guide/User%20Guide/) in diesem Repository
@@ -52,7 +52,7 @@ Unsere Dokumentation ist verfügbar in mehreren Formaten:
 - [Installationsanleitung](https://docs.triliumnotes.org/user-guide/setup)
 - [Docker
   Einrichten](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
-- [TriliumNext
+- [Notely
   aktualisieren](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [Grundkonzepte und
   Funktionen](https://docs.triliumnotes.org/user-guide/concepts/notes)

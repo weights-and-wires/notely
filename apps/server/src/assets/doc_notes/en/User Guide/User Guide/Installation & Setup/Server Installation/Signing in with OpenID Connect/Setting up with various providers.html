@@ -10,7 +10,7 @@
   <li>
     <p>Generate a client secret:</p><pre><code class="language-text-x-trilium-auto">authelia crypto hash generate pbkdf2 --variant sha512 --random --random.length 72 --random.charset rfc3986
 </code></pre>
-    <p><code spellcheck="false">Random Password</code> goes to Trilium, <code spellcheck="false">Digest</code> (the
+    <p><code spellcheck="false">Random Password</code> goes to Notely, <code spellcheck="false">Digest</code> (the
       <code
       spellcheck="false">$pbkdf2-sha512$…</code>string) goes to Authelia.</p>
   </li>
@@ -18,7 +18,7 @@
     <p>Add a client under <code spellcheck="false">identity_providers.oidc.clients</code> in
       Authelia's <code spellcheck="false">configuration.yml</code>, replacing
       <code
-      spellcheck="false">&lt;server&gt;</code>with the URL of your Trilium instance:</p><pre><code class="language-text-x-yaml">identity_providers:
+      spellcheck="false">&lt;server&gt;</code>with the URL of your Notely instance:</p><pre><code class="language-text-x-yaml">identity_providers:
   oidc:
     clients:
       - client_id: 'trilium'
@@ -50,7 +50,7 @@ oauthIssuerName=Authelia</code></pre>
   <p>Do <strong>not</strong> set <code spellcheck="false">oauthClientAuthMethod</code> for
     Authelia. It defaults confidential clients to <code spellcheck="false">client_secret_basic</code> and
     rejects any other method with <code spellcheck="false">invalid_client</code>,
-    which is the default Trilium already uses. This is the opposite of the
+    which is the default Notely already uses. This is the opposite of the
     GitLab case below.</p>
 </aside>
 <h2>GitLab (self-hosted or cloud)</h2>
@@ -58,7 +58,7 @@ oauthIssuerName=Authelia</code></pre>
   <li>Go to user settings on <a href="https://gitlab.com/-/user_settings/applications">gitlab.com</a> or
     your own self-hosted instance.</li>
   <li>Press <em>Add new application</em>.</li>
-  <li>Give it a name (e.g. Trilium).</li>
+  <li>Give it a name (e.g. Notely).</li>
   <li>Set <em>Redirect URI</em> to <code spellcheck="false">https://&lt;server&gt;/callback</code>
   </li>
   <li>Make sure <em>Confidential</em> is checked and <em>Device authorization grant</em> is
@@ -71,7 +71,7 @@ oauthIssuerName=Authelia</code></pre>
   <code
   spellcheck="false">&lt;ApplicationId&gt;</code>and <code spellcheck="false">&lt;Secret&gt;</code> with
     the values from the last step as well as the <code spellcheck="false">&lt;server&gt;</code> with
-    a URL to your Trilium instance.</p><pre><code class="language-text-x-trilium-auto">[MultiFactorAuthentication]
+    a URL to your Notely instance.</p><pre><code class="language-text-x-trilium-auto">[MultiFactorAuthentication]
 oauthBaseUrl=https://&lt;server&gt;
 oauthClientId=&lt;ApplicationId&gt;
 oauthClientSecret=&lt;Secret&gt;
@@ -87,7 +87,7 @@ oauthClientAuthMethod=client_secret_post
   <p>GitLab's token endpoint does not decode credentials sent via HTTP Basic,
     so without <code spellcheck="false">oauthClientAuthMethod</code>, sign-in
     fails with a <code spellcheck="false">server responded with a challenge in the WWW-Authenticate HTTP Header</code> error.
-    Trilium applies this automatically for <code spellcheck="false">gitlab.com</code>,
+    Notely applies this automatically for <code spellcheck="false">gitlab.com</code>,
     but a self-hosted issuer URL cannot be detected.</p>
 </aside>
 <h2>Kanidm</h2>
@@ -95,7 +95,7 @@ oauthClientAuthMethod=client_secret_post
   <li>
     <p>Create the client, add the redirect URL and grant the scopes, replacing
       <code
-      spellcheck="false">&lt;server&gt;</code>with the URL of your Trilium instance and <code spellcheck="false">&lt;group&gt;</code> with
+      spellcheck="false">&lt;server&gt;</code>with the URL of your Notely instance and <code spellcheck="false">&lt;group&gt;</code> with
         an existing Kanidm group whose members may sign in:</p><pre><code class="language-text-x-trilium-auto">kanidm system oauth2 create trilium "Trilium" "https://&lt;server&gt;"
 kanidm system oauth2 add-redirect-url trilium "https://&lt;server&gt;/callback"
 kanidm system oauth2 update-scope-map trilium &lt;group&gt; openid profile email</code></pre>
@@ -118,25 +118,25 @@ oauthIssuerName=Kanidm</code></pre>
 <p>The client name you chose in step 1 is both the client ID and the last
   path segment of the issuer URL, so the two must match.</p>
 <aside class="admonition important">
-  <p>Kanidm signs ID tokens with ES256, not RS256. Trilium detects this from
+  <p>Kanidm signs ID tokens with ES256, not RS256. Notely detects this from
     the provider on v0.105.0 and later, so no extra configuration is needed.
     Do <strong>not</strong> run <code spellcheck="false">kanidm system oauth2 warning-enable-legacy-crypto</code>,
     it downgrades the client to RS256 and disables ES256 entirely. On older
-    Trilium versions sign-in fails with an <code spellcheck="false">unexpected JWT alg</code> error.</p>
+    Notely versions sign-in fails with an <code spellcheck="false">unexpected JWT alg</code> error.</p>
 </aside>
 <h2>Pocket ID</h2>
 <aside class="admonition important">
   <p>Pocket ID is passwordless, signing in requires a passkey. Register one
     and confirm you can sign in to Pocket ID itself <em>before</em> switching
-    Trilium over to OpenID Connect, otherwise you may find yourself unable
+    Notely over to OpenID Connect, otherwise you may find yourself unable
     to authenticate at either end.</p>
 </aside>
 <ol>
   <li>Sign in to Pocket ID as an administrator and go to <em>OIDC Clients</em> → <em>Add OIDC Client</em>.</li>
-  <li>Give it a name (e.g. Trilium).</li>
+  <li>Give it a name (e.g. Notely).</li>
   <li>Set <em>Callback URLs</em> to <code spellcheck="false">https://&lt;server&gt;/callback</code>,
     replacing <code spellcheck="false">&lt;server&gt;</code> with the URL of
-    your Trilium instance.</li>
+    your Notely instance.</li>
   <li>Save, then copy the <em>Client ID</em>, <em>Client Secret</em> and <em>OIDC Discovery URL</em>.</li>
 </ol>
 <p>Adjust <code spellcheck="false">config.ini</code> as follows, using the
@@ -154,7 +154,7 @@ oauthIssuerName=Pocket ID</code></pre>
 <aside class="admonition important">
   <p>Pocket ID generates an RS256 signing key on first start, which works without
     further configuration. If you rotate it to Ed25519 (<code spellcheck="false">pocket-id key-rotate --alg EdDSA --crv Ed25519</code>),
-    ID tokens are signed with EdDSA instead. Trilium detects this automatically
+    ID tokens are signed with EdDSA instead. Notely detects this automatically
     on v0.105.0 and later; older versions fail with <code spellcheck="false">unexpected JWT alg received, expected RS256, got: EdDSA</code>.</p>
 </aside>
 <h2>GitHub</h2>
@@ -172,7 +172,7 @@ oauthIssuerName=Pocket ID</code></pre>
   <code
   spellcheck="false">&lt;ClientID&gt;</code>and <code spellcheck="false">&lt;ClientSecret&gt;</code> with
     the values from the last step as well as the <code spellcheck="false">&lt;server&gt;</code> with
-    a URL to your Trilium instance.</p><pre><code class="language-text-x-trilium-auto">[MultiFactorAuthentication]
+    a URL to your Notely instance.</p><pre><code class="language-text-x-trilium-auto">[MultiFactorAuthentication]
 oauthBaseUrl=https://&lt;server&gt;
 oauthClientId=&lt;ClientID&gt;
 oauthClientSecret=&lt;ClientSecret&gt;</code></pre>

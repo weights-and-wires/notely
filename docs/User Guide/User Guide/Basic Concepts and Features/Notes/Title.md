@@ -11,7 +11,7 @@ In addition:
 
 *   There is no limitation on the length of the title, however in exports the title might get trimmed.
 *   There are no forbidden symbols, unsupported characters will get trimmed when exporting.
-*   When exporting to a ZIP file, a meta file will contain the full title which will be recognized by Trilium when importing again.
+*   When exporting to a ZIP file, a meta file will contain the full title which will be recognized by Notely when importing again.
 
 ### Editing the title
 
@@ -48,6 +48,6 @@ For <a class="reference-link" href="Protected%20Notes.md">Protected Notes</a>, 
 
 ## Protected notes
 
-The titles of <a class="reference-link" href="Protected%20Notes.md">Protected Notes</a> are encrypted along with their content. Before entering your password, Trilium cannot decrypt the title, so it is shown as `[protected]` in instead and the title cannot be modified.
+The titles of <a class="reference-link" href="Protected%20Notes.md">Protected Notes</a> are encrypted along with their content. Before entering your password, Notely cannot decrypt the title, so it is shown as `[protected]` in instead and the title cannot be modified.
 
 Once you enter your password and a protected session is active, the real title is decrypted and displayed, and becomes editable again.

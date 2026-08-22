@@ -18,7 +18,7 @@ Scripts don't have any special requirements. They can be run manually using the 
 
 ## Widgets
 
-Widgets require a certain format in order for Trilium to be able to integrate them into the UI.
+Widgets require a certain format in order for Notely to be able to integrate them into the UI.
 
 *   For legacy widgets, the script note must export a `BasicWidget` or a derived one (see <a class="reference-link" href="Frontend%20Basics/Custom%20Widgets/Note%20context%20aware%20widget.md">Note context aware widget</a> or <a class="reference-link" href="Frontend%20Basics/Custom%20Widgets/Right%20pane%20widget.md">Right pane widget</a>).
 *   For Preact widgets, a built-in helper called `defineWidget` needs to be used.
@@ -27,7 +27,7 @@ For more information, see <a class="reference-link" href="Frontend%20Basics/Cus
 
 ## Script API
 
-The front-end API of Trilium is available to all scripts running in the front-end context as global variable `api`. For a reference of the API, see <a class="reference-link" href="Script%20API/Frontend%20API">Frontend API</a>.
+The front-end API of Notely is available to all scripts running in the front-end context as global variable `api`. For a reference of the API, see <a class="reference-link" href="Script%20API/Frontend%20API">Frontend API</a>.
 
 ### Tutorial
 

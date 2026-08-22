@@ -91,7 +91,7 @@ body.electron:not(.native-titlebar) {
 
 When running under Electron with native title bar off, a feature was introduced to use the platform-specific window buttons such as the semaphore on macOS.
 
-See [Native title bar buttons by eliandoran · Pull Request #702 · TriliumNext/Notes](https://github.com/TriliumNext/Notes/pull/702) for the original implementation of this feature, including screenshots.
+See [Native title bar buttons by eliandoran · Pull Request #702 · Notely/Notes](https://github.com/TriliumNext/Notes/pull/702) for the original implementation of this feature, including screenshots.
 
 #### On Windows
 
@@ -171,7 +171,7 @@ When a workspace is hoisted for a given tab, it is possible to get the backgroun
 
 ## Custom fonts
 
-Currently the only way to include a custom font is to use [Custom resource providers](../Advanced%20Usage/Custom%20Resource%20Providers.md). Basically import a font into Trilium and assign it `#customResourceProvider=fonts/myfont.ttf` and then import the font in CSS via `/custom/fonts/myfont.ttf`. Use `../../../custom/fonts/myfont.ttf` if you run your Trilium server on a different path than `/`.
+Currently the only way to include a custom font is to use [Custom resource providers](../Advanced%20Usage/Custom%20Resource%20Providers.md). Basically import a font into Notely and assign it `#customResourceProvider=fonts/myfont.ttf` and then import the font in CSS via `/custom/fonts/myfont.ttf`. Use `../../../custom/fonts/myfont.ttf` if you run your Notely server on a different path than `/`.
 
 ## Dark and light themes
 

@@ -3,14 +3,14 @@
   <li><code spellcheck="false">document.db</code> - <a href="#root/_help_wX4HbRucYSDD">database</a>
   </li>
   <li><code spellcheck="false">config.ini</code> - instance level settings like
-    port on which the Trilium application runs</li>
+    port on which the Notely application runs</li>
   <li><code spellcheck="false">backup</code> - contains automatically <a href="#root/_help_ODY7qQn5m2FT">backup</a> of
     documents</li>
   <li><code spellcheck="false">log</code> - contains application log files</li>
 </ul>
 <h2>Location of the data directory</h2>
-<p>Easy way how to find out which data directory Trilium uses is to look
-  at the "About Trilium Notes" dialog (from "Menu" in upper left corner):</p>
+<p>Easy way how to find out which data directory Notely uses is to look
+  at the "About Notely" dialog (from "Menu" in upper left corner):</p>
 <p>
   <img src="Data directory_image.png">
 </p>
@@ -26,7 +26,7 @@
   <li>user's home is a fallback if some of the paths above don't exist</li>
   <li>user's home is also a default setup for [[docker|Docker server installation]]</li>
 </ul>
-<p>If you want to back up your Trilium data, just backup this single directory
+<p>If you want to back up your Notely data, just backup this single directory
   - it contains everything you need.</p>
 <h3>Changing the location of data directory</h3>
 <p>If you want to use some other location for the data directory than the
@@ -63,7 +63,7 @@
             /Users/YourUserName/Library/Application Support/trilium-data    </code></pre>
 <h3>Create a script to run with specific data directory</h3>
 <p>An alternative to globally setting environment variable is to run only
-  the Trilium Notes with this environment variable. This then allows for
+  the Notely with this environment variable. This then allows for
   different setup styles like two <a href="#root/_help_wX4HbRucYSDD">database</a> instances
   or "portable" installation.</p>
 <p>To do this in Unix-based systems simply run <code spellcheck="false">trilium</code> like
@@ -72,7 +72,7 @@
   convenience.</p>
 <h2>Electron user data directory (desktop only)</h2>
 <p>When running the desktop application, Electron stores internal data (caches,
-  spell-check dictionaries, session storage, etc.) separately from the Trilium
+  spell-check dictionaries, session storage, etc.) separately from the Notely
   data directory. By default this goes to the system's application data folder
   (e.g. <code spellcheck="false">%APPDATA%</code> on Windows), which may be
   undesirable in corporate environments with roaming profiles or when running

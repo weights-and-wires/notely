@@ -169,7 +169,7 @@
   },
   "login": {
     "title": "Log in",
-    "heading": "Log in op Trilium",
+    "heading": "Log in op Notely",
     "incorrect-totp": "TOTP is onjuist. Probeer opnieuw.",
     "incorrect-password": "Wachtwoord is onjuist. Probeer opnieuw.",
     "password": "Wachtwoord",
@@ -183,7 +183,7 @@
   "set_password": {
     "title": "Stel wachtwoord in",
     "heading": "Stel wachtwoord in",
-    "description": "Voor je Trilium kan beginnen gebruiken via het web, moet je eerst een wachtwoord instellen. Je kan dan aanmelden met dit wachtwoord.",
+    "description": "Voor je Notely kan beginnen gebruiken via het web, moet je eerst een wachtwoord instellen. Je kan dan aanmelden met dit wachtwoord.",
     "password": "Wachtwoord",
     "password-confirmation": "Wachtwoord bevestiging",
     "button": "Stel wachtwoord in"
@@ -324,7 +324,7 @@
   },
   "sql_init": {
     "db_not_initialized_desktop": "Database is niet geïnitialiseerd, volg de instructies op het scherm.",
-    "db_not_initialized_server": "Database is niet geïnitialiseerd, bezoek de setup pagina - http://[your-server-host]:{{port}} voor instructies om Trilium te initialiseren."
+    "db_not_initialized_server": "Database is niet geïnitialiseerd, bezoek de setup pagina - http://[your-server-host]:{{port}} voor instructies om Notely te initialiseren."
   },
   "script": {
     "wrong-environment": "Kan de Notitie \"{{- noteTitle}}\" ({{- noteId}}) niet uitvoeren. Dit is een {{- actualEnv}} script, maar werd geprobeerd uit te voeren in de {{- expectedEnv}}."
@@ -354,8 +354,8 @@
     "unable-to-print": "Niet in staat de Notitie af te drukken"
   },
   "tray": {
-    "tooltip": "Trilium Notities",
-    "close": "Trilium verlaten",
+    "tooltip": "Notely Notities",
+    "close": "Notely verlaten",
     "recents": "Recente Notities",
     "bookmarks": "Boekenleggers",
     "today": "Open de Dagboek Notitie van vandaag",
@@ -366,7 +366,7 @@
   "migration": {
     "old_version": "Rechtstreekse migratie van uw huidige versie is niet ondersteund. Upgrade a.u.b. eerst naar de laatste versie v0.60.4 en alleen dan naar deze versie.",
     "error_message": "Fout tijdens migratie naar versie {{version}}: {{stack}}",
-    "wrong_db_version": "De versie van de database ({{version}}) is nieuwer dan de toepassing verwacht ({{targetVersion}}), wat betekent dat deze gemaakt werd met een nieuwere, niet-compatibele versie van Trilium. Upgrade naar de laatste versie van Trilium om dit probleem op te lossen.",
+    "wrong_db_version": "De versie van de database ({{version}}) is nieuwer dan de toepassing verwacht ({{targetVersion}}), wat betekent dat deze gemaakt werd met een nieuwere, niet-compatibele versie van Notely. Upgrade naar de laatste versie van Notely om dit probleem op te lossen.",
     "invalid_db_version": "De database versie is geen geldig getal. Dit wijst gewoonlijk op een corrupte 'dbVersion' optie in de database. Herstel a.u.b. van een backup."
   },
   "modals": {

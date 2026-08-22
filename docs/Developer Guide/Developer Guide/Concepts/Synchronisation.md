@@ -1,5 +1,5 @@
 # Synchronisation
-Trilium implements a **bidirectional synchronization system** that allows users to sync their note databases across multiple devices (desktop clients and server instances). The sync protocol is designed to handle:
+Notely implements a **bidirectional synchronization system** that allows users to sync their note databases across multiple devices (desktop clients and server instances). The sync protocol is designed to handle:
 
 *   Concurrent modifications across devices
 *   Simple conflict resolution (without “merge conflict” indication).
@@ -54,7 +54,7 @@ entity_changes (
 
 ### Sync Versions
 
-Each Trilium installation tracks:
+Each Notely installation tracks:
 
 *   **Local sync version**: Highest change ID seen locally
 *   **Server sync version**: Highest change ID on server

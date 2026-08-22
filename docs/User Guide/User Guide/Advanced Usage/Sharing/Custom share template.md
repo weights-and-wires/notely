@@ -39,7 +39,7 @@ Your template is rendered with a context object exposing the note and its render
 
 ## Error handling
 
-If your template throws an error while rendering, Trilium logs the error and quietly falls back to the default template, so a broken template never takes the shared page down.
+If your template throws an error while rendering, Notely logs the error and quietly falls back to the default template, so a broken template never takes the shared page down.
 
 ## Splitting a template into partials
 

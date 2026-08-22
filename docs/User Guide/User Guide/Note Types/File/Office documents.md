@@ -1,5 +1,5 @@
 # Office documents
-Since v0.105.0, office documents stored in Trilium display an inline preview of their content, without the need to download them or open them in an external application.
+Since v0.105.0, office documents stored in Notely display an inline preview of their content, without the need to download them or open them in an external application.
 
 ## Supported formats
 

@@ -3,8 +3,8 @@ Front-end scripts can be run automatically on certain triggering conditions.
 
 To do so, set the `run` [label](../../Advanced%20Usage/Attributes/Labels.md) to either:
 
-*   `frontendStartup` - when Trilium frontend starts up (or is refreshed), but not on mobile.
-*   `mobileStartup` - when Trilium frontend starts up (or is refreshed), on mobile.
+*   `frontendStartup` - when Notely frontend starts up (or is refreshed), but not on mobile.
+*   `mobileStartup` - when Notely frontend starts up (or is refreshed), on mobile.
 
 > [!NOTE]
 > One script can be triggered on multiple events, this can be done by adding multiple `run` labels. Separating multiple values by commas **is not** supported.

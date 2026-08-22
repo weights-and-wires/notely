@@ -1,5 +1,5 @@
 # Note ID
-Whereas some applications use file names to uniquely identify notes, Trilium uses the concept of Note ID.
+Whereas some applications use file names to uniquely identify notes, Notely uses the concept of Note ID.
 
 Generally, the Note ID is a 12-character long alphanumeric sequence (including both lower and upper case letter) that is randomly generated for each new note.
 
@@ -13,4 +13,4 @@ Since the Note ID is a fixed-width randomly generated number, due to the [pigeon
 
 Since the note ID is alphanumeric and the length is 12 we have $62^{12}$ unique IDs. However since we are generating them randomly, we can use a collision calculator such as the one for [Nano ID](https://alex7kom.github.io/nano-nanoid-cc/?alphabet=0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz&size=12&speed=1000&speedUnit=hour) to determine that we'd need to create 1000 notes per hour every hour for 9 centuries in order to have at least 1% probability of a note collision.
 
-As such, Trilium does not take any explicit action against potential note collisions, similar to other software that makes uses of unique hashes such as [Git](https://stackoverflow.com/questions/10434326/hash-collision-in-git). If one would theoretically occur, what would most likely happen is that the existing note will be replaced by the new one.
+As such, Notely does not take any explicit action against potential note collisions, similar to other software that makes uses of unique hashes such as [Git](https://stackoverflow.com/questions/10434326/hash-collision-in-git). If one would theoretically occur, what would most likely happen is that the existing note will be replaced by the new one.

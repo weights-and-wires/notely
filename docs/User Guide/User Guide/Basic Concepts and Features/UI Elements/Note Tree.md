@@ -1,5 +1,5 @@
 # Note Tree
-This page explains how to manipulate the note tree in TriliumNext, focusing on moving notes.
+This page explains how to manipulate the note tree in Notely, focusing on moving notes.
 
 ![](Note%20Tree_image.png)
 
@@ -11,7 +11,7 @@ You can easily rearrange the note tree by dragging and dropping notes, as demons
 
 ## Keyboard Manipulation
 
-![Example of using keyboard keys to move a note](Note%20Tree_move-note-with-keyboard.gif)Trilium offers efficient keyboard-based manipulation using the following [shortcuts](../Keyboard%20Shortcuts.md):
+![Example of using keyboard keys to move a note](Note%20Tree_move-note-with-keyboard.gif)Notely offers efficient keyboard-based manipulation using the following [shortcuts](../Keyboard%20Shortcuts.md):
 
 *   <kbd>Ctrl</kbd> + <kbd><span>↑</span></kbd> and <kbd>Ctrl</kbd> +<kbd><span>↓</span></kbd>: Move the note up or down in the order.
 *   <kbd>Ctrl</kbd>+<kbd><span>←</span></kbd>: Move the note up in the hierarchy by changing its parent to the note's grandparent.

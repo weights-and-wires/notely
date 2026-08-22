@@ -1,5 +1,5 @@
 # Markdown
-Trilium supports Markdown for both import and export, while trying to keep compatibility as high as possible.
+Notely supports Markdown for both import and export, while trying to keep compatibility as high as possible.
 
 ## Import
 

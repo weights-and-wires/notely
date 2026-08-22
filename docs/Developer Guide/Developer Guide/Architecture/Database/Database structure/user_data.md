@@ -7,7 +7,7 @@ Relevant files:
 
 | Column Name | Data Type | Nullity | Default value | Description |
 | --- | --- | --- | --- | --- |
-| `tmpID` | Integer |  |  | A sequential ID of the user. Since only one user is supported by Trilium, this value is always zero. |
+| `tmpID` | Integer |  |  | A sequential ID of the user. Since only one user is supported by Notely, this value is always zero. |
 | `username` | Text |  |  | The user name as returned from the OAuth operation. |
 | `email` | Text |  |  | The email as returned from the OAuth operation. |
 | `userIDEncryptedDataKey` | Text |  |  | An encrypted hash of the user subject identifier from the OAuth operation. |

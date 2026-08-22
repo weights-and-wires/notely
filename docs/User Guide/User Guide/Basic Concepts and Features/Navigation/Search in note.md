@@ -5,7 +5,7 @@ Local search allows you to search within the currently displayed note. 
 
 ## Alternatives
 
-*   Pressing Ctrl+F while in a browser while not focused in a <a class="reference-link" href="../../Note%20Types/Text.md">Text</a> or a <a class="reference-link" href="../../Note%20Types/Code.md">Code</a> note will trigger the browser's native search. This will also find text that is part of Trilium's UI.
+*   Pressing Ctrl+F while in a browser while not focused in a <a class="reference-link" href="../../Note%20Types/Text.md">Text</a> or a <a class="reference-link" href="../../Note%20Types/Code.md">Code</a> note will trigger the browser's native search. This will also find text that is part of Notely's UI.
 *   Pressing Ctrl+F in a <a class="reference-link" href="../../Note%20Types/Text.md">Text</a> note will reveal <a class="reference-link" href="../../Advanced%20Usage/Technologies%20used/CKEditor.md">CKEditor</a>'s search functionality.
 
 ## Accessing the search

@@ -1,5 +1,5 @@
 # On NixOS
-This page describes configuring the Trilium module included in NixOS.
+This page describes configuring the Notely module included in NixOS.
 
 ## Requirements
 

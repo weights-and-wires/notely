@@ -11,7 +11,7 @@ The `Weight Tracker` note in the screenshot above is of the type `Render Note`. 
 
 Scripts for `Render Notes` are defined in a [relation](../Attributes.md) called `~renderNote`. In this example, it's the `Weight Tracker`'s child `Implementation`. The Implementation consists of two [code notes](../../Note%20Types/Code.md) that contain some HTML and JavaScript respectively, which load all the notes with a `weight` attribute and display their values in a chart.
 
-To actually render the chart, we're using a third party library called [chart.js](https://www.chartjs.org/)which is imported as an attachment, since it's not built into Trilium.
+To actually render the chart, we're using a third party library called [chart.js](https://www.chartjs.org/)which is imported as an attachment, since it's not built into Notely.
 
 ### Code
 
@@ -67,4 +67,4 @@ new chartjs.Chart(ctx, {
 
 ## How to remove the Weight Tracker button from the top bar
 
-In the link map of the `Weight Tracker`, there is a note called `Button`. Open it and delete or comment out its contents. The `Weight Tracker` button will disappear after you restart Trilium.
+In the link map of the `Weight Tracker`, there is a note called `Button`. Open it and delete or comment out its contents. The `Weight Tracker` button will disappear after you restart Notely.

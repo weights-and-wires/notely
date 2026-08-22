@@ -1,12 +1,12 @@
-# Trilium Notes Documentation
+# Notely Documentation
 
-Welcome to the official documentation for **Trilium Notes** - a hierarchical note-taking application with a focus on building large personal knowledge bases.
+Welcome to the official documentation for **Notely** - a hierarchical note-taking application with a focus on building large personal knowledge bases.
 
-![Trilium Notes Screenshot](app.png)
+![Notely Screenshot](app.png)
 
-## What is Trilium Notes?
+## What is Notely?
 
-Trilium Notes is a powerful, feature-rich note-taking application designed for building and managing extensive personal knowledge bases. It offers:
+Notely is a powerful, feature-rich note-taking application designed for building and managing extensive personal knowledge bases. It offers:
 
 - **Hierarchical organization** with unlimited nesting of notes
 - **Rich text editing** with markdown support

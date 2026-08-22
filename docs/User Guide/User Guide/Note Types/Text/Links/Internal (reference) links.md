@@ -1,5 +1,5 @@
 # Internal (reference) links
-Internal links are links to other notes within Trilium.
+Internal links are links to other notes within Notely.
 
 You can open an internal link by clicking it. You can also see a read-only preview of an internal link's contents by hovering over it.
 

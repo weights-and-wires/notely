@@ -6,7 +6,7 @@ The tree works well when the notes are structured in a hierarchy so that the num
 *   Navigating between notes becomes cumbersome and the tree itself gets cluttered with a large amount of notes.
 *   The large amount of notes can slow down the application considerably.
 
-Since v0.102.0, Trilium allows the tree to hide the child notes of particular notes. This works for both <a class="reference-link" href="../../../Collections.md">Collections</a> and normal notes.
+Since v0.102.0, Notely allows the tree to hide the child notes of particular notes. This works for both <a class="reference-link" href="../../../Collections.md">Collections</a> and normal notes.
 
 ## Interaction
 

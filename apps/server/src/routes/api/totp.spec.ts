@@ -20,7 +20,7 @@ const SECRET = "JBSWY3DPEHPK3PXP";
 describe("TOTP API", () => {
     beforeEach(() => {
         vi.clearAllMocks();
-        mockGenerateKey.mockReturnValue({ secret: SECRET, url: `otpauth://totp/Trilium:localhost?issuer=Trilium&secret=${SECRET}` });
+        mockGenerateKey.mockReturnValue({ secret: SECRET, url: `otpauth://totp/Notely:localhost?issuer=Notely&secret=${SECRET}` });
         mockValidate.mockReturnValue(true);
         // Reset secret + codes each test, so the persist assertions below are meaningful.
         cls.init(() => {
@@ -34,8 +34,8 @@ describe("TOTP API", () => {
         expect(result.success).toBe(true);
         expect(result.message).toMatch(/^[A-Z2-7]+$/);
         expect(result.url).toContain("otpauth://");
-        // The request hostname is used as the account label under the "Trilium" issuer.
-        expect(mockGenerateKey).toHaveBeenCalledWith({ issuer: "Trilium", user: "localhost" });
+        // The request hostname is used as the account label under the "Notely" issuer.
+        expect(mockGenerateKey).toHaveBeenCalledWith({ issuer: "Notely", user: "localhost" });
         // Generation must not store the secret — that only happens at enable.
         expect(totpRoute.getTOTPStatus().set).toBe(false);
     });

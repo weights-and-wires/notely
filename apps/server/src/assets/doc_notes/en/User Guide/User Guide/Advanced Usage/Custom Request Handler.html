@@ -1,10 +1,10 @@
-<p>Trilium provides a mechanism for <a href="#root/_help_CdNpE2pqjmI6">scripts</a> to
+<p>Notely provides a mechanism for <a href="#root/_help_CdNpE2pqjmI6">scripts</a> to
   open a public REST endpoint. This opens a way for various integrations
   with other services - a simple example would be creating new note from
   Slack by issuing a slash command (e.g. <code spellcheck="false">/trilium buy milk</code>).</p>
-<h2>Create note from outside Trilium</h2>
+<h2>Create note from outside Notely</h2>
 <p>Let's take a look at an example. The goal is to provide a REST endpoint
-  to which we can send title and content and Trilium will create a note.</p>
+  to which we can send title and content and Notely will create a note.</p>
 <p>We'll start with creating a JavaScript backend <a href="#root/_help_6f9hih2hXXZk">code note</a> containing:</p><pre><code class="language-text-x-trilium-auto">const {req, res} = api;
 const {secret, title, content} = req.body;
 
@@ -41,12 +41,12 @@ Content-Type: application/json
   "content": "world"
 }+++++++++++++++++++++++++++++++++++++++++++++++</code></pre>
 <p>Notice the <code spellcheck="false">/custom</code> part in the request path
-  - Trilium considers any request with this prefix as "custom" and tries
+  - Notely considers any request with this prefix as "custom" and tries
   to find a matching handler by looking at all notes which have <code spellcheck="false">customRequestHandler</code> 
   <a
   href="#root/_help_zEY4DaJG4YT5">label</a>. Value of this label then contains a regular expression which
     will match the request path (in our case trivial regex "create-note").</p>
-<p>Trilium will then find our code note created above and execute it.
+<p>Notely will then find our code note created above and execute it.
   <code
   spellcheck="false">api.req</code>, <code spellcheck="false">api.res</code> are set to <a href="https://expressjs.com/en/api.html#req">request</a> and
     <a

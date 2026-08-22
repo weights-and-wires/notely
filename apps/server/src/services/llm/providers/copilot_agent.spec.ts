@@ -613,7 +613,7 @@ describe("CopilotAgentProvider.chatChunks", () => {
             toolCall: { toolCallId: "toolu_x", title: "Echo hello", kind: "execute" },
             options: [{ optionId: "reject_once", kind: "reject_once" }]
         })).toEqual({ outcome: { outcome: "selected", optionId: "reject_once" } });
-        expect(() => onAgentRequest?.("fs/read_text_file", {})).toThrow(`Trilium does not support "fs/read_text_file".`);
+        expect(() => onAgentRequest?.("fs/read_text_file", {})).toThrow(`Notely does not support "fs/read_text_file".`);
     });
 
     it("creates the agent cwd with a .git marker so enclosing repo config is not inherited", async () => {

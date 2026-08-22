@@ -156,7 +156,7 @@ describe("what becomes of the existing database", () => {
 
 describe("what a backup asked for over a request is written as", () => {
     const now = new Date(2026, 7, 7, 10, 32, 21);
-    const SUGGESTED_NAME = "Trilium data (2026-08-07 10-32-21)";
+    const SUGGESTED_NAME = "Notely data (2026-08-07 10-32-21)";
 
     /** Makes the instance's own backup settings say what the fallbacks are read out of. */
     function instanceBacksUp({ compress = false, encrypt = false }) {

@@ -3,7 +3,7 @@ The goal of this article is to configure Traefik proxy and HTTPS. See [#7768](ht
 
 ## Breaking change in Traefik 3.6.4
 
-Traefik 3.6.4 introduced a [breaking change](https://doc.traefik.io/traefik/migrate/v3/#encoded-characters-in-request-path) regarding how percent-encoded characters are handled in URLs. More specifically some URLs used by Trilium (such as `search/%23workspace%20%23!template`) are automatically rejected by Traefik, resulting in HTTP 400 errors.
+Traefik 3.6.4 introduced a [breaking change](https://doc.traefik.io/traefik/migrate/v3/#encoded-characters-in-request-path) regarding how percent-encoded characters are handled in URLs. More specifically some URLs used by Notely (such as `search/%23workspace%20%23!template`) are automatically rejected by Traefik, resulting in HTTP 400 errors.
 
 The easiest solution is to update to Traefik 3.6.7 or later which reverts this configuration change. Alternatively, the configuration can be changed according to the section below.
 

@@ -1,4 +1,4 @@
-# Trilium Notes
+# Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Trilium Notes بولسا ھەقسىز، ئوچۇق كودلۇق، سىستېما ھالقىغان، قاتلاملىق خاتىرە
+Notely بولسا ھەقسىز، ئوچۇق كودلۇق، سىستېما ھالقىغان، قاتلاملىق خاتىرە
 قالدۇرۇش ئەپى بولۇپ، ئۇ ئاساسلىقى چوڭ تىپتىكى شەخسىي بىلىم ئامبىرى قۇرۇشقا
 ئەھمىيەت بېرىدۇ.
 
@@ -43,7 +43,7 @@ docs.triliumnotes.org](https://docs.triliumnotes.org/)**
 بىزنىڭ قوللانمىمىزنىڭ بىر قانچە خىل شەكىلدىكى نۇسخىلىرى بار:
 - **تور قوللانمىسى**：بىزنىڭ تولۇق قوللانمىمىزنى مۇشۇ شەكىلدە كۆرۈڭ:
   [docs.triliumnotes.org](https://docs.triliumnotes.org/)
-- **پروگرامما ئىچىدىكى ياردەم**: Trilium دا` F1` نى باسسىڭىزلا، پروگرامما ئىچىدە
+- **پروگرامما ئىچىدىكى ياردەم**: Notely دا` F1` نى باسسىڭىزلا، پروگرامما ئىچىدە
   ئوخشاش بىر قوللانمىنى بىۋاسىتە كۆرەلەيسىز
 - **GitHub**：بۇ ئامباردىكى [ئابونت قوللانمىسىنى](./User%20Guide/User%20Guide/)
   كۆرۈڭ
@@ -53,7 +53,7 @@ docs.triliumnotes.org](https://docs.triliumnotes.org/)**
 - [قاچىلاش چۈشەندۈرۈشى](https://docs.triliumnotes.org/user-guide/setup)
 - [Docker
   تەڭشەكلىرى](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
-- [TriliumNext نى دەرىجىسىنى
+- [Notely نى دەرىجىسىنى
   ئۆستۈرۈش](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [ئاساسىي ئۇقۇملار ۋە
   ئالاھىدىلىكلەر](https://docs.triliumnotes.org/user-guide/concepts/notes)

@@ -1,5 +1,5 @@
 # Customizing to-do task states
-Trilium features customizable to-do list task states. To customize them, go to **"Options"** → **"Text Notes"** → **"Related Settings"** → **"Custom checkbox states for to-do lists"**. Alternatively, right-click a checkbox in an editable text note and click the pencil icon.
+Notely features customizable to-do list task states. To customize them, go to **"Options"** → **"Text Notes"** → **"Related Settings"** → **"Custom checkbox states for to-do lists"**. Alternatively, right-click a checkbox in an editable text note and click the pencil icon.
 
 > [!WARNING]
 > Changes take effect only after restarting the application.

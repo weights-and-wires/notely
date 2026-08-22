@@ -7,7 +7,7 @@ Backlinks are maintained automatically and are read-only from this side. A backl
 
 Any r<a class="reference-link" href="Internal%20(reference)%20links.md">Internal (reference) links</a> pointing at the current note, which covers two rather different cases:
 
-*   Relations that Trilium maintains on your behalf.
+*   Relations that Notely maintains on your behalf.
     *   The most common is `internalLink`, created whenever a note refers to another one through <a class="reference-link" href="Internal%20(reference)%20links.md">Internal (reference) links</a> in its text.
     *   Embedded images (`imageLink`), relation map connections (`relationMapLink`) and note inclusions (`includeNoteLink`) work the same way.
 *   Relations you define yourself.

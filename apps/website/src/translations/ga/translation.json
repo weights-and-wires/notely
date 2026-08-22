@@ -8,11 +8,11 @@
     },
     "hero_section": {
         "title": "Eagraigh do chuid smaointe. Tóg do bhunachar eolais pearsanta.",
-        "subtitle": "Is réiteach foinse oscailte é Trilium chun nótaí a thógáil agus bunachar eolais pearsanta a eagrú. Bain úsáid as go háitiúil ar do dheasc, nó sioncrónaigh é le do fhreastalaí féinóstáilte chun do nótaí a choinneáil cibé áit a théann tú.",
+        "subtitle": "Is réiteach foinse oscailte é Notely chun nótaí a thógáil agus bunachar eolais pearsanta a eagrú. Bain úsáid as go háitiúil ar do dheasc, nó sioncrónaigh é le do fhreastalaí féinóstáilte chun do nótaí a choinneáil cibé áit a théann tú.",
         "get_started": "Tosaigh",
         "github": "GitHub",
         "dockerhub": "Docker Hub",
-        "screenshot_alt": "Scáileán den fheidhmchlár deisce Trilium Notes",
+        "screenshot_alt": "Scáileán den fheidhmchlár deisce Notely",
         "tagline_license": "Ceadúnaithe ag AGPL-3.0",
         "tagline_no_account": "Níl aon chuntas ag teastáil",
         "tagline_cross_platform": "Oibríonn as líne"
@@ -25,7 +25,7 @@
         "attributes_description": "Bain úsáid as caidrimh idir nótaí nó cuir lipéid leis le haghaidh catagóiriú éasca. Bain úsáid as tréithe ardaithe chun faisnéis struchtúrtha a iontráil ar féidir a úsáid i dtáblaí agus i gcláir.",
         "hoisting_title": "Spásanna oibre agus ardaitheoir",
         "hoisting_description": "Deighil do nótaí pearsanta agus oibre go héasca trí iad a ghrúpáil faoi spás oibre, rud a dhíríonn ar do chrann nótaí chun sraith nótaí ar leith amháin a thaispeáint.",
-        "screenshot_alt": "Crann nótaí ordlathach i Trilium"
+        "screenshot_alt": "Crann nótaí ordlathach i Notely"
     },
     "productivity_benefits": {
         "title": "Gnéithe cumhachta laethúla",
@@ -38,7 +38,7 @@
         "search_title": "Cuardaigh & nascleanúint thapa",
         "search_content": "Léim chuig aon nóta nó ordú de réir teidil le meaitseáil doiléir, nó déan cuardach téacs iomlán ar fud do nótaí, fiú téacs taobh istigh d’íomhánna agus de chomhaid PDF trí OCR.",
         "web_clipper_title": "Gearrthóir gréasáin",
-        "web_clipper_content": "Gabh leathanaigh ghréasáin (nó scáileáin) agus cuir iad go díreach i Trilium ag baint úsáide as síneadh brabhsálaí an ghearrthóra gréasáin.",
+        "web_clipper_content": "Gabh leathanaigh ghréasáin (nó scáileáin) agus cuir iad go díreach i Notely ag baint úsáide as síneadh brabhsálaí an ghearrthóra gréasáin.",
         "auth_title": "Logáil isteach slán",
         "auth_content": "Cosain logáil isteach do fhreastalaí le fíordheimhniú ilfhachtóireach (TOTP), nó sínigh isteach trí do sholáthraí aitheantais le OpenID Connect.",
         "templates_title": "Teimpléid",
@@ -46,7 +46,7 @@
         "share_title": "Comhroinn nótaí ar an ngréasán",
         "share_content": "Má tá freastalaí agat, foilsigh aon fho-chrann de do nótaí mar shuíomh gréasáin poiblí, inléite amháin ar féidir le duine ar bith brabhsáil air gan cuntas.",
         "api_title": "API REST",
-        "api_content": "Léigh, cruthaigh agus nuashonraigh do nótaí go ríomhchláraitheach thar HTTP le REST API ionsuite Trilium, atá oiriúnach d'uathoibrithe agus do chomhtháthú tríú páirtí."
+        "api_content": "Léigh, cruthaigh agus nuashonraigh do nótaí go ríomhchláraitheach thar HTTP le REST API ionsuite Notely, atá oiriúnach d'uathoibrithe agus do chomhtháthú tríú páirtí."
     },
     "note_types": {
         "title": "Cineál nóta do gach cineál ábhair",
@@ -62,7 +62,7 @@
         "mermaid_description": "Cruthaigh léaráidí ar nós cairteacha sreafa, léaráidí ranga agus seicheamhacha, cairteacha Gantt agus go leor eile, ag baint úsáide as comhréir Mermaid.",
         "mindmap_title": "Léarscáil intinne",
         "mindmap_description": "Eagraigh do chuid smaointe go hamhairc nó déan smaointeoireacht.",
-        "subtitle": "Ní oireann gach rud go néata i mír. Cuireann Trilium réimse cineálacha nótaí ar fáil, ó théacs saibhir agus cód go scarbhileoga, léaráidí agus léarscáileanna intinne, ionas gur féidir leat gach smaoineamh a ghabháil san fhoirm is fearr a oireann dó agus iad a mheascadh go saor ar fud do chrainn.",
+        "subtitle": "Ní oireann gach rud go néata i mír. Cuireann Notely réimse cineálacha nótaí ar fáil, ó théacs saibhir agus cód go scarbhileoga, léaráidí agus léarscáileanna intinne, ionas gur féidir leat gach smaoineamh a ghabháil san fhoirm is fearr a oireann dó agus iad a mheascadh go saor ar fud do chrainn.",
         "others_label": "Agus níos mó",
         "notemap_title": "Léarscáil nótaí",
         "relationmap_title": "Léarscáil chaidrimh",
@@ -95,21 +95,21 @@
         "mobile_question": "An bhfuil feidhmchlár soghluaiste ann?",
         "mobile_answer": "Faoi láthair níl aon aip shoghluaiste oifigiúil ann. Mar sin féin, má tá freastalaí agat is féidir leat rochtain a fháil air trí bhrabhsálaí gréasáin a úsáid agus fiú é a shuiteáil mar PWA. I gcás Android, tá aip neamhoifigiúil ann ar a dtugtar TriliumDroid a oibríonn as líne fiú (cosúil le cliant deisce).",
         "database_question": "Cá bhfuil na sonraí stóráilte?",
-        "database_answer": "Stórálfar do nótaí go léir i mbunachar sonraí SQLite i bhfillteán feidhmchláir. Úsáideann Trilium bunachar sonraí seachas comhaid téacs simplí ar dhá chúis: feidhmíocht agus bheadh sé i bhfad níos deacra roinnt gnéithe amhail an nóta céanna a chur in áiteanna éagsúla sa chrann a chur i bhfeidhm murach sin. Chun an fillteán feidhmchláir a aimsiú, téigh go dtí an fhuinneog Maidir Linn.",
-        "server_question": "An bhfuil freastalaí ag teastáil uaim le Trilium a úsáid?",
+        "database_answer": "Stórálfar do nótaí go léir i mbunachar sonraí SQLite i bhfillteán feidhmchláir. Úsáideann Notely bunachar sonraí seachas comhaid téacs simplí ar dhá chúis: feidhmíocht agus bheadh sé i bhfad níos deacra roinnt gnéithe amhail an nóta céanna a chur in áiteanna éagsúla sa chrann a chur i bhfeidhm murach sin. Chun an fillteán feidhmchláir a aimsiú, téigh go dtí an fhuinneog Maidir Linn.",
+        "server_question": "An bhfuil freastalaí ag teastáil uaim le Notely a úsáid?",
         "server_answer": "Ní hea, ceadaíonn an freastalaí rochtain trí bhrabhsálaí gréasáin agus bainistíonn sé an sioncrónú má tá ilghléasanna agat. Chun tús a chur leis, is leor an feidhmchlár deisce a íoslódáil agus tosú ag baint úsáide as.",
         "scaling_question": "Cé chomh maith agus a scálaíonn an feidhmchlár le líon mór nótaí?",
-        "scaling_answer": "Ag brath ar úsáid, ba cheart go mbeadh an feidhmchlár in ann 100,000 nóta ar a laghad a láimhseáil gan fadhb. Tabhair faoi deara go bhféadfadh teip a bheith ar an bpróiseas sioncrónaithe uaireanta má tá go leor comhad mór á uaslódáil (1 GB in aghaidh an chomhaid) ós rud é go bhfuil Trilium beartaithe níos mó mar fheidhmchlár bonn eolais seachas stór comhad (cosúil le NextCloud, mar shampla).",
+        "scaling_answer": "Ag brath ar úsáid, ba cheart go mbeadh an feidhmchlár in ann 100,000 nóta ar a laghad a láimhseáil gan fadhb. Tabhair faoi deara go bhféadfadh teip a bheith ar an bpróiseas sioncrónaithe uaireanta má tá go leor comhad mór á uaslódáil (1 GB in aghaidh an chomhaid) ós rud é go bhfuil Notely beartaithe níos mó mar fheidhmchlár bonn eolais seachas stór comhad (cosúil le NextCloud, mar shampla).",
         "network_share_question": "An féidir liom mo bhunachar sonraí a roinnt thar thiomántán líonra?",
         "network_share_answer": "Ní hea, ní smaoineamh maith é bunachar sonraí SQLite a roinnt thar thiomántán líonra i gcoitinne. Cé go bhféadfadh sé oibriú uaireanta, tá seans ann go ndéanfar an bunachar sonraí a thruailliú mar gheall ar ghlasanna comhad neamhfhoirfe thar líonra.",
         "security_question": "Conas a chosnaítear mo chuid sonraí?",
         "security_answer": "De réir réamhshocraithe, ní chriptítear nótaí agus is féidir iad a léamh go díreach ón mbunachar sonraí. Nuair a mharcáiltear nóta mar chriptithe, déantar an nóta a chriptiú ag baint úsáide as AES-128-CBC.",
-        "free_question": "An bhfuil Trilium saor in aisce?",
-        "free_answer": "Sea, go hiomlán. Tá Trilium saor in aisce agus foinse oscailte faoin gceadúnas AGPL-3.0, gan aon shraitheanna íoctha, cuntais ná ballaí íocaíochta gnéithe. Tá tú saor é a úsáid, é a óstáil féin agus a mhodhnú mar is mian leat.",
+        "free_question": "An bhfuil Notely saor in aisce?",
+        "free_answer": "Sea, go hiomlán. Tá Notely saor in aisce agus foinse oscailte faoin gceadúnas AGPL-3.0, gan aon shraitheanna íoctha, cuntais ná ballaí íocaíochta gnéithe. Tá tú saor é a úsáid, é a óstáil féin agus a mhodhnú mar is mian leat.",
         "cloud_question": "An bhfuil leagan óstáilte nó scamall ann?",
-        "cloud_answer": "Ní ceann oifigiúil é go fóill, cé gur rud é ar mhaith linn a thairiscint amach anseo. Faoi láthair, is féinóstáil é Trilium: rith an aip deisce, nó óstáil an freastalaí tú féin. Mura mian leat freastalaí a bhainistiú, cuireann soláthraithe tríú páirtí ar nós <0>PikaPods</0> óstáil bhainistithe Trilium ar fáil.",
+        "cloud_answer": "Ní ceann oifigiúil é go fóill, cé gur rud é ar mhaith linn a thairiscint amach anseo. Faoi láthair, is féinóstáil é Notely: rith an aip deisce, nó óstáil an freastalaí tú féin. Mura mian leat freastalaí a bhainistiú, cuireann soláthraithe tríú páirtí ar nós <0>PikaPods</0> óstáil bhainistithe Notely ar fáil.",
         "collaboration_question": "An féidir le roinnt daoine comhoibriú ar na nótaí céanna?",
-        "collaboration_answer": "Tá Trilium deartha mar fheidhmchlár aonúsáideora. Is féidir leat do nótaí féin a shioncronú ar fud do ghléasanna go léir, agus nótaí inléite amháin a fhoilsiú ar an ngréasán le go bhfeicfidh daoine eile iad, ach ní thacaítear le heagarthóireacht ilúsáideora fíor-ama ar na nótaí céanna.",
+        "collaboration_answer": "Tá Notely deartha mar fheidhmchlár aonúsáideora. Is féidir leat do nótaí féin a shioncronú ar fud do ghléasanna go léir, agus nótaí inléite amháin a fhoilsiú ar an ngréasán le go bhfeicfidh daoine eile iad, ach ní thacaítear le heagarthóireacht ilúsáideora fíor-ama ar na nótaí céanna.",
         "more_questions": "An bhfuil ceisteanna agat fós? <0>Ceistigh an pobal</0>"
     },
     "final_cta": {
@@ -148,7 +148,7 @@
     "support_us": {
         "title": "Tacaigh linn",
         "financial_donations_title": "Síntiúis airgeadais",
-        "financial_donations_description": "Tógtar agus cothaítear Trilium le <Link>na céadta uair an chloig oibre</Link>. Coinníonn do thacaíocht é foinse oscailte, feabhsaíonn sé gnéithe, agus clúdaíonn sé costais amhail óstáil.",
+        "financial_donations_description": "Tógtar agus cothaítear Notely le <Link>na céadta uair an chloig oibre</Link>. Coinníonn do thacaíocht é foinse oscailte, feabhsaíonn sé gnéithe, agus clúdaíonn sé costais amhail óstáil.",
         "financial_donations_cta": "Smaoinigh ar thacaíocht a thabhairt don phríomhfhorbróir (<Link>eliandoran</Link>) den fheidhmchlár trí:",
         "github_sponsors": "Urraitheoirí GitHub",
         "paypal": "PayPal",
@@ -160,7 +160,7 @@
         "way_community": "Déan idirghníomhú leis an bpobal ar <Discussions>GitHub Discussions</Discussions> nó ar <Matrix>Matrix</Matrix>.",
         "way_reports": "Tuairiscigh fabhtanna trí <Link>Fadhbanna GitHub</Link>.",
         "way_document": "Feabhas a chur ar an doiciméadacht trí eolas a thabhairt dúinn faoi bhearnaí sa doiciméadacht nó trí threoracha, Ceisteanna Coitianta nó ranganna teagaisc a chur ar fáil.",
-        "way_market": "Scaip an scéal: Roinn Nótaí Trilium le cairde, nó ar bhlaganna agus ar na meáin shóisialta."
+        "way_market": "Scaip an scéal: Roinn Nótaí Notely le cairde, nó ar bhlaganna agus ar na meáin shóisialta."
     },
     "404": {
         "title": "404: Níor aimsíodh",
@@ -208,14 +208,14 @@
     },
     "download_helper_server_linux": {
         "title": "Féinóstáilte ar Linux",
-        "description": "Imscar Trilium Notes ar do fhreastalaí nó VPS féin, atá comhoiriúnach leis an gcuid is mó de na dáileacháin.",
+        "description": "Imscar Notely ar do fhreastalaí nó VPS féin, atá comhoiriúnach leis an gcuid is mó de na dáileacháin.",
         "download_tar_x64": "x64 (.tar.xz)",
         "download_tar_arm64": "ARM (.tar.xz)",
         "download_nixos": "Modúl NixOS"
     },
     "download_helper_server_hosted": {
         "title": "Óstáil íoctha",
-        "description": "Nótaí Trilium atá á n-óstáil ar PikaPods, seirbhís íoctha le haghaidh rochtana agus bainistíochta éasca. Níl baint dhíreach aige le foireann Trilium.",
+        "description": "Nótaí Notely atá á n-óstáil ar PikaPods, seirbhís íoctha le haghaidh rochtana agus bainistíochta éasca. Níl baint dhíreach aige le foireann Notely.",
         "download_pikapod": "Socraigh ar PikaPods"
     },
     "resources": {
@@ -262,21 +262,21 @@
     "ai_integration": {
         "title": "AI ar do théarmaí féin",
         "subtitle": "Roghnach, agus go hiomlán ar do théarmaí féin. Is féidir gnéithe AI a roghnú isteach agus a dhíchumasú de réir réamhshocraithe: ní sheoltar do nótaí áit ar bith mura gcumasaíonn tú iad agus mura nascann tú do sholáthraí féin.",
-        "screenshot_alt": "Comhrá Trilium AI ag cruthú nótaí ar do shon trí uirlisí ionsuite",
+        "screenshot_alt": "Comhrá Notely AI ag cruthú nótaí ar do shon trí uirlisí ionsuite",
         "chat_title": "Comhráigh le do nótaí",
         "chat_description": "Cuir ceisteanna agus déan smaointeoireacht i gcomhrá ionsuite ar féidir leat tarraingt ar ábhar do nótaí féin.",
         "tools_title": "AI a oibríonn le do nótaí",
         "tools_description": "Lig do chúntóir nótaí a chuardach, a chruthú agus a nuashonrú ar do shon trí shraith uirlisí ionsuite.",
         "providers_title": "Do sholáthraí, d’eochracha",
-        "providers_description": "Ceangail OpenAI, Anthropic nó Google le d’eochair API féin, nó dírigh Trilium ar mhúnla féinóstáilte atá comhoiriúnach le OpenAI. Nochtaigh do nótaí do chúntóirí seachtracha thar MCP.",
+        "providers_description": "Ceangail OpenAI, Anthropic nó Google le d’eochair API féin, nó dírigh Notely ar mhúnla féinóstáilte atá comhoiriúnach le OpenAI. Nochtaigh do nótaí do chúntóirí seachtracha thar MCP.",
         "learn_more": "Foghlaim níos mó"
     },
     "scripting": {
         "title": "Más féidir leat é a shamhlú, is féidir leat é a scríobh",
-        "subtitle": "Ní hamháin gur áit é Trilium chun nótaí a stóráil, is féidir é a ríomhchlárú. Scríobh JavaScript a ritheann san aip nó ar an bhfreastalaí, tóg do chomhéadan féin, agus uathoibrigh do shreabhadh oibre, ó choigeartú aonlíne go haip saincheaptha iomlán.",
-        "screenshot_alt": "Nóta rindreála Trilium a thaispeánann clog analógach idirghníomhach tógtha le script",
+        "subtitle": "Ní hamháin gur áit é Notely chun nótaí a stóráil, is féidir é a ríomhchlárú. Scríobh JavaScript a ritheann san aip nó ar an bhfreastalaí, tóg do chomhéadan féin, agus uathoibrigh do shreabhadh oibre, ó choigeartú aonlíne go haip saincheaptha iomlán.",
+        "screenshot_alt": "Nóta rindreála Notely a thaispeánann clog analógach idirghníomhach tógtha le script",
         "widgets_title": "Giuirléidí saincheaptha",
-        "widgets_description": "Cuir do chnaipí, painéil agus giuirléidí lainseálaí féin le comhéadan Trilium ag baint úsáide as JavaScript tosaigh.",
+        "widgets_description": "Cuir do chnaipí, painéil agus giuirléidí lainseálaí féin le comhéadan Notely ag baint úsáide as JavaScript tosaigh.",
         "backend_title": "Scripteanna agus imeachtaí cúil",
         "backend_description": "Rith scripteanna taobh an fhreastalaí de réir sceideal nó mar fhreagra ar imeachtaí amhail nóta a chruthú nó a athrú.",
         "render_title": "Nótaí rindreála",

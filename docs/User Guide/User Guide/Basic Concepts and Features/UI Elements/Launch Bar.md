@@ -49,7 +49,7 @@ Drag-and-drop the items in the tree in order to change their order. See <a cl
 
 ### Resetting
 
-Resetting allows restoring the original configuration of Trilium for the launcher bar, or for a portion of it. Simply right click a launcher (or even the entire _Launch Bar_ section) and select _Reset_ to bring it back to the original state.
+Resetting allows restoring the original configuration of Notely for the launcher bar, or for a portion of it. Simply right click a launcher (or even the entire _Launch Bar_ section) and select _Reset_ to bring it back to the original state.
 
 ### Creating new launchers / types of launchers
 

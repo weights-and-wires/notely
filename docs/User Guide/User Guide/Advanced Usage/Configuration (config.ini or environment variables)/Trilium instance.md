@@ -1,5 +1,5 @@
-# Trilium instance
-A Trilium instance represents a server. If <a class="reference-link" href="../../Installation%20%26%20Setup/Synchronization.md">Synchronization</a> is set up, since multiple servers are involved (the one from the desktop client and the one the synchronisation is set up with), sometimes it can be useful to distinguish the instance you are running on.
+# Notely instance
+A Notely instance represents a server. If <a class="reference-link" href="../../Installation%20%26%20Setup/Synchronization.md">Synchronization</a> is set up, since multiple servers are involved (the one from the desktop client and the one the synchronisation is set up with), sometimes it can be useful to distinguish the instance you are running on.
 
 ## Setting the instance name
 

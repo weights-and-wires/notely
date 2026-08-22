@@ -1,10 +1,10 @@
-<p>Trilium supports creating&nbsp;<a class="reference-link" href="#root/_help_6f9hih2hXXZk">Code</a>&nbsp;notes,
+<p>Notely supports creating&nbsp;<a class="reference-link" href="#root/_help_6f9hih2hXXZk">Code</a>&nbsp;notes,
   i.e. notes which allow you to store some programming code and highlight
   it. Special case is JavaScript code notes which can also be executed inside
-  Trilium which can in conjunction with&nbsp;<a class="reference-link" href="#root/_help_GLks18SNjxmC">Script API</a>&nbsp;provide
+  Notely which can in conjunction with&nbsp;<a class="reference-link" href="#root/_help_GLks18SNjxmC">Script API</a>&nbsp;provide
   extra functionality.</p>
 <h2>Architecture Overview</h2>
-<p>To go further I must explain basic architecture of Trilium - in its essence
+<p>To go further I must explain basic architecture of Notely - in its essence
   it is a classic web application - it has these two main components:</p>
 <ul>
   <li>frontend running in the browser (using HTML, CSS, JavaScript) - this is
@@ -30,14 +30,14 @@
 <p>So we have a script which will add the button to the toolbar. But how
   can we execute it? One possibility is to click on "play" icon (marked by
   red circle). The problem with this is that this UI change is time bound
-  by Trilium runtime so when we restart Trilium, button won't be there.</p>
-<p>We need to execute it every time Trilium starts up, but we probably don't
+  by Notely runtime so when we restart Notely, button won't be there.</p>
+<p>We need to execute it every time Notely starts up, but we probably don't
   want to have to manually click on play button on every start up.</p>
 <p>The solution is marked by red circle at the bottom - this note has <a href="#root/_help_zEY4DaJG4YT5">label</a> 
   <code
   spellcheck="false">#run=frontendStartup</code>- this is one of the "system" labels which
-    Trilium understands. As you might guess, this will cause all such labeled
-    script notes to be executed once Trilium frontend starts up.</p>
+    Notely understands. As you might guess, this will cause all such labeled
+    script notes to be executed once Notely frontend starts up.</p>
 <p>(<code spellcheck="false">#run=frontendStartup</code> does not work for
   <a
   href="#root/_help_RDslemsQ6gCp">Mobile frontend</a>- if you want to have scripts running there, give the
@@ -53,7 +53,7 @@
     explanatory text beside it.</li>
 </ul>
 <h2>Autocomplete &amp; linting</h2>
-<p>Starting with Trilium v0.104.0, frontend scripts, backend scripts and
+<p>Starting with Notely v0.104.0, frontend scripts, backend scripts and
   render notes benefit from an autocomplete system.</p>
 <p>The autocomplete triggers automatically when typing <kbd>.</kbd> or manually
   by pressing <kbd>Ctrl</kbd>+<kbd>Space</kbd>.</p>

@@ -8,11 +8,11 @@
     },
     "hero_section": {
         "title": "Organiseer je gedachten. Bouw je persoonlijke kennisbank.",
-        "subtitle": "Trilium is een open-source oplossing voor notities en het organiseren van een persoonlijke kennisbank. Gebruik het lokaal op je desktop, of synchroniseer het met je zelfgehoste server om je notities overal bij de hand te hebben.",
+        "subtitle": "Notely is een open-source oplossing voor notities en het organiseren van een persoonlijke kennisbank. Gebruik het lokaal op je desktop, of synchroniseer het met je zelfgehoste server om je notities overal bij de hand te hebben.",
         "get_started": "Aan de slag",
         "github": "GitHub",
         "dockerhub": "Docker Hub",
-        "screenshot_alt": "Schermafbeelding van de Trilium Notes-desktopapplicatie"
+        "screenshot_alt": "Schermafbeelding van de Notely-desktopapplicatie"
     },
     "organization_benefits": {
         "title": "Organisatie",

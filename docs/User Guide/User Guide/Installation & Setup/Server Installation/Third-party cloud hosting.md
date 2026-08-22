@@ -1,8 +1,8 @@
 # Third-party cloud hosting
-As an alternative to [hosting your own Trilium instance](1.%20Installing%20the%20server), there are two services out there that provide out of the box support for Trilium.
+As an alternative to [hosting your own Notely instance](1.%20Installing%20the%20server), there are two services out there that provide out of the box support for Notely.
 
 > [!IMPORTANT]
-> **Disclaimer**: The Trilium Notes project and maintainers are not directly affiliated with either of the projects.
+> **Disclaimer**: The Notely project and maintainers are not directly affiliated with either of the projects.
 > 
 > PikaPods have gracefully offered us free credits for testing purposes.
 
@@ -11,11 +11,11 @@ As an alternative to [hosting your own Trilium instance](1.%20Installing%20the%2
 ### PikaPods
 
 1.  Go to [pikapods.com](https://www.pikapods.com)  and sign up.
-2.  In the “Available Apps” section, look for "TriliumNext  
+2.  In the “Available Apps” section, look for "Notely  
      and select “Run your own”.
 3.  Follow the on-screen instructions to set up your own cloud hosted instance.
 
-PikaPods generally updates their Trilium instances to the latest version within a two-week interval after a new version is released.
+PikaPods generally updates their Notely instances to the latest version within a two-week interval after a new version is released.
 
 ## Matching your version with the cloud instance
 

@@ -1,5 +1,5 @@
 # Sharing
-Trilium allows you to share selected notes as **publicly accessible** read-only documents. This feature is particularly useful for publishing content directly from your Trilium notes, making it accessible to others online.
+Notely allows you to share selected notes as **publicly accessible** read-only documents. This feature is particularly useful for publishing content directly from your Notely notes, making it accessible to others online.
 
 <figure class="image"><img style="aspect-ratio:1144/660;" src="Sharing_image.png" width="1144" height="660"></figure>
 

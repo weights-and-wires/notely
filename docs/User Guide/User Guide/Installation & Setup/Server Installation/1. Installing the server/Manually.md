@@ -1,10 +1,10 @@
 # Manually
 > [!WARNING]
-> This page describes manually installing Trilium on your server. **Note that this is a not well supported way to install Trilium, problems may appear, information laid out here is quite out of date. It is recommended to use either** <a class="reference-link" href="Using%20Docker.md">Docker Server Installation</a> **or** <a class="reference-link" href="Packaged%20version%20for%20Linux.md">Packaged server installation</a>**.**
+> This page describes manually installing Notely on your server. **Note that this is a not well supported way to install Notely, problems may appear, information laid out here is quite out of date. It is recommended to use either** <a class="reference-link" href="Using%20Docker.md">Docker Server Installation</a> **or** <a class="reference-link" href="Packaged%20version%20for%20Linux.md">Packaged server installation</a>**.**
 
 ## Requirements
 
-Trilium is a node.js application. Supported (tested) version of node.js is latest 14.X.X and 16.X.X. Trilium might work with older versions as well.
+Notely is a node.js application. Supported (tested) version of node.js is latest 14.X.X and 16.X.X. Notely might work with older versions as well.
 
 You can check your node version with this command (node.js needs to be installed):
 
@@ -58,7 +58,7 @@ cd trilium
 nohup TRILIUM_ENV=dev node src/www &
 ```
 
-The application by default starts up on port 8080, so you can open your browser and navigate to [http://localhost:8080](http://localhost:8080) to access Trilium (replace "localhost" with your hostname).
+The application by default starts up on port 8080, so you can open your browser and navigate to [http://localhost:8080](http://localhost:8080) to access Notely (replace "localhost" with your hostname).
 
 ## TLS
 

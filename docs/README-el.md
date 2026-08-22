@@ -1,4 +1,4 @@
-# Σημειώσεις Trilium
+# Σημειώσεις Notely
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran)
 ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)\
@@ -21,7 +21,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 [Ukrainian](./README-uk.md) | [Urdu](./README-ur.md) | [Uyghur](./README-ug.md)
 <!-- translate:on -->
 
-Το Trilium Notes είναι μια δωρεάν και ανοιχτού κώδικα, ιεραρχική εφαρμογή
+Το Notely είναι μια δωρεάν και ανοιχτού κώδικα, ιεραρχική εφαρμογή
 σημειώσεων πολλαπλών πλατφορμών με έμφαση στη δημιουργία μεγάλων προσωπικών
 βάσεων γνώσεων.
 
@@ -42,7 +42,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 Η τεκμηρίωση μας είναι διαθέσιμη σε πολλαπλές μορφές:
 - **Online Documentation **: Περιηγηθείτε στην πλήρη τεκμηρίωση
   [docs.triliumnotes.org]
-- ** In-App Help **: Πατήστε `F1 ` εντός Trilium για την πρόσβαση στην ίδια
+- ** In-App Help **: Πατήστε `F1 ` εντός Notely για την πρόσβαση στην ίδια
   τεκμηρίωση απευθείας στην εφαρμογή
 - **GitHub**: Περιηγηθείτε στον [Οδηγό χρήσης](./User%20Guide/User%20Guide/) σε
   αυτό το αποθετήριο
@@ -53,7 +53,7 @@ status](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted
 - [Ρύθμιση
   Docker](https://docs.triliumnotes.org/user-guide/setup/server/installation/docker)
 - [Αναβάθμιση
-  TriliumNext](https://docs.triliumnotes.org/user-guide/setup/upgrading)
+  Notely](https://docs.triliumnotes.org/user-guide/setup/upgrading)
 - [Βασικές έννοιες και
   Χαρακτηριστικά](https://docs.triliumnotes.org/user-guide/concepts/notes)
 - [Μοτίβα Προσωπικής Βάσης

@@ -1,5 +1,5 @@
 # Anytype
-Starting with v0.104.0, Trilium is able to import data from Anytype from JSON imports which preserve most of the formatting and the metainformation.
+Starting with v0.104.0, Notely is able to import data from Anytype from JSON imports which preserve most of the formatting and the metainformation.
 
 ## Import process
 

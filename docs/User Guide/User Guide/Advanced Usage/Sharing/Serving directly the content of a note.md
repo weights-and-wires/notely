@@ -1,5 +1,5 @@
 # Serving directly the content of a note
-When accessing a shared note, Trilium will render it as a web page. Sometimes it's desirable to serve the content directly so that it can be used in a script or downloaded by the user.
+When accessing a shared note, Notely will render it as a web page. Sometimes it's desirable to serve the content directly so that it can be used in a script or downloaded by the user.
 
 | A note displayed as a web page (HTML) | A note displayed as a raw format |
 | --- | --- |

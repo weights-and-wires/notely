@@ -25,8 +25,8 @@ const TITLE_MATCH_WEIGHT = 10;
 export const helpTools = defineTools({
     search_help: {
         description: [
-            "Search Trilium's built-in User Guide — the documentation for Trilium itself.",
-            "Use this to answer questions about how to use Trilium: features, settings, keyboard shortcuts, sync, scripting, themes, etc.",
+            "Search Notely's built-in User Guide — the documentation for Notely itself.",
+            "Use this to answer questions about how to use Notely: features, settings, keyboard shortcuts, sync, scripting, themes, etc.",
             "Full-text keyword search over the help pages; keep queries to a few keywords (e.g. 'keyboard shortcuts', 'protected notes').",
             "If a query finds nothing, retry with synonyms or browse get_help_toc — the guide may name the concept differently (e.g. placing a note in two locations is 'cloning').",
             "Read a found page with get_note_content."
@@ -76,7 +76,7 @@ export const helpTools = defineTools({
 
     get_help_toc: {
         description: [
-            "Get the table of contents of Trilium's built-in User Guide: every help page's title and note ID, hierarchically indented.",
+            "Get the table of contents of Notely's built-in User Guide: every help page's title and note ID, hierarchically indented.",
             "Use this when search_help does not find the right page (the guide may name the concept differently than the user), or to get an overview of a documentation area.",
             "Read a page with get_note_content."
         ].join(" "),

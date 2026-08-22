@@ -12,7 +12,7 @@
   If that might be a problem, consider using either a subscription provider
   (see below) or using it externally via MCP.</p>
 <p>Do note that most other LLM providers (e.g. OpenRouter, Groq, Mistral)
-  can still be used in Trilium via the OpenAI-compatible custom endpoint
+  can still be used in Notely via the OpenAI-compatible custom endpoint
   (see below).</p>
 <p>If you are using a proxy or gateway, you can also configure the base URL,
   otherwise the default will be used.</p>
@@ -32,12 +32,12 @@
     experience small issues. Consider&nbsp;<a class="reference-link" href="#root/_help_wy8So3yZZlH9">Reporting issues</a>.</p>
 </aside>
 <p>Some cloud providers offer a subscription, which has a fixed monthly fee
-  instead of pay-per-use (unlike the API keys). Trilium v0.104.0 introduces
+  instead of pay-per-use (unlike the API keys). Notely v0.104.0 introduces
   beta support for Anthropic's Claude Pro/Max subscriptions. Other subscription-based
   providers such as ChatGPT are on the roadmap, but not yet implemented.</p>
 <p>To use a subscription:</p>
 <ol>
-  <li>First, Claude Code needs to be installed on the machine that runs Trilium.
+  <li>First, Claude Code needs to be installed on the machine that runs Notely.
     So for a&nbsp;<a class="reference-link" href="#root/_help_poXkQfguuA0U">Desktop Installation</a>,
     Claude needs to be installed locally and for a&nbsp;<a class="reference-link"
     href="#root/_help_WOcw2SLH6tbX">Server Installation</a>&nbsp;accessed via a browser,
@@ -48,7 +48,7 @@
   <li>Go to&nbsp;<a class="reference-link" href="#root/_help_4TIF1oA4VQRO">Options</a>&nbsp;→ <em>AI / LLM</em> and
     add the Claude Code provider.</li>
 </ol>
-<p>Trilium will identify your Claude Code binary in this order:</p>
+<p>Notely will identify your Claude Code binary in this order:</p>
 <ul>
   <li>By looking for a <code spellcheck="false">TRILIUM_CLAUDE_CODE_PATH</code> environment
     variable pointing to the Claude binary. This allows overriding the path
@@ -60,11 +60,11 @@
   an API key (note tools, web search, extended thinking, image/PDF attachments,
   streaming).</p>
 <aside class="admonition note">
-  <p>Trilium intentionally uses your Claude Code binary in order not to have
+  <p>Notely intentionally uses your Claude Code binary in order not to have
     to package a ~250 MB client with it, but this comes at a cost: there is
     a small risk for a version incompatibility, if the version installed locally
-    doesn't match the one expected by Trilium. Generally it's best to keep
-    both Claude Code and Trilium updated to the latest version.</p>
+    doesn't match the one expected by Notely. Generally it's best to keep
+    both Claude Code and Notely updated to the latest version.</p>
 </aside>
 <aside class="admonition important">
   <p>See also the dedicated&nbsp;<a class="reference-link" href="#root/_help_cRRrdZjgyhNc">Privacy</a>&nbsp;section
@@ -73,12 +73,12 @@
 <h2>Local/self-hosted providers</h2>
 <p>Local or self-hosted providers are a free alternative which respects your
   privacy but requires specific hardware.</p>
-<p>Trilium directly supports the following local providers:</p>
+<p>Notely directly supports the following local providers:</p>
 <ul>
   <li>Ollama
     <ul>
       <li>Generally Ollama runs in the background so it should be directly usable
-        in Trilium as long as the models are downloaded (e.g. <code spellcheck="false">ollama pull llama3.2</code>).</li>
+        in Notely as long as the models are downloaded (e.g. <code spellcheck="false">ollama pull llama3.2</code>).</li>
     </ul>
   </li>
   <li>LM Studio
@@ -91,7 +91,7 @@
     </ul>
   </li>
 </ul>
-<p>Even for local providers that are not directly supported by Trilium, you
+<p>Even for local providers that are not directly supported by Notely, you
   can still use a custom endpoint (see below).</p>
 <aside class="admonition warning">
   <p>When dealing with self-hosted LLM models, depending on the training and
@@ -101,7 +101,7 @@
 </aside>
 <h2>Custom endpoints</h2>
 <p>If your desired hosted (e.g. OpenRouter, Groq, Mistral) or local LLM provider
-  is not listed in Trilium, you can use the dedicated <em>OpenAI-compatible</em> provider
+  is not listed in Notely, you can use the dedicated <em>OpenAI-compatible</em> provider
   from the <em>Custom endpoint</em> section.</p>
 <p>This allows you to set the base URL to an OpenAI-compatible API, with
   an optional API key if required by the service.</p>

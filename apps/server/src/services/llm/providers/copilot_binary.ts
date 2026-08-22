@@ -59,7 +59,7 @@ async function probeBinary(): Promise<string> {
         version = (await execFileAsync(shell ? `"${binary}"` : binary, ["--version"], { timeout: 15000, encoding: "utf8", shell })).stdout.trim();
     } catch (err) {
         const detail = err instanceof Error ? err.message : String(err);
-        throw new Error(`Found GitHub Copilot CLI at "${binary}" but it failed to run (${detail}). Ensure it is installed correctly and that you've run \`copilot login\` on the machine running the Trilium server.`);
+        throw new Error(`Found GitHub Copilot CLI at "${binary}" but it failed to run (${detail}). Ensure it is installed correctly and that you've run \`copilot login\` on the machine running the Notely server.`);
     }
 
     getLog().info(`Copilot Agent provider: using GitHub Copilot CLI at ${binary} (${version})`);
@@ -80,7 +80,7 @@ function locateBinary(): string {
         return onPath;
     }
 
-    throw new Error("GitHub Copilot CLI not found. Install it (`npm install -g @github/copilot`) and run `copilot login` on the machine running the Trilium server, or set the TRILIUM_COPILOT_PATH environment variable to its location.");
+    throw new Error("GitHub Copilot CLI not found. Install it (`npm install -g @github/copilot`) and run `copilot login` on the machine running the Notely server, or set the TRILIUM_COPILOT_PATH environment variable to its location.");
 }
 
 /**

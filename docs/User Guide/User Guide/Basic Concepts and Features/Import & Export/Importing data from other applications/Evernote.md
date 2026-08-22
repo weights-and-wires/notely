@@ -1,5 +1,5 @@
 # Evernote
-Trilium can import ENEX files, which are used by Evernote for backup/export. One ENEX file represents the content (notes and resources) of one notebook.
+Notely can import ENEX files, which are used by Evernote for backup/export. One ENEX file represents the content (notes and resources) of one notebook.
 
 ## Import process
 

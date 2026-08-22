@@ -8,11 +8,11 @@
     },
     "hero_section": {
         "title": "Düşüncelerinizi organize edin. Kişisel bilgi birikiminizi oluşturun.",
-        "subtitle": "Trilium, not tutma ve kişisel bir bilgi tabanını düzenleme için açık kaynaklı bir çözümdür. Bunu masaüstünü bilgisayarınızda kullanabilir veya kendi barındırdığınız sunucuyla senkronize ederek notlarınızı gittiğiniz her yerde yanınızda bulundurabilirsiniz.",
+        "subtitle": "Notely, not tutma ve kişisel bir bilgi tabanını düzenleme için açık kaynaklı bir çözümdür. Bunu masaüstünü bilgisayarınızda kullanabilir veya kendi barındırdığınız sunucuyla senkronize ederek notlarınızı gittiğiniz her yerde yanınızda bulundurabilirsiniz.",
         "get_started": "Başlayın",
         "github": "GitHub",
         "dockerhub": "Docker Hub",
-        "screenshot_alt": "Trilium Notes masaüstü uygulamasının ekran görüntüsü"
+        "screenshot_alt": "Notely masaüstü uygulamasının ekran görüntüsü"
     },
     "organization_benefits": {
         "title": "Organizasyon",
@@ -34,11 +34,11 @@
         "search_title": "Gelişmiş arama",
         "search_content": "Ya da notların içindeki metinleri arayabilir ve üst not veya derinlik filtrelerini kullanarak aramayı daraltabilirsiniz.",
         "web_clipper_title": "Web clipper",
-        "web_clipper_content": "Web sayfalarını (veya ekran görüntülerini) alın ve Web Clipper tarayıcı uzantısını kullanarak bunları doğrudan Trilium'a ekleyin."
+        "web_clipper_content": "Web sayfalarını (veya ekran görüntülerini) alın ve Web Clipper tarayıcı uzantısını kullanarak bunları doğrudan Notely'a ekleyin."
     },
     "faq": {
-        "database_answer": "Tüm notlarınız, uygulama klasöründeki bir SQLite veritabanında saklanacaktır. Trilium'un düz metin dosyaları yerine bir veritabanı kullanmasının nedeni, hem performans hem de klonlar (ağaç yapısında aynı notun birden fazla yerde bulunması) gibi bazı özelliklerin uygulanmasının çok daha zor olmasıdır. Uygulama klasörünü bulmak için “Hakkında” penceresine gidin.",
-        "server_question": "Trilium'u kullanmak için bir sunucuya ihtiyacım var mı?",
+        "database_answer": "Tüm notlarınız, uygulama klasöründeki bir SQLite veritabanında saklanacaktır. Notely'un düz metin dosyaları yerine bir veritabanı kullanmasının nedeni, hem performans hem de klonlar (ağaç yapısında aynı notun birden fazla yerde bulunması) gibi bazı özelliklerin uygulanmasının çok daha zor olmasıdır. Uygulama klasörünü bulmak için “Hakkında” penceresine gidin.",
+        "server_question": "Notely'u kullanmak için bir sunucuya ihtiyacım var mı?",
         "server_answer": "Hayır; sunucu, web tarayıcısı üzerinden erişime izin verir ve birden fazla cihazınız varsa senkronizasyonu yönetir. Başlamak için masaüstü uygulamasını indirip kullanmanız yeterlidir."
     },
     "note_types": {

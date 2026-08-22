@@ -1,5 +1,5 @@
 <p>This tutorial assumes that you have created a DNS A record for <code spellcheck="false">trilium.yourdomain.com</code> that
-  you want to use for your Trilium server.</p>
+  you want to use for your Notely server.</p>
 <h2>Docker setup</h2>
 <p>Download docker image and create container</p><pre><code class="language-text-x-trilium-auto"> docker pull triliumnext/trilium:[VERSION]
  docker create --name trilium -t -p 127.0.0.1:8080:8080 -v ~/trilium-data:/home/node/trilium-data triliumnext/trilium:[VERSION]</code></pre>

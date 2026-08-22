@@ -3,13 +3,13 @@ These are user-created themes which were made publicly available:
 
 ## Legacy Themes
 
-These themes may or may not be compatible with the latest versions of TriliumNext and are based on the original/legacy theme.
+These themes may or may not be compatible with the latest versions of Notely and are based on the original/legacy theme.
 
 | Theme | Author |
 | --- | --- |
 | [Midnight](https://github.com/tobealive/trilium-midnight-theme) | [tobealive](https://github.com/tobealive) |
 | [EOTE](https://github.com/tobealive/trilum-eote-theme) | [tobealive](https://github.com/tobealive) |
-| [Trilium Themes](https://github.com/Abourass/TriliumThemes) | [Abourass](https://github.com/Abourass) |
+| [Notely Themes](https://github.com/Abourass/TriliumThemes) | [Abourass](https://github.com/Abourass) |
 | [MaterialDark](https://github.com/ZMonk91/Material-Dark-Trilium) | [ZMonk91](https://github.com/ZMonk91) |
 | [lightslategray](https://github.com/jaroet/trilium-theme-lightslategray) | [jaroet](https://github.com/jaroet) |
 | [melon-4](https://github.com/raphwriter/trilium-theme-melon) | [raphwriter](https://github.com/raphwriter) |

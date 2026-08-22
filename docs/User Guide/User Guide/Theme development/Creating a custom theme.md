@@ -37,7 +37,7 @@ Afterwards the application will refresh itself with the new theme:
 
 ![](Creating%20a%20custom%20theme_4_Creating%20a%20custom%20theme_im.png)
 
-Do note that the theme will be based off of the legacy theme. To override that and base the theme on the new TriliumNext theme, see: [Theme base (legacy vs. next)](Customize%20the%20Next%20theme.md)
+Do note that the theme will be based off of the legacy theme. To override that and base the theme on the new Notely theme, see: [Theme base (legacy vs. next)](Customize%20the%20Next%20theme.md)
 
 ## Step 5. Making changes
 

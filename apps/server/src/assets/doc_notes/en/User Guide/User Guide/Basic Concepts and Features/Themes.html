@@ -1,5 +1,5 @@
 <h2>Default Themes</h2>
-<p>Trilium comes with a couple pre-installed color themes, with the default
+<p>Notely comes with a couple pre-installed color themes, with the default
   being a light theme. To switch to a dark theme or any other available theme,
   navigate to the Options menu (accessible via the app icon in the top-left
   corner), select the Appearance tab, and choose your preferred theme.</p>
@@ -7,7 +7,7 @@
   <img src="Themes_dark-theme.png" alt="Dark Theme">
 </p>
 <h2>Creating Custom CSS Themes</h2>
-<p>Trilium supports custom user themes, allowing you to personalize the application's
+<p>Notely supports custom user themes, allowing you to personalize the application's
   appearance. To create a custom theme, follow these steps:</p>
 <ol>
   <li><strong>Create a CSS Code Note</strong>: Start by creating a new <a href="#root/_help_6f9hih2hXXZk">code note</a> with
@@ -93,7 +93,7 @@ body .CodeMirror {
   <img src="Themes_steel-blue.png" alt="Steel Blue Theme">
 </p>
 <h3>Using Custom CSS for Specific Purposes</h3>
-<p>In addition to full themes, Trilium allows for custom CSS that isn't tied
+<p>In addition to full themes, Notely allows for custom CSS that isn't tied
   to a theme. This can be particularly useful in scripting contexts, where
   you might want to modify specific UI elements, such as changing the colors
   of notes in the tree view.</p>
@@ -110,7 +110,7 @@ body .CodeMirror {
 .tree-item {
     color: #ff6347; /* Change tree item color */
 }</code></pre>
-<p>When Trilium's frontend starts, all notes labeled with <code spellcheck="false">appCss</code> are
+<p>When Notely's frontend starts, all notes labeled with <code spellcheck="false">appCss</code> are
   automatically included in the style element of the HTML page.</p>
 <p>After making changes, press <kbd>Ctrl</kbd> + <kbd>R</kbd> to reload the frontend
   and apply your new styles.</p>
@@ -132,11 +132,11 @@ body .CodeMirror {
   containing PNG images, you can target them with classes like <code spellcheck="false">type-image mime-image-png</code>.</p>
 <h3>User-Provided Themes</h3>
 <p>A gallery of user-created themes is available, showcasing the variety
-  of customizations that the Trilium community has developed. For more information,
+  of customizations that the Notely community has developed. For more information,
   check the&nbsp;<a class="reference-link" href="#root/_help_VbjZvtUek0Ln">Theme Gallery</a>.</p>
 <h3>Asset Path Management</h3>
 <p>When referencing built-in assets like images in your custom themes or
   CSS, you can avoid hardcoding version numbers by using the <code spellcheck="false">vX</code> alias.
   For example, instead of specifying <code spellcheck="false">/assets/v0.57.0-beta/images/icon-grey.png</code>,
   you can use <code spellcheck="false">/assets/vX/images/icon-grey.png</code> to
-  keep your theme compatible with future versions of Trilium.</p>
+  keep your theme compatible with future versions of Notely.</p>

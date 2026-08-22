@@ -1,9 +1,9 @@
 # Custom Widgets
-Custom widgets are a special subset of scripts that render graphical elements in certain parts of the application. These can be used to add new functionality to the Trilium application.
+Custom widgets are a special subset of scripts that render graphical elements in certain parts of the application. These can be used to add new functionality to the Notely application.
 
 ## Preact with JSX vs. vanilla jQuery
 
-In older versions of Trilium, custom widgets were exclusively written in a combination of jQuery with Trilium's internal widget architecture (e.g., `BasicWidget`, `NoteContextAwareWidget`).
+In older versions of Notely, custom widgets were exclusively written in a combination of jQuery with Notely's internal widget architecture (e.g., `BasicWidget`, `NoteContextAwareWidget`).
 
 Starting with v0.101.0, custom widgets can also be written in JSX using the <a class="reference-link" href="Preact.md">Preact</a> framework. Both legacy and Preact widgets have the same capabilities, with a single difference:
 

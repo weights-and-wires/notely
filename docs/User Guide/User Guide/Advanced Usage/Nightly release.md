@@ -7,7 +7,7 @@ Despite being on a development branch, generally the main branch is pretty stabl
 
 ## Downloading the nightly release manually
 
-Go to [github.com/TriliumNext/Trilium/releases/tag/nightly](https://github.com/TriliumNext/Trilium/releases/tag/nightly) and look for the artifacts starting with `TriliumNotes-main`. Choose the appropriate one for your platform (e.g. `windows-x64.zip`).
+Go to [github.com/Notely/Notely/releases/tag/nightly](https://github.com/TriliumNext/Trilium/releases/tag/nightly) and look for the artifacts starting with `TriliumNotes-main`. Choose the appropriate one for your platform (e.g. `windows-x64.zip`).
 
 Depending on your use case, you can either test the portable version or even use the installer.
 

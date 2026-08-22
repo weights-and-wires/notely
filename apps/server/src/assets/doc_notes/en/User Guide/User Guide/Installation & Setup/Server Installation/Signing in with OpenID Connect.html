@@ -1,6 +1,6 @@
 <p>OpenID is a standardized way to let you log into websites using an account
   from another service, like Google or Authelia, to verify your identity.</p>
-<p>When OpenID is activated, the password-based authentication in Trilium
+<p>When OpenID is activated, the password-based authentication in Notely
   is replaced with a button that connects using your provider. This means
   that the configuration of&nbsp;<a class="reference-link" href="#root/_help_7DAiwaf8Z7Rz">Multi-factor authentication with TOTP</a>&nbsp;no
   longer takes effect, since your provider has to handle any multi-factor
@@ -8,10 +8,10 @@
 <h2>Setup</h2>
 <p>Setting up authentication with OpenID connect is a two-step process:</p>
 <ol>
-  <li>First the Trilium server must be configured with information about your
+  <li>First the Notely server must be configured with information about your
     authentication provider such as the URL, client ID and secret.</li>
   <li>Second, the user must connect from options to create a link between the
-    account on the provider and the one Trilium has.</li>
+    account on the provider and the one Notely has.</li>
 </ol>
 <h3>Configuring the authentication provider</h3>
 <ol>
@@ -20,7 +20,7 @@
       configured properly. See&nbsp;<a class="reference-link" href="#root/_help_IgkTHSaFfq6A">Setting up with various providers</a>&nbsp;for
       concrete examples.</p>
     <ol>
-      <li>The redirect URL of Trilium is <code spellcheck="false">https://&lt;your-trilium-domain&gt;/callback</code>.</li>
+      <li>The redirect URL of Notely is <code spellcheck="false">https://&lt;your-trilium-domain&gt;/callback</code>.</li>
       <li>You should obtain the base URL, client ID and client secret.</li>
     </ol>
   </li>
@@ -44,7 +44,7 @@
             </td>
             <td><code spellcheck="false">TRILIUM_MULTIFACTORAUTHENTICATION_OAUTHBASEURL</code>
             </td>
-            <td>The URL of your Trilium instance (e.g. <code spellcheck="false">https://example.com</code>).</td>
+            <td>The URL of your Notely instance (e.g. <code spellcheck="false">https://example.com</code>).</td>
           </tr>
           <tr>
             <td>Client ID*</td>
@@ -123,7 +123,7 @@
               <br>A URL containing <code spellcheck="false">/.well-known/</code> is used as-is
               <span
               style="color:rgb(32,32,32)">, which is convenient when your provider hands you a discovery URL to
-                copy. A trailing slash may be included or omitted; Trilium matches whichever
+                copy. A trailing slash may be included or omitted; Notely matches whichever
                 spelling the provider advertises.</span>
                 <br>
                 <br>Use the full form when your provider advertises an issuer that differs
@@ -192,10 +192,10 @@
         </tbody>
       </table>
     </figure>
-    <p>The OIDC session lifetime is automatically bound to Trilium's own session
+    <p>The OIDC session lifetime is automatically bound to Notely's own session
       cookie lifetime (the <code spellcheck="false">cookieMaxAge</code> setting
       in the <code spellcheck="false">[Session]</code> section, 21 days by default),
-      so a single sign-in stays valid for as long as your Trilium session does
+      so a single sign-in stays valid for as long as your Notely session does
       rather than expiring early on the OIDC library's shorter internal defaults.</p>
   </li>
   <li>
@@ -217,8 +217,8 @@
 <h2>Connecting to the authentication provider</h2>
 <p>Once the server has been configured at the previous step, the next step
   is to create a link between your account on the authentication provider
-  and the Trilium instance. This makes sure that only you can access the
-  Trilium instance, and not just any other valid account.</p>
+  and the Notely instance. This makes sure that only you can access the
+  Notely instance, and not just any other valid account.</p>
 <p>To do so:</p>
 <ol>
   <li>Go to&nbsp;<a class="reference-link" href="#root/_help_4TIF1oA4VQRO">Options</a>&nbsp;→ <em>Password &amp; Auth.</em>
@@ -228,11 +228,11 @@
   <li>In the <em>OpenID Connect</em> section, look for the <em>Connect account</em> button.</li>
   <li>This will redirect you to your authentication provider, where you can
     sign in or confirm the action if needed.</li>
-  <li>Once you are authenticated you will be redirected back to the Trilium
+  <li>Once you are authenticated you will be redirected back to the Notely
     application.</li>
 </ol>
 <h2>Logging out</h2>
-<p>When logging out of Trilium, a request is made to the authentication provider
+<p>When logging out of Notely, a request is made to the authentication provider
   to log out from there as well. This feature depends on the authentication
   provider, so it may not be honored (Google and Authelia are known cases
   in which they don't respect the logout feature).</p>
@@ -268,7 +268,7 @@
 </ol>
 <h2>Troubleshooting</h2>
 <h3>Setup fails with a <code spellcheck="false">WWW-Authenticate</code> or <code spellcheck="false">invalid_client</code> error</h3>
-<p>Your provider disagrees with Trilium about how client credentials should
+<p>Your provider disagrees with Notely about how client credentials should
   be sent to the token endpoint. Set <code spellcheck="false">oauthClientAuthMethod</code> to
   <code
   spellcheck="false">client_secret_post</code>(or <code spellcheck="false">client_secret_basic</code> if
@@ -290,7 +290,7 @@ proxy_busy_buffers_size 256k;</code></pre>
   spellcheck="false">unexpected JWT alg received, expected RS256, got: EdDSA</code>. Both mean
     the same thing: your provider signs ID tokens with an algorithm other than
     RS256. Pocket ID (Ed25519) and Kanidm (ES256) do this.</p>
-<p>From v0.104.2 Trilium detects the algorithm from your provider automatically,
+<p>From v0.104.2 Notely detects the algorithm from your provider automatically,
   and the log records the outcome (<code spellcheck="false">OAuth: the issuer does not sign ID tokens with RS256; expecting ES256</code>).
   If detection can't reach the provider it falls back to RS256, so check
   that the issuer URL is correct and reachable first. Should it still fail,

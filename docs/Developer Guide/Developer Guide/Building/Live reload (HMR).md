@@ -1,5 +1,5 @@
 # Live reload (HMR)
-Trilium uses Vite's HMR (hot module reloading) mechanism.
+Notely uses Vite's HMR (hot module reloading) mechanism.
 
 ## Server live reload
 

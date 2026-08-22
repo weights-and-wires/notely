@@ -1,12 +1,12 @@
 {
   "setup": {
-    "heading": "Démarrer avec Trilium",
+    "heading": "Démarrer avec Notely",
     "new-document": "Nouvelle base de connaissances",
     "new-document-description": "Partez d'une base vierge pour commencer sans attendre.",
     "sync-from-desktop": "Connecter une application de bureau",
-    "sync-from-desktop-description": "Vous utilisez l'application de bureau Trilium sur un autre appareil. Cet appareil synchronisera ses données avec cette application.",
+    "sync-from-desktop-description": "Vous utilisez l'application de bureau Notely sur un autre appareil. Cet appareil synchronisera ses données avec cette application.",
     "sync-from-server": "Se connecter à un serveur existant",
-    "sync-from-server-description": "Vous utilisez déjà un serveur Trilium ailleurs (auto-hébergé ou dans le cloud). Cet appareil synchronisera ses données avec ce serveur.",
+    "sync-from-server-description": "Vous utilisez déjà un serveur Notely ailleurs (auto-hébergé ou dans le cloud). Cet appareil synchronisera ses données avec ce serveur.",
     "next": "Suivant",
     "init-in-progress": "Initialisation en cours",
     "redirecting": "Vous allez bientôt être redirigé vers l’application.",
@@ -21,7 +21,7 @@
     "sync-step-finalizing": "Configuration des options",
     "create-new-document-options-title": "Comment souhaitez-vous commencer ?",
     "create-new-document-options-with-demo": "Avec le contenu de démonstration",
-    "create-new-document-options-with-demo-description": "Découvrir Trilium avec des exemples de contenu.",
+    "create-new-document-options-with-demo-description": "Découvrir Notely avec des exemples de contenu.",
     "create-new-document-options-empty": "Vide",
     "create-new-document-options-empty-description": "Partez d’une base de connaissances vide. Vous pourrez ajouter les notes de démonstration plus tard.",
     "create-new-document-title": "Préparation de votre base de connaissances",
@@ -29,7 +29,7 @@
     "sync-illustration-this-device": "Cet appareil",
     "sync-illustration-desktop-app": "Votre application de bureau",
     "sync-illustration-server": "Votre serveur",
-    "sync-from-desktop-step1": "Ouvrez votre application Trilium Notes.",
+    "sync-from-desktop-step1": "Ouvrez votre application Notely.",
     "sync-from-desktop-step2": "Dans le menu, cliquez sur Paramètres.",
     "sync-from-desktop-step3": "Cliquez sur la catégorie Synchronisation.",
     "sync-from-desktop-step4": "Modifiez l’adresse de l’instance du serveur dans le champ de droite.",
@@ -38,7 +38,7 @@
     "sync-from-desktop-waiting": "En attente de connexion…",
     "advanced-options": "Options avancées",
     "sync-failed": "Échec de la synchronisation : {{message}}",
-    "server-host": "Adresse du serveur Trilium",
+    "server-host": "Adresse du serveur Notely",
     "server-host-placeholder": "https://<hostname>:<port>",
     "server-password": "Mot de passe",
     "proxy-server": "Serveur proxy (optionnel)",
@@ -51,7 +51,7 @@
     "your-ip-addresses": "Adresses pour cet appareil",
     "sync-in-progress-banner": "La synchronisation peut prendre quelques instants selon le volume de vos notes. Merci de rester sur cette application jusqu’à la fin de l’opération.",
     "sync-from-desktop-unreachable-title": "Cet appareil n'est pas accessible depuis d'autres appareils",
-    "sync-from-desktop-unreachable-description": "Pour effectuer la synchronisation, l'autre poste doit se connecter à celui-ci via le réseau. Pour des raisons de sécurité, cette application de bureau n'accepte que les connexions provenant de cet ordinateur ; l'autre poste ne peut donc pas encore s'y connecter. Autorisez l'accès réseau ci-dessous ; Trilium redémarrera pour appliquer ce changement.",
+    "sync-from-desktop-unreachable-description": "Pour effectuer la synchronisation, l'autre poste doit se connecter à celui-ci via le réseau. Pour des raisons de sécurité, cette application de bureau n'accepte que les connexions provenant de cet ordinateur ; l'autre poste ne peut donc pas encore s'y connecter. Autorisez l'accès réseau ci-dessous ; Notely redémarrera pour appliquer ce changement.",
     "sync-from-desktop-allow-access": "Autoriser l'accès au réseau et redémarrer"
   }
 }

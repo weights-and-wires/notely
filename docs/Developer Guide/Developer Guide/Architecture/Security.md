@@ -1,5 +1,5 @@
 # Security
-Trilium implements a **defense-in-depth security model** with multiple layers of protection for user data. The security architecture covers authentication, authorization, encryption, input sanitization, and secure communication.
+Notely implements a **defense-in-depth security model** with multiple layers of protection for user data. The security architecture covers authentication, authorization, encryption, input sanitization, and secure communication.
 
 ## Security Principles
 

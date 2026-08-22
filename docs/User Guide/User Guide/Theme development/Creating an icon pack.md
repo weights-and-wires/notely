@@ -9,16 +9,16 @@ First read the quick flow to get the overall steps. After that there is a concre
 1.  Verify the icon set is a font (one of: .woff2, .woff, .ttf).
 2.  Obtain a list that maps icon names to Unicode code points (often provided as a JSON like `selection.json` or a CSS file).
 3.  Create a manifest JSON that maps icon ids to glyphs and search terms.
-4.  Create a Trilium note of type Code, set language to JSON, paste the manifest as the note content.
+4.  Create a Notely note of type Code, set language to JSON, paste the manifest as the note content.
 5.  Upload the font file as an attachment to the same note (MIME type must be `font/woff2`, `font/woff`, or `font/ttf` and role `file`).
 6.  Add the label `#iconPack=<prefix>` to the note (prefix: alphanumeric, hyphen, underscore only).
 7.  Refresh the client and verify the icon pack appears in the icon selector.
 
 ## Verify the icon set
 
-The first step is to analyze if the icon set being packed can be integrated into Trilium.
+The first step is to analyze if the icon set being packed can be integrated into Notely.
 
-Trilium only supports **font-based icon sets**, with the following formats:
+Notely only supports **font-based icon sets**, with the following formats:
 
 | Extension | MIME type | Description |
 | --- | --- | --- |
@@ -26,19 +26,19 @@ Trilium only supports **font-based icon sets**, with the following formats:
 | `.woff` | `font/woff` | Higher compatibility, but the font file is bigger. |
 | `.ttf` | `font/ttf` | Most common, but highest font size. |
 
-Trilium **does not** support the following formats:
+Notely **does not** support the following formats:
 
 *   SVG-based fonts.
 *   Individual SVGs.
 *   `.eot` fonts (legacy and proprietary).
-*   Duotone icons, since it requires a special CSS format that Trilium doesn't support.
+*   Duotone icons, since it requires a special CSS format that Notely doesn't support.
 *   Any other font format not specified in the _Supported formats_ section.
 
 In this case, the font must be manually converted to one of the supported formats (ideally `.woff2`).
 
 ## Manifest format
 
-The manifest is a JSON object with an `icons` map. Each entry key is the CSS/class id you will use (Trilium uses the CSS class when rendering). Value object:
+The manifest is a JSON object with an `icons` map. Each entry key is the CSS/class id you will use (Notely uses the CSS class when rendering). Value object:
 
 *   glyph: the single character (the glyph) — can be the escaped Unicode (e.g. "\\ue9c2") or the literal character.
 *   terms: array of search aliases; the first term is used as display name in the selector.
@@ -67,7 +67,7 @@ Example minimal manifest:
 
 ## Concrete example: Phosphor Icons
 
-[Phosphor Icons](https://phosphoricons.com/) provide a `selection.json` that includes `properties.code` (the codepoint) and `properties.name` (the icon name). The goal: convert that into Trilium's manifest.
+[Phosphor Icons](https://phosphoricons.com/) provide a `selection.json` that includes `properties.code` (the codepoint) and `properties.name` (the icon name). The goal: convert that into Notely's manifest.
 
 Sample `selection.json` excerpt:
 
@@ -136,7 +136,7 @@ What to do with the script:
 
 *   Put `selection.json` and `build-manifest.js` in a folder.
 *   Run: node build-manifest.js
-*   The script writes `manifest.json` — open it, verify contents, then copy into a Trilium Code note (language: JSON).
+*   The script writes `manifest.json` — open it, verify contents, then copy into a Notely Code note (language: JSON).
 
 > [!TIP]
 > **Mind the escape format when processing CSS**
@@ -149,7 +149,7 @@ What to do with the script:
 
 Before an icon pack can be used, it needs to have a prefix defined. This prefix uniquely identifies the icon pack so that it can be used throughout the application.
 
-To do so, Trilium makes use of the same format that was used for the internal icon pack (Boxicons). For example, when an icon from Boxicons is set, it looks like this: `#iconClass="bx bxs-sushi"`. In this case, the icon pack prefix is `bx` and the icon class name is `bxs-sushi`.
+To do so, Notely makes use of the same format that was used for the internal icon pack (Boxicons). For example, when an icon from Boxicons is set, it looks like this: `#iconClass="bx bxs-sushi"`. In this case, the icon pack prefix is `bx` and the icon class name is `bxs-sushi`.
 
 In order for an icon pack to be recognized, the prefix must be specified in the `#iconPack` label. 
 
@@ -158,7 +158,7 @@ For our example with Phosphor Icons, we can use the `ph` prefix since it also ma
 > [!IMPORTANT]
 > The prefix must consist of only alphanumeric characters, hyphens and underscore. If the prefix doesn't match these constraints, the icon pack will be ignored and an error will be logged in <a class="reference-link" href="../Troubleshooting/Error%20logs/Backend%20(server)%20logs.md">Backend (server) logs</a>.
 
-## Creating the Trilium icon pack note
+## Creating the Notely icon pack note
 
 1.  Create a note of type _Code_.
 2.  Set the language to _JSON_.

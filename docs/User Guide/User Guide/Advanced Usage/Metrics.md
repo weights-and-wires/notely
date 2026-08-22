@@ -1,5 +1,5 @@
 # Metrics
-The Trilium Metrics API provides comprehensive monitoring data about your Trilium instance, designed for external monitoring systems like Prometheus.
+The Notely Metrics API provides comprehensive monitoring data about your Notely instance, designed for external monitoring systems like Prometheus.
 
 ## **Endpoint**
 
@@ -111,7 +111,7 @@ scrape_configs:
 
 <figure class="image"><img style="aspect-ratio:2594/1568;" src="1_Metrics_image.png" width="2594" height="1568"></figure>
 
-You can also use the Grafana Dashboard that has been created for TriliumNext - just take the JSON from <a class="reference-link" href="Metrics/grafana-dashboard.json">grafana-dashboard.json</a> and then import the dashboard, following these screenshots:
+You can also use the Grafana Dashboard that has been created for Notely - just take the JSON from <a class="reference-link" href="Metrics/grafana-dashboard.json">grafana-dashboard.json</a> and then import the dashboard, following these screenshots:
 
 <figure class="image"><img style="aspect-ratio:1881/282;" src="2_Metrics_image.png" width="1881" height="282"></figure>
 

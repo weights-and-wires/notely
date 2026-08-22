@@ -6,10 +6,10 @@
 <p>Ensure Docker is installed on your system.</p>
 <p>If you need help installing Docker, reference the <a href="https://docs.docker.com/engine/install/">Docker Installation Docs</a>
 </p>
-<p><strong>Note:</strong> Trilium's Docker container requires root privileges
+<p><strong>Note:</strong> Notely's Docker container requires root privileges
   to operate correctly.</p>
 <aside class="admonition warning">
-  <p>If you're using a SMB/CIFS share or folder as your Trilium data directory,
+  <p>If you're using a SMB/CIFS share or folder as your Notely data directory,
     <a
     href="https://github.com/TriliumNext/Notes/issues/415#issuecomment-2344824400">you'll need</a>to add the mount options of <code spellcheck="false">nobrl</code> and
       <code
@@ -34,7 +34,7 @@
   upgrade your instance to a new minor version, potentially disrupting sync
   setups or causing other issues.</p>
 <h3>Preparing the Data Directory</h3>
-<p>Trilium requires a directory on the host system to store its data. This
+<p>Notely requires a directory on the host system to store its data. This
   directory must be mounted into the Docker container with write permissions.</p>
 <h3>Running the Docker Container</h3>
 <h4>Local Access Only</h4>
@@ -43,7 +43,7 @@
   Apache.</p><pre><code class="language-text-x-trilium-auto">sudo docker run -t -i -p 127.0.0.1:8080:8080 -v ~/trilium-data:/home/node/trilium-data triliumnext/trilium:[VERSION]</code></pre>
 <ol>
   <li>Verify the container is running using <code spellcheck="false">docker ps</code>.</li>
-  <li>Access Trilium via a web browser at <code spellcheck="false">127.0.0.1:8080</code>.</li>
+  <li>Access Notely via a web browser at <code spellcheck="false">127.0.0.1:8080</code>.</li>
 </ol>
 <h4>Local Network Access</h4>
 <p>To make the container accessible only on your local network, first create
@@ -87,10 +87,10 @@ docker inspect [container_name]</code></pre>
 <aside class="admonition note">
   <p>Please keep in mind that the data directory is at <code spellcheck="false">/home/trilium/trilium-data</code> instead
     of the typical <code spellcheck="false">/home/node/trilium-data</code>.
-    This is because a new user is created and used to run Trilium within the
+    This is because a new user is created and used to run Notely within the
     rootless containers.</p>
 </aside>
-<p>If you would prefer to run Trilium without having to run the Docker container
+<p>If you would prefer to run Notely without having to run the Docker container
   as <code spellcheck="false">root</code>, you can use either of the provided
   Debian (default) and Alpine-based images with the <code spellcheck="false">rootless</code> tag.&nbsp;</p>
 <p><em><strong>If you're unsure, stick to the “rootful” Docker image referenced above.</strong></em>
@@ -106,7 +106,7 @@ docker pull triliumnext/trilium:rootless-alpine</code></pre>
   escape the container, they'll only have the permissions of the non-root
   user instead of full root access to the host.</p>
 <h3>How It Works</h3>
-<p>The rootless Trilium image:</p>
+<p>The rootless Notely image:</p>
 <ol>
   <li>Creates a non-root user (<code spellcheck="false">trilium</code>) during
     build time</li>
@@ -196,7 +196,7 @@ docker build --build-arg USER=myuser --build-arg UID=1001 --build-arg GID=1001 \
 <p>Available build arguments:</p>
 <ul>
   <li><code spellcheck="false">USER</code>: Username for the non-root user (default:
-    trilium)</li>
+    Notely)</li>
   <li><code spellcheck="false">UID</code>: User ID for the non-root user (default:
     1000)</li>
   <li><code spellcheck="false">GID</code>: Group ID for the non-root user (default:

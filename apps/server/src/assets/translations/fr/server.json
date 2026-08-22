@@ -71,20 +71,20 @@
   },
   "login": {
     "title": "Connexion",
-    "heading": "Connexion à Trilium",
+    "heading": "Connexion à Notely",
     "incorrect-password": "Le mot de passe est incorrect. Veuillez réessayer.",
     "password": "Mot de passe",
     "remember-me": "Se souvenir de moi",
     "button": "Connexion",
     "sign_in_with_sso": "Se connecter avec {{ ssoIssuerName }}",
     "incorrect-totp": "TOTP incorrect. Veuillez réessayer.",
-    "sso-wrong-account": "Ce compte n'est pas celui qui est lié à cette instance Trilium. Connectez-vous avec le compte lié.",
+    "sso-wrong-account": "Ce compte n'est pas celui qui est lié à cette instance Notely. Connectez-vous avec le compte lié.",
     "sso-not-enrolled": "La connexion unique n'est pas encore configurée. Connectez-vous d'abord avec votre mot de passe, puis associez votre compte dans les paramètres."
   },
   "set_password": {
     "title": "Définir un mot de passe",
     "heading": "Définir un mot de passe",
-    "description": "Avant d'utiliser Trilium via le web, vous devez définir un mot de passe. Vous l'utiliserez ensuite pour vous connecter.",
+    "description": "Avant d'utiliser Notely via le web, vous devez définir un mot de passe. Vous l'utiliserez ensuite pour vous connecter.",
     "password": "Mot de passe",
     "password-confirmation": "Confirmation du mot de passe",
     "button": "Définir le mot de passe"
@@ -221,8 +221,8 @@
     "unable-to-print": "Impossible d'imprimer la note"
   },
   "tray": {
-    "tooltip": "Trilium Notes",
-    "close": "Quitter Trilium",
+    "tooltip": "Notely",
+    "close": "Quitter Notely",
     "recents": "Notes récentes",
     "bookmarks": "Signets",
     "today": "Ouvrir la note du jour",
@@ -233,7 +233,7 @@
   "migration": {
     "old_version": "La migration directe à partir de votre version actuelle n'est pas prise en charge. Veuillez d'abord mettre à jour vers la version v0.60.4, puis vers cette nouvelle version.",
     "error_message": "Erreur lors de la migration vers la version {{version}}: {{stack}}",
-    "wrong_db_version": "La version de la base de données ({{version}}) est plus récente que ce que l'application supporte actuellement ({{targetVersion}}), ce qui signifie qu'elle a été créée par une version plus récente et incompatible de Trilium. Mettez à jour vers la dernière version de Trilium pour résoudre ce problème.",
+    "wrong_db_version": "La version de la base de données ({{version}}) est plus récente que ce que l'application supporte actuellement ({{targetVersion}}), ce qui signifie qu'elle a été créée par une version plus récente et incompatible de Notely. Mettez à jour vers la dernière version de Notely pour résoudre ce problème.",
     "invalid_db_version": "La version de la base de données n'est pas un nombre valide. Cela indique généralement que l'option « dbVersion » de la base de données est corrompue. Veuillez restaurer la base à partir d'une sauvegarde.",
     "automatic_migrations_disabled": "Les migrations automatiques de base de données sont désactivées via la variable d'environnement TRILIUM_MANUAL_DB_MIGRATION = {{envVarValue}}"
   },
@@ -342,7 +342,7 @@
   },
   "sql_init": {
     "db_not_initialized_desktop": "Base de données non initialisée, merci de suivre les instructions à l'écran.",
-    "db_not_initialized_server": "Base de données non initialisée, veuillez visitez - http://[your-server-host]:{{port}} pour consulter les instructions d'initialisation de Trilium."
+    "db_not_initialized_server": "Base de données non initialisée, veuillez visitez - http://[your-server-host]:{{port}} pour consulter les instructions d'initialisation de Notely."
   },
   "weekdayNumber": "Semaine {weekNumber}",
   "quarterNumber": "Trimestre {quarterNumber}",
@@ -422,14 +422,14 @@
     "sql-console": "Console SQL",
     "sql-console-warning": "La console SQL permet d'exécuter des requêtes SQL arbitraires sur la base de données.",
     "lan-access": "accès au réseau",
-    "lan-access-warning": "D'autres appareils de votre réseau local pourront se connecter à cette instance Trilium."
+    "lan-access-warning": "D'autres appareils de votre réseau local pourront se connecter à cette instance Notely."
   },
   "onenote_import": {
     "root-title": "Importation OneNote"
   },
   "notion_import": {
     "root-title": "Importation Notion",
-    "markdown-export-unsupported": "Ceci ressemble à un export Notion « Markdown & CSV », que Trilium ne peut pas importer. Veuillez réexporter votre espace de travail Notion au format « HTML » et importer celui-ci à la place.",
+    "markdown-export-unsupported": "Ceci ressemble à un export Notion « Markdown & CSV », que Notely ne peut pas importer. Veuillez réexporter votre espace de travail Notion au format « HTML » et importer celui-ci à la place.",
     "subpage-folders-disabled": "Cet export Notion a été créé sans l'option « Create folders for subpages », la hiérarchie des pages ne peut donc pas être reconstituée. Veuillez réexporter depuis Notion avec l'option « Create folders for subpages » activée et importer celui-ci à la place."
   },
   "keep_import": {
@@ -437,8 +437,8 @@
   },
   "anytype_import": {
     "root-title": "Import Anytype",
-    "protobuf-export-unsupported": "Ceci ressemble à un export Anytype « Protobuf », que Trilium ne peut pas importer. Veuillez réexporter votre espace Anytype en utilisant le format « Any-Block » avec « JSON » sélectionné et importer celui-ci à la place.",
-    "markdown-export-unsupported": "Ceci ressemble à un export Anytype « Markdown », que Trilium ne peut pas importer. Veuillez réexporter votre espace Anytype en utilisant le format « Any-Block » avec « JSON » sélectionné et importer celui-ci à la place."
+    "protobuf-export-unsupported": "Ceci ressemble à un export Anytype « Protobuf », que Notely ne peut pas importer. Veuillez réexporter votre espace Anytype en utilisant le format « Any-Block » avec « JSON » sélectionné et importer celui-ci à la place.",
+    "markdown-export-unsupported": "Ceci ressemble à un export Anytype « Markdown », que Notely ne peut pas importer. Veuillez réexporter votre espace Anytype en utilisant le format « Any-Block » avec « JSON » sélectionné et importer celui-ci à la place."
   },
   "obsidian_import": {
     "root-title": "Import Obsidian"

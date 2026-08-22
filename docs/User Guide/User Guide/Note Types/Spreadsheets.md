@@ -14,7 +14,7 @@ Spreadsheets also benefit from a wider range of features such as data validation
 
 ## Data intercompatibility (import/export)
 
-Starting with v0.104.0, Trilium provides a level of data intercompatibility between the internal format (Univer) and the following formats:
+Starting with v0.104.0, Notely provides a level of data intercompatibility between the internal format (Univer) and the following formats:
 
 *   Microsoft Excel (.xlsx)
     *   Preserves basic formatting (fonts, sizes, borders, backgrounds).

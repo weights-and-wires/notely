@@ -32,7 +32,7 @@ export function Header() {
             <div class="content-wrapper">
                 <div class="first-row">
                     <a class="banner" href={`/${locale}/`}>
-                        <img src={logoPath} width="300" height="300" alt="Trilium Notes logo" />
+                        <img src={logoPath} width="300" height="300" alt="Notely logo" />
                     </a>
 
                     <Link

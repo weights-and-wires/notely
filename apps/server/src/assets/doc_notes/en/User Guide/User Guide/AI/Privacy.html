@@ -1,4 +1,4 @@
-<p>Trilium sends nothing to an AI provider until you send a message. Enabling
+<p>Notely sends nothing to an AI provider until you send a message. Enabling
   the integration, adding a provider or opening a chat transmits nothing
   on its own, the one exception is that listing a provider's models sends
   your API key to that provider, so the list can be fetched.</p>
@@ -34,7 +34,7 @@
     </tbody>
   </table>
 </figure>
-<p>This is the reason the provider list is grouped this way, and why Trilium
+<p>This is the reason the provider list is grouped this way, and why Notely
   pre-selects nothing: the choice of where your notes travel is made explicitly,
   by you, before anything is sent.</p>
 <aside class="admonition note">
@@ -49,7 +49,7 @@
     <ul>
       <li>The conversation itself: your messages and the assistant's replies, including
         earlier turns</li>
-      <li>Trilium's system prompt describing how to format answers and use tools.</li>
+      <li>Notely's system prompt describing how to format answers and use tools.</li>
     </ul>
   </li>
   <li><strong>The current note, only when note context is enabled.</strong>
@@ -92,7 +92,7 @@
     on a single sentence still transmits the paragraphs around it.</li>
   <li><strong>Where the note sits</strong>: its title and the titles of its
     parents, as a breadcrumb.</li>
-  <li><strong>Trilium's writing-assistant instructions</strong>, which describe
+  <li><strong>Notely's writing-assistant instructions</strong>, which describe
     the formatting it may produce.</li>
   <li><strong>Earlier turns of the same exchange</strong>, once you follow up
     on a response.</li>
@@ -125,13 +125,13 @@
   the words you typed.</p>
 <h2>Keeping everything local</h2>
 <p>Adding an Ollama or LM Studio provider keeps every message on the machine
-  running the model, and Trilium marks their models as free because no metered
+  running the model, and Notely marks their models as free because no metered
   API is involved. The trade-off is quality and hardware: a small local model
   may fail at tool calls that a cloud model handles, so a local setup that
   misbehaves is worth benchmarking against a cloud provider before reporting
   it as a bug.</p>
 <h2>Telemetry &amp; security</h2>
-<p>Trilium itself collects no telemetry from the AI integration.</p>
+<p>Notely itself collects no telemetry from the AI integration.</p>
 <p>Your API key is stored in your database, sent only to the provider it
   belongs to, and is write-only through the options API so that a malevolent&nbsp;
   <a

@@ -9,9 +9,9 @@ The first step is to obtain a .zip of your Obsidian vault:
 2.  In your system explorer, right click the directory containing your Obsidian vault and compress it to a ZIP file (e.g. on Windows, _Compress To_ → _ZIP_).
 
 > [!TIP]
-> When zipping, you can either ZIP the outer folder of the vault, or the contents of the vault as Trilium will automatically determine the position of the vault in the archive via the `.obsidian` directory.
+> When zipping, you can either ZIP the outer folder of the vault, or the contents of the vault as Notely will automatically determine the position of the vault in the archive via the `.obsidian` directory.
 
-Then, in Trilium Notes:
+Then, in Notely:
 
 1.  In the <a class="reference-link" href="../../UI%20Elements/Note%20Tree.md">Note Tree</a>, right click and select _Import into note_.
 2.  In the _Import from_ section, select _Obsidian_.
@@ -19,7 +19,7 @@ Then, in Trilium Notes:
 
 ## Supported features
 
-The following features are preserved by Trilium during the import process:
+The following features are preserved by Notely during the import process:
 
 *   Folder hierarchy is preserved.
 *   Basic Markdown formatting (bold, italic, underline, strikethrough, headings).

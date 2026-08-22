@@ -2,7 +2,7 @@
 > [!TIP]
 > This widget is also present in new installations in the <a class="reference-link" href="../../../Advanced%20Usage/Database/Demo%20Notes.md">Demo Notes</a>.
 
-Create a <a class="reference-link" href="../../../Note%20Types/Code.md">Code</a> note of type JavaScript (Trilium frontend) and **give it a** `#widget` **label**.
+Create a <a class="reference-link" href="../../../Note%20Types/Code.md">Code</a> note of type JavaScript (Notely frontend) and **give it a** `#widget` **label**.
 
 ```
 /*
@@ -82,7 +82,7 @@ class WordCountWidget extends api.NoteContextAwareWidget {
 module.exports = new WordCountWidget();
 ```
 
-After you make changes it is necessary to [restart Trilium](../../../Troubleshooting/Refreshing%20the%20application.md) so that the layout can be rebuilt.
+After you make changes it is necessary to [restart Notely](../../../Troubleshooting/Refreshing%20the%20application.md) so that the layout can be rebuilt.
 
 The widget only activates on text notes that have the `#wordCount` label. This label can be a [reference link](../../../Note%20Types/Text/Links/Internal%20\(reference\)%20links.md) to enable the widget for an entire subtree.
 

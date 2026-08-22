@@ -4,7 +4,7 @@
   your thoughts etc. and it all revolves around a date on which they occurred.
   For this reason, it makes sense to create a certain "day workspace" which
   will centralize all those notes relevant for a certain date.</p>
-<p>For this, Trilium provides a concept of "day note". Trilium semi-automatically
+<p>For this, Notely provides a concept of "day note". Notely semi-automatically
   generates a single note for each day. Under this note you can save all
   those relevant notes.</p>
 <p>Select an existing day note, and the menubar contains a calendar widget.
@@ -36,7 +36,7 @@
     have some week notes created, it will not automatically change the existing
     week notes and might lead to some duplicates.</p>
 <h2>Templates</h2>
-<p>Trilium provides <a href="#root/_help_KC1HB96bqqHX">template</a> functionality,
+<p>Notely provides <a href="#root/_help_KC1HB96bqqHX">template</a> functionality,
   and it could be used together with day notes.</p>
 <p>You can define one of the following relations on the root of the journal
   (identified by <code spellcheck="false">#calendarRoot</code> label):</p>
@@ -48,7 +48,7 @@
   <li>weekTemplate (if <code spellcheck="false">#enableWeekNote</code> is set)</li>
   <li>dateTemplate</li>
 </ul>
-<p>All of these are relations. When Trilium creates a new note for year or
+<p>All of these are relations. When Notely creates a new note for year or
   month or date, it will take a look at the root and attach a corresponding
   <code
   spellcheck="false">~template</code>relation to the newly created role. Using this, you can
@@ -181,7 +181,7 @@
 <p>The default is <code spellcheck="false">{year}</code>
 </p>
 <h2>Implementation</h2>
-<p>Trilium has some special support for day notes in the form of <a href="https://triliumnext.github.io/Notes/backend_api/BackendScriptApi.html">backend Script API</a> -
+<p>Notely has some special support for day notes in the form of <a href="https://triliumnext.github.io/Notes/backend_api/BackendScriptApi.html">backend Script API</a> -
   see e.g. getDayNote() function.</p>
 <p>Day (and year, month) notes are created with a label - e.g. <code spellcheck="false">#dateNote="2025-03-09"</code> this
   can then be used by other scripts to add new notes to day note etc.</p>

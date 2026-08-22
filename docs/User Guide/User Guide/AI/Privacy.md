@@ -1,5 +1,5 @@
 # Privacy
-Trilium sends nothing to an AI provider until you send a message. Enabling the integration, adding a provider or opening a chat transmits nothing on its own, the one exception is that listing a provider's models sends your API key to that provider, so the list can be fetched.
+Notely sends nothing to an AI provider until you send a message. Enabling the integration, adding a provider or opening a chat transmits nothing on its own, the one exception is that listing a provider's models sends your API key to that provider, so the list can be fetched.
 
 Once you send a message or run the <a class="reference-link" href="../Note%20Types/Text/In-editor%20AI%20assistant.md">In-editor AI assistant</a>, what leaves your machine depends on the provider you chose and on which context options are enabled.
 
@@ -12,7 +12,7 @@ Once you send a message or run the <a class="reference-link" href="../Note%20Ty
 | Local / self-hosted | Nothing leaves the machine running the model |
 | Custom endpoint | Wherever you pointed it — which may be your own hardware or a hosted service |
 
-This is the reason the provider list is grouped this way, and why Trilium pre-selects nothing: the choice of where your notes travel is made explicitly, by you, before anything is sent.
+This is the reason the provider list is grouped this way, and why Notely pre-selects nothing: the choice of where your notes travel is made explicitly, by you, before anything is sent.
 
 > [!NOTE]
 > The <a class="reference-link" href="../Note%20Types/Text/In-editor%20AI%20assistant.md">In-editor AI assistant</a> has a model selection of its own, so it maybe answered by a different provider than the one in the chat. The row at the bottom of the assistant's menu always names the one being used.

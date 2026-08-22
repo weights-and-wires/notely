@@ -30,7 +30,7 @@ describe("etapi/import", () => {
             .send(buffer)
             .expect(201);
 
-        // A Trilium root-export (its top note is "root") imported into root is nested under a "root"
+        // A Notely root-export (its top note is "root") imported into root is nested under a "root"
         // wrapper note rather than being remapped onto / merged into the system root - that would
         // create a self-referential root->root branch that breaks loading. (Whole-database *restore*,
         // which maps the archive's root onto the destination root, is an internal-only option used by
@@ -40,7 +40,7 @@ describe("etapi/import", () => {
 
         // the demo's top-level notes live under that wrapper, and no corrupt root->root branch exists
         const wrapper = becca.getNote(response.body.note.noteId);
-        expect(wrapper?.getChildNotes().map((n) => n.title)).toEqual(expect.arrayContaining(["Journal", "Trilium Demo", "Miscellaneous"]));
+        expect(wrapper?.getChildNotes().map((n) => n.title)).toEqual(expect.arrayContaining(["Journal", "Notely Demo", "Miscellaneous"]));
         expect(becca.getBranchFromChildAndParent("root", "root")).toBeFalsy();
     });
 });

@@ -1,14 +1,14 @@
 <aside class="admonition tip">
   <p>For a quick start, consult the&nbsp;<a class="reference-link" href="#root/_help_9qPsTWBorUhQ">API Reference</a>.</p>
 </aside>
-<p>ETAPI is Trilium's public/external REST API. It is available since Trilium
+<p>ETAPI is Notely's public/external REST API. It is available since Notely
   v0.50.</p>
 <h2>API clients</h2>
 <p>As an alternative to calling the API directly, there are client libraries
   to simplify this</p>
 <ul>
   <li><a href="https://github.com/Nriver/trilium-py">trilium-py</a>, you can
-    use Python to communicate with Trilium.</li>
+    use Python to communicate with Notely.</li>
 </ul>
 <h2>Obtaining a token</h2>
 <p>All operations with the REST API have to be authenticated using a token.
@@ -36,7 +36,7 @@ Authorization: Basic BATOKEN</code></pre>
 </ul>
 <p>Basic Auth is meant to be used with tools which support only basic auth.</p>
 <h2>Interaction using Bash scripts</h2>
-<p>It is possible to write simple Bash scripts to interact with Trilium.
+<p>It is possible to write simple Bash scripts to interact with Notely.
   As an example, here's how to obtain the HTML content of a note:</p><pre><code class="language-text-x-trilium-auto">#!/usr/bin/env bash
 
 # Configuration
@@ -50,7 +50,7 @@ curl "$SERVER/etapi/notes/$NOTE_ID/content" -H "Authorization: $TOKEN" </code></
 <ul>
   <li><code spellcheck="false">TOKEN</code> with your ETAPI token.</li>
   <li><code spellcheck="false">SERVER</code> with the correct protocol, host
-    name and port to your Trilium instance.</li>
+    name and port to your Notely instance.</li>
   <li><code spellcheck="false">NOTE_ID</code> with an existing note ID to download.</li>
 </ul>
 <p>As another example, to obtain a .zip export of a note and place it in

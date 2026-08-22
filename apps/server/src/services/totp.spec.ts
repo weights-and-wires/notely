@@ -19,7 +19,7 @@ import sql_init from "./sql_init.js";
 import totp from "./totp.js";
 
 const SECRET = "JBSWY3DPEHPK3PXP";
-const SECRET_URL = `otpauth://totp/Trilium:host?issuer=Trilium&secret=${SECRET}`;
+const SECRET_URL = `otpauth://totp/Notely:host?issuer=Notely&secret=${SECRET}`;
 
 describe("totp", () => {
     beforeAll(async () => {
@@ -126,7 +126,7 @@ describe("totp", () => {
         expect(result?.success).toBe(true);
         expect(result?.message).toBe(SECRET);
         expect(result?.url).toBe(SECRET_URL);
-        expect(mockGenerateKey).toHaveBeenCalledWith({ issuer: "Trilium", user: "host" });
+        expect(mockGenerateKey).toHaveBeenCalledWith({ issuer: "Notely", user: "host" });
         // Generation alone must NOT persist the secret: it only becomes active after the user
         // confirms a code for it, which is what prevents an accidental lockout.
         expect(totp.checkForTotpSecret()).toBe(false);

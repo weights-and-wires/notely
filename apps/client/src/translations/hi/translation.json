@@ -664,7 +664,7 @@
     "reload_frontend": "फ्रंटेंड रीलोड करें",
     "show_hidden_subtree": "छुपे हुए सब-ट्री दिखाएं",
     "show_help": "मदद दिखाएं",
-    "about": "Trilium Notes के बारे में",
+    "about": "Notely के बारे में",
     "logout": "लॉगआउट",
     "show-cheatsheet": "चीटशीट दिखाएं",
     "toggle-zen-mode": "जेन (Zen) मोड",
@@ -1035,7 +1035,7 @@
     "editor_crashed_details_intro": "अगर यह एरर बार-बार आता है, तो नीचे दी गई जानकारी GitHub पर डालकर इसकी रिपोर्ट करें।",
     "editor_crashed_details_title": "तकनीकी जानकारी",
     "auto-detect-language": "अपने-आप पहचानें",
-    "keeps-crashing": "एडिटिंग विजेट बार-बार क्रैश हो रहा है। कृपया Trilium को रीस्टार्ट करके देखें। अगर समस्या बनी रहती है, तो बग रिपोर्ट (bug report) करें।"
+    "keeps-crashing": "एडिटिंग विजेट बार-बार क्रैश हो रहा है। कृपया Notely को रीस्टार्ट करके देखें। अगर समस्या बनी रहती है, तो बग रिपोर्ट (bug report) करें।"
   },
   "empty": {
     "open_note_instruction": "नीचे दिए गए बॉक्स में टाइटल लिखकर नोट खोलें या ट्री में से कोई नोट चुनें।",
@@ -1083,7 +1083,7 @@
     "disabled_button_enable": "रेंडर नोट चालू करें"
   },
   "web_view_setup": {
-    "title": "Trilium के अंदर ही किसी वेबपेज का लाइव व्यू बनाएं",
+    "title": "Notely के अंदर ही किसी वेबपेज का लाइव व्यू बनाएं",
     "url_placeholder": "वेबसाइट का पता डालें या पेस्ट करें, जैसे https://triliumnotes.org",
     "create_button": "वेब व्यू बनाएं",
     "invalid_url_title": "अमान्य पता",
@@ -1209,9 +1209,9 @@
     "auto_theme": "Legacy (सिस्टम के हिसाब से)",
     "light_theme": "Legacy (लाइट)",
     "dark_theme": "Legacy (डार्क)",
-    "triliumnext": "Trilium (सिस्टम के हिसाब से)",
-    "triliumnext-light": "Trilium (लाइट)",
-    "triliumnext-dark": "Trilium (डार्क)",
+    "triliumnext": "Notely (सिस्टम के हिसाब से)",
+    "triliumnext-light": "Notely (लाइट)",
+    "triliumnext-dark": "Notely (डार्क)",
     "layout": "लेआउट",
     "layout-vertical-title": "वर्टिकल (खड़ा)",
     "layout-horizontal-title": "हॉरिज़ॉन्टल (पड़ा)",
@@ -2809,7 +2809,7 @@
       "drag-to-reposition-the-collapsible-block": "कोलाप्सिबल ब्लॉक को फिर से स्थानांतरित करने के लिए ड्रैग करें",
       "edit-task-states": "टास्क स्टेट्स संपादित करें",
       "insert-a-0-mermaid-diagram-template": "\"%0\" मरमेड डायग्राम टेम्पलेट डालें",
-      "insert-a-link-to-another-trilium-note": "दूसरे ट्रिलियम नोट का लिंक डालें",
+      "insert-a-link-to-another-notely-note": "दूसरे ट्रिलियम नोट का लिंक डालें",
       "insert-a-math-equation": "मैथ इक्वेशन डालें",
       "insert-a-new-admonition": "एक नया एडमोनिशन (admonition) डालें",
       "insert-a-page-break-for-printing": "पेज ब्रेक डालें (प्रिंट करने के लिए)",

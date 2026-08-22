@@ -1,7 +1,7 @@
 # Entities
 ### Entity System
 
-Trilium's data model is based on five core entities:
+Notely's data model is based on five core entities:
 
 ```
 graph TD

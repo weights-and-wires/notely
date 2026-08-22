@@ -25,7 +25,7 @@ Restarting the second instance reloads Becca from disk, which is why the note th
 
 ## Confirming it
 
-Check for more than one Trilium process bound to the same data directory. On Windows:
+Check for more than one Notely process bound to the same data directory. On Windows:
 
 ```powershell
 Get-NetTCPConnection -LocalPort 37840,37841 -State Listen | Select-Object LocalPort, OwningProcess

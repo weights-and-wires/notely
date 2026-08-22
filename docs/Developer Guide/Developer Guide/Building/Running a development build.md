@@ -28,6 +28,6 @@ pnpm cross-env TRILIUM_SAFE_MODE=1 pnpm server:start
 
 ## Running on NixOS
 
-When doing development, the Electron binary retrieved from NPM is not going to be compatible with NixOS, resulting in errors when trying to run it. However Trilium handles it automatically when running `pnpm desktop:start`.
+When doing development, the Electron binary retrieved from NPM is not going to be compatible with NixOS, resulting in errors when trying to run it. However Notely handles it automatically when running `pnpm desktop:start`.
 
 If there's no `electron` the system path it will attempt to use `nix-shell` to obtain it.

@@ -14,7 +14,7 @@
         "attributes_title": "笔记标签及关系",
         "attributes_description": "利用笔记之间的关系或添加标签进行便捷分类。使用提升属性输入结构化信息，这些信息可用于表格和看板中。",
         "hoisting_title": "工作区与聚焦",
-        "screenshot_alt": "Trilium 中的层级笔记树"
+        "screenshot_alt": "Notely 中的层级笔记树"
     },
     "productivity_benefits": {
         "title": "日常中强大且高效的功能",
@@ -25,7 +25,7 @@
         "protected_notes_title": "被保护的笔记",
         "protected_notes_content": "通过加密笔记并将其锁定在受密码保护的会话中，来保护敏感的个人信息。",
         "search_content": "支持通过标题模糊匹配快速跳转到任意笔记或命令，也可以全文搜索所有笔记，甚至借助 OCR 搜索图片和 PDF 中的文字。",
-        "web_clipper_content": "抓取网页（或截图），并通过网页剪藏浏览器扩展直接保存到 Trilium 中。",
+        "web_clipper_content": "抓取网页（或截图），并通过网页剪藏浏览器扩展直接保存到 Notely 中。",
         "search_title": "搜索与快速导航",
         "web_clipper_title": "网页抓取器",
         "auth_title": "安全登录",
@@ -35,7 +35,7 @@
         "share_title": "把笔记分享到网页",
         "share_content": "如果你有服务器，可以把任意子树笔记发布成一个公开的只读网站，任何人都无需账号就能浏览。",
         "api_title": "REST API",
-        "api_content": "通过 Trilium 内置的 REST API，可以在 HTTP 上程序化地读取、创建和更新笔记，非常适合自动化和第三方集成。"
+        "api_content": "通过 Notely 内置的 REST API，可以在 HTTP 上程序化地读取、创建和更新笔记，非常适合自动化和第三方集成。"
     },
     "note_types": {
         "text_title": "文本笔记",
@@ -51,7 +51,7 @@
         "mindmap_title": "思维导图",
         "mindmap_description": "用视觉化的方式整理思路，或开展头脑风暴。",
         "title": "适用于各类内容的笔记类型",
-        "subtitle": "并非所有东西都适合写成段落。Trilium 提供了多种笔记类型，从富文本、代码到电子表格、图表和思维导图，让你能以最适合的形式记录每个想法，并在笔记树中自由混搭使用。",
+        "subtitle": "并非所有东西都适合写成段落。Notely 提供了多种笔记类型，从富文本、代码到电子表格、图表和思维导图，让你能以最适合的形式记录每个想法，并在笔记树中自由混搭使用。",
         "others_label": "还有更多",
         "notemap_title": "笔记地图",
         "relationmap_title": "关系图",
@@ -65,7 +65,7 @@
     },
     "download_helper_server_hosted": {
         "title": "付费托管",
-        "description": "Trilium Notes 托管于 PikaPods，该付费服务提供便捷访问与管理功能。与 Trilium 团队无直接关联。",
+        "description": "Notely 托管于 PikaPods，该付费服务提供便捷访问与管理功能。与 Notely 团队无直接关联。",
         "download_pikapod": "在 PikaPods 上设置"
     },
     "download_helper_desktop_linux": {
@@ -84,11 +84,11 @@
     },
     "hero_section": {
         "title": "整理你的思路。建立你的个人知识库。",
-        "subtitle": "Trilium 是一款开源的笔记工具，用于记录和整理个人知识库。你可以在本地桌面使用它，或将其与自建服务器同步，让笔记随行随记。",
+        "subtitle": "Notely 是一款开源的笔记工具，用于记录和整理个人知识库。你可以在本地桌面使用它，或将其与自建服务器同步，让笔记随行随记。",
         "get_started": "开始使用",
         "github": "GitHub",
         "dockerhub": "Docker Hub",
-        "screenshot_alt": "Trilium Notes 桌面应用程序的屏幕截图",
+        "screenshot_alt": "Notely 桌面应用程序的屏幕截图",
         "tagline_license": "AGPL-3.0 许可",
         "tagline_no_account": "无需账号",
         "tagline_cross_platform": "支持离线"
@@ -114,21 +114,21 @@
         "mobile_question": "是否有移动应用程序？",
         "mobile_answer": "目前尚无官方移动应用程序。但若你拥有服务器实例，可通过网页浏览器访问，甚至将其安装为渐进式网页应用（PWA）。对于安卓用户，存在一款名为 TriliumDroid 的非官方应用程序，该程序支持离线使用（与桌面客户端功能相同）。",
         "database_question": "数据存储在何处？",
-        "database_answer": "你的所有笔记都将存储在应用文件夹内的一个 SQLite 数据库中。Trilium 之所以使用数据库而非纯文本文件，主要有两个原因：一是提升性能，二是如果不用数据库，实现诸如“将同一篇笔记放在笔记树的多个位置”这种功能将极为困难。如果想找到该应用文件夹，只需打开“关于”窗口即可。",
-        "server_question": "使用 Trilium 需要服务器吗？",
+        "database_answer": "你的所有笔记都将存储在应用文件夹内的一个 SQLite 数据库中。Notely 之所以使用数据库而非纯文本文件，主要有两个原因：一是提升性能，二是如果不用数据库，实现诸如“将同一篇笔记放在笔记树的多个位置”这种功能将极为困难。如果想找到该应用文件夹，只需打开“关于”窗口即可。",
+        "server_question": "使用 Notely 需要服务器吗？",
         "server_answer": "不，服务器支持通过网页浏览器访问，并能在你拥有多台设备时管理同步。若无同步需求，只需下载桌面应用程序即可。",
         "scaling_question": "该应用程序在处理大量笔记时扩展性如何？",
-        "scaling_answer": "根据使用情况，该应用程序应能无障碍处理至少 10 万条笔记。请注意，若上传大量大文件（单个文件达 1 GB），同步过程可能失败，因为 Trilium 更侧重于知识库应用而非文件存储（例如 NextCloud ）。",
+        "scaling_answer": "根据使用情况，该应用程序应能无障碍处理至少 10 万条笔记。请注意，若上传大量大文件（单个文件达 1 GB），同步过程可能失败，因为 Notely 更侧重于知识库应用而非文件存储（例如 NextCloud ）。",
         "network_share_question": "我能否通过网络硬盘共享我的数据库？",
         "network_share_answer": "不，通常不建议通过网络硬盘共享 SQLite 数据库。虽然有时可能有效，但由于网络环境下文件锁定机制的不完善，数据库存在损坏的风险。",
         "security_question": "我的数据如何得到保护？",
         "security_answer": "默认情况下，笔记不会加密，可直接从数据库中读取。一旦笔记被标记为加密状态，该笔记将使用 AES-128-CBC 算法进行加密。",
-        "free_question": "Trilium 是免费的吗？",
-        "free_answer": "是的，完全免费。Trilium 基于 AGPL-3.0 许可证免费开源，没有付费等级、强制账户或功能付费墙。你可以自由使用、自托管和随意修改它。",
+        "free_question": "Notely 是免费的吗？",
+        "free_answer": "是的，完全免费。Notely 基于 AGPL-3.0 许可证免费开源，没有付费等级、强制账户或功能付费墙。你可以自由使用、自托管和随意修改它。",
         "cloud_question": "有没有托管或云版本？",
-        "cloud_answer": "目前还没有官方版本，不过我们未来希望能提供。现阶段 Trilium 是自托管的：你可以运行桌面应用，或者自己搭建服务器。如果你不想管理服务器，像 <0>PikaPods</0> 这样的第三方提供商提供了 Trilium 的托管服务。",
+        "cloud_answer": "目前还没有官方版本，不过我们未来希望能提供。现阶段 Notely 是自托管的：你可以运行桌面应用，或者自己搭建服务器。如果你不想管理服务器，像 <0>PikaPods</0> 这样的第三方提供商提供了 Notely 的托管服务。",
         "collaboration_question": "可以多人协作编辑同一篇笔记吗？",
-        "collaboration_answer": "Trilium 是一款单用户应用。你可以在自己的所有设备间同步笔记，也可以将只读笔记发布到网上供他人查看，但不支持多人同时实时编辑同一篇笔记。",
+        "collaboration_answer": "Notely 是一款单用户应用。你可以在自己的所有设备间同步笔记，也可以将只读笔记发布到网上供他人查看，但不支持多人同时实时编辑同一篇笔记。",
         "more_questions": "还有疑问？<0>来社区问问</0>"
     },
     "final_cta": {
@@ -167,7 +167,7 @@
     "support_us": {
         "title": "支持我们",
         "financial_donations_title": "财务捐赠",
-        "financial_donations_description": "Trilium 的开发与维护凝聚了 <Link>数百小时的工作</Link>。您的支持确保其开源性质得以延续，推动功能持续优化，并覆盖托管等运营成本。",
+        "financial_donations_description": "Notely 的开发与维护凝聚了 <Link>数百小时的工作</Link>。您的支持确保其开源性质得以延续，推动功能持续优化，并覆盖托管等运营成本。",
         "financial_donations_cta": "请考虑通过以下方式支持该应用程序的主要开发者（<Link>eliandoran</Link>）：",
         "github_sponsors": "GitHub Sponsors",
         "paypal": "PayPal",
@@ -179,7 +179,7 @@
         "way_community": "通过 <Discussions>GitHub Discussions</Discussions> 或 <Matrix>Matrix</Matrix> 与社区互动。",
         "way_reports": "通过 <Link>GitHub issues</Link> 报告错误。",
         "way_document": "通过告知文档中的缺失内容或贡献指南、常见问题解答或教程来完善文档。",
-        "way_market": "广而告之：将 Trilium Notes 分享给朋友，或发布在博客和社交媒体上。"
+        "way_market": "广而告之：将 Notely 分享给朋友，或发布在博客和社交媒体上。"
     },
     "404": {
         "title": "404：未找到",
@@ -213,7 +213,7 @@
     },
     "download_helper_server_linux": {
         "title": "在 Linux 上自行托管",
-        "description": "在你自己的服务器或虚拟主机上部署 Trilium Notes，兼容大多数发行版。",
+        "description": "在你自己的服务器或虚拟主机上部署 Notely，兼容大多数发行版。",
         "download_tar_x64": "64 位 (.tar.xz)",
         "download_tar_arm64": "ARM (.tar.xz)",
         "download_nixos": "NixOS 模块"
@@ -262,21 +262,21 @@
     "ai_integration": {
         "title": "AI，按你的方式来",
         "subtitle": "完全自愿，完全由你掌控。AI 功能需主动开启，默认处于关闭状态：只有在你手动启用并连接自己的提供商后，笔记数据才会被使用。",
-        "screenshot_alt": "Trilium AI 聊天通过内置工具为你创建笔记的截图",
+        "screenshot_alt": "Notely AI 聊天通过内置工具为你创建笔记的截图",
         "chat_title": "与你的笔记对话",
         "chat_description": "在内置聊天中提问或头脑风暴，该聊天可以结合你笔记中的内容来回答。",
         "tools_title": "能操作笔记的 AI",
         "tools_description": "让助手通过一组内置工具，代你搜索、创建和更新笔记。",
         "providers_title": "你自己的提供商，你自己的密钥",
-        "providers_description": "用你自己的 API 密钥连接 OpenAI、Anthropic 或 Google，也可以将 Trilium 指向自托管的 OpenAI 兼容模型。还能通过 MCP 将笔记开放给外部 AI 助手使用。",
+        "providers_description": "用你自己的 API 密钥连接 OpenAI、Anthropic 或 Google，也可以将 Notely 指向自托管的 OpenAI 兼容模型。还能通过 MCP 将笔记开放给外部 AI 助手使用。",
         "learn_more": "了解更多"
     },
     "scripting": {
         "title": "凡是你能想到的，都能用脚本实现",
-        "subtitle": "Trilium 不仅仅是存放笔记的地方，它还是可编程的。你可以编写在应用内或服务器上运行的 JavaScript，构建自己的界面，并自动化你的工作流程 —— 从一行代码的微调，到完整的自定义应用。",
-        "screenshot_alt": "一个使用脚本构建的交互式模拟时钟的 Trilium 渲染笔记",
+        "subtitle": "Notely 不仅仅是存放笔记的地方，它还是可编程的。你可以编写在应用内或服务器上运行的 JavaScript，构建自己的界面，并自动化你的工作流程 —— 从一行代码的微调，到完整的自定义应用。",
+        "screenshot_alt": "一个使用脚本构建的交互式模拟时钟的 Notely 渲染笔记",
         "widgets_title": "自定义小部件",
-        "widgets_description": "使用前端 JavaScript 为 Trilium 界面添加自定义按钮、面板和启动栏小部件。",
+        "widgets_description": "使用前端 JavaScript 为 Notely 界面添加自定义按钮、面板和启动栏小部件。",
         "backend_title": "后端脚本与事件",
         "backend_description": "按计划自动执行服务端脚本，或者在创建、修改笔记等响应事件发生时触发运行。",
         "render_title": "渲染笔记",

@@ -1,11 +1,11 @@
 # Manually altering the database
-There are some situations where modifying the SQLite database that Trilium uses is desirable.
+There are some situations where modifying the SQLite database that Notely uses is desirable.
 
 If you are doing any advanced development or troubleshooting where you manually modify the database, you might want to consider creating backups of your `document.db` file.
 
 ## Modifying it internally using the SQL Console
 
-The SQL Console is Trilium's built-in database editor.
+The SQL Console is Notely's built-in database editor.
 
 See <a class="reference-link" href="Manually%20altering%20the%20database/SQL%20Console.md">SQL Console</a>.
 

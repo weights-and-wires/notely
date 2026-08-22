@@ -353,7 +353,7 @@ export function buildTriliumSlashCommands(editor: Editor): SlashCommandDefinitio
         {
             id: "internal-link",
             title: t("Internal link"),
-            description: t("Insert a link to another Trilium note"),
+            description: t("Insert a link to another Notely note"),
             aliases: [ "internal link", "trilium link", "reference link" ],
             icon: internalLinkIcon,
             commandName: INTERNAL_LINK_COMMAND

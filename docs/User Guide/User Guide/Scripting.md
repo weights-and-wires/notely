@@ -1,9 +1,9 @@
 # Scripting
-Trilium supports creating <a class="reference-link" href="Note%20Types/Code.md">Code</a> notes, i.e. notes which allow you to store some programming code and highlight it. Special case is JavaScript code notes which can also be executed inside Trilium which can in conjunction with <a class="reference-link" href="Scripting/Script%20API.md">Script API</a> provide extra functionality.
+Notely supports creating <a class="reference-link" href="Note%20Types/Code.md">Code</a> notes, i.e. notes which allow you to store some programming code and highlight it. Special case is JavaScript code notes which can also be executed inside Notely which can in conjunction with <a class="reference-link" href="Scripting/Script%20API.md">Script API</a> provide extra functionality.
 
 ## Architecture Overview
 
-To go further I must explain basic architecture of Trilium - in its essence it is a classic web application - it has these two main components:
+To go further I must explain basic architecture of Notely - in its essence it is a classic web application - it has these two main components:
 
 *   frontend running in the browser (using HTML, CSS, JavaScript) - this is mainly used to interact with the user, display notes etc.
 *   backend running JavaScript code in node.js runtime - this is responsible for e.g. storing notes, encrypting them etc.
@@ -20,11 +20,11 @@ Saving the note to the database is backend's responsibility, so we immediately p
 
 ## Script execution
 
-So we have a script which will add the button to the toolbar. But how can we execute it? One possibility is to click on "play" icon (marked by red circle). The problem with this is that this UI change is time bound by Trilium runtime so when we restart Trilium, button won't be there.
+So we have a script which will add the button to the toolbar. But how can we execute it? One possibility is to click on "play" icon (marked by red circle). The problem with this is that this UI change is time bound by Notely runtime so when we restart Notely, button won't be there.
 
-We need to execute it every time Trilium starts up, but we probably don't want to have to manually click on play button on every start up.
+We need to execute it every time Notely starts up, but we probably don't want to have to manually click on play button on every start up.
 
-The solution is marked by red circle at the bottom - this note has [label](Advanced%20Usage/Attributes.md) `#run=frontendStartup` - this is one of the "system" labels which Trilium understands. As you might guess, this will cause all such labeled script notes to be executed once Trilium frontend starts up.
+The solution is marked by red circle at the bottom - this note has [label](Advanced%20Usage/Attributes.md) `#run=frontendStartup` - this is one of the "system" labels which Notely understands. As you might guess, this will cause all such labeled script notes to be executed once Notely frontend starts up.
 
 (`#run=frontendStartup` does not work for [Mobile frontend](Installation%20%26%20Setup/Mobile%20Frontend.md) - if you want to have scripts running there, give the script `#run=mobileStartup` label).
 
@@ -39,7 +39,7 @@ To do so, apply the following [labels](Advanced%20Usage/Attributes/Labels.md):
 
 ## Autocomplete & linting
 
-Starting with Trilium v0.104.0, frontend scripts, backend scripts and render notes benefit from an autocomplete system.
+Starting with Notely v0.104.0, frontend scripts, backend scripts and render notes benefit from an autocomplete system.
 
 The autocomplete triggers automatically when typing <kbd>.</kbd> or manually by pressing <kbd>Ctrl</kbd>+<kbd>Space</kbd>.
 
